@@ -1,0 +1,34 @@
+{
+  "task": "A01_R01_dynamic",
+  "submission": {
+    "prompt_id": "6480f330-da16-410f-9c89-b0f4dda25b9d",
+    "number": 7,
+    "node_errors": {}
+  },
+  "started_unix": 1791388101.4010324,
+  "graph_path": "Workflows/A01_R01_dynamic_api.json",
+  "elapsed_seconds": 45.23,
+  "output": "StyleTests\\SSR001_dynamic_v001.png",
+  "sha256": "88ca9b9b54a0fbc83a78e40e8265094d567491ea1d9c45e679ab34702b087261",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "generated_pending_visual_review",
+  "visual_review": {
+    "status": "user_approved_art_direction",
+    "strengths": [
+      "成年角色露肩、领口与开衩符合新方向",
+      "抬腿转身、发丝和裙摆让画面更有动态",
+      "月牙发饰、银灰发、青蓝眼和镂空星图仪具备识别特征",
+      "月港夜色实现，无卡框或可读文字"
+    ],
+    "remaining": [
+      "抬腿支撑关系需要正式稿校准",
+      "手部和星图仪持握细节需要高分辨率复查",
+      "尚未分层与Unity页面验收"
+    ],
+    "layers": "complete_image_only"
+  },
+  "user_feedback": "这种可以"
+}

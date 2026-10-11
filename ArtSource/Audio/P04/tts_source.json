@@ -1,0 +1,14 @@
+{
+  "engine": "Windows SAPI",
+  "voice": "Microsoft Huihui Desktop - Chinese (Simplified)",
+  "rate": 2,
+  "text": [
+    "以此真名，缔结星约。",
+    "让群星回应，让命运见证。",
+    "星门，为您而开！"
+  ],
+  "sampleFormat": "22050Hz mono 16bit",
+  "atUtc": "2026-10-08T10:49:03.4280028Z",
+  "probeOnly": true,
+  "productionManifest": "audio_manifest.json (Rate=3)"
+}

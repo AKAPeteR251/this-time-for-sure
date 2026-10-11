@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p23_contract.mp4",
+    "sha256": "c2d8548ce89dd4e3f5952e7b1000e56f973684ea2a4d7e9c00d3ead438250d3d",
+    "bytes": 4633095,
+    "actualCaptureSeconds": 5.6411006,
+    "muxSeconds": 5.641,
+    "frames": 122,
+    "averageCaptureFps": 21.626985343959298,
+    "audioSeconds": 5.632,
+    "audioStart": 0.0030025,
+    "audioRate": 48000,
+    "peak": 0.540496826171875,
+    "rms": 0.032149683478621814,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

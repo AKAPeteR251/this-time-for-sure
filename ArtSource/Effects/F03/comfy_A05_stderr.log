@@ -1,0 +1,195 @@
+[32m[INFO][0m setup plugin alembic.autogenerate.schemas
+[32m[INFO][0m setup plugin alembic.autogenerate.tables
+[32m[INFO][0m setup plugin alembic.autogenerate.types
+[32m[INFO][0m setup plugin alembic.autogenerate.constraints
+[32m[INFO][0m setup plugin alembic.autogenerate.defaults
+[32m[INFO][0m setup plugin alembic.autogenerate.comments
+[1m[33m[WARNING][0m On windows we are currently forcing single GPU mode in ComfyUI due to a Nvidia related issue, if you want to disable this use: --cuda-device all
+WARNING: Ignoring invalid distribution ~iohttp (E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\Lib\site-packages)
+WARNING: Ignoring invalid distribution ~iohttp (E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\Lib\site-packages)
+WARNING: Ignoring invalid distribution ~iohttp (E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\Lib\site-packages)
+[32m[INFO][0m 
+Prestartup times for custom nodes:
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\rgthree-comfy
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-easy-use
+[32m[INFO][0m   10.4 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-Manager
+[32m[INFO][0m 
+E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\Lib\site-packages\torch\cuda\__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[32m[INFO][0m Found comfy_kitchen backend cuda: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'convrot_w4a4_linear', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'fp16_conv3d', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'int8_linear', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear']}
+[32m[INFO][0m Found comfy_kitchen backend hip: {'available': False, 'disabled': False, 'unavailable_reason': 'PyTorch ROCm/HIP runtime not available', 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'convrot_w4a4_linear', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_embedding', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'fp16_conv3d', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'int8_linear', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear']}
+[32m[INFO][0m Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': "ImportError: No module named 'triton'", 'capabilities': []}
+[32m[INFO][0m Checkpoint files will always be loaded safely.
+[32m[INFO][0m Total VRAM 6144 MB, total RAM 15613 MB
+[32m[INFO][0m pytorch version: 2.9.1+cu130
+[32m[INFO][0m Set vram state to: NORMAL_VRAM
+[32m[INFO][0m Device: cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync
+[32m[INFO][0m Using async weight offloading with 2 streams
+[32m[INFO][0m Enabled pinned memory 6245.0
+[32m[INFO][0m working around nvidia conv3d memory bug.
+[32m[INFO][0m Using pytorch attention
+[32m[INFO][0m aimdo: src-win/cuda-detour.c:38:INFO:aimdo_setup_hooks: installing 6 hooks
+[32m[INFO][0m aimdo: src/control.c:269:INFO:comfy-aimdo NVML pressure enabled
+[32m[INFO][0m aimdo: src-win/shmem-detect.c:80:INFO:comfy-aimdo WDDM adapter match: NVIDIA GeForce RTX 3060 Laptop GPU runtime_luid=00000000:00012fcf dxgi_luid=00000000:00012fcf
+[32m[INFO][0m aimdo: src/control.c:284:INFO:comfy-aimdo inited for GPU: NVIDIA GeForce RTX 3060 Laptop GPU (VRAM: 6143 MB)
+[32m[INFO][0m DynamicVRAM support detected and enabled
+[32m[INFO][0m Python version: 3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]
+[32m[INFO][0m ComfyUI version: 0.37.0
+[32m[INFO][0m comfy-aimdo version: 0.5.5
+[32m[INFO][0m comfy-kitchen version: 0.2.35
+[32m[INFO][0m comfyui-frontend-package version: 1.52.7
+[32m[INFO][0m comfyui-workflow-templates version: 0.11.66
+[32m[INFO][0m comfyui-embedded-docs version: 0.5.12
+[32m[INFO][0m comfy-kitchen version: 0.2.35
+[32m[INFO][0m comfy-aimdo version: 0.5.5
+[32m[INFO][0m [Prompt Server] web root: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\Lib\site-packages\comfyui_frontend_package\static
+[32m[INFO][0m Asset seeder disabled
+[32m[INFO][0m No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[36;20m[E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfy-mtb] | INFO -> loaded [96m103[0m nodes successfuly[0m
+[36;20m[E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfy-mtb] | INFO -> Some nodes (5) could not be loaded. This can be ignored, but go to http://127.0.0.1:8188/mtb if you want more information.[0m
+[1m[33m[WARNING][0m Traceback (most recent call last):
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\nodes.py", line 2266, in load_custom_node
+    module_spec.loader.exec_module(module)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1156, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1214, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\custom_nodes\\ComfyUI-bsk_UI_26080501\\__init__.py'
+
+[1m[33m[WARNING][0m Cannot import E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-bsk_UI_26080501 module for custom nodes: [Errno 2] No such file or directory: 'E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\custom_nodes\\ComfyUI-bsk_UI_26080501\\__init__.py'
+[32m[INFO][0m [BSS_FLSAMPLER] Loaded 1 nodes: ['FLS_SamplerV4'] | Version: v1.3.0 | Authorship: blacksnowskill (BSS)
+[32m[INFO][0m ComfyUI-GGUF: Allowing full torch compile
+[32m[INFO][0m ### Loading: ComfyUI-Impact-Pack (V8.28.2)
+[32m[INFO][0m [Impact Pack] Wildcard total size (0.00 MB) is within cache limit (50.00 MB). Using full cache mode.
+[32m[INFO][0m ### Loading: ComfyUI-Impact-Subpack (V1.3.5)
+[32m[INFO][0m [Impact Pack] Wildcards loading done.
+[32m[INFO][0m [Impact Pack/Subpack] Using folder_paths to determine whitelist path: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\user\default\ComfyUI-Impact-Subpack\model-whitelist.txt
+[32m[INFO][0m [Impact Pack/Subpack] Ensured whitelist directory exists: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\user\default\ComfyUI-Impact-Subpack
+[32m[INFO][0m [Impact Pack/Subpack] Loaded 0 model(s) from whitelist: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\user\default\ComfyUI-Impact-Subpack\model-whitelist.txt
+[32m[INFO][0m [Impact Subpack] ultralytics_bbox: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\models\ultralytics\bbox
+[32m[INFO][0m [Impact Subpack] ultralytics_segm: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\models\ultralytics\segm
+[1m[33m[WARNING][0m KJNodes: PatchTritonVAE node could not be imported. PatchTritonVAE will be unavailable.
+Traceback (most recent call last):
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-kjnodes\nodes\triton_vae.py", line 10, in <module>
+    import triton
+ModuleNotFoundError: No module named 'triton'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-kjnodes\__init__.py", line 372, in <module>
+    from .nodes.triton_vae import PatchTritonVAE
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-kjnodes\nodes\triton_vae.py", line 13, in <module>
+    raise ImportError("PatchTritonVAE requires triton (pip install triton, or triton-windows)") from e
+ImportError: PatchTritonVAE requires triton (pip install triton, or triton-windows)
+[1m[33m[WARNING][0m Traceback (most recent call last):
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\nodes.py", line 2266, in load_custom_node
+    module_spec.loader.exec_module(module)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-LTXVideo\__init__.py", line 10, in <module>
+    from .gemma_encoder import LTXVGemmaCLIPModelLoader, LTXVGemmaEnhancePrompt
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-LTXVideo\gemma_encoder.py", line 25, in <module>
+    from .embeddings_connector import Embeddings1DConnector
+  File "E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-LTXVideo\embeddings_connector.py", line 6, in <module>
+    from comfy.ldm.lightricks.model import (
+    ...<5 lines>...
+    )
+ImportError: cannot import name 'interleaved_freqs_cis' from 'comfy.ldm.lightricks.model' (E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\comfy\ldm\lightricks\model.py)
+
+[1m[33m[WARNING][0m Cannot import E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-LTXVideo module for custom nodes: cannot import name 'interleaved_freqs_cis' from 'comfy.ldm.lightricks.model' (E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\comfy\ldm\lightricks\model.py)
+[32m[INFO][0m ### Loading: ComfyUI-Manager (V3.39.2)
+[32m[INFO][0m [ComfyUI-Manager] network_mode: public
+[32m[INFO][0m [ComfyUI-Manager] ComfyUI per-queue preview override detected (PR #11261). Manager's preview method feature is disabled. Use ComfyUI's --preview-method CLI option or 'Settings > Execution > Live preview method'.
+[32m[INFO][0m ### ComfyUI Version: v0.37.0 | Released on '2026-09-20'
+[1m[33m[WARNING][0m xFormers not available
+[1m[33m[WARNING][0m xFormers not available
+[36m
+
+[32mNikosis Preprocessor Nodes Loaded Successfully - v1.0.0[0m
+[0m
+[32m[INFO][0m [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[32m[INFO][0m [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[32m[INFO][0m [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[32m[INFO][0m [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[32m[INFO][0m [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[1m[33m[WARNING][0m Warning: Could not load sageattention: No module named 'sageattention'
+[1m[33m[WARNING][0m sageattention package is not installed, sageattention will not be available
+[36;20m[E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ckpts path: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[36;20m[E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[36;20m[E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'MIGraphXExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[32m[INFO][0m ('Looking for cached Spacy xx_sent_ud_sm.',)
+[32m[INFO][0m Using pytorch attention
+(RES4LYF) Init
+(RES4LYF) Importing beta samplers.
+(RES4LYF) Importing legacy samplers.
+[32m[INFO][0m 
+Import times for custom nodes:
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\websocket_image_save.py
+[32m[INFO][0m    0.0 seconds (IMPORT FAILED): E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-bsk_UI_26080501
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-ClownSampler
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-Anima-LLLite
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-BSS_FLSampler
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\openai-api
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-inpaint-cropandstitch
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-anima-enhancer
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-wd14-tagger
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui_essentials
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-easycontrol-ksamplercompat
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-GGUF
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-custom-scripts
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
+[32m[INFO][0m    0.0 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\skbundle
+[32m[INFO][0m    0.1 seconds (IMPORT FAILED): E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-LTXVideo
+[32m[INFO][0m    0.1 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-nikosis-preprocessors
+[32m[INFO][0m    0.1 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\rgthree-comfy
+[32m[INFO][0m    0.1 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-kjnodes
+[32m[INFO][0m    0.1 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[32m[INFO][0m    0.1 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[32m[INFO][0m    0.3 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui_layerstyle
+[32m[INFO][0m    0.3 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-rvtools_v2
+[32m[INFO][0m    0.4 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-JoyCaption
+[32m[INFO][0m    0.5 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[32m[INFO][0m    0.7 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-WanVideoWrapper
+[32m[INFO][0m    0.9 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-VideoHelperSuite
+[32m[INFO][0m    1.2 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\RES4LYF
+[32m[INFO][0m    1.5 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-impact-subpack
+[32m[INFO][0m    1.8 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-Manager
+[32m[INFO][0m    1.9 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-RMBG
+[32m[INFO][0m    2.1 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfy-mtb
+[32m[INFO][0m    4.7 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI_Custom_Nodes_AlekPet
+[32m[INFO][0m    6.2 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\llm-api
+[32m[INFO][0m   11.8 seconds: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-easy-use
+[32m[INFO][0m 
+[32m[INFO][0m Context impl SQLiteImpl.
+[32m[INFO][0m Will assume non-transactional DDL.
+[32m[INFO][0m Using RAM pressure cache.
+[32m[INFO][0m Starting server
+
+[32m[INFO][0m To see the GUI go to: http://127.0.0.1:8188
+[32m[INFO][0m [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[32m[INFO][0m [ComfyUI-Manager] All startup tasks have been completed.
+[32m[INFO][0m got prompt
+[32m[INFO][0m Model storage policy: fast_disk=True paths=['E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\models\\vae\\qwenImage_qwenImageVAE.safetensors']
+[32m[INFO][0m Using pytorch attention in VAE
+[32m[INFO][0m Using pytorch attention in VAE
+[32m[INFO][0m VAE load device: cuda:0, offload device: cpu, dtype: torch.bfloat16
+[32m[INFO][0m Model storage policy: fast_disk=True paths=['E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\models\\clip\\anima_baseV10_txt.safetensors']
+[32m[INFO][0m CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[32m[INFO][0m model weight dtype torch.bfloat16, manual cast: None
+[32m[INFO][0m model_type FLOW
+[32m[INFO][0m Model storage policy: fast_disk=True paths=['E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\models\\unet\\anima_turboV11.safetensors']
+[32m[INFO][0m Requested to load AnimaTEModel_
+[32m[INFO][0m Model AnimaTEModel_ prepared for dynamic VRAM loading. 1136MB Staged. 0 patches attached. Force pre-loaded 113 weights: 128 KB.
+[32m[INFO][0m Model AnimaTEModel_ prepared for dynamic VRAM loading. 1136MB Staged. 0 patches attached. Force pre-loaded 113 weights: 128 KB.
+[32m[INFO][0m Requested to load Anima
+[32m[INFO][0m Model Anima prepared for dynamic VRAM loading. 3988MB Staged. 280 patches attached. Force pre-loaded 156 weights: 77 KB.
+(RES4LYF) rk_type: dpmpp_2m
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:34<04:02, 34.71s/it] 25%|██�       | 2/8 [01:18<03:59, 39.95s/it] 38%|███▊      | 3/8 [01:41<02:41, 32.27s/it] 50%|████�     | 4/8 [02:04<01:54, 28.61s/it] 62%|██████�   | 5/8 [06:43<05:56, 118.94s/it] 75%|███████▌  | 6/8 [07:10<02:55, 87.63s/it]  88%|████████� | 7/8 [07:31<01:06, 66.01s/it]100%|██████████| 8/8 [08:14<00:00, 58.59s/it]100%|██████████| 8/8 [08:14<00:00, 61.83s/it]
+[32m[INFO][0m Requested to load WanVAE
+[32m[INFO][0m Model WanVAE prepared for dynamic VRAM loading. 241MB Staged. 0 patches attached. Force pre-loaded 60 weights: 61 KB.
+[32m[INFO][0m [32mPrompt executed in 508.82 seconds[0m
+[32m[INFO][0m Using RAM pressure cache.

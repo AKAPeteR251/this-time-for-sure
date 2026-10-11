@@ -1,0 +1,17 @@
+[
+  {
+    "stage": 18,
+    "warmPaperFraction": 0.9512364341085271
+  },
+  {
+    "stage": 50,
+    "warmPaperFraction": 0.3856899224806202
+  },
+  {
+    "stage": 78,
+    "warmPaperFraction": 0.000689922480620155
+  },
+  {
+    "method": "actual screenshot warm-paper coverage in fixed ROI [350,140,950,570]; visual sanity check supplements Play progress assertions"
+  }
+]

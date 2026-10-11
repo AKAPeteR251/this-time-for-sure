@@ -1,0 +1,80 @@
+{
+  "task": "F10-CARD-UI",
+  "version": "v001",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "origin": "top-left",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "inner_window": [
+    48,
+    64,
+    976,
+    1472
+  ],
+  "frame": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "new": [
+    72,
+    64,
+    392,
+    184
+  ],
+  "rarity": [
+    768,
+    56,
+    984,
+    272
+  ],
+  "name_shade": [
+    48,
+    1250,
+    976,
+    1472
+  ],
+  "name_ornament": [
+    48,
+    1250,
+    976,
+    1472
+  ],
+  "element": [
+    72,
+    1336,
+    224,
+    1488
+  ],
+  "name_text": [
+    264,
+    1352,
+    920,
+    1472
+  ],
+  "face_safe": [
+    170,
+    280,
+    854,
+    900
+  ],
+  "shared_geometry_all_rarities": true,
+  "runtime_text": [
+    "NEW",
+    "character name"
+  ],
+  "fixed_baked_text": [
+    "R",
+    "SR",
+    "SSR",
+    "UR"
+  ],
+  "character_preview_source": "Source/PreviewInputs/thunder_miko_original.png",
+  "character_preview_calibration": "same character on all four UI levels, not actual rarity reassignment"
+}

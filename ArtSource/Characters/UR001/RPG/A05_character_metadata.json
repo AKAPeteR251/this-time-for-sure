@@ -1,0 +1,50 @@
+{
+  "task": "A05-REVEAL",
+  "characterId": "UR001",
+  "source": "ArtSource/StyleTests/RPG_Professions/04_fire_warrior_v001.png",
+  "source_sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135",
+  "identity_preserved": "all visible RGB pixels from original; no diffusion repaint or new pose",
+  "resample": "768x1152 to 1024x1536, same entire canvas origin; no new detail claimed",
+  "source_clipping": "right hair/cape and sword tip and lower boot clipped in original; not reconstructed",
+  "mask_limitations": "SAM v002 improves knee armor but fine hair, dark cape/garment edges retain defects and remnants; not accepted as final character layer",
+  "default_for_P04": "这次一定出/Assets/_Game/Art/Characters/UR001/RPG/UR001_fire_card_base_v001.png",
+  "U03_placement": "x0.27-0.73 y0.15-0.93; preserve aspect; no face particles",
+  "files": [
+    {
+      "path": "ArtSource/Characters/UR001/RPG/UR001_fire_source_v001.png",
+      "size": [
+        768,
+        1152
+      ],
+      "sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135",
+      "alpha_extrema": null,
+      "zero_alpha_pixels": 0,
+      "status": "approved original preserved"
+    },
+    {
+      "path": "这次一定出/Assets/_Game/Art/Characters/UR001/RPG/UR001_fire_card_base_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "50ef7c3506e8e4e09efad1b55b052ed2645e3cb394cc84bd773917ffe36a780a",
+      "alpha_extrema": null,
+      "zero_alpha_pixels": 0,
+      "status": "complete card, pending Unity import"
+    },
+    {
+      "path": "ArtSource/Characters/UR001/RPG/UR001_fire_character_candidate_v002.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "44699b920ecbc387391134c27c336673af2afe0f64992fd073df2924b79a6dd5",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 640725,
+      "status": "real alpha candidate; visual defects remain; do not bind as final"
+    }
+  ]
+}

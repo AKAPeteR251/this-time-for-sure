@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p12_slow_billow_nebula.mp4",
+    "sha256": "26395ad61f3759eb013c2e3d0ea8f9ed243d8f58a2d0e183467d5f67f0faec28",
+    "bytes": 5524589,
+    "actualCaptureSeconds": 32.2667681,
+    "muxSeconds": 32.267,
+    "frames": 725,
+    "averageCaptureFps": 22.468937631221888,
+    "audioSeconds": 32.256,
+    "audioStart": 0.016604999999999998,
+    "audioRate": 48000,
+    "peak": 0.26922607421875,
+    "rms": 0.013766236386829328,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

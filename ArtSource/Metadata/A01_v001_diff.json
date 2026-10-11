@@ -1,0 +1,40 @@
+{
+  "source": "ArtSource\\Workflows\\user_00348_prompt.json",
+  "changes": {
+    "2": {
+      "width": {
+        "original": 832,
+        "adapted": 768
+      },
+      "height": {
+        "original": 1216,
+        "adapted": 1152
+      }
+    },
+    "4": {
+      "text": {
+        "original": "1girl, solo, professor niyaniya (blue archive), smiling professor, blue archive, medium close-up, cafe window composition, sitting sideways by a cafe window, arranging sugar cubes and a coffee spoon like a tiny strategy map, looking at viewer, smug :3 smile, calm mastermind expression, green eyes, blonde hair, fluffy long hair, wavy hair, hair intakes, yellow halo, black beret, black serafuku, red bowtie, black gloves, black frilled skirt, black pantyhose, one hand moving a sugar cube, other hand holding a small spoon, rainy city street blur outside the window, warm cafe light, shallow depth of field, face close to camera, no readable text, no menu text, no logo, no clutter, no hand covering face, no underwear, no body focus, no explicit content, no watermark",
+        "adapted": "masterpiece, best quality, safe, solo, 1girl, adult woman, silver hair, long hair, teal eyes, looking at viewer, standing, three quarter view, fully clothed, navy blue and ivory tailored uniform, high collar, long sleeves, brass buttons, dark blue long skirt, holding a small brass celestial astrolabe in one hand at waist level, other arm relaxed. An original adult moon harbor archivist with a composed attentive expression. Her silver gray hair flows gently and her outfit has simple coherent seams. Vertical collectible illustration, character fills 80 percent of the height, entire head inside frame, face centered in the upper third, knees visible, spacious quiet lower area. Moonlit harbor, distant low silhouettes of ships, soft cool blue key light and subtle warm rim light. No letters, no border, no symbols resembling text, no logo. Refined anime illustration, clean controlled linework, precise cel shading, subtle gradients, crisp facial features, restrained costume detail. Flat clean color shapes, sharply readable at thumbnail size."
+      }
+    },
+    "5": {
+      "text": {
+        "original": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,extra character,extra legs,girl standing",
+        "adapted": "worst quality, low quality, blurry, text, watermark, signature, artist name, card frame, extra person, extra fingers, deformed hands, inconsistent eyes, disconnected limbs, cropped head, nsfw, explicit, revealing clothes, cluttered foreground"
+      }
+    },
+    "10": {
+      "seed": {
+        "original": 1569092487,
+        "adapted": 71007001
+      }
+    },
+    "12": {
+      "filename_prefix": {
+        "original": "ComfyUI",
+        "adapted": "A01_SSR001_a"
+      }
+    }
+  },
+  "graph_structure_unchanged": true
+}

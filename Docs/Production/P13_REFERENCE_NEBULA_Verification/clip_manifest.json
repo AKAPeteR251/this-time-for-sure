@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p13_reference_nebula.mp4",
+    "sha256": "a44da12a136227b0f0603fee9dc3723fba6ec764bca4f77c6bb652f3a2d1f5af",
+    "bytes": 6651409,
+    "actualCaptureSeconds": 32.1865418,
+    "muxSeconds": 32.2,
+    "frames": 724,
+    "averageCaptureFps": 22.493873510822464,
+    "audioSeconds": 32.192,
+    "audioStart": 0.017885099999999998,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.013775169027530757,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

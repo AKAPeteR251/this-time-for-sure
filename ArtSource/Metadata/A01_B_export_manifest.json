@@ -1,0 +1,78 @@
+[
+  {
+    "characterId": "SSR001",
+    "path": "这次一定出\\Assets\\_Game\\Art\\Characters\\SSR001\\SSR001_card_base_v002.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "90823f4f3cbcfb92ccbaee1cf5d23df72e284d6fcb48752ac47bfeeb04cb7789",
+    "layers": "complete_image_only",
+    "unity_import_validation": "pending",
+    "recommended_import": {
+      "textureType": "Sprite (2D and UI)",
+      "spriteMode": "Single",
+      "maxSize": 2048,
+      "sRGB": true,
+      "compression": "None for first visual comparison",
+      "preserveAspect": true
+    }
+  },
+  {
+    "characterId": "SSR001",
+    "path": "这次一定出\\Assets\\_Game\\Art\\Characters\\SSR001\\SSR001_thumb_v002.png",
+    "size": [
+      256,
+      384
+    ],
+    "sha256": "fc75a99f512c72362a8e626d33be7856714d2e579cafcf536c7b58b6a57d06c0",
+    "layers": "complete_image_only",
+    "unity_import_validation": "pending",
+    "recommended_import": {
+      "textureType": "Sprite (2D and UI)",
+      "spriteMode": "Single",
+      "maxSize": 2048,
+      "sRGB": true,
+      "compression": "None for first visual comparison",
+      "preserveAspect": true
+    }
+  },
+  {
+    "characterId": "UR001",
+    "path": "这次一定出\\Assets\\_Game\\Art\\Characters\\UR001\\UR001_card_base_v001.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "cf2c5473cf1e27b5b44dc6cff1bf1ae5b61ff4c502d3392c32630934563af84c",
+    "layers": "complete_image_only",
+    "unity_import_validation": "pending",
+    "recommended_import": {
+      "textureType": "Sprite (2D and UI)",
+      "spriteMode": "Single",
+      "maxSize": 2048,
+      "sRGB": true,
+      "compression": "None for first visual comparison",
+      "preserveAspect": true
+    }
+  },
+  {
+    "characterId": "UR001",
+    "path": "这次一定出\\Assets\\_Game\\Art\\Characters\\UR001\\UR001_thumb_v001.png",
+    "size": [
+      256,
+      384
+    ],
+    "sha256": "bfde5c697516bb00bf290ae6c05454e7c49959f6f39dd780c9fff7663a6a5205",
+    "layers": "complete_image_only",
+    "unity_import_validation": "pending",
+    "recommended_import": {
+      "textureType": "Sprite (2D and UI)",
+      "spriteMode": "Single",
+      "maxSize": 2048,
+      "sRGB": true,
+      "compression": "None for first visual comparison",
+      "preserveAspect": true
+    }
+  }
+]

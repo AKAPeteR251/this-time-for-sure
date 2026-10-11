@@ -1,0 +1,300 @@
+{
+  "prompt": [
+    0,
+    "24fa16c4-8ef4-4f51-8865-ea69c308c1b6",
+    {
+      "1": {
+        "inputs": {
+          "vae_name": "qwenImage_qwenImageVAE.safetensors"
+        },
+        "class_type": "VAELoader",
+        "_meta": {
+          "title": "加载VAE"
+        }
+      },
+      "2": {
+        "inputs": {
+          "width": 512,
+          "height": 512,
+          "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+          "title": "空Latent图像"
+        }
+      },
+      "3": {
+        "inputs": {
+          "clip_name": "anima_baseV10_txt.safetensors",
+          "type": "stable_diffusion",
+          "device": "default"
+        },
+        "class_type": "CLIPLoader",
+        "_meta": {
+          "title": "加载CLIP"
+        }
+      },
+      "4": {
+        "inputs": {
+          "text": "A single ornate antique gold celestial star seal, precisely centered symmetrical eight point star enclosed in concentric brass circles and tiny diamonds, premium fantasy anime game prop icon, sharp elegant linework, clean cel shading, isolated on plain white background, no characters, no letters, no words, no logo, no watermark, no text, generous empty padding.",
+          "clip": [
+            "17",
+            1
+          ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+          "title": "CLIP文本编码"
+        }
+      },
+      "5": {
+        "inputs": {
+          "text": "person, girl, character, face, text, lettering, signature, watermark, logo, clutter, multiple objects, cropped, blurry",
+          "clip": [
+            "17",
+            1
+          ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+          "title": "CLIP文本编码"
+        }
+      },
+      "6": {
+        "inputs": {
+          "lora_name": "anima\\Flatline.safetensors",
+          "strength_model": 0.6,
+          "strength_clip": 0.6,
+          "model": [
+            "7",
+            0
+          ],
+          "clip": [
+            "3",
+            0
+          ]
+        },
+        "class_type": "LoraLoader",
+        "_meta": {
+          "title": "加载LoRA"
+        }
+      },
+      "7": {
+        "inputs": {
+          "unet_name": "anima_turboV11.safetensors",
+          "weight_dtype": "default"
+        },
+        "class_type": "UNETLoader",
+        "_meta": {
+          "title": "UNet加载器"
+        }
+      },
+      "8": {
+        "inputs": {
+          "samples": [
+            "10",
+            0
+          ],
+          "vae": [
+            "1",
+            0
+          ]
+        },
+        "class_type": "VAEDecode",
+        "_meta": {
+          "title": "VAE解码"
+        }
+      },
+      "9": {
+        "inputs": {
+          "enable_replay": false,
+          "block_indices": "3,4,5",
+          "denoise_start_pct": 0.5,
+          "denoise_end_pct": 1.0,
+          "enable_spectrum": false,
+          "spectrum_w": 0.2,
+          "spectrum_m": 16,
+          "spectrum_lam": 0.5,
+          "spectrum_warmup_steps": 6,
+          "spectrum_window_size": 2,
+          "spectrum_flex_window": 0.0,
+          "model": [
+            "17",
+            0
+          ]
+        },
+        "class_type": "AnimaLayerReplayPatcher",
+        "_meta": {
+          "title": "Anima Layer Replay Patcher"
+        }
+      },
+      "10": {
+        "inputs": {
+          "eta": 0.5,
+          "sampler_name": "dpmpp_2m",
+          "scheduler": "sgm_uniform",
+          "steps": 8,
+          "steps_to_run": -1,
+          "denoise": 1.0,
+          "cfg": 1.0,
+          "seed": 71008051,
+          "sampler_mode": "standard",
+          "bongmath": true,
+          "model": [
+            "9",
+            0
+          ],
+          "positive": [
+            "4",
+            0
+          ],
+          "negative": [
+            "5",
+            0
+          ],
+          "latent_image": [
+            "2",
+            0
+          ]
+        },
+        "class_type": "ClownsharKSampler_Beta",
+        "_meta": {
+          "title": "ClownsharKSampler"
+        }
+      },
+      "12": {
+        "inputs": {
+          "filename_prefix": "A05_capability_star",
+          "images": [
+            "8",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "保存图像"
+        }
+      },
+      "14": {
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "预览图像"
+        }
+      },
+      "16": {
+        "inputs": {
+          "lora_name": "anima\\chen-bin_v4.0.safetensors",
+          "strength_model": 0.6,
+          "strength_clip": 0.6,
+          "model": [
+            "6",
+            0
+          ],
+          "clip": [
+            "6",
+            1
+          ]
+        },
+        "class_type": "LoraLoader",
+        "_meta": {
+          "title": "加载LoRA"
+        }
+      },
+      "17": {
+        "inputs": {
+          "lora_name": "anima\\bakav3-000012.safetensors",
+          "strength_model": 0.8,
+          "strength_clip": 0.8,
+          "model": [
+            "16",
+            0
+          ],
+          "clip": [
+            "16",
+            1
+          ]
+        },
+        "class_type": "LoraLoader",
+        "_meta": {
+          "title": "加载LoRA"
+        }
+      }
+    },
+    {
+      "client_id": "A05-art-local",
+      "create_time": 1791455233416
+    },
+    [
+      "12",
+      "14"
+    ]
+  ],
+  "outputs": {
+    "12": {
+      "images": [
+        {
+          "filename": "A05_capability_star_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        }
+      ]
+    },
+    "14": {
+      "images": [
+        {
+          "filename": "ComfyUI_temp_tszho_00001_.png",
+          "subfolder": "",
+          "type": "temp"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "24fa16c4-8ef4-4f51-8865-ea69c308c1b6",
+          "timestamp": 1791455233434
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "24fa16c4-8ef4-4f51-8865-ea69c308c1b6",
+          "timestamp": 1791455233456
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "24fa16c4-8ef4-4f51-8865-ea69c308c1b6",
+          "timestamp": 1791455742223
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "12": {
+      "node_id": "12",
+      "display_node": "12",
+      "parent_node": null,
+      "real_node_id": "12"
+    },
+    "14": {
+      "node_id": "14",
+      "display_node": "14",
+      "parent_node": null,
+      "real_node_id": "14"
+    }
+  }
+}

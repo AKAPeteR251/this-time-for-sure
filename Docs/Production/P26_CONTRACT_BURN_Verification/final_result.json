@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: 原尺寸Shader燃烧/全部动态层同步/手写和补签唯一Draw/三窗口/烧尽接3D/燃烧跳过与点击补完清理；实际带声片段，视觉待验收。",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-11T02:12:11.1779657Z"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "这次一定出\\Assets\\_Game\\Scripts\\Core\\PrototypeGacha.cs",
+    "unchanged": true,
+    "sha256": "aa1768ff0ad07cce13acdf066d41fcf13dff0e7ab35c04e91bc4f7ca12bf41e2"
+  },
+  {
+    "file": "这次一定出\\Assets\\_Game\\Scripts\\UI\\PrototypeUIAdapter.cs",
+    "unchanged": true,
+    "sha256": "b5dde60b350bab31d95cbbe8efb40ef7b67a8373d683276b9af48efd6f78d006"
+  },
+  {
+    "file": "这次一定出\\Assets\\_Game\\Scripts\\UI\\PrototypeUITheme.cs",
+    "unchanged": true,
+    "sha256": "fa7475c8ccea1c86d2044135ea8134084c534f37b2e3c60cec52abab224bc527"
+  },
+  {
+    "file": "这次一定出\\Assets\\_Game\\Scenes\\UIPrototype.unity",
+    "unchanged": true,
+    "sha256": "86b825adf4a2317ad9981e48b65cdbcdfa94245ffa8b7df81f9b78dd4e0984f8"
+  },
+  {
+    "file": "这次一定出\\Assets\\_Game\\Scenes\\Main.unity.meta",
+    "unchanged": true,
+    "sha256": "e76417344c83f03aadebbda1b8363c5baf7ad850103334f2951e89d039154479"
+  },
+  {
+    "file": "这次一定出\\Assets\\_Game\\UI\\Prefabs\\UIPrototype.prefab",
+    "unchanged": true,
+    "sha256": "ac146d14ae1c147754ce7a0a4d6c08cb6b05ef2c88d3100df675e6be33b460a5"
+  },
+  {
+    "file": "这次一定出\\ProjectSettings\\EditorBuildSettings.asset",
+    "unchanged": true,
+    "sha256": "1ef28389fdbe41c01ddba69a8d8d90a90edd542f4d1242736ca63fbec90b8f45"
+  }
+]

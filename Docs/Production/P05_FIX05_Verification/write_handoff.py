@@ -1,0 +1,37 @@
+from pathlib import Path
+import json,hashlib,difflib
+root=Path(r'D:/vibe/这次一定出');out=root/'Docs/Production/P05_FIX05_Verification'
+before=json.loads((root/'Docs/Production/P05_CRYSTAL_Verification/protected_before.json').read_text(encoding='utf-8'))
+after={k:hashlib.sha256((root/k).read_bytes()).hexdigest() for k in before};assert before==after
+(out/'protected_check.json').write_text(json.dumps({'unchanged':True,'files':after},ensure_ascii=False,indent=2),encoding='utf-8')
+for name,path in [('PrototypeGame','Scripts/UI/PrototypeGame.cs'),('FastRevealView','Scripts/Presentation/FastRevealView.cs')]:
+ a=(out/f'{name}.before.txt').read_text(encoding='utf-8-sig').splitlines(keepends=True);b=(root/'这次一定出/Assets/_Game'/path).read_text(encoding='utf-8-sig').splitlines(keepends=True)
+ (out/f'{name}.diff').write_text(''.join(difflib.unified_diff(a,b,fromfile='before',tofile='P05-FIX05')),encoding='utf-8')
+(out/'compile_status.json').write_text(json.dumps({'runtimeExit':0,'editorExit':0,'warnings':'仅原U02 DTO CS0649'},ensure_ascii=False),encoding='utf-8')
+p=root/'Docs/Production/P05_FIX05_任务与交接.md';s=p.read_text(encoding='utf-8-sig')
+s+='''
+
+## 实现与接口
+
+FastRevealView统一R/SR/SSR/UR的信息顺序，透明SSR001为完整视觉样例。背景改为暗蓝星空与原创不规则放射光面，RevealBurstGraphic在uGUI网格内绘制由中心向外飞散的几何碎屑；角色sprite先乘黑色成为剪影，再还原颜色。名字固定在左侧，称号、稀有度、几何徽记、NEW各自独立；角色位于中央偏右。SSR保留脸部焦点推近缩回，字幕及等待控件固定；白幕淡出后清掉旧水晶碎裂叠层，避免它覆盖新的黑色剪影。
+
+RevealIdentity、RevealArtworkSlot/UnknownSilhouette及签名路径继续保留。FastRevealView新增只读NameAlpha/RarityAlpha供开发验证；Begin/Animate/Finish/TickIdle/Transition及PrototypeGame输入、签约、Draw、同批结果接口不变。AdvancePresentation动画补齐当前张，必须新确认才下一张；末张等待“查看结果”。
+
+PrototypeGame删除NavigationRail和顶部召唤/图鉴Tab及下划线、相关无用字段，普通页面内容区x0—1。总览的“查看图鉴”、图鉴返回、角色详情仍可用；没有新增未完成的卡池按钮。前一项单抽2:3卡框保留。总览仍沿用单张/十连卡框，目前重做的是用户参考图对应的逐张揭晓。
+
+改动：Scripts/Presentation/FastRevealView.cs；新增RevealBurstGraphic.cs与Unity生成meta；Scripts/UI/PrototypeGame.cs（导航、信息节点、安全区及白幕后旧层退出）；新增Editor/P05Fix05Setup.cs与meta（单项Play/录音工具）。Main使用既有P05配置，经现有Editor工具刷新保存，场景meta/GUID/主题/六卡/内置字体保持。不编辑Core/UIAdapter/模型/概率/存档/UIPrototype/Prefab/包版本；7项保护哈希不变。
+
+## 复验和调参
+
+Unity2022.3.53f1c1打开Main、Play，原签约/水晶流程后查看新逐张画面。复验菜单Tools/这次一定出/程序/P05-FIX05/验证Main输入音画并录制片段。需停止Play并保存编辑；Fix05.request支持verify/status。报告与真实画面/AudioListener混音在P05_FIX05_Verification，encode_clips.py只封装同场帧和PCM，不重建音轨。指定SSR样例沿PlayBatchForDebug，不扣费、不写收藏；真实单抽十连另走原签约提交。
+
+涉及Unity概念：Image颜色与透明Sprite组成剪影；MaskableGraphic/VertexHelper绘制放射面和碎屑；RectTransform锚点分开角色与信息区域；协程保留动画/等待确认边界；GraphicRaycaster射线核对；AudioListener同场录制。
+
+调参：FastRevealView.Animate的进度为0—1，默认剪影结束.23、角色颜色还原.44、名字.30—.48、称号.44—.57、稀有度.67—.83、NEW.84—.95。实际秒数等于该卡动画时长乘进度；Main的SSR2.2秒等时长仍在PrototypeGame Inspector。布局锚点在FastRevealView构造函数；角色区域x.36—.90/y.10—.96，名字x.075—.43/y.44—.59，信息左下；跳过/确认沿用现有安全区。SSR faceZoom/faceUv/faceTarget沿P05FeelConfig。碎屑数量、半径、颜色与径向推进在RevealBurstGraphic；这些只是揭晓装饰，不改变结果。
+
+## 本项范围与后续
+
+使用现有透明冰法师、现有声音和本项目原创几何，没有复制参考游戏素材。其他已有完整卡图在剪影阶段会表现为矩形卡图，缺立绘角色仍用中性人形；完整角色透明素材由美术后续提供。正式四档专用徽记仍待后续美术。本批不完成第2项水晶拆层/转场、第3项URP投射光束、第4项重新制作水晶破裂与全白闪光，也不提前做卡池系统。
+'''
+p.write_text(s,encoding='utf-8')
+print('Scope and draft handoff ready')

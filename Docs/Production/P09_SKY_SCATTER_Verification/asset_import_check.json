@@ -1,0 +1,92 @@
+[
+  {
+    "file": "meteor_trail_v003.png",
+    "sha256": "6655a4f091433b32277fcb71d4087e7259c690dd3b3bdbb8a4416f049a8ac8de",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "new_border_mask_v003.png",
+    "sha256": "04d8edf6ee1eddb51832a618aae4fe286c8a180cb7dce75c0791a333dc82511a",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "new_text_v003.png",
+    "sha256": "e19e4cc7e604f137300744bfdedec1f1b13317c2324208d60c89d6d2cd316ce9",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "rarity_accent_v003.png",
+    "sha256": "11ecd668297b4177dd742dc72afa814221792b5f7ed02120e3dbd8fc1ee830bf",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "rarity_R_v003.png",
+    "sha256": "8ba1f7127a56ca55920e1eae01fa9afa99c6c082eb02a9a0aa575e30933e570b",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "rarity_SR_v003.png",
+    "sha256": "ff6923c2bb17ec3e47c00d0d1183b680613c3b0ce46c36a7f01674f4c67ad57a",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "rarity_SSR_v003.png",
+    "sha256": "dcf01d46eafa03f3ac3bb0bff8d4a7d88287584105e7d67eb931acaaa5f004df",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "rarity_UR_v003.png",
+    "sha256": "908ed325102fe998a0bc795979ef52a149bded38ec7f7ff0058ac282e61d7bdc",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "reveal_ice_shard_v003.png",
+    "sha256": "5a632024340b493b60a3310afbaa9a915b281ab101a57ff1d094c1c900725390",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "reveal_nebula_far_v003.png",
+    "sha256": "4400a7548992e08d5758369d49cac086dfac39f0a7f0260e2c5dfa71c2e516f1",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "reveal_nebula_near_v003.png",
+    "sha256": "eadac8c0868b5371a5045285e39806ef3d96f7eb809ed47b62be465c3663a8de",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "reveal_starfield_base_v003.png",
+    "sha256": "48fbec3a02e044a8cfa950d96f294081baa7fe18ab0de219522df500f4fbf904",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "SSR001_snowflake_backdrop_v003.png",
+    "sha256": "1f0532892eb62cba4b785bb0fe6657920602065c89fab7142a31e0ea89f6652c",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "star_cross_v003.png",
+    "sha256": "45aa560b02fc1809fc493ba8c8d9f5aee94bc05e97991b9afa7628fa20730f14",
+    "sourceUnchanged": true,
+    "metaExists": true
+  },
+  {
+    "file": "star_soft_v003.png",
+    "sha256": "c883e892f2b005ee40d03fa296c0e9ea40e9fd55b37aa5b6c8608e39597b8c30",
+    "sourceUnchanged": true,
+    "metaExists": true
+  }
+]

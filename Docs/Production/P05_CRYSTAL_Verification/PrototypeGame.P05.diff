@@ -1,0 +1,122 @@
+--- P04 PrototypeGame
++++ P05 PrototypeGame
+@@ -15,7 +15,7 @@
+         public Sprite thumbnail;
+     }
+ 
+-    public enum SummonFlowStage { Idle, Signing, AutoSigning, Commit, Ceremony, Revealing, AwaitingConfirm, Summary }
++    public enum SummonFlowStage { Idle, Signing, AutoSigning, Commit, Ceremony, Revealing, AwaitingConfirm, Summary, CrystalCharging, CrystalBreaking }
+ 
+     public sealed class PrototypeGame : MonoBehaviour
+     {
+@@ -37,6 +37,16 @@
+         public float srRevealSeconds = 1.1f;
+         public P04FeelConfig feelConfig;
+         private SummonAudio summonAudio;
++        private CrystalChargeView crystalView;
++        public CrystalChargeView CrystalView { get { return crystalView; } }
++        private int lastCrystalHitFrame=-1;
++        private int revealInputReadyFrame;
++        public void HitCrystal()
++        {
++            if(FlowStage!=SummonFlowStage.CrystalCharging||lastCrystalHitFrame==Time.frameCount)return;
++            lastCrystalHitFrame=Time.frameCount;
++            if(crystalView.Hit())summonAudio.CrystalHit(crystalView.Energy);
++        }
+         public SummonFlowStage FlowStage { get; private set; }
+         public int RevealIndex { get; private set; } = -1;
+         public int CommittedSummonRequests { get; private set; }
+@@ -134,7 +144,8 @@
+         {
+             if (FlowStage == SummonFlowStage.AwaitingConfirm) fastReveal.TickIdle(Time.unscaledTime);
+             if (Input.GetKeyDown(KeyCode.Escape)) { HandleEscape(); return; }
+-            if (currentScreen == "Reveal" && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))) AdvancePresentation();
++            if (currentScreen == "Reveal" && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)))
++            {if(FlowStage==SummonFlowStage.CrystalCharging)HitCrystal();else AdvancePresentation();}
+         }
+ 
+         public void HandleEscape()
+@@ -304,7 +315,8 @@
+             tap.GetComponent<Image>().raycastTarget = true;
+             Button tapButton = tap.gameObject.AddComponent<Button>();
+             tapButton.targetGraphic = tap.GetComponent<Image>(); tapButton.transition = Selectable.Transition.None;
+-            tapButton.onClick.AddListener(AdvancePresentation);
++            if(feelConfig!=null&&feelConfig.crystalInteraction){var gate=tap.gameObject.AddComponent<RevealPointerGate>();gate.owner=this;}
++            else tapButton.onClick.AddListener(AdvancePresentation);
+             Surface(page, "RevealFooter", new Color(0.015f, 0.025f, 0.07f, 1), 0, 0, 1, 0.145f);
+             cardStage = Rect(page, "CardStage", 0, 0, 1, 1);
+             fastReveal = new FastRevealView(cardStage, theme, font, titleFont, feelConfig, summonAudio);
+@@ -317,6 +329,7 @@
+             ceremonyView = new ContractCeremonyView(ceremonyStage, theme, font, handwriting, feelConfig, summonAudio);
+             Text ceremonyName = ceremonyStage.Find("RisingContract/SignatureName").GetComponent<Text>();
+             ceremonyName.resizeTextForBestFit = true; ceremonyName.resizeTextMinSize = 24; ceremonyName.resizeTextMaxSize = 56;
++            if(feelConfig!=null&&feelConfig.crystalInteraction)crystalView=new CrystalChargeView(page,feelConfig,font);
+             ActionButton(page, "跳过", 0.86f, 0.90f, 0.97f, 0.97f, SkipPresentation);
+             revealCount = Label(page, "", 26, 0.04f, 0.045f, 0.15f, 0.11f);
+             confirmCardButton = ActionButton(page, "下一张", 0.80f, 0.035f, 0.96f, 0.115f, AdvancePresentation);
+@@ -452,11 +465,22 @@
+             revealCount.gameObject.SetActive(false); confirmCardButton.gameObject.SetActive(false);
+             SetFlowStage(SummonFlowStage.Ceremony); finishCurrentPhase = false;
+             CardRarity highest = CardRarity.R; foreach (PrototypePull result in lastResults) if (result.Card.Rarity > highest) highest = result.Card.Rarity;
+-            ceremonyView.Begin(signaturePad, autoSignatureText.text, highest, ceremonySeconds);
++            bool crystal=crystalView!=null;
++            float prelude=crystal?feelConfig.preludeSeconds:ceremonySeconds;
++            ceremonyView.Begin(signaturePad, autoSignatureText.text, highest, prelude);
+             float elapsed = 0;
+-            while (elapsed < ceremonySeconds && !finishCurrentPhase)
+-            { elapsed += Time.unscaledDeltaTime; ceremonyView.Animate(elapsed / Mathf.Max(0.01f, ceremonySeconds)); yield return null; }
+-            ceremonyView.Finish(); ceremonyStage.gameObject.SetActive(false); cardStage.gameObject.SetActive(true);
++            while (elapsed < prelude && !finishCurrentPhase)
++            { elapsed += Time.unscaledDeltaTime; ceremonyView.Animate(elapsed / Mathf.Max(0.01f, prelude)); yield return null; }
++            ceremonyView.Finish(); ceremonyStage.gameObject.SetActive(false);
++            if(crystal)
++            {
++                crystalView.Begin(highest);summonAudio.CrystalWait();SetFlowStage(SummonFlowStage.CrystalCharging);
++                while(crystalView.Energy<1){crystalView.Tick();yield return null;}
++                SetFlowStage(SummonFlowStage.CrystalBreaking);summonAudio.FinalDeclaration();
++                for(float t=0;t<feelConfig.finalChargeSeconds;t+=Time.unscaledDeltaTime){crystalView.Terminal(t);yield return null;}
++                summonAudio.CrystalBreak();crystalView.Burst(0);
++            }
++            cardStage.gameObject.SetActive(true);
+             revealCount.gameObject.SetActive(true);
+             for (int i = 0; i < lastResults.Count; i++)
+             {
+@@ -466,6 +490,7 @@
+                 revealCount.text = (i + 1) + "/" + lastResults.Count;
+                 PrototypePortrait binding = portraits.Find(item => item.characterId == pull.Card.Id);
+                 Sprite portrait = pull.Card.Id == "SSR001" && theme.summonCharacter != null ? theme.summonCharacter : binding == null ? null : binding.portrait;
++                revealInputReadyFrame=Time.frameCount+2;
+                 fastReveal.Begin(pull.Card, portrait, pull.IsNew);
+                 cardStage.Find("RevealArtworkSlot/UnknownSilhouette").GetComponent<Image>().enabled = false;
+                 revealSilhouette.enabled = portrait == null;
+@@ -473,7 +498,9 @@
+                     : pull.Card.Rarity == CardRarity.SR ? srRevealSeconds : normalRevealSeconds;
+                 elapsed = 0;
+                 while (elapsed < duration && !finishCurrentPhase)
+-                { elapsed += Time.unscaledDeltaTime; fastReveal.Animate(elapsed / Mathf.Max(0.01f, duration)); yield return null; }
++                { elapsed += Time.unscaledDeltaTime; fastReveal.Animate(elapsed / Mathf.Max(0.01f, duration));
++                  if(crystal&&i==0){crystalView.Burst(elapsed);if(elapsed>=Mathf.Max(feelConfig.whiteSeconds,feelConfig.crystalRupture.Length/feelConfig.ruptureFps))crystalView.Clear();}yield return null; }
++                if(crystal)crystalView.Clear();
+                 fastReveal.Animate(1); fastReveal.Finish();
+                 SetFlowStage(SummonFlowStage.AwaitingConfirm); confirmationReadyFrame = Time.frameCount + 1;
+                 confirmCardButton.GetComponentInChildren<Text>().text = i + 1 == lastResults.Count ? "查看结果" : "下一张";
+@@ -486,6 +513,7 @@
+         }
+         public void AdvancePresentation()
+         {
++            if(FlowStage==SummonFlowStage.Revealing&&Time.frameCount<revealInputReadyFrame)return;
+             if (lastAdvanceFrame == Time.frameCount) return;
+             if (FlowStage == SummonFlowStage.Ceremony || FlowStage == SummonFlowStage.Revealing)
+             { lastAdvanceFrame = Time.frameCount; finishCurrentPhase = true; }
+@@ -495,9 +523,9 @@
+         public void SkipPresentation()
+         {
+             if (FlowStage == SummonFlowStage.Signing) { SkipSigning(); return; }
+-            if (FlowStage != SummonFlowStage.Ceremony && FlowStage != SummonFlowStage.Revealing && FlowStage != SummonFlowStage.AwaitingConfirm) return;
++            if (FlowStage != SummonFlowStage.Ceremony && FlowStage != SummonFlowStage.Revealing && FlowStage != SummonFlowStage.AwaitingConfirm && FlowStage != SummonFlowStage.CrystalCharging && FlowStage != SummonFlowStage.CrystalBreaking) return;
+             if (revealRoutine != null) StopCoroutine(revealRoutine);
+-            revealRoutine = null; fastReveal.Finish(); ceremonyView.Finish(); summonAudio.Skip(); ShowSummary();
++            revealRoutine = null; fastReveal.Finish(); ceremonyView.Finish(); if(crystalView!=null)crystalView.Clear(); summonAudio.Skip(); ShowSummary();
+         }
+         private void SkipReveal() { SkipPresentation(); }
+         private void SetFlowStage(SummonFlowStage stage)

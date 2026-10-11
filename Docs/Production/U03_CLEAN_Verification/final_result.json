@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: 内置字体/中英混合昵称/手写射线及指针输入/自动签署/逐张等待和最后确认/同批跳过/三种窗口/纯净文案/资源不足与补充",
+    "scene": "Assets/_Game/Scenes/UIPrototype.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-08T09:48:45.1098984Z"
+}

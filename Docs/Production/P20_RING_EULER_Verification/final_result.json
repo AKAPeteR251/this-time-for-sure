@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: Main自然转场与三个立环不同欧拉方向旋转、底环保留、舞台清理；实际带声录制。",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-10T14:25:18.3754319Z"
+}

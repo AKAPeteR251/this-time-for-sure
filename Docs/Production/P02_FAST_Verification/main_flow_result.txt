@@ -1,0 +1,1 @@
+PASS: Main实际Play真实内存30→29→19→29; 单抽/十连/跳过同一结果/NEW/点卡详情/隐藏恢复/收藏; Canvas与EventSystem唯一。batchmode未截屏。

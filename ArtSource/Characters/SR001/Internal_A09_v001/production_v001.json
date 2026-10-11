@@ -1,0 +1,79 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "id": "SR001",
+  "name": "赛蕾娜",
+  "element": "光",
+  "age": 20,
+  "role": "治疗辅助",
+  "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+  "model_seed_cfg": "工具未披露，未记录推测值",
+  "source": "ArtSource/Characters/SR001/Internal_A09_v001/source/original_tool_output.png",
+  "source_sha256": "51474cd4ef9915b2c555b420cf4b1bc03d5eb409749eaeb83f624909b5b56ba0",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "native_alpha_range": [
+    0,
+    254
+  ],
+  "native_alpha_bbox": [
+    0,
+    12,
+    1024,
+    1521
+  ],
+  "native_zero_alpha_fraction": 0.4372793833414714,
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    51,
+    87,
+    973,
+    1446
+  ],
+  "zero_alpha_fraction": 0.5461463928222656,
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop_px": [
+    381,
+    207,
+    625,
+    451
+  ],
+  "face_center_uv_bottom_origin": [
+    0.4912109375,
+    0.7858072916666666
+  ],
+  "references": [
+    {
+      "path": "ArtSource/StyleTests/RPG_Professions/02_light_priest_v001.png",
+      "sha256": "edbfa8c8b210c23034fa8547be0c2a92f90300aaaa44a06b9c93f2d710b703d2"
+    },
+    {
+      "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+    }
+  ],
+  "prompt": "source/prompt.txt",
+  "output_sha256": "d08efe1e1f385ab3b08d412677a64e4388b9754c30e619a3b0e91bcd22965ccf",
+  "review": "初版候选，脸、道具和边缘需视觉评审",
+  "native_edge_alpha_max": [
+    0,
+    0,
+    1,
+    7
+  ]
+}

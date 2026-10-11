@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p09_scattered_sky.mp4",
+    "sha256": "4e1aba99ac3975781807acfb17f5897180ff70fc4fbbdf72a8ba6aae441f6d9e",
+    "bytes": 5816120,
+    "actualCaptureSeconds": 32.6828794,
+    "muxSeconds": 32.683,
+    "frames": 734,
+    "averageCaptureFps": 22.458241546489937,
+    "audioSeconds": 32.68266666666667,
+    "audioStart": 0.0036385,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.013744887413874094,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

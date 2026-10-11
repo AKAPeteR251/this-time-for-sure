@@ -1,0 +1,20 @@
+{
+  "appSpeechTool": false,
+  "actualUsedEngine": "Windows SAPI",
+  "actualUsedVoice": "Microsoft Huihui Desktop - Chinese (Simplified)",
+  "voicesEnumerated": [
+    "Microsoft Huihui Desktop - Chinese (Simplified)",
+    "Microsoft Zira Desktop - English (United States)",
+    "Microsoft Haruka Desktop - Japanese",
+    "Microsoft David Desktop - English (United States)"
+  ],
+  "comfyRegisteredSpeechNodes": [
+    "ElevenLabsSpeechToText",
+    "ElevenLabsTextToSpeech",
+    "ElevenLabsSpeechToSpeech",
+    "FishAudioTextToSpeech",
+    "FishAudioSpeechToText",
+    "HeyGenTextToSpeechNode"
+  ],
+  "comfyNote": "Registered names do not prove loaded weights or successful generation; no ComfyUI speech generation was run."
+}

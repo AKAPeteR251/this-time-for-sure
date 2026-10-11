@@ -1,0 +1,84 @@
+--- U03 PrototypeGame before P04
++++ P04 presentation integration
+@@ -35,6 +35,8 @@
+         public float autoSignatureSeconds = 0.4f;
+         public float ceremonySeconds = 6.6f;
+         public float srRevealSeconds = 1.1f;
++        public P04FeelConfig feelConfig;
++        private SummonAudio summonAudio;
+         public SummonFlowStage FlowStage { get; private set; }
+         public int RevealIndex { get; private set; } = -1;
+         public int CommittedSummonRequests { get; private set; }
+@@ -123,12 +125,14 @@
+                 handwriting = Font.CreateDynamicFontFromOSFont(family ?? "KaiTi", 58);
+                 Debug.Log("[P03] 签名系统字体：" + (family ?? "KaiTi"));
+             }
++            summonAudio = gameObject.AddComponent<SummonAudio>(); summonAudio.Configure(feelConfig);
+             BuildInterface();
+             ShowSummon();
+         }
+ 
+         private void Update()
+         {
++            if (FlowStage == SummonFlowStage.AwaitingConfirm) fastReveal.TickIdle(Time.unscaledTime);
+             if (Input.GetKeyDown(KeyCode.Escape)) { HandleEscape(); return; }
+             if (currentScreen == "Reveal" && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))) AdvancePresentation();
+         }
+@@ -303,14 +307,14 @@
+             tapButton.onClick.AddListener(AdvancePresentation);
+             Surface(page, "RevealFooter", new Color(0.015f, 0.025f, 0.07f, 1), 0, 0, 1, 0.145f);
+             cardStage = Rect(page, "CardStage", 0, 0, 1, 1);
+-            fastReveal = new FastRevealView(cardStage, theme, font, titleFont);
++            fastReveal = new FastRevealView(cardStage, theme, font, titleFont, feelConfig, summonAudio);
+             RectTransform identity = cardStage.Find("RevealIdentity").GetComponent<RectTransform>();
+             identity.anchorMin = new Vector2(0.19f, 0.04f); identity.anchorMax = new Vector2(0.77f, 0.145f);
+             RectTransform unknown = cardStage.Find("RevealArtworkSlot/UnknownSilhouette").GetComponent<RectTransform>();
+             revealSilhouette = Rect(unknown, "CharacterSilhouette", 0, 0, 1, 1).gameObject.AddComponent<UICharacterSilhouette>();
+             revealSilhouette.color = new Color(0.12f, 0.18f, 0.28f); revealSilhouette.raycastTarget = false;
+             ceremonyStage = Rect(page, "CeremonyStage", 0, 0, 1, 1);
+-            ceremonyView = new ContractCeremonyView(ceremonyStage, theme, font, handwriting);
++            ceremonyView = new ContractCeremonyView(ceremonyStage, theme, font, handwriting, feelConfig, summonAudio);
+             Text ceremonyName = ceremonyStage.Find("RisingContract/SignatureName").GetComponent<Text>();
+             ceremonyName.resizeTextForBestFit = true; ceremonyName.resizeTextMinSize = 24; ceremonyName.resizeTextMaxSize = 56;
+             ActionButton(page, "跳过", 0.86f, 0.90f, 0.97f, 0.97f, SkipPresentation);
+@@ -447,7 +451,8 @@
+             cardStage.gameObject.SetActive(false); ceremonyStage.gameObject.SetActive(true);
+             revealCount.gameObject.SetActive(false); confirmCardButton.gameObject.SetActive(false);
+             SetFlowStage(SummonFlowStage.Ceremony); finishCurrentPhase = false;
+-            ceremonyView.Begin(signaturePad, autoSignatureText.text);
++            CardRarity highest = CardRarity.R; foreach (PrototypePull result in lastResults) if (result.Card.Rarity > highest) highest = result.Card.Rarity;
++            ceremonyView.Begin(signaturePad, autoSignatureText.text, highest, ceremonySeconds);
+             float elapsed = 0;
+             while (elapsed < ceremonySeconds && !finishCurrentPhase)
+             { elapsed += Time.unscaledDeltaTime; ceremonyView.Animate(elapsed / Mathf.Max(0.01f, ceremonySeconds)); yield return null; }
+@@ -474,6 +479,8 @@
+                 confirmCardButton.GetComponentInChildren<Text>().text = i + 1 == lastResults.Count ? "查看结果" : "下一张";
+                 confirmCardButton.gameObject.SetActive(true);
+                 while (!confirmedCard) yield return null;
++                if (i + 1 < lastResults.Count)
++                    for (float transitionTime = 0; transitionTime < 0.15f; transitionTime += Time.unscaledDeltaTime) { fastReveal.Transition(transitionTime / 0.15f); yield return null; }
+             }
+             revealRoutine = null; fastReveal.Finish(); ShowSummary();
+         }
+@@ -483,14 +490,14 @@
+             if (FlowStage == SummonFlowStage.Ceremony || FlowStage == SummonFlowStage.Revealing)
+             { lastAdvanceFrame = Time.frameCount; finishCurrentPhase = true; }
+             else if (FlowStage == SummonFlowStage.AwaitingConfirm && Time.frameCount >= confirmationReadyFrame)
+-            { lastAdvanceFrame = Time.frameCount; confirmedCard = true; confirmCardButton.gameObject.SetActive(false); }
++            { lastAdvanceFrame = Time.frameCount; confirmedCard = true; confirmCardButton.gameObject.SetActive(false); summonAudio.Confirm(); }
+         }
+         public void SkipPresentation()
+         {
+             if (FlowStage == SummonFlowStage.Signing) { SkipSigning(); return; }
+             if (FlowStage != SummonFlowStage.Ceremony && FlowStage != SummonFlowStage.Revealing && FlowStage != SummonFlowStage.AwaitingConfirm) return;
+             if (revealRoutine != null) StopCoroutine(revealRoutine);
+-            revealRoutine = null; fastReveal.Finish(); ceremonyView.Finish(); ShowSummary();
++            revealRoutine = null; fastReveal.Finish(); ceremonyView.Finish(); summonAudio.Skip(); ShowSummary();
+         }
+         private void SkipReveal() { SkipPresentation(); }
+         private void SetFlowStage(SummonFlowStage stage)
+@@ -1196,3 +1203,4 @@
+     }
+ }
+ 
++

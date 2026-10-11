@@ -1,0 +1,2 @@
+warning CS2008: 未指定源文件。
+error CS0006: 未能找到元数据文件“E:\Unity\2022.3.53f1c1\Editor\Data\Managed\UnityEditor.dll /reference:D:\vibe\这次一定出\Docs\Production\Verification\Prototype.Runtime.dll 这次一定出/Assets/_Game/Editor/PrototypeSetup.cs”

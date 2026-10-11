@@ -1,0 +1,597 @@
+Blender 2.93.4 (hash b7205031cec4 built 2021-08-31 23:48:04)
+Fra:1 Mem:85.77M (Peak 86.42M) | Time:00:00.45 | Syncing F08_UndergroundAltar
+Fra:1 Mem:85.77M (Peak 86.42M) | Time:00:00.45 | Syncing Altar_Steps_Lower
+Fra:1 Mem:150.23M (Peak 162.20M) | Time:00:00.84 | Syncing Altar_Steps_Upper
+Fra:1 Mem:150.27M (Peak 162.20M) | Time:00:00.85 | Syncing Altar_Base
+Fra:1 Mem:150.31M (Peak 162.20M) | Time:00:00.85 | Syncing Altar_Inlay_Metal_00
+Fra:1 Mem:214.53M (Peak 226.36M) | Time:00:01.09 | Syncing Altar_Inlay_Metal_01
+Fra:1 Mem:214.72M (Peak 226.36M) | Time:00:01.09 | Syncing Altar_Inlay_Metal_02
+Fra:1 Mem:214.90M (Peak 226.36M) | Time:00:01.10 | Syncing Altar_Inlay_Metal_03
+Fra:1 Mem:215.08M (Peak 226.36M) | Time:00:01.10 | Syncing Altar_Inlay_Metal_04
+Fra:1 Mem:215.27M (Peak 226.36M) | Time:00:01.10 | Syncing Altar_Inlay_Emission_00
+Fra:1 Mem:215.57M (Peak 226.36M) | Time:00:01.11 | Syncing Altar_Inlay_Emission_01
+Fra:1 Mem:215.68M (Peak 226.36M) | Time:00:01.11 | Syncing Altar_Inlay_Emission_02
+Fra:1 Mem:215.79M (Peak 226.36M) | Time:00:01.11 | Syncing Altar_Inlay_MetalTick_00
+Fra:1 Mem:215.80M (Peak 226.36M) | Time:00:01.11 | Syncing Altar_Inlay_MetalTick_01
+Fra:1 Mem:215.80M (Peak 226.36M) | Time:00:01.11 | Syncing Altar_Inlay_MetalTick_02
+Fra:1 Mem:215.81M (Peak 226.36M) | Time:00:01.11 | Syncing Altar_Inlay_MetalTick_03
+Fra:1 Mem:215.81M (Peak 226.36M) | Time:00:01.11 | Syncing Altar_Inlay_MetalTick_04
+Fra:1 Mem:215.82M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_05
+Fra:1 Mem:215.83M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_06
+Fra:1 Mem:215.83M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_07
+Fra:1 Mem:215.84M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_08
+Fra:1 Mem:215.84M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_09
+Fra:1 Mem:215.85M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_10
+Fra:1 Mem:215.85M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_11
+Fra:1 Mem:215.86M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_12
+Fra:1 Mem:215.87M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_13
+Fra:1 Mem:215.87M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_14
+Fra:1 Mem:215.88M (Peak 226.36M) | Time:00:01.12 | Syncing Altar_Inlay_MetalTick_15
+Fra:1 Mem:215.88M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_00
+Fra:1 Mem:215.89M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_01
+Fra:1 Mem:215.90M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_02
+Fra:1 Mem:215.90M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_03
+Fra:1 Mem:215.91M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_04
+Fra:1 Mem:215.91M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_05
+Fra:1 Mem:215.92M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_06
+Fra:1 Mem:215.93M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_07
+Fra:1 Mem:215.93M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_08
+Fra:1 Mem:215.94M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_09
+Fra:1 Mem:215.94M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_10
+Fra:1 Mem:215.95M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_11
+Fra:1 Mem:215.96M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_12
+Fra:1 Mem:215.96M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_13
+Fra:1 Mem:215.97M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_14
+Fra:1 Mem:215.97M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_15
+Fra:1 Mem:215.98M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_16
+Fra:1 Mem:215.98M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_17
+Fra:1 Mem:215.99M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_18
+Fra:1 Mem:216.00M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_19
+Fra:1 Mem:216.00M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_20
+Fra:1 Mem:216.01M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_21
+Fra:1 Mem:216.01M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_22
+Fra:1 Mem:216.02M (Peak 226.36M) | Time:00:01.12 | Syncing Floor_Module_23
+Fra:1 Mem:216.03M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_00
+Fra:1 Mem:216.03M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_01
+Fra:1 Mem:216.04M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_02
+Fra:1 Mem:216.04M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_03
+Fra:1 Mem:216.05M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_04
+Fra:1 Mem:216.06M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_05
+Fra:1 Mem:216.06M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_06
+Fra:1 Mem:216.07M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_07
+Fra:1 Mem:216.07M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_08
+Fra:1 Mem:216.08M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_09
+Fra:1 Mem:216.08M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_10
+Fra:1 Mem:216.09M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_11
+Fra:1 Mem:216.10M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_12
+Fra:1 Mem:216.10M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_13
+Fra:1 Mem:216.11M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_14
+Fra:1 Mem:216.12M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_15
+Fra:1 Mem:216.12M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_16
+Fra:1 Mem:216.13M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_17
+Fra:1 Mem:216.13M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_18
+Fra:1 Mem:216.14M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_19
+Fra:1 Mem:216.14M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_20
+Fra:1 Mem:216.15M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_21
+Fra:1 Mem:216.16M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_22
+Fra:1 Mem:216.16M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Module_23
+Fra:1 Mem:216.17M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Cornice_0.28
+Fra:1 Mem:216.35M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_GoldBorder_0.28
+Fra:1 Mem:216.53M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_Cornice_9.6
+Fra:1 Mem:216.72M (Peak 226.36M) | Time:00:01.12 | Syncing Wall_GoldBorder_9.6
+Fra:1 Mem:216.90M (Peak 226.36M) | Time:00:01.13 | Syncing Pillar_Module_00
+Fra:1 Mem:216.92M (Peak 226.36M) | Time:00:01.13 | Syncing Pillar_GoldTrim_00
+Fra:1 Mem:217.28M (Peak 226.36M) | Time:00:01.13 | Syncing Pillar_Module_01
+Fra:1 Mem:217.30M (Peak 226.36M) | Time:00:01.13 | Syncing Pillar_GoldTrim_01
+Fra:1 Mem:217.66M (Peak 226.36M) | Time:00:01.13 | Syncing Pillar_Module_02
+Fra:1 Mem:217.68M (Peak 226.36M) | Time:00:01.13 | Syncing Pillar_GoldTrim_02
+Fra:1 Mem:218.04M (Peak 226.36M) | Time:00:01.14 | Syncing Pillar_Module_03
+Fra:1 Mem:218.06M (Peak 226.36M) | Time:00:01.14 | Syncing Pillar_GoldTrim_03
+Fra:1 Mem:218.42M (Peak 226.36M) | Time:00:01.14 | Syncing Pillar_Module_04
+Fra:1 Mem:218.44M (Peak 226.36M) | Time:00:01.14 | Syncing Pillar_GoldTrim_04
+Fra:1 Mem:218.80M (Peak 226.36M) | Time:00:01.14 | Syncing Pillar_Module_05
+Fra:1 Mem:218.82M (Peak 226.36M) | Time:00:01.14 | Syncing Pillar_GoldTrim_05
+Fra:1 Mem:219.18M (Peak 226.36M) | Time:00:01.15 | Syncing Pillar_Module_06
+Fra:1 Mem:219.20M (Peak 226.36M) | Time:00:01.15 | Syncing Pillar_GoldTrim_06
+Fra:1 Mem:219.56M (Peak 226.36M) | Time:00:01.15 | Syncing Pillar_Module_07
+Fra:1 Mem:219.57M (Peak 226.36M) | Time:00:01.15 | Syncing Pillar_GoldTrim_07
+Fra:1 Mem:219.94M (Peak 226.36M) | Time:00:01.15 | Syncing Wall_Alcove_Back_00
+Fra:1 Mem:219.94M (Peak 226.36M) | Time:00:01.15 | Syncing Wall_Alcove_Arch_00
+Fra:1 Mem:219.97M (Peak 226.36M) | Time:00:01.15 | Syncing Wall_Emblem_00
+Fra:1 Mem:220.33M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Alcove_Back_01
+Fra:1 Mem:220.34M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Alcove_Arch_01
+Fra:1 Mem:220.36M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Emblem_01
+Fra:1 Mem:220.72M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Alcove_Back_02
+Fra:1 Mem:220.73M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Alcove_Arch_02
+Fra:1 Mem:220.75M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Emblem_02
+Fra:1 Mem:221.12M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Alcove_Back_03
+Fra:1 Mem:221.12M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Alcove_Arch_03
+Fra:1 Mem:221.14M (Peak 226.36M) | Time:00:01.16 | Syncing Wall_Emblem_03
+Fra:1 Mem:221.51M (Peak 226.36M) | Time:00:01.17 | Syncing Wall_Alcove_Back_04
+Fra:1 Mem:221.51M (Peak 226.36M) | Time:00:01.17 | Syncing Wall_Alcove_Arch_04
+Fra:1 Mem:221.54M (Peak 226.36M) | Time:00:01.17 | Syncing Wall_Emblem_04
+Fra:1 Mem:221.90M (Peak 226.36M) | Time:00:01.17 | Syncing Wall_Alcove_Back_05
+Fra:1 Mem:221.91M (Peak 226.36M) | Time:00:01.17 | Syncing Wall_Alcove_Arch_05
+Fra:1 Mem:221.93M (Peak 226.36M) | Time:00:01.17 | Syncing Wall_Emblem_05
+Fra:1 Mem:222.30M (Peak 226.36M) | Time:00:01.17 | Syncing Ceiling_Dome
+Fra:1 Mem:222.92M (Peak 226.36M) | Time:00:01.18 | Syncing Ceiling_Ribs
+Fra:1 Mem:223.64M (Peak 226.36M) | Time:00:01.19 | Syncing Ceiling_GoldInlay_3.8
+Fra:1 Mem:223.82M (Peak 226.36M) | Time:00:01.19 | Syncing Ceiling_GoldInlay_7.4
+Fra:1 Mem:224.00M (Peak 226.36M) | Time:00:01.19 | Syncing Ceiling_GoldInlay_10.7
+Fra:1 Mem:224.19M (Peak 226.36M) | Time:00:01.19 | Syncing Ceiling_GoldInlay_14.7
+Fra:1 Mem:224.37M (Peak 226.36M) | Time:00:01.19 | Syncing Brazier_Base_00
+Fra:1 Mem:224.38M (Peak 226.36M) | Time:00:01.19 | Syncing Brazier_Bowl_00
+Fra:1 Mem:224.42M (Peak 226.36M) | Time:00:01.19 | Syncing Brazier_Base_01
+Fra:1 Mem:224.43M (Peak 226.36M) | Time:00:01.19 | Syncing Brazier_Bowl_01
+Fra:1 Mem:224.47M (Peak 226.36M) | Time:00:01.19 | Syncing Brazier_Base_02
+Fra:1 Mem:224.49M (Peak 226.36M) | Time:00:01.20 | Syncing Brazier_Bowl_02
+Fra:1 Mem:224.52M (Peak 226.36M) | Time:00:01.20 | Syncing Brazier_Base_03
+Fra:1 Mem:224.54M (Peak 226.36M) | Time:00:01.20 | Syncing Brazier_Bowl_03
+Fra:1 Mem:224.58M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_11
+Fra:1 Mem:224.58M (Peak 226.36M) | Time:00:01.20 | Syncing CrystalBody
+Fra:1 Mem:224.58M (Peak 226.36M) | Time:00:01.20 | Syncing CrystalStage
+Fra:1 Mem:224.58M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_10
+Fra:1 Mem:224.59M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_09
+Fra:1 Mem:224.59M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_08
+Fra:1 Mem:224.60M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_07
+Fra:1 Mem:224.60M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_06
+Fra:1 Mem:224.61M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_05
+Fra:1 Mem:224.61M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_04
+Fra:1 Mem:224.61M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_03
+Fra:1 Mem:224.62M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_02
+Fra:1 Mem:224.62M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_01
+Fra:1 Mem:224.63M (Peak 226.36M) | Time:00:01.20 | Syncing Shard_00
+Fra:1 Mem:224.63M (Peak 226.36M) | Time:00:01.20 | Syncing RingOuter
+Fra:1 Mem:225.14M (Peak 226.36M) | Time:00:01.20 | Syncing RingMiddle
+Fra:1 Mem:225.62M (Peak 226.36M) | Time:00:01.20 | Syncing RingInner
+Fra:1 Mem:226.11M (Peak 226.36M) | Time:00:01.20 | Syncing RingFloor
+Fra:1 Mem:226.86M (Peak 226.90M) | Time:00:01.20 | Syncing FloatingIce_B_03
+Fra:1 Mem:226.86M (Peak 227.07M) | Time:00:01.20 | Syncing FloatingIce_B_01
+Fra:1 Mem:226.87M (Peak 227.07M) | Time:00:01.20 | Syncing FloatingIce_A_02
+Fra:1 Mem:226.87M (Peak 227.07M) | Time:00:01.20 | Syncing FloatingIce_A_00
+Fra:1 Mem:226.88M (Peak 227.07M) | Time:00:01.20 | Syncing FloatingGold_03
+Fra:1 Mem:226.88M (Peak 227.07M) | Time:00:01.20 | Syncing FloatingGold_02
+Fra:1 Mem:226.89M (Peak 227.07M) | Time:00:01.20 | Syncing FloatingGold_01
+Fra:1 Mem:226.89M (Peak 227.07M) | Time:00:01.20 | Syncing FloatingGold_00
+Fra:1 Mem:226.93M (Peak 227.07M) | Time:00:01.20 | Syncing REFERENCE_Flame_00
+Fra:1 Mem:228.13M (Peak 229.13M) | Time:00:01.21 | Syncing REF_Amber_00
+Fra:1 Mem:228.13M (Peak 229.13M) | Time:00:01.21 | Syncing REFERENCE_Flame_01
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_Amber_01
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REFERENCE_Flame_02
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_Amber_02
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REFERENCE_Flame_03
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_Amber_03
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_CoolCrystal
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_BlueRoom
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_WarmFront
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_BackRead
+Fra:1 Mem:228.14M (Peak 229.13M) | Time:00:01.21 | Syncing REF_GameCamera
+Fra:1 Mem:223.76M (Peak 229.13M) | Time:00:01.21 | Rendering 1 / 49 samples
+Fra:1 Mem:216.20M (Peak 229.13M) | Time:00:01.53 | Rendering 26 / 48 samples
+Fra:1 Mem:216.20M (Peak 229.13M) | Time:00:01.73 | Rendering 48 / 48 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\F08\Preview\front_gameview.png'
+ Time: 00:02.16 (Saving: 00:00.41)
+
+Fra:1 Mem:215.62M (Peak 215.80M) | Time:00:00.01 | Syncing F08_UndergroundAltar
+Fra:1 Mem:215.62M (Peak 215.80M) | Time:00:00.01 | Syncing Altar_Steps_Lower
+Fra:1 Mem:215.67M (Peak 231.63M) | Time:00:00.08 | Syncing Altar_Steps_Upper
+Fra:1 Mem:215.71M (Peak 231.63M) | Time:00:00.08 | Syncing Altar_Base
+Fra:1 Mem:215.75M (Peak 231.63M) | Time:00:00.08 | Syncing Altar_Inlay_Metal_00
+Fra:1 Mem:215.93M (Peak 231.75M) | Time:00:00.14 | Syncing Altar_Inlay_Metal_01
+Fra:1 Mem:216.12M (Peak 231.75M) | Time:00:00.14 | Syncing Altar_Inlay_Metal_02
+Fra:1 Mem:216.30M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_Metal_03
+Fra:1 Mem:216.48M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_Metal_04
+Fra:1 Mem:216.67M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_Emission_00
+Fra:1 Mem:216.78M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_Emission_01
+Fra:1 Mem:216.89M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_Emission_02
+Fra:1 Mem:217.00M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_00
+Fra:1 Mem:217.01M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_01
+Fra:1 Mem:217.01M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_02
+Fra:1 Mem:217.02M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_03
+Fra:1 Mem:217.03M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_04
+Fra:1 Mem:217.03M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_05
+Fra:1 Mem:217.04M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_06
+Fra:1 Mem:217.04M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_07
+Fra:1 Mem:217.05M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_08
+Fra:1 Mem:217.05M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_09
+Fra:1 Mem:217.06M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_10
+Fra:1 Mem:217.07M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_11
+Fra:1 Mem:217.07M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_12
+Fra:1 Mem:217.08M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_13
+Fra:1 Mem:217.08M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_14
+Fra:1 Mem:217.09M (Peak 231.75M) | Time:00:00.15 | Syncing Altar_Inlay_MetalTick_15
+Fra:1 Mem:217.10M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_00
+Fra:1 Mem:217.10M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_01
+Fra:1 Mem:217.11M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_02
+Fra:1 Mem:217.11M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_03
+Fra:1 Mem:217.12M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_04
+Fra:1 Mem:217.13M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_05
+Fra:1 Mem:217.13M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_06
+Fra:1 Mem:217.14M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_07
+Fra:1 Mem:217.14M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_08
+Fra:1 Mem:217.15M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_09
+Fra:1 Mem:217.16M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_10
+Fra:1 Mem:217.16M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_11
+Fra:1 Mem:217.17M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_12
+Fra:1 Mem:217.17M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_13
+Fra:1 Mem:217.18M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_14
+Fra:1 Mem:217.18M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_15
+Fra:1 Mem:217.19M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_16
+Fra:1 Mem:217.20M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_17
+Fra:1 Mem:217.20M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_18
+Fra:1 Mem:217.21M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_19
+Fra:1 Mem:217.21M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_20
+Fra:1 Mem:217.22M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_21
+Fra:1 Mem:217.23M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_22
+Fra:1 Mem:217.23M (Peak 231.75M) | Time:00:00.15 | Syncing Floor_Module_23
+Fra:1 Mem:217.24M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_00
+Fra:1 Mem:217.24M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_01
+Fra:1 Mem:217.25M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_02
+Fra:1 Mem:217.26M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_03
+Fra:1 Mem:217.26M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_04
+Fra:1 Mem:217.27M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_05
+Fra:1 Mem:217.27M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_06
+Fra:1 Mem:217.28M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_07
+Fra:1 Mem:217.28M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_08
+Fra:1 Mem:217.29M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_09
+Fra:1 Mem:217.30M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_10
+Fra:1 Mem:217.30M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_11
+Fra:1 Mem:217.31M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_12
+Fra:1 Mem:217.31M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_13
+Fra:1 Mem:217.32M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_14
+Fra:1 Mem:217.33M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_15
+Fra:1 Mem:217.33M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_16
+Fra:1 Mem:217.34M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_17
+Fra:1 Mem:217.34M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_18
+Fra:1 Mem:217.35M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_19
+Fra:1 Mem:217.36M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_20
+Fra:1 Mem:217.36M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_21
+Fra:1 Mem:217.37M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_22
+Fra:1 Mem:217.37M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Module_23
+Fra:1 Mem:217.38M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_Cornice_0.28
+Fra:1 Mem:217.56M (Peak 231.75M) | Time:00:00.15 | Syncing Wall_GoldBorder_0.28
+Fra:1 Mem:217.75M (Peak 231.75M) | Time:00:00.16 | Syncing Wall_Cornice_9.6
+Fra:1 Mem:217.93M (Peak 231.75M) | Time:00:00.16 | Syncing Wall_GoldBorder_9.6
+Fra:1 Mem:218.11M (Peak 231.75M) | Time:00:00.16 | Syncing Pillar_Module_00
+Fra:1 Mem:218.13M (Peak 231.75M) | Time:00:00.16 | Syncing Pillar_GoldTrim_00
+Fra:1 Mem:218.49M (Peak 231.75M) | Time:00:00.16 | Syncing Pillar_Module_01
+Fra:1 Mem:218.51M (Peak 231.75M) | Time:00:00.16 | Syncing Pillar_GoldTrim_01
+Fra:1 Mem:218.87M (Peak 231.75M) | Time:00:00.16 | Syncing Pillar_Module_02
+Fra:1 Mem:218.89M (Peak 231.75M) | Time:00:00.16 | Syncing Pillar_GoldTrim_02
+Fra:1 Mem:219.25M (Peak 231.75M) | Time:00:00.17 | Syncing Pillar_Module_03
+Fra:1 Mem:219.27M (Peak 231.75M) | Time:00:00.17 | Syncing Pillar_GoldTrim_03
+Fra:1 Mem:219.63M (Peak 231.75M) | Time:00:00.17 | Syncing Pillar_Module_04
+Fra:1 Mem:219.65M (Peak 231.75M) | Time:00:00.17 | Syncing Pillar_GoldTrim_04
+Fra:1 Mem:220.01M (Peak 231.75M) | Time:00:00.17 | Syncing Pillar_Module_05
+Fra:1 Mem:220.03M (Peak 231.75M) | Time:00:00.17 | Syncing Pillar_GoldTrim_05
+Fra:1 Mem:220.39M (Peak 231.75M) | Time:00:00.18 | Syncing Pillar_Module_06
+Fra:1 Mem:220.41M (Peak 231.75M) | Time:00:00.18 | Syncing Pillar_GoldTrim_06
+Fra:1 Mem:220.77M (Peak 231.75M) | Time:00:00.18 | Syncing Pillar_Module_07
+Fra:1 Mem:220.79M (Peak 231.75M) | Time:00:00.18 | Syncing Pillar_GoldTrim_07
+Fra:1 Mem:221.15M (Peak 231.75M) | Time:00:00.18 | Syncing Wall_Alcove_Back_00
+Fra:1 Mem:221.15M (Peak 231.75M) | Time:00:00.18 | Syncing Wall_Alcove_Arch_00
+Fra:1 Mem:221.18M (Peak 231.75M) | Time:00:00.18 | Syncing Wall_Emblem_00
+Fra:1 Mem:221.54M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Back_01
+Fra:1 Mem:221.55M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Arch_01
+Fra:1 Mem:221.57M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Emblem_01
+Fra:1 Mem:221.94M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Back_02
+Fra:1 Mem:221.94M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Arch_02
+Fra:1 Mem:221.96M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Emblem_02
+Fra:1 Mem:222.33M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Back_03
+Fra:1 Mem:222.33M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Arch_03
+Fra:1 Mem:222.36M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Emblem_03
+Fra:1 Mem:222.72M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Back_04
+Fra:1 Mem:222.73M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Alcove_Arch_04
+Fra:1 Mem:222.75M (Peak 231.75M) | Time:00:00.19 | Syncing Wall_Emblem_04
+Fra:1 Mem:223.11M (Peak 231.75M) | Time:00:00.20 | Syncing Wall_Alcove_Back_05
+Fra:1 Mem:223.12M (Peak 231.75M) | Time:00:00.20 | Syncing Wall_Alcove_Arch_05
+Fra:1 Mem:223.14M (Peak 231.75M) | Time:00:00.20 | Syncing Wall_Emblem_05
+Fra:1 Mem:223.51M (Peak 231.75M) | Time:00:00.20 | Syncing Ceiling_Dome
+Fra:1 Mem:224.13M (Peak 231.75M) | Time:00:00.21 | Syncing Ceiling_Ribs
+Fra:1 Mem:224.85M (Peak 231.75M) | Time:00:00.21 | Syncing Ceiling_GoldInlay_3.8
+Fra:1 Mem:225.03M (Peak 231.75M) | Time:00:00.21 | Syncing Ceiling_GoldInlay_7.4
+Fra:1 Mem:225.21M (Peak 231.75M) | Time:00:00.21 | Syncing Ceiling_GoldInlay_10.7
+Fra:1 Mem:225.40M (Peak 231.75M) | Time:00:00.22 | Syncing Ceiling_GoldInlay_14.7
+Fra:1 Mem:225.58M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Base_00
+Fra:1 Mem:225.59M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Bowl_00
+Fra:1 Mem:225.63M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Base_01
+Fra:1 Mem:225.65M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Bowl_01
+Fra:1 Mem:225.68M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Base_02
+Fra:1 Mem:225.70M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Bowl_02
+Fra:1 Mem:225.74M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Base_03
+Fra:1 Mem:225.75M (Peak 231.75M) | Time:00:00.22 | Syncing Brazier_Bowl_03
+Fra:1 Mem:225.79M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_11
+Fra:1 Mem:225.79M (Peak 231.75M) | Time:00:00.22 | Syncing CrystalBody
+Fra:1 Mem:225.79M (Peak 231.75M) | Time:00:00.22 | Syncing CrystalStage
+Fra:1 Mem:225.79M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_10
+Fra:1 Mem:225.80M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_09
+Fra:1 Mem:225.81M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_08
+Fra:1 Mem:225.81M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_07
+Fra:1 Mem:225.81M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_06
+Fra:1 Mem:225.82M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_05
+Fra:1 Mem:225.82M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_04
+Fra:1 Mem:225.83M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_03
+Fra:1 Mem:225.83M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_02
+Fra:1 Mem:225.83M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_01
+Fra:1 Mem:225.84M (Peak 231.75M) | Time:00:00.22 | Syncing Shard_00
+Fra:1 Mem:225.84M (Peak 231.75M) | Time:00:00.22 | Syncing RingOuter
+Fra:1 Mem:226.35M (Peak 231.75M) | Time:00:00.22 | Syncing RingMiddle
+Fra:1 Mem:226.83M (Peak 231.75M) | Time:00:00.22 | Syncing RingInner
+Fra:1 Mem:227.32M (Peak 231.75M) | Time:00:00.22 | Syncing RingFloor
+Fra:1 Mem:228.07M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingIce_B_03
+Fra:1 Mem:228.07M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingIce_B_01
+Fra:1 Mem:228.08M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingIce_A_02
+Fra:1 Mem:228.08M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingIce_A_00
+Fra:1 Mem:228.09M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingGold_03
+Fra:1 Mem:228.09M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingGold_02
+Fra:1 Mem:228.10M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingGold_01
+Fra:1 Mem:228.10M (Peak 231.75M) | Time:00:00.22 | Syncing FloatingGold_00
+Fra:1 Mem:228.14M (Peak 231.75M) | Time:00:00.22 | Syncing REFERENCE_Flame_00
+Fra:1 Mem:228.14M (Peak 231.75M) | Time:00:00.22 | Syncing REF_Amber_00
+Fra:1 Mem:228.14M (Peak 231.75M) | Time:00:00.22 | Syncing REFERENCE_Flame_01
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_Amber_01
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REFERENCE_Flame_02
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_Amber_02
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REFERENCE_Flame_03
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_Amber_03
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_CoolCrystal
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_BlueRoom
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_WarmFront
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_BackRead
+Fra:1 Mem:228.15M (Peak 231.75M) | Time:00:00.22 | Syncing REF_GameCamera
+Fra:1 Mem:223.76M (Peak 231.75M) | Time:00:00.23 | Rendering 1 / 49 samples
+Fra:1 Mem:216.20M (Peak 231.75M) | Time:00:00.51 | Rendering 26 / 48 samples
+Fra:1 Mem:216.20M (Peak 231.75M) | Time:00:00.70 | Rendering 48 / 48 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\F08\Preview\crystal_closeup.png'
+ Time: 00:00.81 (Saving: 00:00.10)
+
+Fra:1 Mem:212.45M (Peak 212.63M) | Time:00:00.01 | Syncing F08_UndergroundAltar
+Fra:1 Mem:212.45M (Peak 212.63M) | Time:00:00.01 | Syncing Altar_Steps_Lower
+Fra:1 Mem:212.50M (Peak 212.69M) | Time:00:00.01 | Syncing Altar_Steps_Upper
+Fra:1 Mem:212.54M (Peak 212.69M) | Time:00:00.01 | Syncing Altar_Base
+Fra:1 Mem:212.58M (Peak 212.69M) | Time:00:00.01 | Syncing Altar_Inlay_Metal_00
+Fra:1 Mem:212.76M (Peak 212.93M) | Time:00:00.01 | Syncing Altar_Inlay_Metal_01
+Fra:1 Mem:212.95M (Peak 213.11M) | Time:00:00.02 | Syncing Altar_Inlay_Metal_02
+Fra:1 Mem:213.13M (Peak 213.30M) | Time:00:00.02 | Syncing Altar_Inlay_Metal_03
+Fra:1 Mem:213.31M (Peak 213.48M) | Time:00:00.02 | Syncing Altar_Inlay_Metal_04
+Fra:1 Mem:213.49M (Peak 213.66M) | Time:00:00.02 | Syncing Altar_Inlay_Emission_00
+Fra:1 Mem:213.61M (Peak 213.71M) | Time:00:00.02 | Syncing Altar_Inlay_Emission_01
+Fra:1 Mem:213.72M (Peak 213.72M) | Time:00:00.02 | Syncing Altar_Inlay_Emission_02
+Fra:1 Mem:213.83M (Peak 213.83M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_00
+Fra:1 Mem:213.84M (Peak 213.84M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_01
+Fra:1 Mem:213.84M (Peak 213.84M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_02
+Fra:1 Mem:213.85M (Peak 213.85M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_03
+Fra:1 Mem:213.86M (Peak 213.86M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_04
+Fra:1 Mem:213.86M (Peak 213.86M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_05
+Fra:1 Mem:213.87M (Peak 213.87M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_06
+Fra:1 Mem:213.87M (Peak 213.87M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_07
+Fra:1 Mem:213.88M (Peak 213.88M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_08
+Fra:1 Mem:213.88M (Peak 213.89M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_09
+Fra:1 Mem:213.89M (Peak 213.89M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_10
+Fra:1 Mem:213.90M (Peak 213.90M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_11
+Fra:1 Mem:213.90M (Peak 213.90M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_12
+Fra:1 Mem:213.91M (Peak 213.91M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_13
+Fra:1 Mem:213.91M (Peak 213.91M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_14
+Fra:1 Mem:213.92M (Peak 213.92M) | Time:00:00.02 | Syncing Altar_Inlay_MetalTick_15
+Fra:1 Mem:213.93M (Peak 213.93M) | Time:00:00.02 | Syncing Floor_Module_00
+Fra:1 Mem:213.93M (Peak 213.93M) | Time:00:00.02 | Syncing Floor_Module_01
+Fra:1 Mem:213.94M (Peak 213.94M) | Time:00:00.02 | Syncing Floor_Module_02
+Fra:1 Mem:213.94M (Peak 213.94M) | Time:00:00.02 | Syncing Floor_Module_03
+Fra:1 Mem:213.95M (Peak 213.95M) | Time:00:00.02 | Syncing Floor_Module_04
+Fra:1 Mem:213.95M (Peak 213.96M) | Time:00:00.02 | Syncing Floor_Module_05
+Fra:1 Mem:213.96M (Peak 213.96M) | Time:00:00.02 | Syncing Floor_Module_06
+Fra:1 Mem:213.97M (Peak 213.97M) | Time:00:00.02 | Syncing Floor_Module_07
+Fra:1 Mem:213.97M (Peak 213.97M) | Time:00:00.02 | Syncing Floor_Module_08
+Fra:1 Mem:213.98M (Peak 213.98M) | Time:00:00.02 | Syncing Floor_Module_09
+Fra:1 Mem:213.99M (Peak 213.99M) | Time:00:00.02 | Syncing Floor_Module_10
+Fra:1 Mem:213.99M (Peak 213.99M) | Time:00:00.02 | Syncing Floor_Module_11
+Fra:1 Mem:214.00M (Peak 214.00M) | Time:00:00.02 | Syncing Floor_Module_12
+Fra:1 Mem:214.00M (Peak 214.00M) | Time:00:00.02 | Syncing Floor_Module_13
+Fra:1 Mem:214.01M (Peak 214.01M) | Time:00:00.02 | Syncing Floor_Module_14
+Fra:1 Mem:214.01M (Peak 214.02M) | Time:00:00.02 | Syncing Floor_Module_15
+Fra:1 Mem:214.02M (Peak 214.02M) | Time:00:00.02 | Syncing Floor_Module_16
+Fra:1 Mem:214.03M (Peak 214.03M) | Time:00:00.02 | Syncing Floor_Module_17
+Fra:1 Mem:214.03M (Peak 214.03M) | Time:00:00.02 | Syncing Floor_Module_18
+Fra:1 Mem:214.04M (Peak 214.04M) | Time:00:00.02 | Syncing Floor_Module_19
+Fra:1 Mem:214.04M (Peak 214.04M) | Time:00:00.02 | Syncing Floor_Module_20
+Fra:1 Mem:214.05M (Peak 214.05M) | Time:00:00.02 | Syncing Floor_Module_21
+Fra:1 Mem:214.06M (Peak 214.06M) | Time:00:00.02 | Syncing Floor_Module_22
+Fra:1 Mem:214.06M (Peak 214.06M) | Time:00:00.02 | Syncing Floor_Module_23
+Fra:1 Mem:214.07M (Peak 214.07M) | Time:00:00.02 | Syncing Wall_Module_06
+Fra:1 Mem:214.07M (Peak 214.07M) | Time:00:00.02 | Syncing Wall_Module_07
+Fra:1 Mem:214.08M (Peak 214.08M) | Time:00:00.02 | Syncing Wall_Module_08
+Fra:1 Mem:214.08M (Peak 214.09M) | Time:00:00.02 | Syncing Wall_Module_09
+Fra:1 Mem:214.09M (Peak 214.09M) | Time:00:00.02 | Syncing Wall_Module_10
+Fra:1 Mem:214.10M (Peak 214.10M) | Time:00:00.02 | Syncing Wall_Module_11
+Fra:1 Mem:214.10M (Peak 214.10M) | Time:00:00.02 | Syncing Wall_Module_12
+Fra:1 Mem:214.11M (Peak 214.11M) | Time:00:00.02 | Syncing Wall_Module_13
+Fra:1 Mem:214.11M (Peak 214.12M) | Time:00:00.02 | Syncing Wall_Module_14
+Fra:1 Mem:214.12M (Peak 214.12M) | Time:00:00.03 | Syncing Wall_Module_15
+Fra:1 Mem:214.13M (Peak 214.13M) | Time:00:00.03 | Syncing Wall_Module_16
+Fra:1 Mem:214.13M (Peak 214.13M) | Time:00:00.03 | Syncing Wall_Module_17
+Fra:1 Mem:214.14M (Peak 214.14M) | Time:00:00.03 | Syncing Wall_Cornice_0.28
+Fra:1 Mem:214.32M (Peak 214.49M) | Time:00:00.03 | Syncing Wall_GoldBorder_0.28
+Fra:1 Mem:214.51M (Peak 214.67M) | Time:00:00.03 | Syncing Wall_Cornice_9.6
+Fra:1 Mem:214.69M (Peak 214.86M) | Time:00:00.03 | Syncing Wall_GoldBorder_9.6
+Fra:1 Mem:214.87M (Peak 215.04M) | Time:00:00.03 | Syncing Pillar_Module_00
+Fra:1 Mem:214.89M (Peak 215.04M) | Time:00:00.03 | Syncing Pillar_GoldTrim_00
+Fra:1 Mem:215.25M (Peak 215.59M) | Time:00:00.03 | Syncing Pillar_Module_01
+Fra:1 Mem:215.27M (Peak 215.59M) | Time:00:00.03 | Syncing Pillar_GoldTrim_01
+Fra:1 Mem:215.63M (Peak 215.97M) | Time:00:00.04 | Syncing Pillar_Module_02
+Fra:1 Mem:215.65M (Peak 215.97M) | Time:00:00.04 | Syncing Pillar_GoldTrim_02
+Fra:1 Mem:216.01M (Peak 216.35M) | Time:00:00.04 | Syncing Pillar_Module_03
+Fra:1 Mem:216.03M (Peak 216.35M) | Time:00:00.04 | Syncing Pillar_GoldTrim_03
+Fra:1 Mem:216.39M (Peak 216.73M) | Time:00:00.05 | Syncing Pillar_Module_04
+Fra:1 Mem:216.41M (Peak 216.73M) | Time:00:00.05 | Syncing Pillar_GoldTrim_04
+Fra:1 Mem:216.77M (Peak 217.11M) | Time:00:00.05 | Syncing Pillar_Module_05
+Fra:1 Mem:216.79M (Peak 217.11M) | Time:00:00.05 | Syncing Pillar_GoldTrim_05
+Fra:1 Mem:217.15M (Peak 217.49M) | Time:00:00.05 | Syncing Pillar_Module_06
+Fra:1 Mem:217.17M (Peak 217.49M) | Time:00:00.05 | Syncing Pillar_GoldTrim_06
+Fra:1 Mem:217.53M (Peak 217.87M) | Time:00:00.06 | Syncing Pillar_Module_07
+Fra:1 Mem:217.55M (Peak 217.87M) | Time:00:00.06 | Syncing Pillar_GoldTrim_07
+Fra:1 Mem:217.91M (Peak 218.25M) | Time:00:00.06 | Syncing Wall_Alcove_Back_02
+Fra:1 Mem:217.91M (Peak 218.25M) | Time:00:00.06 | Syncing Wall_Alcove_Arch_02
+Fra:1 Mem:217.94M (Peak 218.25M) | Time:00:00.06 | Syncing Wall_Emblem_02
+Fra:1 Mem:218.30M (Peak 218.64M) | Time:00:00.06 | Syncing Wall_Alcove_Back_03
+Fra:1 Mem:218.31M (Peak 218.64M) | Time:00:00.06 | Syncing Wall_Alcove_Arch_03
+Fra:1 Mem:218.33M (Peak 218.64M) | Time:00:00.07 | Syncing Wall_Emblem_03
+Fra:1 Mem:218.69M (Peak 219.04M) | Time:00:00.07 | Syncing Wall_Alcove_Back_04
+Fra:1 Mem:218.70M (Peak 219.04M) | Time:00:00.07 | Syncing Wall_Alcove_Arch_04
+Fra:1 Mem:218.72M (Peak 219.04M) | Time:00:00.07 | Syncing Wall_Emblem_04
+Fra:1 Mem:219.09M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Base_00
+Fra:1 Mem:219.10M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Bowl_00
+Fra:1 Mem:219.14M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Base_01
+Fra:1 Mem:219.15M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Bowl_01
+Fra:1 Mem:219.19M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Base_02
+Fra:1 Mem:219.20M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Bowl_02
+Fra:1 Mem:219.24M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Base_03
+Fra:1 Mem:219.26M (Peak 219.43M) | Time:00:00.07 | Syncing Brazier_Bowl_03
+Fra:1 Mem:219.30M (Peak 219.43M) | Time:00:00.07 | Syncing Shard_11
+Fra:1 Mem:219.30M (Peak 219.51M) | Time:00:00.08 | Syncing CrystalBody
+Fra:1 Mem:219.30M (Peak 219.51M) | Time:00:00.08 | Syncing CrystalStage
+Fra:1 Mem:219.30M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_10
+Fra:1 Mem:219.31M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_09
+Fra:1 Mem:219.31M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_08
+Fra:1 Mem:219.31M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_07
+Fra:1 Mem:219.32M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_06
+Fra:1 Mem:219.32M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_05
+Fra:1 Mem:219.33M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_04
+Fra:1 Mem:219.33M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_03
+Fra:1 Mem:219.33M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_02
+Fra:1 Mem:219.34M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_01
+Fra:1 Mem:219.34M (Peak 219.51M) | Time:00:00.08 | Syncing Shard_00
+Fra:1 Mem:219.35M (Peak 219.51M) | Time:00:00.08 | Syncing RingOuter
+Fra:1 Mem:219.85M (Peak 219.88M) | Time:00:00.08 | Syncing RingMiddle
+Fra:1 Mem:220.34M (Peak 220.36M) | Time:00:00.08 | Syncing RingInner
+Fra:1 Mem:220.83M (Peak 220.85M) | Time:00:00.08 | Syncing RingFloor
+Fra:1 Mem:221.57M (Peak 221.61M) | Time:00:00.08 | Syncing FloatingIce_B_03
+Fra:1 Mem:221.58M (Peak 221.78M) | Time:00:00.08 | Syncing FloatingIce_B_01
+Fra:1 Mem:221.58M (Peak 221.78M) | Time:00:00.08 | Syncing FloatingIce_A_02
+Fra:1 Mem:221.59M (Peak 221.78M) | Time:00:00.08 | Syncing FloatingIce_A_00
+Fra:1 Mem:221.59M (Peak 221.78M) | Time:00:00.08 | Syncing FloatingGold_03
+Fra:1 Mem:221.60M (Peak 221.78M) | Time:00:00.08 | Syncing FloatingGold_02
+Fra:1 Mem:221.60M (Peak 221.78M) | Time:00:00.08 | Syncing FloatingGold_01
+Fra:1 Mem:221.61M (Peak 221.78M) | Time:00:00.08 | Syncing FloatingGold_00
+Fra:1 Mem:221.64M (Peak 221.78M) | Time:00:00.08 | Syncing REFERENCE_Flame_00
+Fra:1 Mem:221.65M (Peak 221.84M) | Time:00:00.08 | Syncing REF_Amber_00
+Fra:1 Mem:221.65M (Peak 221.84M) | Time:00:00.08 | Syncing REFERENCE_Flame_01
+Fra:1 Mem:221.65M (Peak 221.84M) | Time:00:00.08 | Syncing REF_Amber_01
+Fra:1 Mem:221.65M (Peak 221.84M) | Time:00:00.08 | Syncing REFERENCE_Flame_02
+Fra:1 Mem:221.65M (Peak 221.84M) | Time:00:00.08 | Syncing REF_Amber_02
+Fra:1 Mem:221.66M (Peak 221.84M) | Time:00:00.08 | Syncing REFERENCE_Flame_03
+Fra:1 Mem:221.66M (Peak 221.84M) | Time:00:00.08 | Syncing REF_Amber_03
+Fra:1 Mem:221.66M (Peak 221.84M) | Time:00:00.08 | Syncing REF_CoolCrystal
+Fra:1 Mem:221.66M (Peak 221.84M) | Time:00:00.08 | Syncing REF_BlueRoom
+Fra:1 Mem:221.66M (Peak 221.84M) | Time:00:00.08 | Syncing REF_WarmFront
+Fra:1 Mem:221.66M (Peak 221.84M) | Time:00:00.08 | Syncing REF_BackRead
+Fra:1 Mem:221.66M (Peak 221.84M) | Time:00:00.08 | Syncing REF_GameCamera
+Fra:1 Mem:218.50M (Peak 221.84M) | Time:00:00.08 | Rendering 1 / 49 samples
+Fra:1 Mem:212.93M (Peak 221.84M) | Time:00:00.29 | Rendering 26 / 48 samples
+Fra:1 Mem:212.93M (Peak 221.84M) | Time:00:00.44 | Rendering 48 / 48 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\F08\Preview\side_structure.png'
+ Time: 00:00.55 (Saving: 00:00.09)
+
+Info: Total files 10 | Changed 10 | Failed 0
+Info: Saved "F08_UndergroundAltar_v001.blend"
+Info: Saved "F08_UndergroundAltar_v001.blend"
+
+FBX export starting... 'D:\\vibe\\这次一定出\\ArtSource\\Scenes\\F08\\Models\\F08_UndergroundAltar_v001.fbx'
+FBX export prepare: Wrapping Objects...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Data (lamps, cameras, empties)...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Meshes...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping ShapeKeys...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Armatures...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping World...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Materials...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Textures...
+	Done (0.015625 sec)
+
+FBX export prepare: Wrapping Animations...
+	Done (0.000000 sec)
+
+FBX export prepare: Generating templates...
+	Done (0.000000 sec)
+
+FBX export prepare: Generating Connections...
+	Done (0.000000 sec)
+
+FBX export fetch empties (1)...
+	Done (0.000000 sec)
+
+FBX export fetch lamps (0)...
+	Done (0.000000 sec)
+
+FBX export fetch cameras (0)...
+	Done (0.000000 sec)
+
+FBX export fetch meshes (127)...
+	Done (0.093750 sec)
+
+FBX export fetch objects (128)...
+	Done (0.015625 sec)
+
+FBX export fetch remaining...
+	Done (0.000000 sec)
+
+FBX export fetch animations...
+	Done (0.000000 sec)
+
+export finished in 0.1250 sec.
+FBX Import: start importing D:\vibe\这次一定出\ArtSource\Scenes\F08\Models\F08_UndergroundAltar_v001.fbx
+FBX version: 7400
+	FBX import: Prepare...
+		Done (0.000000 sec)
+
+	FBX import: Templates...
+		Done (0.000000 sec)
+
+	FBX import: Nodes...
+		Done (0.000000 sec)
+
+	FBX import: Connections...
+		Done (0.000000 sec)
+
+	FBX import: Meshes...
+		Done (0.203125 sec)
+
+	FBX import: Materials & Textures...
+		Done (0.000000 sec)
+
+	FBX import: Cameras & Lamps...
+		Done (0.000000 sec)
+
+	FBX import: Objects & Armatures...
+		Done (0.000000 sec)
+
+	FBX import: ShapeKeys...
+		Done (0.000000 sec)
+
+	FBX import: Assign materials...
+		Done (0.000000 sec)
+
+	FBX import: Assign textures...
+		Done (0.031250 sec)
+
+	FBX import: Cycles z-offset workaround...
+		Done (0.000000 sec)
+
+	Done (0.265625 sec)
+
+Import finished.
+F08 actual environment FBX export/reimport checks passed
+
+Blender quit

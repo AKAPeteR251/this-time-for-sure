@@ -1,0 +1,1032 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+namespace ThisTime.Game
+{
+    [Serializable]
+    public sealed class PrototypePortrait
+    {
+        public string characterId;
+        public Sprite portrait;
+        public Sprite thumbnail;
+    }
+
+    public sealed class PrototypeGame : MonoBehaviour
+    {
+        [Header("按角色 ID 替换占位图")]
+        public List<PrototypePortrait> portraits = new List<PrototypePortrait>();
+        [Header("首轮揭晓节奏")]
+        public float normalRevealSeconds = 0.9f;
+        public float ssrRevealSeconds = 1.8f;
+        public float urRevealSeconds = 2.6f;
+        [Header("UI 样式与独立验收")]
+        public PrototypeUITheme theme;
+        public bool useFixedMock;
+
+        private IPrototypeUIAdapter game;
+        private readonly Dictionary<string, GameObject> screens = new Dictionary<string, GameObject>();
+        private Color background { get { return theme.background; } }
+        private Color panel { get { return theme.panel; } }
+        private Font font;
+        private Font titleFont;
+        private Text summarySubtitle;
+        private RectTransform sidebar;
+        private RectTransform navigationUnderline;
+        private RectTransform body;
+        private Text resources;
+        private Text hint;
+        private FastRevealView fastReveal;
+        private RectTransform summaryCards;
+        private RectTransform collectionCards;
+        private RectTransform detailCard;
+        private Text detailInfo;
+        private Text summaryHeading;
+        private Button singleButton;
+        private Button tenButton;
+        private Button summaryTenButton;
+        private List<PrototypePull> lastResults;
+        private Coroutine revealRoutine;
+        private string currentScreen;
+        private string detailReturn = "Summary";
+        private bool isPreview;
+        private bool busy;
+        private float revealSpeed = 1;
+        private RectTransform modal;
+        private RectTransform header;
+        private CanvasGroup detailChrome;
+        private Button restoreUI;
+        private Button refillButton;
+        private Button summarySingleButton;
+        private Text collectionHeading;
+        private GameObject previousFocus;
+        private bool HasArt { get { return theme.summonBackground != null; } }
+        private readonly Dictionary<Sprite, Sprite> croppedButtons = new Dictionary<Sprite, Sprite>();
+
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+        private static void StartInTemplateScene()
+        {
+            if (FindObjectOfType<PrototypeGame>() == null)
+                new GameObject("PlayablePrototype").AddComponent<PrototypeGame>();
+        }
+
+        private void Awake()
+        {
+            if (theme == null) theme = ScriptableObject.CreateInstance<PrototypeUITheme>();
+            game = useFixedMock ? (IPrototypeUIAdapter)new FixedPrototypeUIAdapter() : new MemoryPrototypeUIAdapter();
+            font = Font.CreateDynamicFontFromOSFont(new[] { "Microsoft YaHei", "SimHei", "Arial" }, 28);
+            if (HasArt) font = Font.CreateDynamicFontFromOSFont(new[] { "SimSun", "STSong", "Microsoft YaHei" }, 28);
+            titleFont = Font.CreateDynamicFontFromOSFont(new[] { "STZhongsong", "SimSun", "Microsoft YaHei" }, 64);
+            if (FindObjectOfType<Camera>() == null)
+            {
+                var cameraObject = new GameObject("PrototypeCamera", typeof(Camera));
+                cameraObject.transform.SetParent(transform, false);
+                Camera camera = cameraObject.GetComponent<Camera>();
+                camera.clearFlags = CameraClearFlags.SolidColor;
+                camera.backgroundColor = background;
+                camera.orthographic = true;
+            }
+            BuildInterface();
+            ShowSummon();
+        }
+
+        private void Update()
+        {
+            if (!Input.GetKeyDown(KeyCode.Escape)) return;
+            if (modal.gameObject.activeSelf) CloseRules();
+            else if (currentScreen == "Detail")
+            {
+                if (detailChrome.alpha < 0.5f) ToggleDetailUI();
+                else ShowScreen(detailReturn);
+            }
+            else if (currentScreen == "Collection") ShowSummon();
+        }
+
+        private void BuildInterface()
+        {
+            var canvasObject = new GameObject("PrototypeCanvas", typeof(RectTransform), typeof(Canvas),
+                typeof(CanvasScaler), typeof(GraphicRaycaster));
+            canvasObject.transform.SetParent(transform, false);
+            canvasObject.GetComponent<Canvas>().renderMode = RenderMode.ScreenSpaceOverlay;
+            var scaler = canvasObject.GetComponent<CanvasScaler>();
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = new Vector2(1920, 1080);
+            scaler.matchWidthOrHeight = 0.5f;
+            RectTransform root = canvasObject.GetComponent<RectTransform>();
+            RectTransform backdrop = Surface(root, "Background", background, 0, 0, 1, 1);
+            if (HasArt)
+            {
+                Image image = backdrop.GetComponent<Image>();
+                image.sprite = theme.summonBackground;
+                image.color = Color.white;
+                var fill = backdrop.gameObject.AddComponent<AspectRatioFitter>();
+                fill.aspectMode = AspectRatioFitter.AspectMode.EnvelopeParent;
+                fill.aspectRatio = 16f / 9f;
+                Surface(root, "BackgroundTint", new Color(0.015f, 0.035f, 0.08f, 0.08f), 0, 0, 1, 1);
+            }
+
+            if (FindObjectOfType<EventSystem>() == null)
+                new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
+
+            header = Surface(root, "Header", HasArt ? new Color(0.02f, 0.04f, 0.09f, 0.90f) : panel, 0, 0.90f, 1, 1);
+            Surface(header, "BrassRule", theme.primary, 0.02f, 0, 0.98f, 0.012f);
+            Label(header, "这次一定出", 34, 0.03f, 0.34f, 0.28f, 0.85f, TextAnchor.MiddleLeft);
+            Label(header, useFixedMock ? "UI MOCK / 固定数据" : "常驻角色池 · 本轮收藏", 17,
+                0.03f, 0.07f, 0.28f, 0.32f, TextAnchor.MiddleLeft).color = theme.muted;
+            if (theme.informationPanel != null)
+            {
+                RectTransform hud = SpriteSurface(header, "ResourcePanel", theme.informationPanel, 0.29f, 0.11f, 0.75f, 0.89f, false);
+                hud.GetComponent<Image>().type = Image.Type.Sliced;
+            }
+            resources = Label(header, "", 25, 0.33f, 0.25f, 0.73f, 0.75f, TextAnchor.MiddleLeft);
+            if (theme.currencyIcon != null) SpriteSurface(header, "CurrencyIcon", theme.currencyIcon, 0.30f, 0.23f, 0.325f, 0.77f, true);
+            refillButton = ActionButton(header, "免费补充 +10", 0.77f, 0.20f, 0.97f, 0.80f,
+                () => { game.Refill(); UpdateResources(); hint.text = "资源已补充，可以继续召唤。"; });
+            body = Rect(root, "Pages", 0.02f, 0.025f, 0.98f, 0.88f);
+            if (HasArt)
+            {
+                Clear(header);
+                header.anchorMin = new Vector2(0, 0.915f);
+                Surface(header, "BrassRule", theme.primary, 0, 0, 1, 0.014f);
+                Title(header, "这次一定出", 49, 0.045f, 0.13f, 0.30f, 0.95f, TextAnchor.MiddleLeft);
+                SpriteSurface(header, "LogoStar", theme.summonIcon, 0.012f, 0.1f, 0.047f, 0.94f, true);
+                Navigation(header, "召唤", 0.415f, 0.10f, 0.495f, 0.96f, ShowSummon);
+                Label(header, "|", 26, 0.495f, 0.2f, 0.512f, 0.94f).color = theme.muted;
+                Navigation(header, "图鉴", 0.512f, 0.10f, 0.60f, 0.96f, OpenCollection);
+                navigationUnderline = Surface(header, "TabRule", theme.primary, 0.42f, 0.18f, 0.495f, 0.20f);
+                resources = Label(header, "", 28, 0.822f, 0.15f, 0.925f, 0.91f);
+                SpriteSurface(header, "Currency", theme.currencyIcon, 0.789f, 0.12f, 0.819f, 0.93f, true);
+                refillButton = ActionButton(header, "+10", 0.93f, 0.23f, 0.985f, 0.82f,
+                    () => { game.Refill(); UpdateResources(); hint.text = "资源已补充，可以继续召唤。"; });
+                sidebar = Surface(root, "NavigationRail", new Color(0.025f, 0.045f, 0.08f, 0.74f), 0, 0, 0.066f, 0.915f);
+                Surface(sidebar, "BrassRule", theme.primary, 0.986f, 0, 1, 1);
+                SpriteSurface(sidebar, "SummonSymbol", theme.summonIcon, 0.1f, 0.865f, 0.9f, 0.95f, true);
+                Navigation(sidebar, "召唤", 0.04f, 0.79f, 0.96f, 0.87f, ShowSummon);
+                SpriteSurface(sidebar, "CollectionSymbol", theme.collectionIcon, 0.1f, 0.69f, 0.9f, 0.78f, true);
+                Navigation(sidebar, "图鉴", 0.04f, 0.615f, 0.96f, 0.695f, OpenCollection);
+                body.anchorMin = new Vector2(0.066f, 0.015f);
+                body.anchorMax = new Vector2(1, 0.915f);
+            }
+
+            BuildSummon();
+            BuildReveal();
+            BuildSummary();
+            BuildDetail();
+            BuildCollection();
+            BuildRules(root);
+        }
+
+        private void BuildSummon()
+        {
+            if (HasArt) { BuildArtSummon(); return; }
+            RectTransform page = Page("Summon");
+            Label(page, "01 / 常驻召唤", 22, 0.06f, 0.88f, 0.55f, 0.96f, TextAnchor.MiddleLeft).color = theme.muted;
+            Label(page, "星界回响", 64, 0.06f, 0.70f, 0.55f, 0.88f, TextAnchor.MiddleLeft);
+            Label(page, "与星光相遇", 28, 0.06f, 0.63f, 0.55f, 0.71f, TextAnchor.MiddleLeft).color = theme.primary;
+            Label(page, "愿这一次的光，\n停留在你喜欢的人身上。", 39,
+                0.06f, 0.39f, 0.53f, 0.61f, TextAnchor.MiddleLeft);
+            Surface(page, "ArtworkStage", panel, 0.61f, 0.22f, 0.96f, 0.97f);
+            Card(page, game.Cards[9], 0.64f, 0.24f, 0.93f, 0.94f, null, false);
+            Label(page, "保底 / 共鸣 / 新手赠礼：尚未接入", 21,
+                0.06f, 0.31f, 0.57f, 0.39f, TextAnchor.MiddleLeft).color = theme.muted;
+            hint = Label(page, "选择单抽或十连，开始第一次召唤。", 23,
+                0.06f, 0.22f, 0.58f, 0.31f, TextAnchor.MiddleLeft);
+            singleButton = ActionButton(page, "单次召唤 · 1", 0.06f, 0.07f, 0.25f, 0.18f, () => Summon(1));
+            tenButton = ActionButton(page, "十次召唤 · 10", 0.27f, 0.07f, 0.49f, 0.18f, () => Summon(10));
+            tenButton.GetComponent<Image>().color = theme.primary;
+            tenButton.GetComponentInChildren<Text>().color = background;
+            ActionButton(page, "收藏", 0.51f, 0.07f, 0.62f, 0.18f, OpenCollection);
+            ActionButton(page, "规则", 0.64f, 0.07f, 0.73f, 0.18f, OpenRules);
+            ActionButton(page, "预览 SSR", 0.75f, 0.07f, 0.85f, 0.18f, () => Preview("SSR001"));
+            ActionButton(page, "预览 UR", 0.87f, 0.07f, 0.97f, 0.18f, () => Preview("UR001"));
+        }
+
+        private void BuildArtSummon()
+        {
+            RectTransform page = Page("Summon");
+            SpriteSurface(page, "IceMage", theme.summonCharacter, 0.18f, -0.77f, 1.04f, 1.12f, true);
+            Title(page, "常驻召唤", 112, 0.036f, 0.57f, 0.39f, 0.76f, TextAnchor.MiddleLeft);
+            PrototypeCard featured = game.Cards.Find(card => card.Id == "SSR001");
+            Title(page, featured.Name, 59, 0.036f, 0.48f, 0.36f, 0.59f, TextAnchor.MiddleLeft).color = theme.rare;
+            Surface(page, "FeaturedRule", theme.primary, 0.17f, 0.519f, 0.30f, 0.521f);
+            ActionButton(page, "概率说明  ›", 0.036f, 0.385f, 0.168f, 0.448f, OpenRules);
+            Label(page, "常驻角色池", 29, 0.025f, 0.005f, 0.22f, 0.075f, TextAnchor.MiddleLeft).color = theme.muted;
+            hint = Label(page, "基础随机 · 保底与共鸣尚未接入", 18,
+                0.025f, 0.075f, 0.46f, 0.11f, TextAnchor.MiddleLeft);
+            singleButton = ActionButton(page, "单次召唤\n消耗 1", 0.64f, 0.055f, 0.79f, 0.18f, () => Summon(1));
+            tenButton = ActionButton(page, "十连召唤\n消耗 10", 0.81f, 0.055f, 0.98f, 0.19f, () => Summon(10));
+            singleButton.GetComponentInChildren<Text>().fontSize = 34;
+            tenButton.GetComponentInChildren<Text>().fontSize = 36;
+            SetPrimary(tenButton);
+        }
+
+        private void BuildReveal()
+        {
+            RectTransform page = Page("Reveal");
+            fastReveal = new FastRevealView(page, theme, font, titleFont);
+            ActionButton(page, "跳过揭晓", 0.77f, 0.02f, 0.96f, 0.12f, SkipReveal);
+            ActionButton(page, "加速", 0.56f, 0.02f, 0.74f, 0.12f, () => revealSpeed = 4);
+        }
+        private void BuildSummary()
+        {
+            RectTransform page = Page("Summary");
+            if (HasArt)
+            {
+                summaryHeading = Title(page, "召唤结果", 78, 0.28f, 0.90f, 0.72f, 0.998f);
+                summarySubtitle = Label(page, "十连召唤", 32, 0.38f, 0.856f, 0.62f, 0.91f);
+                Surface(page, "TitleRuleLeft", theme.primary, 0.37f, 0.873f, 0.435f, 0.875f);
+                Surface(page, "TitleRuleRight", theme.primary, 0.565f, 0.873f, 0.63f, 0.875f);
+                summaryCards = Rect(page, "ResultCards", 0.07f, 0.145f, 0.93f, 0.85f);
+                ActionButton(page, "查看图鉴  ›", 0.014f, 0.005f, 0.15f, 0.067f, OpenCollection);
+                ActionButton(page, "返回召唤", 0.608f, 0.018f, 0.777f, 0.103f, ShowSummon);
+                summaryTenButton = ActionButton(page, "再来十连\n消耗 10", 0.793f, 0.005f, 0.974f, 0.115f, () => Summon(10));
+                summaryTenButton.GetComponentInChildren<Text>().fontSize = 33;
+                SetPrimary(summaryTenButton);
+                return;
+            }
+            if (HasArt) Surface(page, "ReadingTint", new Color(0.015f, 0.035f, 0.08f, 0.68f), 0, 0, 1, 1);
+            summaryHeading = Label(page, "召唤结果", 38, 0.05f, 0.87f, 0.95f, 0.99f);
+            summaryCards = Rect(page, "ResultCards", 0.05f, HasArt ? 0.15f : 0.19f, 0.95f, 0.87f);
+            Label(page, "点击任意卡牌欣赏", 23, 0.25f, 0.115f, 0.75f, 0.15f);
+            summarySingleButton = ActionButton(page, "再单抽一次", 0.10f, 0.01f, 0.29f, 0.12f, () => Summon(1));
+            summaryTenButton = ActionButton(page, "再来十连", 0.31f, 0.01f, 0.50f, 0.12f, () => Summon(10));
+            if (HasArt) SetPrimary(summaryTenButton);
+            ActionButton(page, "查看收藏", 0.52f, 0.01f, 0.71f, 0.12f, OpenCollection);
+            ActionButton(page, "返回召唤", 0.73f, 0.01f, 0.92f, 0.12f, ShowSummon);
+        }
+
+        private void BuildDetail()
+        {
+            RectTransform page = Page("Detail");
+            detailCard = Rect(page, "Artwork", 0.06f, 0.04f, 0.49f, 0.97f);
+            RectTransform chrome = Surface(page, "DetailInformation", HasArt ? new Color(0.02f, 0.04f, 0.09f, 0.93f) : panel, 0.54f, 0.07f, 0.96f, 0.93f);
+            if (HasArt)
+            {
+                Surface(chrome, "TopRule", theme.primary, 0.04f, 0.98f, 0.96f, 0.984f);
+                Surface(chrome, "BottomRule", theme.primary, 0.04f, 0.014f, 0.96f, 0.018f);
+            }
+            detailChrome = chrome.gameObject.AddComponent<CanvasGroup>();
+            detailInfo = Label(chrome, "", 34, 0.08f, 0.35f, 0.92f, 0.91f, TextAnchor.MiddleLeft);
+            ActionButton(chrome, "隐藏界面 · 欣赏", 0.08f, 0.22f, 0.92f, 0.32f, ToggleDetailUI);
+            ActionButton(chrome, "返回", 0.08f, 0.08f, 0.92f, 0.18f, () => ShowScreen(detailReturn));
+            restoreUI = ActionButton(page, "显示界面 · Esc", 0.77f, 0.01f, 0.97f, 0.09f, ToggleDetailUI);
+            restoreUI.gameObject.SetActive(false);
+        }
+
+        private void BuildCollection()
+        {
+            RectTransform page = Page("Collection");
+            if (HasArt) Surface(page, "ReadingTint", new Color(0.015f, 0.035f, 0.08f, 0.75f), 0, 0, 1, 1);
+            collectionHeading = Label(page, "本轮收藏", 38, 0.05f, 0.87f, 0.95f, 0.99f);
+            collectionCards = Rect(page, "CollectionCards", 0.04f, 0.18f, 0.96f, 0.85f);
+            Label(page, "本轮获得的角色会点亮，点击可查看详情。", 23, 0.18f, 0.11f, 0.82f, 0.17f);
+            ActionButton(page, "返回召唤", 0.37f, 0.01f, 0.63f, 0.11f, ShowSummon);
+        }
+
+        private void Summon(int count)
+        {
+            if (busy || modal.gameObject.activeSelf) return;
+            if (game.Currency < count)
+            {
+                ShowSummon();
+                hint.text = "资源不足，点击右上角免费补充 +10。";
+                return;
+            }
+            isPreview = false;
+            busy = true;
+            lastResults = game.Draw(count);
+            UpdateResources();
+            revealRoutine = StartCoroutine(Reveal());
+        }
+
+        private void Preview(string characterId)
+        {
+            if (busy) return;
+            busy = true;
+            isPreview = true;
+            lastResults = new List<PrototypePull>
+            {
+                new PrototypePull { Card = game.Cards.Find(card => card.Id == characterId) }
+            };
+            revealRoutine = StartCoroutine(Reveal());
+        }
+
+        private IEnumerator Reveal()
+        {
+            ShowScreen("Reveal");
+            refillButton.interactable = false;
+            revealSpeed = 1;
+            PrototypeCard highest = lastResults[0].Card;
+            foreach (PrototypePull pull in lastResults)
+                if (pull.Card.Rarity > highest.Rarity) highest = pull.Card;
+            float duration = highest.Rarity == CardRarity.UR ? urRevealSeconds
+                : highest.Rarity == CardRarity.SSR ? ssrRevealSeconds : normalRevealSeconds;
+            PrototypePortrait binding = portraits.Find(item => item.characterId == highest.Id);
+            Sprite portrait = highest.Id == "SSR001" && theme.summonCharacter != null
+                ? theme.summonCharacter : binding == null ? null : binding.portrait;
+            fastReveal.Begin(highest, portrait);
+            float elapsed = 0;
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime * revealSpeed;
+                fastReveal.Animate(Mathf.Clamp01(elapsed / Mathf.Max(0.01f, duration)));
+                yield return null;
+            }
+            fastReveal.Finish();
+            revealRoutine = null;
+            ShowSummary();
+        }
+
+        private void SkipReveal()
+        {
+            if (!busy || lastResults == null) return;
+            if (revealRoutine != null) StopCoroutine(revealRoutine);
+            revealRoutine = null;
+            fastReveal.Finish();
+            ShowSummary();
+        }
+        private void ShowSummary()
+        {
+            busy = false;
+            refillButton.interactable = true;
+            UpdateResources();
+            Clear(summaryCards);
+            summaryHeading.text = HasArt ? "召唤结果" : (isPreview ? "高级预览 · 不消耗资源 / 不计入收藏" : "召唤结果 · " + lastResults.Count + " 张");
+            if (summarySubtitle != null) summarySubtitle.text = isPreview ? "角色预览" : lastResults.Count == 10 ? "十连召唤" : "单次召唤";
+            if (lastResults.Count == 1)
+            {
+                PrototypePull pull = lastResults[0];
+                Card(summaryCards, pull.Card, 0.40f, 0.01f, 0.60f, 0.97f,
+                    () => OpenDetail(pull.Card, "Summary"), pull.IsNew);
+            }
+            else
+            {
+                for (int i = 0; i < lastResults.Count; i++)
+                {
+                    PrototypePull pull = lastResults[i];
+                    float x = (i % 5) * 0.20f;
+                    float y = i < 5 ? 0.51f : 0.01f;
+                    Card(summaryCards, pull.Card, x + (HasArt ? 0.01f : 0.04f), y, x + (HasArt ? 0.19f : 0.16f), y + 0.47f,
+                        () => OpenDetail(pull.Card, "Summary"), pull.IsNew);
+                }
+            }
+            ShowScreen("Summary");
+        }
+
+        private void OpenDetail(PrototypeCard card, string returnScreen)
+        {
+            detailReturn = returnScreen;
+            Clear(detailCard);
+            detailCard.anchorMin = new Vector2(0.06f, 0.04f);
+            detailCard.anchorMax = new Vector2(0.49f, 0.97f);
+            if (HasArt && card.Id == "SSR001" && theme.summonCharacter != null)
+                SpriteSurface(detailCard, "IceMageDetail", theme.summonCharacter, 0, 0, 1, 1, true);
+            else Card(detailCard, card, 0, 0, 1, 1, null, false, false);
+            detailInfo.text = card.Name + "\n" + card.Title + "\n\n"
+                + card.Rarity + "  ·  " + card.Id + "\n"
+                + "普通版 · 本轮获得 " + game.CountOf(card.Id) + " 张\n\n"
+                + (game.CountOf(card.Id) == 0 ? "预览 · 尚未收录\n" : "已收录 · 本次运行内收藏\n")
+                + "共鸣 / 桌面展示：尚未接入";
+            detailChrome.alpha = 1;
+            detailChrome.interactable = detailChrome.blocksRaycasts = true;
+            restoreUI.gameObject.SetActive(false);
+            ShowScreen("Detail");
+        }
+
+        private void OpenCollection()
+        {
+            Clear(collectionCards);
+            collectionHeading.text = "本轮收藏 · " + game.CollectedCharacters + " / " + game.Cards.Count;
+            for (int i = 0; i < game.Cards.Count; i++)
+            {
+                PrototypeCard card = game.Cards[i];
+                float x = (i % 6) / 6f;
+                float y = i < 6 ? 0.51f : 0.01f;
+                bool owned = game.CountOf(card.Id) > 0;
+                RectTransform tile = Card(collectionCards, card, x + 0.025f, y,
+                    x + 0.14f, y + 0.47f,
+                    owned ? (Action)(() => OpenDetail(card, "Collection")) : null, false);
+                if (!owned)
+                {
+                    tile.gameObject.AddComponent<CanvasGroup>().alpha = 0.24f;
+                    Label(tile, "未收录", 21, 0.10f, 0.35f, 0.90f, 0.60f);
+                }
+            }
+            ShowScreen("Collection");
+        }
+
+        private void ShowSummon()
+        {
+            ShowScreen("Summon");
+            UpdateResources();
+        }
+
+        private void ShowScreen(string name)
+        {
+            foreach (var screen in screens) screen.Value.SetActive(screen.Key == name);
+            currentScreen = name;
+            if (navigationUnderline != null)
+            {
+                bool collection = name == "Collection" || (name == "Detail" && detailReturn == "Collection");
+                navigationUnderline.anchorMin = new Vector2(collection ? 0.522f : 0.42f, 0.18f);
+                navigationUnderline.anchorMax = new Vector2(collection ? 0.59f : 0.495f, 0.20f);
+            }
+            header.gameObject.SetActive(true);
+            if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
+        }
+
+        private void UpdateResources()
+        {
+            resources.text = HasArt ? "召唤资源  " + game.Currency : "召唤资源 " + game.Currency + "    收录 "
+                + game.CollectedCharacters + "/12    累计 " + game.TotalPulls + " 抽";
+            if (singleButton != null) singleButton.interactable = !busy;
+            if (tenButton != null) tenButton.interactable = !busy;
+            if (summarySingleButton != null) summarySingleButton.interactable = !busy;
+            if (summaryTenButton != null) summaryTenButton.interactable = !busy;
+        }
+
+        private void ToggleDetailUI()
+        {
+            bool show = detailChrome.alpha < 0.5f;
+            detailChrome.alpha = show ? 1 : 0;
+            detailChrome.interactable = detailChrome.blocksRaycasts = show;
+            header.gameObject.SetActive(show);
+            if (sidebar != null) sidebar.gameObject.SetActive(show);
+            restoreUI.gameObject.SetActive(!show);
+            foreach (Text label in detailCard.GetComponentsInChildren<Text>(true)) label.enabled = show;
+            detailCard.anchorMin = show ? new Vector2(0.06f, 0.04f) : new Vector2(0.05f, 0.03f);
+            detailCard.anchorMax = show ? new Vector2(0.49f, 0.97f) : new Vector2(0.95f, 0.97f);
+        }
+
+        private void BuildRules(RectTransform root)
+        {
+            modal = Surface(root, "RulesModal", new Color(0, 0, 0, 0.82f), 0, 0, 1, 1);
+            modal.GetComponent<Image>().raycastTarget = true;
+            RectTransform window = Surface(modal, "RulesWindow", panel, 0.21f, 0.13f, 0.79f, 0.87f);
+            Label(window, "召唤说明", 38, 0.08f, 0.82f, 0.92f, 0.96f, TextAnchor.MiddleLeft);
+            Label(window, game.RulesDescription, 26, 0.08f, 0.19f, 0.92f, 0.81f, TextAnchor.UpperLeft);
+            ActionButton(window, "知道了 · Esc", 0.60f, 0.04f, 0.92f, 0.15f, CloseRules);
+            modal.gameObject.SetActive(false);
+        }
+
+        private void OpenRules()
+        {
+            if (busy) return;
+            previousFocus = EventSystem.current != null ? EventSystem.current.currentSelectedGameObject : null;
+            modal.gameObject.SetActive(true);
+            if (EventSystem.current != null)
+                EventSystem.current.SetSelectedGameObject(modal.GetComponentInChildren<Button>().gameObject);
+        }
+
+        private void CloseRules()
+        {
+            modal.gameObject.SetActive(false);
+            if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(previousFocus);
+        }
+
+        private RectTransform Page(string name)
+        {
+            RectTransform page = Rect(body, name, 0, 0, 1, 1);
+            screens.Add(name, page.gameObject);
+            return page;
+        }
+
+        private RectTransform Card(Transform parent, PrototypeCard card,
+            float x0, float y0, float x1, float y1, Action clicked, bool isNew, bool thumbnail = true)
+        {
+            if (theme.Frame(card.Rarity) != null)
+                return ArtCard(parent, card, x0, y0, x1, y1, clicked, isNew, thumbnail);
+            Color rarityColor = RarityColor(card.Rarity);
+            RectTransform slot = Rect(parent, card.Id + "Slot", x0, y0, x1, y1);
+            RectTransform outer = Surface(slot, card.Id, rarityColor, 0, 0, 1, 1);
+            var aspect = outer.gameObject.AddComponent<AspectRatioFitter>();
+            aspect.aspectMode = AspectRatioFitter.AspectMode.FitInParent;
+            aspect.aspectRatio = 2f / 3f;
+            RectTransform inner = Surface(outer, "Artwork", Color.Lerp(panel, rarityColor, 0.13f),
+                0.025f, 0.018f, 0.975f, 0.982f);
+            PrototypePortrait binding = portraits.Find(item => item.characterId == card.Id);
+            if (binding != null && binding.portrait != null)
+            {
+                Image artwork = inner.GetComponent<Image>();
+                artwork.sprite = binding.portrait;
+                artwork.color = Color.white;
+                artwork.preserveAspect = true;
+            }
+            else
+            {
+                Label(inner, card.Rarity.ToString(), 52, 0.06f, 0.35f, 0.94f, 0.77f);
+                Label(inner, "角色立绘占位", 18, 0.08f, 0.29f, 0.92f, 0.40f);
+            }
+            RectTransform caption = Surface(inner, "Caption", new Color(background.r, background.g, background.b, 0.92f),
+                0, 0, 1, 0.22f);
+            Label(caption, card.Name, 27, 0.04f, 0.38f, 0.96f, 0.97f);
+            Label(caption, card.Title, 16, 0.02f, 0.02f, 0.98f, 0.40f);
+            Label(inner, card.Rarity.ToString(), 21, 0.55f, 0.84f, 0.95f, 0.98f, TextAnchor.MiddleRight).color = rarityColor;
+            if (isNew) Label(inner, "NEW", 21, 0.04f, 0.84f, 0.52f, 0.98f, TextAnchor.MiddleLeft).color = theme.primary;
+            if (clicked != null)
+            {
+                outer.GetComponent<Image>().raycastTarget = true;
+                Button button = outer.gameObject.AddComponent<Button>();
+                button.targetGraphic = outer.GetComponent<Image>();
+                button.onClick.AddListener(() => clicked());
+            }
+            return outer;
+        }
+
+        private RectTransform ArtCard(Transform parent, PrototypeCard card, float x0, float y0, float x1, float y1,
+            Action clicked, bool isNew, bool thumbnail)
+        {
+            if (thumbnail) return ConceptCard(parent, card, x0, y0, x1, y1, clicked, isNew);
+            RectTransform slot = Rect(parent, card.Id + "Slot", x0, y0, x1, y1);
+            RectTransform outer = Surface(slot, card.Id, Color.clear, 0, 0, 1, 1);
+            Sprite frame = theme.Frame(card.Rarity);
+            var fit = outer.gameObject.AddComponent<AspectRatioFitter>();
+            fit.aspectMode = AspectRatioFitter.AspectMode.FitInParent;
+            fit.aspectRatio = frame.rect.width / frame.rect.height;
+            Rect window = theme.Window(card.Rarity);
+            RectTransform viewport = Surface(outer, "CardWindow", new Color(0.025f, 0.05f, 0.10f),
+                window.xMin, window.yMin, window.xMax, window.yMax);
+            PrototypePortrait binding = portraits.Find(item => item.characterId == card.Id);
+            Sprite image = binding == null ? null : (thumbnail && binding.thumbnail != null ? binding.thumbnail : binding.portrait);
+            if (image != null) SpriteSurface(viewport, "Portrait", image, 0, 0, 1, 1, true);
+            else
+            {
+                Label(viewport, card.Rarity.ToString(), 44, 0.06f, 0.34f, 0.94f, 0.70f).color = RarityColor(card.Rarity);
+                Label(viewport, "立绘待补充", 18, 0.04f, 0.22f, 0.96f, 0.36f);
+            }
+            RectTransform frameImage = SpriteSurface(outer, "RarityFrame", frame, 0, 0, 1, 1, false);
+            RectTransform caption = Surface(outer, "Caption", new Color(0.015f, 0.03f, 0.06f, 0.90f),
+                window.xMin, window.yMin, window.xMax, window.yMin + 0.12f);
+            Label(caption, card.Name, 24, 0.03f, 0.03f, 0.97f, 0.98f);
+            RectTransform badge = Surface(outer, "RarityBadge", new Color(0.015f, 0.025f, 0.055f, 0.96f),
+                0.65f, 0.76f, 0.88f, 0.86f);
+            Label(badge, card.Rarity.ToString(), 22, 0, 0, 1, 1).color = RarityColor(card.Rarity);
+            if (isNew)
+            {
+                RectTransform newBadge = Surface(outer, "NewBadge", new Color(0.50f, 0.11f, 0.055f, 0.96f),
+                    0.10f, 0.76f, 0.43f, 0.86f);
+                Label(newBadge, "NEW", 20, 0, 0, 1, 1);
+            }
+            if (clicked != null)
+            {
+                outer.GetComponent<Image>().raycastTarget = true;
+                Button button = outer.gameObject.AddComponent<Button>();
+                button.targetGraphic = frameImage.GetComponent<Image>();
+                button.onClick.AddListener(() => clicked());
+            }
+            return outer;
+        }
+
+        private RectTransform SpriteSurface(Transform parent, string name, Sprite sprite,
+            float x0, float y0, float x1, float y1, bool preserve)
+        {
+            // Fitter 会接管其对象的锚点，因此先用独立 Slot 保留调用者定义的区域。
+            RectTransform slot = preserve && sprite != null ? Rect(parent, name + "Slot", x0, y0, x1, y1) : null;
+            RectTransform rect = slot != null ? Surface(slot, name, Color.white, 0, 0, 1, 1)
+                : Surface(parent, name, Color.white, x0, y0, x1, y1);
+            Image image = rect.GetComponent<Image>();
+            image.sprite = sprite;
+            if (preserve && sprite != null)
+            {
+                var fit = rect.gameObject.AddComponent<AspectRatioFitter>();
+                fit.aspectMode = AspectRatioFitter.AspectMode.FitInParent;
+                fit.aspectRatio = sprite.rect.width / sprite.rect.height;
+            }
+            return rect;
+        }
+
+        private void SetPrimary(Button button)
+        {
+            if (HasArt)
+            {
+                button.targetGraphic.color = new Color(1, 0.87f, 0.62f, 1);
+                button.GetComponentInChildren<Text>().color = new Color(0.16f, 0.10f, 0.035f);
+                return;
+            }
+            if (theme.buttonPrimary != null)
+            {
+                button.targetGraphic.GetComponent<Image>().sprite = ButtonSprite(theme.buttonPrimary);
+                button.targetGraphic.color = Color.white;
+                button.GetComponentInChildren<Text>().color = new Color(0.14f, 0.10f, 0.055f);
+            }
+        }
+
+        private Sprite ButtonSprite(Sprite source)
+        {
+            Sprite cropped;
+            if (croppedButtons.TryGetValue(source, out cropped)) return cropped;
+            // 使用同一底图裁掉透明留白；不修改 PNG，不做 SpriteSwap。
+            Rect pixels = source == theme.buttonPrimary ? new Rect(20, 35, 792, 210) : new Rect(20, 31, 792, 210);
+            cropped = Sprite.Create(source.texture, pixels, new Vector2(0.5f, 0.5f), 100, 0,
+                SpriteMeshType.FullRect, new Vector4(90, 40, 90, 40));
+            cropped.name = source.name + "_VisibleBody";
+            croppedButtons.Add(source, cropped);
+            return cropped;
+        }
+
+        private void OnDestroy()
+        {
+            foreach (Sprite sprite in croppedButtons.Values) Destroy(sprite);
+        }
+
+        private RectTransform Rect(Transform parent, string name, float x0, float y0, float x1, float y1)
+        {
+            var element = new GameObject(name, typeof(RectTransform));
+            element.transform.SetParent(parent, false);
+            var rect = element.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(x0, y0);
+            rect.anchorMax = new Vector2(x1, y1);
+            rect.offsetMin = rect.offsetMax = Vector2.zero;
+            return rect;
+        }
+
+        private RectTransform Surface(Transform parent, string name, Color color,
+            float x0, float y0, float x1, float y1)
+        {
+            RectTransform rect = Rect(parent, name, x0, y0, x1, y1);
+            Image image = rect.gameObject.AddComponent<Image>();
+            image.color = color;
+            image.raycastTarget = false;
+            return rect;
+        }
+
+        private Text Label(Transform parent, string text, int size,
+            float x0, float y0, float x1, float y1, TextAnchor alignment = TextAnchor.MiddleCenter)
+        {
+            RectTransform rect = Rect(parent, "Text", x0, y0, x1, y1);
+            Text label = rect.gameObject.AddComponent<Text>();
+            label.font = font;
+            label.text = text;
+            label.fontSize = size;
+            label.color = theme.text;
+            label.resizeTextForBestFit = !HasArt;
+            label.resizeTextMinSize = Mathf.Min(size, 14);
+            label.resizeTextMaxSize = size;
+            label.alignment = alignment;
+            label.raycastTarget = false;
+            return label;
+        }
+
+        private Text Title(Transform parent, string text, int size, float x0, float y0, float x1, float y1,
+            TextAnchor alignment = TextAnchor.MiddleCenter)
+        {
+            Text label = Label(parent, text, size, x0, y0, x1, y1, alignment);
+            label.font = titleFont;
+            label.color = theme.text;
+            return label;
+        }
+
+        private void Navigation(Transform parent, string text, float x0, float y0, float x1, float y1, Action action)
+        {
+            RectTransform rect = Surface(parent, text + "Tab", Color.clear, x0, y0, x1, y1);
+            Image image = rect.GetComponent<Image>();
+            image.raycastTarget = true;
+            Button button = rect.gameObject.AddComponent<Button>();
+            button.targetGraphic = image;
+            button.onClick.AddListener(() => { if (!busy) action(); });
+            Label(rect, text, 31, 0, 0, 1, 1);
+        }
+
+        private RectTransform ConceptCard(Transform parent, PrototypeCard card, float x0, float y0, float x1, float y1,
+            Action clicked, bool isNew)
+        {
+            // 总览按概念图使用宽卡窗；立绘等比填满并裁切，不拉伸原图。
+            RectTransform outer = Surface(parent, card.Id, RarityColor(card.Rarity), x0, y0, x1, y1);
+            RectTransform window = Surface(outer, "PortraitWindow", background, 0.012f, 0.009f, 0.988f, 0.991f);
+            PrototypePortrait binding = portraits.Find(item => item.characterId == card.Id);
+            if (binding != null && binding.portrait != null)
+            {
+                RectTransform image = Rect(window, "Portrait", 0, 0, 1, 1);
+                RawImage artwork = image.gameObject.AddComponent<RawImage>();
+                artwork.texture = binding.portrait.texture;
+                artwork.uvRect = theme.summaryPortraitCrop;
+                artwork.raycastTarget = false;
+                var fit = image.gameObject.AddComponent<AspectRatioFitter>();
+                fit.aspectMode = AspectRatioFitter.AspectMode.FitInParent;
+                fit.aspectRatio = binding.portrait.rect.width * theme.summaryPortraitCrop.width
+                    / (binding.portrait.rect.height * theme.summaryPortraitCrop.height);
+            }
+            else
+            {
+                Label(window, card.Rarity.ToString(), 45, 0.1f, 0.4f, 0.9f, 0.75f).color = RarityColor(card.Rarity);
+                Label(window, "立绘待补充", 20, 0.05f, 0.25f, 0.95f, 0.4f);
+            }
+            Color trim = card.Rarity == CardRarity.R ? new Color(0.28f, 0.64f, 1)
+                : card.Rarity == CardRarity.SR ? new Color(0.75f, 0.35f, 1)
+                : card.Rarity == CardRarity.SSR ? new Color(1, 0.75f, 0.36f) : new Color(1, 0.65f, 0.30f);
+            Image outline = outer.GetComponent<Image>();
+            outline.color = trim;
+            Surface(outer, "TopTrim", trim, 0, 0.985f, 1, 1);
+            Surface(outer, "BottomTrim", trim, 0, 0, 1, 0.015f);
+            Title(outer, "◇", 19, -0.025f, 0.94f, 0.09f, 1.04f).color = trim;
+            Title(outer, "◇", 19, 0.91f, -0.04f, 1.025f, 0.06f).color = trim;
+            RectTransform caption = Surface(outer, "Caption", new Color(0.02f, 0.035f, 0.085f, 0.86f), 0.014f, 0.015f, 0.986f, 0.145f);
+            bool compact = parent.name == "CollectionCards";
+            Sprite element = theme.ElementIcon(card.Id);
+            if (element != null) SpriteSurface(caption, "Element", element, 0.02f, 0.05f, 0.18f, 0.95f, true);
+            Title(caption, card.Name, compact ? 22 : 27, element != null ? 0.18f : 0.03f, 0, 0.98f, 1);
+            RectTransform badge = Surface(outer, "RarityBadge", new Color(0.025f, 0.025f, 0.07f, 0.94f), 0.66f, 0.84f, 0.985f, 0.989f);
+            Title(badge, card.Rarity.ToString(), compact ? (card.Rarity == CardRarity.SSR ? 24 : 28)
+                : (card.Rarity == CardRarity.SSR ? 30 : 36), 0, 0, 1, 1).color = trim;
+            if (isNew)
+            {
+                RectTransform ribbon = Surface(outer, "NewRibbon", new Color(0.72f, 0.09f, 0.055f), 0.018f, 0.885f, 0.30f, 0.988f);
+                ribbon.localRotation = Quaternion.Euler(0, 0, 12);
+                Title(ribbon, "NEW", 24, 0, 0, 1, 1);
+            }
+            if (clicked != null)
+            {
+                outline.raycastTarget = true;
+                Button button = outer.gameObject.AddComponent<Button>();
+                button.targetGraphic = outline;
+                button.onClick.AddListener(() => clicked());
+            }
+            return outer;
+        }
+
+        private Button ActionButton(Transform parent, string text, float x0, float y0,
+            float x1, float y1, Action action)
+        {
+            RectTransform rect = Surface(parent, text, theme.button, x0, y0, x1, y1);
+            Image image = rect.GetComponent<Image>();
+            image.raycastTarget = true;
+            if (HasArt)
+            {
+                image.color = theme.primary;
+                RectTransform inset = Rect(rect, "ButtonInset", 0, 0, 1, 1);
+                RawImage fill = inset.gameObject.AddComponent<RawImage>();
+                fill.texture = Texture2D.whiteTexture;
+                fill.color = new Color(0.035f, 0.07f, 0.14f, 1);
+                fill.raycastTarget = false;
+                inset.offsetMin = new Vector2(2, 2);
+                inset.offsetMax = new Vector2(-2, -2);
+            }
+            else if (theme.buttonNormal != null)
+            {
+                image.sprite = ButtonSprite(theme.buttonNormal);
+                image.type = Image.Type.Sliced;
+                image.color = Color.white;
+            }
+            Button button = rect.gameObject.AddComponent<Button>();
+            button.targetGraphic = image;
+            if (HasArt) button.targetGraphic = rect.Find("ButtonInset").GetComponent<RawImage>();
+            ColorBlock colors = button.colors;
+            colors.highlightedColor = new Color(1.15f, 1.15f, 1.15f);
+            colors.pressedColor = new Color(0.75f, 0.85f, 1f);
+            colors.disabledColor = new Color(0.42f, 0.46f, 0.54f, 0.85f);
+            button.colors = colors;
+            button.onClick.AddListener(() => action());
+            Text caption = Label(rect, text, 28, 0.03f, 0.06f, 0.97f, 0.94f);
+            if (HasArt) caption.font = titleFont;
+            return button;
+        }
+
+        private Color RarityColor(CardRarity rarity)
+        {
+            return theme.Rarity(rarity);
+        }
+
+        private static void Clear(Transform parent)
+        {
+            foreach (Transform child in parent)
+            {
+                child.gameObject.SetActive(false);
+                Destroy(child.gameObject);
+            }
+        }
+
+        // UI 场景专用复验：走实际按钮绑定，使用独立内存状态。
+        public IEnumerator RunArtCheck(Action<string> completed, string folder, Action<int, int> resize)
+        {
+            var failures = new List<string>();
+            if (useFixedMock || !HasArt || portraits.Count != 6) failures.Add("必须为六卡真实内存入口");
+            if (FindObjectsOfType<EventSystem>().Length != 1 || GetComponentsInChildren<Canvas>().Length != 1)
+                failures.Add("Canvas/EventSystem必须唯一");
+            if (game.Currency != 30) failures.Add("初始30");
+            singleButton.onClick.Invoke();
+            yield return null;
+            SkipReveal();
+            if (game.Currency != 29 || lastResults.Count != 1) failures.Add("单抽29");
+            summaryTenButton.onClick.Invoke();
+            List<PrototypePull> calculated = lastResults;
+            int totalBeforeSkip = game.TotalPulls;
+            yield return null;
+            SkipReveal();
+            if (game.Currency != 19 || lastResults.Count != 10 || lastResults != calculated
+                || game.TotalPulls != totalBeforeSkip) failures.Add("十连19/跳过固定结果");
+            var seen = new HashSet<string>();
+            foreach (PrototypePull pull in lastResults)
+                if (!seen.Add(pull.Card.Id) && pull.IsNew) failures.Add("重复NEW:" + pull.Card.Id);
+            summaryCards.GetComponentInChildren<Button>().onClick.Invoke();
+            if (currentScreen != "Detail") failures.Add("点卡详情");
+            ToggleDetailUI();
+            restoreUI.onClick.Invoke();
+            if (detailChrome.alpha != 1 || !detailChrome.blocksRaycasts) failures.Add("隐藏恢复");
+            OpenCollection();
+            if (game.CollectedCharacters == 0) failures.Add("收藏");
+            ShowSummon();
+            refillButton.onClick.Invoke();
+            if (game.Currency != 29 || game.TotalPulls != 11) failures.Add("补充29");
+            int[] widths = { 1920, 1280, 1600 };
+            int[] heights = { 1080, 720, 1000 };
+            for (int i = 0; i < widths.Length; i++)
+            {
+                resize(widths[i], heights[i]);
+                yield return null;
+                yield return null;
+                ShowSummon();
+                yield return CaptureUI(folder, "summon", failures);
+                OpenRules();
+                yield return CaptureUI(folder, "rules", failures);
+                CloseRules();
+                lastResults = calculated;
+                isPreview = false;
+                ShowSummary();
+                yield return CaptureUI(folder, "summary_random", failures);
+                OpenDetail(game.Cards.Find(card => card.Id == "SSR001"), "Summary");
+                yield return CaptureUI(folder, "detail_SSR001", failures);
+                ToggleDetailUI();
+                yield return CaptureUI(folder, "artwork_SSR001", failures);
+                restoreUI.onClick.Invoke();
+                OpenDetail(game.Cards.Find(card => card.Id == "UR001"), "Summary");
+                yield return CaptureUI(folder, "detail_UR001", failures);
+                OpenCollection();
+                yield return CaptureUI(folder, "collection", failures);
+                RectTransform calibration;
+                if (!screens.ContainsKey("ArtCalibration"))
+                {
+                    calibration = Page("ArtCalibration");
+                    Surface(calibration, "Backdrop", new Color(0.01f, 0.025f, 0.06f, 0.8f), 0, 0, 1, 1);
+                    Label(calibration, "六卡绑定校准 · 仅视觉预览，不计入抽卡/收藏", 28, 0.05f, 0.91f, 0.95f, 1);
+                    for (int n = 0; n < portraits.Count; n++)
+                    {
+                        PrototypeCard definition = game.Cards.Find(card => card.Id == portraits[n].characterId);
+                        float x = (n % 3) / 3f;
+                        float y = n < 3 ? 0.48f : 0;
+                        Card(calibration, definition, x + 0.035f, y, x + 0.30f, y + 0.44f, null, false);
+                    }
+                }
+                ShowScreen("ArtCalibration");
+                yield return CaptureUI(folder, "six_card_bindings", failures);
+                // 独立视觉校准：复现参考图的十卡顺序，不抽取、不入库、不改变真实结果。
+                List<PrototypePull> savedResults = lastResults;
+                string[] referenceIds = { "SSR001", "UR001", "SR002", "SR001", "R001", "SR003", "SR002", "SR001", "R001", "SSR001" };
+                lastResults = new List<PrototypePull>();
+                for (int n = 0; n < referenceIds.Length; n++) lastResults.Add(new PrototypePull
+                    { Card = game.Cards.Find(card => card.Id == referenceIds[n]), IsNew = n < 2 });
+                ShowSummary();
+                summarySubtitle.text = "十连布局预览";
+                yield return CaptureUI(folder, "concept_layout_preview", failures);
+                lastResults = savedResults;
+            }
+            ShowSummon();
+            Preview("SSR001");
+            yield return new WaitForSeconds(ssrRevealSeconds + 0.2f);
+            if (busy || currentScreen != "Summary") failures.Add("SSR自动揭晓");
+            Preview("UR001");
+            yield return null;
+            SkipReveal();
+            if (game.Currency != 29 || game.TotalPulls != 11) failures.Add("高级预览不入库");
+            completed(failures.Count == 0 ? "PASS: 真实内存30→29→19→29; 单抽/十连/跳过固定结果/NEW/详情/隐藏恢复/收藏/SSR与UR预览/六卡图/三种窗口/字体"
+                : "FAIL: " + string.Join("; ", failures));
+        }
+
+        public IEnumerator RunUICheck(Action<string> completed, string folder, Action<int, int> resize)
+        {
+            var failures = new List<string>();
+            int[] widths = { 1920, 1280, 1600 };
+            int[] heights = { 1080, 720, 1000 };
+            for (int size = 0; size < widths.Length; size++)
+            {
+                resize(widths[size], heights[size]);
+                yield return null;
+                yield return null;
+                ShowSummon();
+                yield return CaptureUI(folder, "summon", failures);
+                OpenRules();
+                yield return CaptureUI(folder, "rules", failures);
+                CloseRules();
+                int before = game.Currency;
+                singleButton.onClick.Invoke();
+                Summon(1); // 演出中的第二次请求不得扣费。
+                bool locked = busy && !singleButton.interactable && game.Currency == before - 1;
+                if (!locked) failures.Add("重复召唤锁定");
+                yield return null;
+                SkipReveal();
+                if (lastResults.Count != 1 || currentScreen != "Summary") failures.Add("单抽");
+                yield return CaptureUI(folder, "single", failures);
+                summaryTenButton.onClick.Invoke();
+                yield return null;
+                SkipReveal();
+                if (lastResults.Count != 10 || game.Currency != before - 11) failures.Add("十连/跳过");
+                yield return CaptureUI(folder, "summary", failures);
+                Button cardButton = summaryCards.GetComponentInChildren<Button>();
+                cardButton.onClick.Invoke();
+                if (currentScreen != "Detail") failures.Add("总览卡牌详情绑定");
+                yield return CaptureUI(folder, "detail", failures);
+                ToggleDetailUI();
+                if (detailChrome.blocksRaycasts || !restoreUI.gameObject.activeSelf) failures.Add("隐藏界面");
+                yield return CaptureUI(folder, "artwork", failures);
+                restoreUI.onClick.Invoke();
+                if (detailChrome.alpha != 1 || !header.gameObject.activeSelf) failures.Add("恢复界面");
+                ShowScreen(detailReturn);
+                OpenCollection();
+                yield return CaptureUI(folder, "collection", failures);
+                // 每种窗口使用相同足量资源，补充仅作用于独立 UI 场景。
+                refillButton.onClick.Invoke();
+            }
+            while (game.Currency >= 10) { Summon(10); SkipReveal(); }
+            while (game.Currency > 0) { Summon(1); SkipReveal(); }
+            int pulls = game.TotalPulls;
+            Summon(10);
+            if (game.TotalPulls != pulls || !hint.text.Contains("资源不足")) failures.Add("资源不足");
+            yield return CaptureUI(folder, "insufficient", failures);
+            refillButton.onClick.Invoke();
+            if (game.Currency != 10) failures.Add("免费补充");
+            Preview("UR001");
+            yield return null;
+            SkipReveal();
+            if (game.Currency != 10 || game.TotalPulls != pulls) failures.Add("免费预览");
+            completed(failures.Count == 0 ? "PASS: 单抽/十连/锁定/跳过/详情/隐藏恢复/收藏/不足/补充/预览/三种窗口布局/字体"
+                : "FAIL: " + string.Join("; ", failures));
+        }
+
+        private IEnumerator CaptureUI(string folder, string page, List<string> failures)
+        {
+            yield return null;
+            Canvas.ForceUpdateCanvases();
+            yield return new WaitForEndOfFrame();
+            foreach (Button button in GetComponentsInChildren<Button>())
+            {
+                if (!button.isActiveAndEnabled || !button.interactable) continue;
+                var corners = new Vector3[4];
+                button.GetComponent<RectTransform>().GetWorldCorners(corners);
+                if (corners[0].x < -1 || corners[0].y < -1 || corners[2].x > Screen.width + 1
+                    || corners[2].y > Screen.height + 1) failures.Add(page + ":按钮超出窗口:" + button.name);
+            }
+            foreach (Text text in GetComponentsInChildren<Text>())
+            {
+                if (!text.isActiveAndEnabled) continue;
+                if (text.transform.parent.name == "RarityBadge" && text.preferredWidth > text.rectTransform.rect.width + 0.5f)
+                    failures.Add(page + ":稀有度标识宽度不足:" + text.text);
+                text.font.RequestCharactersInTexture(text.text, text.fontSize, text.fontStyle);
+                foreach (char c in text.text)
+                    if (!char.IsWhiteSpace(c) && !text.font.HasCharacter(c)) failures.Add("字体缺字:" + c);
+            }
+            if (page == "concept_layout_preview" && Screen.width == 1280)
+            {
+                var lines = new List<string>();
+                foreach (Image graphic in GetComponentsInChildren<Image>())
+                    if (graphic.name == "ButtonInset" || graphic.name == "Portrait" || graphic.name == "PortraitWindow" || graphic.name == "SSR001" || graphic.name == "返回召唤")
+                        lines.Add(graphic.transform.parent.name + "/" + graphic.name + " color=" + graphic.color + " rect=" + graphic.rectTransform.rect
+                            + " depth=" + graphic.canvasRenderer.absoluteDepth + " tint=" + graphic.canvasRenderer.GetColor() + " cull=" + graphic.canvasRenderer.cull + " material=" + graphic.material.name + " shader=" + graphic.material.shader.name + " texture=" + graphic.mainTexture.name);
+                lines.Add("正文=" + font.name + "; 标题=" + titleFont.name);
+                foreach (RawImage graphic in GetComponentsInChildren<RawImage>())
+                {
+                    Mesh mesh = graphic.canvasRenderer.GetMesh();
+                    lines.Add("RAW " + graphic.transform.parent.name + "/" + graphic.name + " color=" + graphic.color + " mesh=" + mesh.vertexCount
+                        + " firstColor=" + (mesh.vertexCount > 0 ? mesh.colors32[0].ToString() : "none")
+                        + " uv=" + graphic.uvRect + " alpha=" + graphic.canvasRenderer.GetInheritedAlpha());
+                }
+                System.IO.File.WriteAllLines(System.IO.Path.Combine(folder, "visual_runtime.txt"), lines);
+            }
+            Canvas.ForceUpdateCanvases();
+            yield return null;
+            yield return new WaitForEndOfFrame();
+            Texture2D shot = ScreenCapture.CaptureScreenshotAsTexture();
+            System.IO.File.WriteAllBytes(System.IO.Path.Combine(folder,
+                Screen.width + "x" + Screen.height + "_" + page + ".png"), shot.EncodeToPNG());
+            Destroy(shot);
+        }
+
+        // 只检查首轮可玩闭环，供 Editor 菜单复验。
+        public IEnumerator RunQuickCheck(Action<string> completed, string screenshotPath)
+        {
+            yield return null;
+            singleButton.onClick.Invoke();
+            yield return new WaitForSeconds(urRevealSeconds + 0.3f);
+            bool singlePassed = currentScreen == "Summary" && lastResults.Count == 1 && game.Currency == 29;
+            OpenDetail(lastResults[0].Card, "Summary");
+            bool detailPassed = currentScreen == "Detail";
+            ShowScreen(detailReturn);
+            summaryTenButton.onClick.Invoke();
+            yield return null;
+            SkipReveal();
+            bool tenPassed = currentScreen == "Summary" && lastResults.Count == 10
+                && game.Currency == 19 && game.TotalPulls == 11;
+            OpenCollection();
+            bool collectionPassed = currentScreen == "Collection" && game.CollectedCharacters > 0;
+            ShowSummary();
+            yield return new WaitForEndOfFrame();
+            ScreenCapture.CaptureScreenshot(screenshotPath);
+            yield return null;
+            yield return null;
+            string result = "单抽=" + singlePassed + "; 详情=" + detailPassed
+                + "; 十连及跳过=" + tenPassed + "; 收藏=" + collectionPassed;
+            completed((singlePassed && detailPassed && tenPassed && collectionPassed ? "PASS: " : "FAIL: ") + result);
+        }
+    }
+}

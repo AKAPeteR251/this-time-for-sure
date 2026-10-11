@@ -1,0 +1,15 @@
+{
+  "zip_crc": "passed",
+  "bytes": 6333455,
+  "sha256": "f905f37eab084f34c66a4669031a8daca8ea7fbebaab2383dec58d9dfabede6a",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "export_edges": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

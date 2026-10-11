@@ -1,0 +1,47 @@
+Blender 2.93.4 (hash b7205031cec4 built 2021-08-31 23:48:04)
+Fra:1 Mem:29.66M (Peak 30.32M) | Time:00:00.46 | Syncing AssetCamera
+Fra:1 Mem:29.66M (Peak 30.32M) | Time:00:00.46 | Syncing Area
+Fra:1 Mem:29.66M (Peak 30.32M) | Time:00:00.46 | Syncing Shard_A
+Fra:1 Mem:30.04M (Peak 30.38M) | Time:00:00.48 | Rendering 1 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.38M) | Time:00:00.53 | Rendering 26 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.38M) | Time:00:00.54 | Rendering 51 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.38M) | Time:00:00.55 | Rendering 64 / 64 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Effects\F06\RevealBurst\reveal_burst_shard_A_v001.png'
+ Time: 00:01.05 (Saving: 00:00.48)
+
+Fra:1 Mem:30.03M (Peak 30.21M) | Time:00:00.00 | Syncing AssetCamera
+Fra:1 Mem:30.03M (Peak 30.21M) | Time:00:00.00 | Syncing Area
+Fra:1 Mem:30.03M (Peak 30.21M) | Time:00:00.00 | Syncing Shard_B
+Fra:1 Mem:30.05M (Peak 30.25M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.25M) | Time:00:00.03 | Rendering 26 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.25M) | Time:00:00.05 | Rendering 51 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.25M) | Time:00:00.06 | Rendering 64 / 64 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Effects\F06\RevealBurst\reveal_burst_shard_B_v001.png'
+ Time: 00:00.10 (Saving: 00:00.04)
+
+Fra:1 Mem:30.03M (Peak 30.21M) | Time:00:00.00 | Syncing AssetCamera
+Fra:1 Mem:30.03M (Peak 30.21M) | Time:00:00.00 | Syncing Area
+Fra:1 Mem:30.03M (Peak 30.21M) | Time:00:00.00 | Syncing Shard_C
+Fra:1 Mem:30.05M (Peak 30.25M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.25M) | Time:00:00.03 | Rendering 26 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.25M) | Time:00:00.05 | Rendering 51 / 64 samples
+Fra:1 Mem:30.04M (Peak 30.25M) | Time:00:00.05 | Rendering 64 / 64 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Effects\F06\RevealBurst\reveal_burst_shard_C_v001.png'
+ Time: 00:00.10 (Saving: 00:00.04)
+
+Fra:1 Mem:19.96M (Peak 20.13M) | Time:00:00.00 | Syncing AssetCamera
+Fra:1 Mem:19.96M (Peak 20.13M) | Time:00:00.00 | Syncing Area
+Fra:1 Mem:19.96M (Peak 20.13M) | Time:00:00.00 | Syncing SingleStreak
+Fra:1 Mem:20.15M (Peak 20.54M) | Time:00:00.22 | Rendering 1 / 64 samples
+Fra:1 Mem:20.15M (Peak 20.54M) | Time:00:00.26 | Rendering 26 / 64 samples
+Fra:1 Mem:20.15M (Peak 20.54M) | Time:00:00.28 | Rendering 51 / 64 samples
+Fra:1 Mem:20.15M (Peak 20.54M) | Time:00:00.28 | Rendering 64 / 64 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Effects\F06\RevealBurst\reveal_burst_streak_v001.png'
+ Time: 00:00.31 (Saving: 00:00.02)
+
+Info: Total files 0 | Changed 0 | Failed 0
+Info: Saved "F06_RevealBurst_v001.blend"
+Info: Saved "F06_RevealBurst_v001.blend"
+F06: 4 actual PNG assets rendered and editable master saved
+
+Blender quit

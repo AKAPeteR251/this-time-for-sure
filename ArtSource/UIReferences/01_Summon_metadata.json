@@ -1,0 +1,14 @@
+{
+  "task": "A03-UIREF",
+  "screen": "Summon",
+  "actual_size": [
+    1672,
+    941
+  ],
+  "source_path": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-67526356-34a1-4946-a997-3163d0857890.png",
+  "tool": "image_gen.imagegen",
+  "model_version": "not exposed; image2.5 not verified",
+  "prompt": "Prompts/01_Summon_prompt.txt",
+  "sha256": "645ecc617bb390b952b0d05266ef2cafbf39bb2f074d6b48957efdcdea00eff6",
+  "status": "visual_reference_pending_ui_implementation"
+}

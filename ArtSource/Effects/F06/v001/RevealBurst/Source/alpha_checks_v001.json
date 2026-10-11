@@ -1,0 +1,74 @@
+[
+  {
+    "file": "reveal_burst_shard_A_v001.png",
+    "size": [
+      512,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_bbox": [
+      158,
+      86,
+      359,
+      932
+    ],
+    "borders_alpha_zero": true,
+    "safe_margin_8_percent": true,
+    "partial_alpha_pixels": 3245,
+    "sha256": "616291837a063612f728b9747066f80d681fdb8ee18b2e495bcd0d2d5d2e0fd6"
+  },
+  {
+    "file": "reveal_burst_shard_B_v001.png",
+    "size": [
+      512,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_bbox": [
+      71,
+      92,
+      451,
+      932
+    ],
+    "borders_alpha_zero": true,
+    "safe_margin_8_percent": true,
+    "partial_alpha_pixels": 3591,
+    "sha256": "7c8d6a4ff0be33ec12d6a36bade29aa32c009d625d0f4714f81540a6014ee156"
+  },
+  {
+    "file": "reveal_burst_shard_C_v001.png",
+    "size": [
+      512,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_bbox": [
+      173,
+      86,
+      380,
+      937
+    ],
+    "borders_alpha_zero": true,
+    "safe_margin_8_percent": true,
+    "partial_alpha_pixels": 3916,
+    "sha256": "378e1025dc25c9308c1e74e4a638e68eb5f701fa6f5af0019cf923ef27cca4cd"
+  },
+  {
+    "file": "reveal_burst_streak_v001.png",
+    "size": [
+      256,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_bbox": [
+      100,
+      82,
+      156,
+      940
+    ],
+    "borders_alpha_zero": true,
+    "safe_margin_8_percent": true,
+    "partial_alpha_pixels": 19175,
+    "sha256": "6885e257b4bddcce55581c0d1f6bf0bacdd84661680fdd07b8d5f4e4a366b8ca"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "source": "Workflows/user_00348_prompt.json",
+  "changes": [
+    "original adult SSR character and glamorous active pose prompts",
+    "negative prompt adjusted for moderate skin exposure",
+    "768x1152",
+    "seed 71007011",
+    "task output prefix"
+  ],
+  "unchanged": "model, VAE, encoder, three LoRA strengths, replay node, sampler settings",
+  "task": "A01-R01",
+  "user_direction": "SSR/UR allure, motion, distinct traits; plain ordinary cards"
+}

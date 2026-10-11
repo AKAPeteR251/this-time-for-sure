@@ -1,0 +1,11 @@
+{
+  "roi": [
+    20,
+    160,
+    210,
+    540
+  ],
+  "meanAbsoluteRGBDifference": 0.0,
+  "maxRGBDifference": 0,
+  "source": "Actual Main signing and pre-seal ceremony screenshots; left background outside paper and FX"
+}

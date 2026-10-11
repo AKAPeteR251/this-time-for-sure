@@ -1,0 +1,32 @@
+[
+  {
+    "relative_model": "unet/anima_turboV11.safetensors",
+    "bytes": 4182230656,
+    "sha256": "fba11953276b57edf59d1dc4f1857ac05aa079c56f982b4d7c20298d57d3f7eb"
+  },
+  {
+    "relative_model": "clip/anima_baseV10_txt.safetensors",
+    "bytes": 1192135096,
+    "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"
+  },
+  {
+    "relative_model": "vae/qwenImage_qwenImageVAE.safetensors",
+    "bytes": 253806246,
+    "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f"
+  },
+  {
+    "relative_model": "loras/anima/Flatline.safetensors",
+    "bytes": 23071296,
+    "sha256": "8da72620fd139464131aaadcc747aafe9068e779d2c7115ddce02754fbc841b6"
+  },
+  {
+    "relative_model": "loras/anima/chen-bin_v4.0.safetensors",
+    "bytes": 91851152,
+    "sha256": "593775824aa173821e80bcf9086c6db2c498ddba817b381c0bd734a23be8c573"
+  },
+  {
+    "relative_model": "loras/anima/bakav3-000012.safetensors",
+    "bytes": 91856696,
+    "sha256": "7715e3cb75d2748845b6d37be1ebf6493c7b6682217e98fabb91ed2f95cf1d0a"
+  }
+]

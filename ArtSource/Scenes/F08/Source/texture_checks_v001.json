@@ -1,0 +1,197 @@
+{
+  "texture_count": 12,
+  "textures": [
+    {
+      "file": "altar_emission_mask_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "sha256": "1ca20f4e71a8f390ae156224e64cc6e62f13aba3ac98b15d876d05b8b453c22a"
+    },
+    {
+      "file": "antique_gold_basecolor_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "47b0aa5042c86057fda93786e838430fbd08bb34d7c672e502c157bdd79fd047"
+    },
+    {
+      "file": "antique_gold_metallic_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "sha256": "8d9954afc9cf050463c4e61ce44dc66979c492022461587b7c001cf543937282"
+    },
+    {
+      "file": "antique_gold_normal_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "e77a4cd9d3e737f0405c2d7917cfae3b25441b4e5f25370d504cf469a305b6d3"
+    },
+    {
+      "file": "antique_gold_roughness_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "sha256": "6acd5c1f235802f480fc6f77413274f3dc2d022f6ed7419ad3c2b4f3d5facfd9"
+    },
+    {
+      "file": "dust_soft_512_v001.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "sha256": "8d5bf2bef87d3ab0e5ccb42e0019d21777ee2e089690781647cbf055afb872e1"
+    },
+    {
+      "file": "flame_amber_flipbook_4x4_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "sha256": "bcf25b626c2e9ec0b770ec72e18fbd4725c17eb32007dc07473e9336008e50bf"
+    },
+    {
+      "file": "floor_mist_1024_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "a6a417b1a5b0d8b419dca5a8babba95c3942b0d0b8fed19c95283aafcfc98361"
+    },
+    {
+      "file": "stone_basecolor_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "7f8c329d942354e63004f28fb62aabb88679e47430828af50cac24a792e57244"
+    },
+    {
+      "file": "stone_metallic_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb"
+    },
+    {
+      "file": "stone_normal_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "sha256": "114f94748ef074434bf23449c7ab3ea353650c2a1426c874cacee92824e140a7"
+    },
+    {
+      "file": "stone_roughness_2048_v001.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "L",
+      "sha256": "032f4704e1b3cb2959ae129bb27ba2e5cbd450b57855884131614c1233050fac"
+    }
+  ],
+  "flame_cells": [
+    {
+      "frame": 0,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 45644
+    },
+    {
+      "frame": 1,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 45669
+    },
+    {
+      "frame": 2,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 45879
+    },
+    {
+      "frame": 3,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 46222
+    },
+    {
+      "frame": 4,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 46253
+    },
+    {
+      "frame": 5,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 45808
+    },
+    {
+      "frame": 6,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 45121
+    },
+    {
+      "frame": 7,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 44350
+    },
+    {
+      "frame": 8,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 43692
+    },
+    {
+      "frame": 9,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 43223
+    },
+    {
+      "frame": 10,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 43097
+    },
+    {
+      "frame": 11,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 43416
+    },
+    {
+      "frame": 12,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 44081
+    },
+    {
+      "frame": 13,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 44773
+    },
+    {
+      "frame": 14,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 45326
+    },
+    {
+      "frame": 15,
+      "border_alpha_zero": true,
+      "partial_alpha_pixels": 45587
+    }
+  ],
+  "flame_end_to_start_mean_alpha_change": 3.1943130493164062,
+  "loop_note": "periodic phase; compare actual GIF visually; no claim Unity particle system verified"
+}

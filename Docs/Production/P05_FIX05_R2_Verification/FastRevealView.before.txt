@@ -1,0 +1,86 @@
+using UnityEngine;
+using UnityEngine.UI;
+namespace ThisTime.Game
+{
+    // 原批次只读表现：剪影/碎屑 → 角色与名字 → 稀有度 → 新确认。
+    public sealed class FastRevealView
+    {
+        private readonly Image backdrop,artwork,silhouette,transition,veil;
+        private readonly Text identity,title,rarityLabel,newLabel,signal;
+        private readonly RectTransform artworkSlot,info;
+        private readonly RevealBurstGraphic burst;
+        private readonly RaritySigilGraphic sigil;
+        private readonly P04FeelConfig config;
+        private readonly PrototypeUITheme theme;
+        private readonly SummonAudio audio;
+        private PrototypeCard card;private bool isNew,impactPlayed;
+        public float Progress {get;private set;}
+        public float NameAlpha {get{return identity.color.a;}}
+        public float RarityAlpha {get{return rarityLabel.color.a;}}
+        public Sprite Artwork {get{return artwork.sprite;}}
+        public string CharacterId {get{return card==null?"":card.Id;}}
+        public CardRarity Rarity {get{return card.Rarity;}}
+        public FastRevealView(RectTransform page,PrototypeUITheme theme,Font font,Font titleFont,P04FeelConfig config=null,SummonAudio audio=null)
+        {
+            this.theme=theme;this.config=config;this.audio=audio;
+            backdrop=ImageAt(page,"RevealBackdrop",0,0,1,1);backdrop.color=new Color(.025f,.04f,.08f,1);
+            burst=RectAt(page,"OutwardShardsAndStars",0,0,1,1).gameObject.AddComponent<RevealBurstGraphic>();burst.raycastTarget=false;
+            artworkSlot=RectAt(page,"RevealArtworkSlot",.36f,.10f,.90f,.96f);
+            artwork=ImageAt(artworkSlot,"RevealArtwork",0,0,1,1);artwork.preserveAspect=true;
+            silhouette=ImageAt(artworkSlot,"UnknownSilhouette",.2f,.08f,.8f,.92f);
+            veil=ImageAt(page,"BlackRevealVeil",0,0,1,1);veil.color=Color.clear;
+            info=RectAt(page,"RevealInformation",.075f,.19f,.43f,.61f);
+            identity=TextAt(page,"RevealIdentity",titleFont,72,.075f,.44f,.43f,.59f);identity.alignment=TextAnchor.MiddleLeft;
+            title=TextAt(info,"CharacterTitle",font,29,0,.41f,1,.57f);title.alignment=TextAnchor.MiddleLeft;
+            rarityLabel=TextAt(info,"RarityLabel",titleFont,47,0,.18f,.34f,.40f);rarityLabel.alignment=TextAnchor.MiddleLeft;
+            sigil=RectAt(info,"OriginalRaritySigil",.37f,.17f,.61f,.42f).gameObject.AddComponent<RaritySigilGraphic>();sigil.raycastTarget=false;
+            newLabel=TextAt(info,"NewLabel",font,25,0,0,.28f,.16f);newLabel.alignment=TextAnchor.MiddleLeft;
+            signal=TextAt(page,"RevealSignal",font,22,0,0,0,0);signal.text="";
+            transition=ImageAt(page,"CardTransition",0,0,1,1);transition.color=Color.clear;
+        }
+        public void Begin(PrototypeCard result,Sprite portrait,bool newCharacter=false)
+        {
+            card=result;isNew=newCharacter;impactPlayed=false;artwork.sprite=portrait;artwork.enabled=portrait!=null;
+            silhouette.enabled=portrait==null;identity.text=card.Name;title.text=card.Title;rarityLabel.text=card.Rarity.ToString();newLabel.text=isNew?"NEW":"";
+            transition.color=Color.clear;artworkSlot.localScale=Vector3.one;artworkSlot.anchoredPosition=Vector2.zero;
+            if(audio!=null)audio.BeginCard(card.Rarity);Animate(0);
+        }
+        public void Animate(float progress)
+        {
+            Progress=Mathf.Clamp01(progress);if(card==null)return;
+            Color tint=theme.Rarity(card.Rarity);burst.signal=tint;burst.Animate(Progress);
+            float reveal=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.23f,.44f,Progress));
+            artwork.color=Color.Lerp(Color.black,Color.white,reveal);
+            var missing=silhouette.GetComponentInChildren<UICharacterSilhouette>();
+            if(missing!=null)missing.color=Color.Lerp(Color.black,new Color(.38f,.46f,.58f),reveal);
+            float zoom=card.Id=="SSR001"&&config!=null?Mathf.Lerp(config.faceZoom,1,Mathf.SmoothStep(0,1,Mathf.InverseLerp(.16f,.54f,Progress))):Mathf.Lerp(1.12f,1,reveal);
+            artworkSlot.localScale=Vector3.one*zoom;
+            if(card.Id=="SSR001"&&config!=null)
+            {
+                var root=artworkSlot.parent.GetComponent<RectTransform>();Vector2 size=artworkSlot.rect.size;
+                float aspect=artwork.sprite==null?2f/3:artwork.sprite.rect.width/artwork.sprite.rect.height;
+                Vector2 fitted=size.x/size.y>aspect?new Vector2(size.y*aspect,size.y):new Vector2(size.x,size.x/aspect);
+                Vector2 center=Vector2.Scale((artworkSlot.anchorMin+artworkSlot.anchorMax)*.5f-new Vector2(.5f,.5f),root.rect.size);
+                Vector2 target=Vector2.Scale(config.faceTarget-new Vector2(.5f,.5f),root.rect.size);
+                Vector2 face=Vector2.Scale(config.faceUv-new Vector2(.5f,.5f),fitted)*config.faceZoom;
+                float p=1-Mathf.SmoothStep(0,1,Mathf.InverseLerp(.16f,.54f,Progress));artworkSlot.anchoredPosition=(target-center-face)*p;
+            }
+            else artworkSlot.anchoredPosition=Vector2.right*(1-reveal)*30;
+            float name=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.30f,.48f,Progress));
+            identity.color=new Color(.97f,.98f,1,name);identity.rectTransform.anchoredPosition=Vector2.up*(1-name)*18;
+            title.color=new Color(.65f,.72f,.83f,Mathf.InverseLerp(.44f,.57f,Progress));
+            float rarity=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.67f,.83f,Progress));
+            rarityLabel.color=new Color(tint.r,tint.g,tint.b,rarity);sigil.color=new Color(tint.r,tint.g,tint.b,rarity);
+            sigil.rectTransform.localScale=Vector3.one*Mathf.Lerp(1.35f,1,rarity);
+            newLabel.color=new Color(1,.83f,.45f,Mathf.InverseLerp(.84f,.95f,Progress));
+            veil.color=new Color(0,0,0,(1-reveal)*.14f);
+            if(!impactPlayed&&Progress>=.30f){impactPlayed=true;if(audio!=null)audio.CardImpact(card.Rarity);}
+        }
+        public void Finish(){veil.color=transition.color=Color.clear;artworkSlot.localScale=Vector3.one;artworkSlot.anchoredPosition=Vector2.zero;if(audio!=null)audio.FinishPhase();}
+        public void TickIdle(float time){if(card!=null)burst.Animate(1);}
+        public void Transition(float progress){transition.color=new Color(.015f,.025f,.055f,Mathf.Sin(progress*Mathf.PI)*.95f);}
+        private static RectTransform RectAt(Transform p,string n,float x,float y,float xx,float yy){var r=new GameObject(n,typeof(RectTransform)).GetComponent<RectTransform>();r.SetParent(p,false);r.anchorMin=new Vector2(x,y);r.anchorMax=new Vector2(xx,yy);r.offsetMin=r.offsetMax=Vector2.zero;return r;}
+        private static Image ImageAt(Transform p,string n,float x,float y,float xx,float yy){var i=RectAt(p,n,x,y,xx,yy).gameObject.AddComponent<Image>();i.raycastTarget=false;return i;}
+        private static Text TextAt(Transform p,string n,Font f,int s,float x,float y,float xx,float yy){var t=RectAt(p,n,x,y,xx,yy).gameObject.AddComponent<Text>();t.font=f;t.fontSize=s;t.alignment=TextAnchor.MiddleCenter;t.color=Color.white;t.raycastTarget=false;return t;}
+    }
+}

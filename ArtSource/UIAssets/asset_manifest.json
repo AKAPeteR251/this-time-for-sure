@@ -1,0 +1,933 @@
+[
+  {
+    "assetId": "background_original",
+    "path": "ArtSource/UIAssets/Originals/background_v001.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "aa7c3c55b4f6e3aae7edd8b23fce871dd4d8a3693093246be5034690c77608d1",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-b5707431-e35e-41f8-91ca-f21b9bc9628a.png",
+    "status": "pending_unity_import_review"
+  },
+  {
+    "assetId": "bg_summon",
+    "path": "这次一定出/Assets/_Game/Art/Backgrounds/UI_FrozenCastle_v001.png",
+    "width": 1920,
+    "height": 1080,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "0316417e343ae54eff553e76f8dd59a3562638c5ec1bec7b71b117c922a225ee",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-b5707431-e35e-41f8-91ca-f21b9bc9628a.png",
+    "status": "pending_unity_import_review",
+    "derivation": "aspect-near landscape resample; original retained"
+  },
+  {
+    "assetId": "ice_mage_cutout_original",
+    "path": "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 561001,
+    "partly_transparent_pixels": 1011863,
+    "sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-53914325-985a-4d70-8d02-4d2b0164e02c.png",
+    "status": "pending_unity_import_review"
+  },
+  {
+    "assetId": "ui_ice_mage_character",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIIceMage/UIIceMage_character_v001.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 561001,
+    "partly_transparent_pixels": 1011863,
+    "sha256": "d83181561ae7923a5b1ec19c406fbf4d35ece1929be394421b09ab9c205dfc99",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-53914325-985a-4d70-8d02-4d2b0164e02c.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "derivation": "whole canvas fitted, no crop; UI illustration not frozen roster ID"
+  },
+  {
+    "assetId": "rarity_frames_atlas_original",
+    "path": "ArtSource/UIAssets/Originals/rarity_frames_atlas_v001.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 765419,
+    "partly_transparent_pixels": 807445,
+    "sha256": "d58b6794eca162c727fa55523e1ca96ce892079eb404605cc79b93b565d324f1",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-81d39791-9931-44e2-8a29-36952ba38758.png",
+    "status": "pending_unity_import_review"
+  },
+  {
+    "assetId": "frame_R",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_R_v002.png",
+    "width": 528,
+    "height": 736,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 232632,
+    "partly_transparent_pixels": 155976,
+    "sha256": "9b2a14f5967abacd39029c3ae1fb7c4bf370435f234c1936346f5cb343af5521",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-81d39791-9931-44e2-8a29-36952ba38758.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      0,
+      512,
+      720
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      512,
+      720
+    ],
+    "cell_near_boundary": false,
+    "center_alpha": 0
+  },
+  {
+    "assetId": "frame_SR",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_SR_v002.png",
+    "width": 528,
+    "height": 736,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 203978,
+    "partly_transparent_pixels": 184630,
+    "sha256": "d076d94da73758526eb1fff049120d4acf992fdae2b0bbeb889b035dd5f7e852",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-81d39791-9931-44e2-8a29-36952ba38758.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      512,
+      0,
+      1024,
+      720
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      512,
+      720
+    ],
+    "cell_near_boundary": false,
+    "center_alpha": 0
+  },
+  {
+    "assetId": "frame_SSR",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_SSR_v002.png",
+    "width": 528,
+    "height": 832,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 200341,
+    "partly_transparent_pixels": 238955,
+    "sha256": "f391984039faadd584eab8e1c60e9091ec7b1e1ec1481bc164d6e69377752591",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-81d39791-9931-44e2-8a29-36952ba38758.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      720,
+      512,
+      1536
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      512,
+      816
+    ],
+    "cell_near_boundary": false,
+    "center_alpha": 0
+  },
+  {
+    "assetId": "frame_UR",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_UR_v002.png",
+    "width": 527,
+    "height": 832,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 210580,
+    "partly_transparent_pixels": 227884,
+    "sha256": "3831a981f5b1291292869ead168339ef0f762bd6d054be78d5b0659c5409b4de",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-81d39791-9931-44e2-8a29-36952ba38758.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      512,
+      720,
+      1024,
+      1536
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      511,
+      816
+    ],
+    "cell_near_boundary": false,
+    "center_alpha": 0
+  },
+  {
+    "assetId": "panels_atlas_original",
+    "path": "ArtSource/UIAssets/Originals/panels_atlas_v001.png",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 591567,
+    "partly_transparent_pixels": 978088,
+    "sha256": "c8d62e3468665e50a831ca211ded09dd1a6c7b06cd6520998c4a2194d8e9f4f3",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-d5a767e3-880c-4d74-94e7-d0dccd756c64.png",
+    "status": "pending_unity_import_review"
+  },
+  {
+    "assetId": "button_normal",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_normal_v002.png",
+    "width": 832,
+    "height": 336,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 125823,
+    "partly_transparent_pixels": 152377,
+    "sha256": "1f80655b943fc54f64db4782701472bd76302ee4c814e653314ad822c81c62c3",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-d5a767e3-880c-4d74-94e7-d0dccd756c64.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      0,
+      887,
+      296
+    ],
+    "trim_alpha_bbox": [
+      61,
+      20,
+      846,
+      296
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "button_selected",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_selected_v002.png",
+    "width": 832,
+    "height": 336,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 119978,
+    "partly_transparent_pixels": 159478,
+    "sha256": "07e021ddd8a61e378f2aa9b458417754df6c5f5c5de5d745986eef944b2ca8fc",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-d5a767e3-880c-4d74-94e7-d0dccd756c64.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      887,
+      0,
+      1774,
+      296
+    ],
+    "trim_alpha_bbox": [
+      41,
+      31,
+      828,
+      296
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "button_pressed",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_pressed_v002.png",
+    "width": 832,
+    "height": 336,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 110975,
+    "partly_transparent_pixels": 168562,
+    "sha256": "9372333f08e849d41797ab2d3f67e2521ba2096c791ab393119184dd980f0d77",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-d5a767e3-880c-4d74-94e7-d0dccd756c64.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      296,
+      887,
+      591
+    ],
+    "trim_alpha_bbox": [
+      59,
+      0,
+      846,
+      295
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "button_disabled",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_disabled_v002.png",
+    "width": 832,
+    "height": 336,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 117926,
+    "partly_transparent_pixels": 160848,
+    "sha256": "691a6378ab1f03b908318fa0a694adde138af7d07fc66ea138794358dbf34d18",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-d5a767e3-880c-4d74-94e7-d0dccd756c64.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      887,
+      296,
+      1774,
+      591
+    ],
+    "trim_alpha_bbox": [
+      39,
+      0,
+      828,
+      295
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "panel_information",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/panel_information_v001.png",
+    "width": 955,
+    "height": 312,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 72660,
+    "partly_transparent_pixels": 223854,
+    "sha256": "0cab697c945018f97e8dec4360224ac265a29e41e24155a69f7922ba30b6c872",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-d5a767e3-880c-4d74-94e7-d0dccd756c64.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      591,
+      1064,
+      887
+    ],
+    "trim_alpha_bbox": [
+      65,
+      0,
+      1004,
+      296
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "panel_tooltip",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/panel_tooltip_v001.png",
+    "width": 648,
+    "height": 252,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 50131,
+    "partly_transparent_pixels": 112969,
+    "sha256": "abc661f45fd4dcaa99f68b01c8753b86d6776dddc8d0e240ffafd29b643a3c00",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-d5a767e3-880c-4d74-94e7-d0dccd756c64.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      1064,
+      591,
+      1774,
+      887
+    ],
+    "trim_alpha_bbox": [
+      17,
+      0,
+      649,
+      236
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "icons_effects_atlas_original",
+    "path": "ArtSource/UIAssets/Originals/icons_effects_atlas_v001.png",
+    "width": 1448,
+    "height": 1086,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 667422,
+    "partly_transparent_pixels": 905098,
+    "sha256": "dd8bca331d8396972bc130c98fdd4e7b8a52a0e8e98312cbcec262c3f8a05dd3",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review"
+  },
+  {
+    "assetId": "deco_star",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/deco_star_v001.png",
+    "width": 378,
+    "height": 370,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 81906,
+    "partly_transparent_pixels": 57954,
+    "sha256": "d9d906b698639e3719fdf763f9fa1028bdd828f2698f440b462e2ab54fbe3f3d",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "trim_alpha_bbox": [
+      0,
+      8,
+      362,
+      362
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "icon_summon",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_summon_v001.png",
+    "width": 378,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 82789,
+    "partly_transparent_pixels": 60095,
+    "sha256": "695953e246af9e65cdb0bd96693842d194c55191054452b2dec712085b6e84ee",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "icon_collection",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_collection_v001.png",
+    "width": 378,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 65304,
+    "partly_transparent_pixels": 77572,
+    "sha256": "9aba2415e2b5cd150961768fa0a3f0df27c97842d0c5224c4dffc849f9ab4e52",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "icon_back",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_back_v001.png",
+    "width": 378,
+    "height": 369,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 99947,
+    "partly_transparent_pixels": 39535,
+    "sha256": "de267e6afa2965568282ac00354487ffd10d2bd06abf4bb14b9b7596c4901ec3",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "trim_alpha_bbox": [
+      0,
+      9,
+      362,
+      362
+    ],
+    "cell_near_boundary": false
+  },
+  {
+    "assetId": "icon_currency",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_currency_v001.png",
+    "width": 378,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 66920,
+    "partly_transparent_pixels": 75964,
+    "sha256": "5fa7e6d3b52ef0a4e89b49105ebeb3eca4b408f3b89dae4bc356455f91f34f14",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "element_ice",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_ice_v001.png",
+    "width": 378,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 58890,
+    "partly_transparent_pixels": 83994,
+    "sha256": "66371c9ac63bf3d15d8cb311334ef03a00659c680febde37af71f6c03fc57660",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "element_light",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_light_v001.png",
+    "width": 378,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 47933,
+    "partly_transparent_pixels": 94951,
+    "sha256": "98b6b521cc8e29b3a1fbfcba1ef304859de40724e035ab7e0109e8875bc05dee",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "element_thunder",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_thunder_v001.png",
+    "width": 377,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 54999,
+    "partly_transparent_pixels": 87507,
+    "sha256": "55a8f16271d0364cc89517d73e9756891ca9292402e0df9cc263ec2d2aef36fd",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      361,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "element_wind",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_wind_v001.png",
+    "width": 378,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 60406,
+    "partly_transparent_pixels": 82478,
+    "sha256": "0f0ffa54af01251463a988c6b4c7ed5866d25d820eb377c0bb02ee16750532de",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "element_fire",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_fire_v001.png",
+    "width": 378,
+    "height": 378,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 59615,
+    "partly_transparent_pixels": 83269,
+    "sha256": "493056fd9739d2e5724d4a3cef7487a3f2e011f6a6ccda05bb8b0e91fbe1c0aa",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "fx_glint",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_blue_v002.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 178451,
+    "partly_transparent_pixels": 83693,
+    "sha256": "161e58f92195bf8e32af98faf025f11c31c17f809de462d8fceb7fc45c66ead5",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "fx_sparkle_gold",
+    "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_gold_v002.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "fully_transparent_pixels": 184058,
+    "partly_transparent_pixels": 78086,
+    "sha256": "f8919e9a9accc2b57fa0a917c889aed70a1963e16806825605caf860ac88af98",
+    "source": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-6165-7283-b302-173d4da9bdb6\\exec-6be938a5-f4c6-4b67-b592-8366a3ab162e.png",
+    "status": "pending_unity_import_review",
+    "grid_cell_top_left_pixels": [
+      1086,
+      724,
+      1448,
+      1086
+    ],
+    "trim_alpha_bbox": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "cell_near_boundary": true
+  },
+  {
+    "assetId": "ui_mock_01_ice_mage_v001",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001.png",
+    "width": 768,
+    "height": 1152,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "82745972cd6fb419103939c71e975216f3e32ced7fe07b9ec8be74b81913bac3",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\01_ice_mage_v001.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_01_ice_mage_v001_thumb",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001_thumb.png",
+    "width": 256,
+    "height": 384,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "072ebcf73f776cbd71e34039f8f90520e2db780c173f86100882d4efb5491dd2",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\01_ice_mage_v001_thumb.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_02_light_priest_v001",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001.png",
+    "width": 768,
+    "height": 1152,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "edbfa8c8b210c23034fa8547be0c2a92f90300aaaa44a06b9c93f2d710b703d2",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\02_light_priest_v001.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_02_light_priest_v001_thumb",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001_thumb.png",
+    "width": 256,
+    "height": 384,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "ab9abec322d8c82ba82188636c609dd5298775b3105f2a1c8976878171fe7d35",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\02_light_priest_v001_thumb.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_03_wind_elf_archer_v002",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002.png",
+    "width": 768,
+    "height": 1152,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "3e60d87fd7df83d3a38ed08c9f84744685603da8783f5e340579773dc9fa4f28",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\03_wind_elf_archer_v002.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_03_wind_elf_archer_v002_thumb",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002_thumb.png",
+    "width": 256,
+    "height": 384,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "afdacf657d462082eb3d3fb9f805a5c7324d32651ee59f745e837a2ab7f72233",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\03_wind_elf_archer_v002_thumb.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_04_fire_warrior_v001",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001.png",
+    "width": 768,
+    "height": 1152,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\04_fire_warrior_v001.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_04_fire_warrior_v001_thumb",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001_thumb.png",
+    "width": 256,
+    "height": 384,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "155ed3961dbacfe5083016a9b4785c6fd72e1b577e057b320512615227fe8df4",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\04_fire_warrior_v001_thumb.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_05_thunder_miko_v001",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001.png",
+    "width": 768,
+    "height": 1152,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "30387a1fa65411f418b5d5173c62e5e7fcce5ab9552f124230bf900c9f5e4cf9",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\05_thunder_miko_v001.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_05_thunder_miko_v001_thumb",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001_thumb.png",
+    "width": 256,
+    "height": 384,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "ffbbd01d80668b179099a84dd3624101fdce208ef35b1271dc0f9969a38aefaf",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\05_thunder_miko_v001_thumb.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_06_star_magical_girl_v001",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001.png",
+    "width": 768,
+    "height": 1152,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "96b47601adcde775dc03ebb2667173e9fd3aae88420baff3cd9b0983a1201827",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\06_star_magical_girl_v001.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  },
+  {
+    "assetId": "ui_mock_06_star_magical_girl_v001_thumb",
+    "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001_thumb.png",
+    "width": 256,
+    "height": 384,
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "partly_transparent_pixels": 0,
+    "sha256": "2b09de2a890241a6e2e44d94ae3ad5e31a504f42bc689280129b6a6d65795979",
+    "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\06_star_magical_girl_v001_thumb.png",
+    "status": "pending_unity_import_review",
+    "characterId": null,
+    "purpose": "approved style draft for UI prototype; not frozen roster mapping"
+  }
+]

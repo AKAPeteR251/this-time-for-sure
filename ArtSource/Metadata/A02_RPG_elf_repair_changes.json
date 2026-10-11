@@ -1,0 +1,11 @@
+{
+  "task": "A02-RPG",
+  "source": "A02_RPG_03_wind_elf_archer_api.json",
+  "reason": "v001 arrow/bowstring interaction is structurally incoherent; preserve only as failed draft",
+  "changes": [
+    "replace shooting interaction with running and carrying a relaxed bow",
+    "seed 71008043",
+    "new version prefix"
+  ],
+  "unchanged": "adult character identity, model, LoRA, sampler, size, style chain"
+}

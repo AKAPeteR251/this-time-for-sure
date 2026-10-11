@@ -1,0 +1,75 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "id": "R004",
+  "name": "洛恩",
+  "element": "光",
+  "age": 21,
+  "role": "弩手",
+  "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+  "model_seed_cfg": "工具未披露，未记录推测值",
+  "source": "ArtSource/Characters/R004/Internal_A09_v001/source/original_tool_output.png",
+  "source_sha256": "2e387e74b7f30ca24ab0fe35f73ac302af5ad6c2a89d0c89fa56af766c7904c8",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "native_alpha_range": [
+    0,
+    254
+  ],
+  "native_alpha_bbox": [
+    17,
+    27,
+    992,
+    1521
+  ],
+  "native_zero_alpha_fraction": 0.7082532246907552,
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    66,
+    101,
+    944,
+    1446
+  ],
+  "zero_alpha_fraction": 0.7648728688557943,
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop_px": [
+    398,
+    170,
+    583,
+    355
+  ],
+  "face_center_uv_bottom_origin": [
+    0.47900390625,
+    0.8291015625
+  ],
+  "references": [
+    {
+      "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+    }
+  ],
+  "prompt": "source/prompt.txt",
+  "output_sha256": "195132930afd20b99cea939dfe1b897bc9d27194f909723615ec4bc9d74e7ac6",
+  "review": "初版候选，脸、道具和边缘需视觉评审",
+  "native_edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

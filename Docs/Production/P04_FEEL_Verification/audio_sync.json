@@ -1,0 +1,55 @@
+{
+  "scope": "Actual Unity cue dispatch vs visual timeline; not a hardware output latency measurement",
+  "points": [
+    {
+      "cue": "seal_impact",
+      "observedPhaseSeconds": 0.717193603515625,
+      "targetSeconds": 0.72,
+      "absoluteError": 0.0028063964843749734
+    },
+    {
+      "cue": "gate_burst",
+      "observedPhaseSeconds": 5.847604274749756,
+      "targetSeconds": 5.85,
+      "absoluteError": 0.0023957252502437854
+    },
+    {
+      "cue": "seal_impact",
+      "observedPhaseSeconds": 0.7178335189819336,
+      "targetSeconds": 0.72,
+      "absoluteError": 0.0021664810180663796
+    },
+    {
+      "cue": "gate_burst",
+      "observedPhaseSeconds": 5.846414566040039,
+      "targetSeconds": 5.85,
+      "absoluteError": 0.0035854339599605822
+    },
+    {
+      "cue": "seal_impact",
+      "observedPhaseSeconds": 0.7141456604003906,
+      "targetSeconds": 0.72,
+      "absoluteError": 0.005854339599609348
+    },
+    {
+      "cue": "gate_burst",
+      "observedPhaseSeconds": 5.845653533935547,
+      "targetSeconds": 5.85,
+      "absoluteError": 0.00434646606445277
+    },
+    {
+      "cue": "seal_impact",
+      "observedPhaseSeconds": 0.7165565490722656,
+      "targetSeconds": 0.72,
+      "absoluteError": 0.0034434509277343484
+    },
+    {
+      "cue": "seal_impact",
+      "observedPhaseSeconds": 0.7162322998046875,
+      "targetSeconds": 0.72,
+      "absoluteError": 0.0037677001953124734
+    }
+  ],
+  "maximumDispatchOffsetSeconds": 0.005854339599609348,
+  "voiceScheduledDelaySeconds": 0.025
+}

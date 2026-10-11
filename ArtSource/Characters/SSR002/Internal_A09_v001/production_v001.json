@@ -1,0 +1,79 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "id": "SSR002",
+  "name": "星澜",
+  "element": "暗",
+  "age": 29,
+  "role": "肉盾",
+  "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+  "model_seed_cfg": "工具未披露，未记录推测值",
+  "source": "ArtSource/Characters/SSR002/Internal_A09_v001/source/original_tool_output.png",
+  "source_sha256": "8fb82aecf08594c23108d18916a17c72ebc38b6f6275072ec127aa879beece0d",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "native_alpha_range": [
+    0,
+    254
+  ],
+  "native_alpha_bbox": [
+    15,
+    11,
+    1024,
+    1525
+  ],
+  "native_zero_alpha_fraction": 0.3964964548746745,
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    64,
+    87,
+    973,
+    1450
+  ],
+  "zero_alpha_fraction": 0.5125923156738281,
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop_px": [
+    424,
+    159,
+    697,
+    432
+  ],
+  "face_center_uv_bottom_origin": [
+    0.54736328125,
+    0.8076171875
+  ],
+  "references": [
+    {
+      "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+    },
+    {
+      "path": "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png",
+      "sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0"
+    }
+  ],
+  "prompt": "source/prompt.txt",
+  "output_sha256": "2fea89dc21741a893cf24632670c85af1e16718f6830bf5a174801dbb2635e2b",
+  "review": "New design; crescent shield, purple cloak and adult face distinct; shield appears viewer-right rather than requested left; not a gameplay limitation.",
+  "native_edge_alpha_max": [
+    0,
+    0,
+    0,
+    37
+  ]
+}

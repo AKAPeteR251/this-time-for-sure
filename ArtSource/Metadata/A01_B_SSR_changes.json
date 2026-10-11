@@ -1,0 +1,14 @@
+{
+  "task": "A01-B-SSR",
+  "approved_direction": "用户：这种可以",
+  "reference_source": "StyleTests\\SSR001_dynamic_v001.png",
+  "changes": [
+    "reference image input",
+    "lanczos resize 1024x1536",
+    "tiled VAE encode/decode",
+    "sampler denoise 0.22",
+    "output prefix"
+  ],
+  "unchanged": "model, LoRA chain and strengths, prompt, seed, sampler type, CFG, steps, replay node",
+  "intent": "Preserve the approved design; this is real img2img refinement, not just a resized master."
+}

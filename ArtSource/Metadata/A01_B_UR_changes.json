@@ -1,0 +1,14 @@
+{
+  "task": "A01-B-UR",
+  "style_source": "A01_R01_dynamic_api.json",
+  "changes": [
+    "original adult UR001 design prompt",
+    "1024x1536",
+    "seed 71007021",
+    "tiled VAE decode",
+    "output prefix"
+  ],
+  "unchanged": "model, encoder, VAE, three LoRA strengths, custom sampler settings, replay node",
+  "reference_constraint": "No image-reference conditioning used; consistency relies on same style chain and prompt design.",
+  "production_limit": "one UR candidate; no remaining characters"
+}

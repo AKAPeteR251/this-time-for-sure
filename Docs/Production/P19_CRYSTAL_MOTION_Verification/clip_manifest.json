@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p19_crystal_motion.mp4",
+    "sha256": "1e0d421fcd16321ae0490c04c7f02a2e213d0d69e3645d969074c222ff26c011",
+    "bytes": 16122445,
+    "actualCaptureSeconds": 45.307786,
+    "muxSeconds": 45.308,
+    "frames": 962,
+    "averageCaptureFps": 21.23255371604342,
+    "audioSeconds": 45.269333333333336,
+    "audioStart": 0.0078693,
+    "audioRate": 48000,
+    "peak": 0.54669189453125,
+    "rms": 0.01632000433142723,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

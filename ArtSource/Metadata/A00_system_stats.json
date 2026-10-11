@@ -1,0 +1,61 @@
+{
+  "system": {
+    "os": "win32",
+    "ram_total": 16371474432,
+    "ram_free": 2015219712,
+    "comfyui_version": "0.37.0",
+    "required_frontend_version": "1.52.7",
+    "installed_templates_version": "0.11.66",
+    "required_templates_version": "0.11.66",
+    "comfy_package_versions": [
+      {
+        "name": "comfyui-frontend-package",
+        "installed": "1.52.7",
+        "required": "1.52.7"
+      },
+      {
+        "name": "comfyui-workflow-templates",
+        "installed": "0.11.66",
+        "required": "0.11.66"
+      },
+      {
+        "name": "comfyui-embedded-docs",
+        "installed": "0.5.12",
+        "required": "0.5.12"
+      },
+      {
+        "name": "comfy-kitchen",
+        "installed": "0.2.35",
+        "required": "0.2.35"
+      },
+      {
+        "name": "comfy-aimdo",
+        "installed": "0.5.5",
+        "required": "0.5.5"
+      }
+    ],
+    "python_version": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+    "pytorch_version": "2.9.1+cu130",
+    "embedded_python": false,
+    "deploy_environment": "local-git",
+    "argv": [
+      "E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\main.py",
+      "--auto-launch",
+      "--preview-method",
+      "auto",
+      "--cuda-malloc",
+      "--enable-cors-header"
+    ]
+  },
+  "devices": [
+    {
+      "name": "cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync",
+      "type": "cuda",
+      "index": 0,
+      "vram_total": 6441926656,
+      "vram_free": 4413052426,
+      "torch_vram_total": 33554432,
+      "torch_vram_free": 23713290
+    }
+  ]
+}

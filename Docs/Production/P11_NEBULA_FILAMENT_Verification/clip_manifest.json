@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p11_filament_nebula.mp4",
+    "sha256": "f033af7b6e100d3450a1743cecb9e8deefa23dc523185f91fcb3c422825ffdde",
+    "bytes": 5950714,
+    "actualCaptureSeconds": 32.3693209,
+    "muxSeconds": 32.369,
+    "frames": 728,
+    "averageCaptureFps": 22.49043167291162,
+    "audioSeconds": 32.34133333333333,
+    "audioStart": 0.010898099999999999,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.013572006466348967,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

@@ -1,0 +1,7 @@
+{
+    "stage": "failed",
+    "result": "FAIL: Main 运行复验超时，请查看 Editor 日志。",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-08T03:27:05.7834568Z"
+}

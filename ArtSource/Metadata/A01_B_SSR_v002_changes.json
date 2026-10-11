@@ -1,0 +1,10 @@
+{
+  "source": "A01_B_SSR_master_api.json",
+  "reason": "v001 has visible noisy artifacts; rejected for delivery",
+  "changes": [
+    "img2img sampler only: core KSampler, euler/simple, 12 steps, denoise 0.3",
+    "output version"
+  ],
+  "unchanged": "approved source, image scale, prompt, model, LoRA chain and strengths, tiled VAE",
+  "note": "User text2image workflow remains preserved; only the added high resolution refinement stage changes."
+}

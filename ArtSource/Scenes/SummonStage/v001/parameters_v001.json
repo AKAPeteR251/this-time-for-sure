@@ -1,0 +1,32 @@
+{
+  "task": "A05-BLENDER",
+  "blender": "2.93.4",
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": [
+    1,
+    132
+  ],
+  "seconds": 5.5,
+  "whole_ceremony_with_Unity_front_seconds": 6.65,
+  "samples": 24,
+  "geometry_seed": 71008052,
+  "rings": 3,
+  "floating_crystals": 8,
+  "camera_lens_mm": 34,
+  "bloom_intensity": 0.055,
+  "exposure": -0.3,
+  "audio": "none; P04 separate voiceover",
+  "text_or_username_or_character_baked": false,
+  "review_frames": [
+    1,
+    70,
+    112
+  ],
+  "blend_file": "D:\\vibe\\这次一定出\\ArtSource\\Scenes\\SummonStage\\v001\\A05_SummonStage_v001.blend",
+  "status": "candidate_pending_render_review"
+}

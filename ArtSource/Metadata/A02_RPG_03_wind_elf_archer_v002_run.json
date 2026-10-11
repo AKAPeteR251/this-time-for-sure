@@ -1,0 +1,35 @@
+{
+  "task": "A02_RPG_03_wind_elf_archer_v002",
+  "submission": {
+    "prompt_id": "fd027850-4d6a-42da-8a62-5ed6bc6ad0e9",
+    "number": 17,
+    "node_errors": {}
+  },
+  "started_unix": 1791389472.111331,
+  "graph_path": "Workflows/A02_RPG_03_wind_elf_archer_v002_api.json",
+  "elapsed_seconds": 45.38,
+  "output": "StyleTests\\RPG_Professions\\03_wind_elf_archer_v002.png",
+  "sha256": "3e60d87fd7df83d3a38ed08c9f84744685603da8783f5e340579773dc9fa4f28",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "concept_pending_user_selection",
+  "profession": "风精灵弓箭手",
+  "element": "风",
+  "declared_character_age": 22,
+  "visual_review": {
+    "strengths": [
+      "长尖耳、浅绿发、皮甲和箭袋易于认出精灵游侠",
+      "v002消除v001不成立的拉弦/箭杆交互"
+    ],
+    "defects": [
+      "长弓仍有画幅裁切，正式母版需留出完整道具空间",
+      "实际是持弓展示而非明确的奔跑动作"
+    ]
+  },
+  "layers": "complete_image_only",
+  "unity_validation": "not_integrated",
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "style_chain": "User PNG workflow; same model/LoRA/sampler settings; profession prompt and seed changed; tiled decode"
+}

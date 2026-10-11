@@ -1,0 +1,77 @@
+{
+  "task": "F09-CONTRACT",
+  "checks": [
+    {
+      "file": "contract_english_lettering_v002.png",
+      "size": [
+        2048,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        258,
+        170,
+        1603,
+        1342
+      ],
+      "four_borders_zero": true,
+      "sha256": "d09283b9d95bd66b55a0c8ff836f505285f700a22db4bb4c98fe6bcd934f58fc"
+    },
+    {
+      "file": "contract_parchment_blank_v002.png",
+      "size": [
+        2048,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        102,
+        101,
+        1964,
+        1441
+      ],
+      "four_borders_zero": true,
+      "sha256": "c1afbb3ec42a6ab99d86eb91e740aceec958e34867b9a6906776d0cdf9524f1f"
+    },
+    {
+      "file": "contract_wax_seal_red_v002.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        159,
+        153,
+        874,
+        868
+      ],
+      "four_borders_zero": true,
+      "sha256": "14a3ad52711f97ae02a9fed4e99f5e6b476dc21a561d6069e892cac98926f9ec"
+    },
+    {
+      "file": "contract_wax_shadow_v002.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        111,
+        116,
+        914,
+        921
+      ],
+      "four_borders_zero": true,
+      "sha256": "90c768137ae4c76667110aec57acb541518944b96258eb125ca5463e13c1e1aa"
+    }
+  ],
+  "text_exact_against_brief": true,
+  "svg_text_exact": true,
+  "signature_region_no_lettering": true,
+  "paper_core_opaque": true,
+  "wax_safe_margin_10_percent": true,
+  "ora_editable_layers": 7,
+  "status": "file checks passed; user visual review and Unity integration pending",
+  "readability_preview": "Preview/contract_1280x720_readability_v002.jpg"
+}

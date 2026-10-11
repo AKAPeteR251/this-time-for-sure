@@ -1,0 +1,11 @@
+[32m[INFO][0m got prompt
+[32m[INFO][0m 0 models unloaded.
+[32m[INFO][0m Model WanVAE prepared for dynamic VRAM loading. 241MB Staged. 0 patches attached. Force pre-loaded 60 weights: 61 KB.
+[32m[INFO][0m Requested to load AnimaTEModel_
+[32m[INFO][0m Model AnimaTEModel_ prepared for dynamic VRAM loading. 1136MB Staged. 0 patches attached. Force pre-loaded 113 weights: 128 KB.
+[32m[INFO][0m Model AnimaTEModel_ prepared for dynamic VRAM loading. 1136MB Staged. 0 patches attached. Force pre-loaded 113 weights: 128 KB.
+[32m[INFO][0m Requested to load Anima
+[32m[INFO][0m Model Anima prepared for dynamic VRAM loading. 3988MB Staged. 280 patches attached. Force pre-loaded 156 weights: 77 KB.
+  0%|          | 0/12 [00:00<?, ?it/s]  0%|          | 0/12 [00:00<?, ?it/s,   Model Initializing ...  ]  0%|          | 0/12 [00:13<?, ?it/s,  Model Initialization complete!  ]  8%|�         | 1/12 [00:13<02:32, 13.82s/it,  Model Initialization complete!  ]  8%|�         | 1/12 [00:36<02:32, 13.82s/it]                                    17%|█▋        | 2/12 [00:36<03:03, 18.37s/it] 25%|██�       | 3/12 [00:54<02:43, 18.21s/it] 33%|███▎      | 4/12 [01:13<02:27, 18.41s/it] 42%|████�     | 5/12 [01:31<02:03, 17.70s/it] 50%|████�     | 6/12 [01:48<01:42, 17.16s/it] 58%|█████▊    | 7/12 [02:05<01:27, 17.46s/it] 67%|██████�   | 8/12 [02:24<01:14, 18.68s/it] 75%|███████▌  | 9/12 [02:43<00:58, 19.43s/it] 83%|████████� | 10/12 [03:03<00:38, 19.25s/it] 92%|█████████▏| 11/12 [03:23<00:20, 20.37s/it]100%|██████████| 12/12 [03:43<00:00, 19.82s/it]100%|██████████| 12/12 [03:43<00:00, 18.60s/it]
+[32m[INFO][0m Model WanVAE prepared for dynamic VRAM loading. 241MB Staged. 0 patches attached. Force pre-loaded 60 weights: 61 KB.
+[32m[INFO][0m [32mPrompt executed in 224.60 seconds[0m

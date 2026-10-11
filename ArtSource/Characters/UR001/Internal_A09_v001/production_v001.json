@@ -1,0 +1,79 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "id": "UR001",
+  "name": "芙蕾娅",
+  "element": "火",
+  "age": 25,
+  "role": "战士",
+  "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+  "model_seed_cfg": "工具未披露，未记录推测值",
+  "source": "ArtSource/Characters/UR001/Internal_A09_v001/source/original_tool_output.png",
+  "source_sha256": "e88689209929daf63bb9a13e6c144df8dda504727e11477417429d23837e66ea",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "native_alpha_range": [
+    0,
+    254
+  ],
+  "native_alpha_bbox": [
+    17,
+    9,
+    1024,
+    1504
+  ],
+  "native_zero_alpha_fraction": 0.5149574279785156,
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    66,
+    85,
+    973,
+    1430
+  ],
+  "zero_alpha_fraction": 0.6096814473470052,
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop_px": [
+    332,
+    306,
+    588,
+    562
+  ],
+  "face_center_uv_bottom_origin": [
+    0.44921875,
+    0.7174479166666667
+  ],
+  "references": [
+    {
+      "path": "ArtSource/StyleTests/RPG_Professions/04_fire_warrior_v001.png",
+      "sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135"
+    },
+    {
+      "path": "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png",
+      "sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0"
+    }
+  ],
+  "prompt": "source/prompt.txt",
+  "output_sha256": "52e808e12edc96c6c00a2ffff2074b3bc8dd1657eb0d43b622cd2952aa2327ce",
+  "review": "Framing repair completes top ponytail and right cape tips; verify alpha then add uniform transparent export margin.",
+  "native_edge_alpha_max": [
+    0,
+    0,
+    0,
+    1
+  ]
+}

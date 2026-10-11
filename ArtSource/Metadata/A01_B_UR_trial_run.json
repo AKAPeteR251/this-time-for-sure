@@ -1,0 +1,34 @@
+{
+  "task": "A01_B_UR_trial",
+  "submission": {
+    "prompt_id": "5831d7f1-0731-4210-be3f-7a0aeb3c2957",
+    "number": 9,
+    "node_errors": {}
+  },
+  "started_unix": 1791388471.8024292,
+  "graph_path": "Workflows/A01_B_UR_trial_api.json",
+  "elapsed_seconds": 125.46,
+  "output": "Characters\\UR001\\UR001_card_base_v001.png",
+  "sha256": "cf2c5473cf1e27b5b44dc6cff1bf1ae5b61ff4c502d3392c32630934563af84c",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "status": "pending_integration_review",
+  "visual_review": {
+    "result": "style_consistency_trial_pending_user_review",
+    "strengths": [
+      "同一LoRA链，面部和色块画法接近SSR",
+      "黑发金眼、黑金红披风与日蚀主题明确",
+      "无图内文字边框或明显噪点"
+    ],
+    "remaining": [
+      "道具生成成小日蚀环，未实现原设定的三片碎星核",
+      "动态比SSR克制，UR设计等待用户确认"
+    ]
+  },
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "layers": "complete_image_only",
+  "unity_validation": "pending",
+  "unity_version": "2022.3.53f1c1 target; actual import not verified"
+}

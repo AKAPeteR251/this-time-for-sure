@@ -1,0 +1,38 @@
+[
+  {
+    "sha256": "AA1768FF0AD07CCE13ACDF066D41FCF13DFF0E7AB35C04E91BC4F7CA12BF41E2",
+    "path": "这次一定出/Assets/_Game/Scripts/Core/PrototypeGacha.cs"
+  },
+  {
+    "sha256": "B5DDE60B350BAB31D95CBBE8EFB40EF7B67A8373D683276B9AF48EFD6F78D006",
+    "path": "这次一定出/Assets/_Game/Scripts/UI/PrototypeUIAdapter.cs"
+  },
+  {
+    "sha256": "FA7475C8CCEA1C86D2044135EA8134084C534F37B2E3C60CEC52ABAB224BC527",
+    "path": "这次一定出/Assets/_Game/Scripts/UI/PrototypeUITheme.cs"
+  },
+  {
+    "sha256": "B5B3519AA3320522A795F19251AA4559CE2A9BFFE6B565C2677DCBD5B93C2E34",
+    "path": "这次一定出/Assets/_Game/Scenes/Main.unity"
+  },
+  {
+    "sha256": "E76417344C83F03AADEBBDA1B8363C5BAF7AD850103334F2951E89D039154479",
+    "path": "这次一定出/Assets/_Game/Scenes/Main.unity.meta"
+  },
+  {
+    "sha256": "86B825ADF4A2317AD9981E48B65CDBCDFA94245FFA8B7DF81F9B78DD4E0984F8",
+    "path": "这次一定出/Assets/_Game/Scenes/UIPrototype.unity"
+  },
+  {
+    "sha256": "64B6AA5596D494F87D0CFBF21699716813CD61196A70DFCB04BB1573EF9458C8",
+    "path": "这次一定出/Assets/_Game/UI/Prefabs/UIPrototype.prefab"
+  },
+  {
+    "sha256": "C1F90CE3C497D358D432D17A8CB8D6DF4F0DA44F0F0655221B1B5152C7C465E2",
+    "path": "这次一定出/Assets/_Game/UI/Styles/U02ArtTheme.asset"
+  },
+  {
+    "sha256": "1EF28389FDBE41C01DDBA69A8D8D90A90EDD542F4D1242736CA63FBEC90B8F45",
+    "path": "这次一定出/ProjectSettings/EditorBuildSettings.asset"
+  }
+]

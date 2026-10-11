@@ -1,0 +1,748 @@
+{
+  "taskId": "C06",
+  "checked_at_local": "2026-10-08T09:57:08",
+  "scope": "local file metadata, pixels, visual inspection, static scene configuration; no Unity Play run",
+  "asset_count": 36,
+  "unique_asset_ids": 36,
+  "all_sizes_match": true,
+  "all_hashes_match": true,
+  "true_alpha_asset_count": 23,
+  "new_asset_meta_count": 0,
+  "rows": [
+    {
+      "assetId": "bg_summon",
+      "path": "这次一定出/Assets/_Game/Art/Backgrounds/UI_FrozenCastle_v001.png",
+      "exists": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_ice_mage_character",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIIceMage/UIIceMage_character_v001.png",
+      "exists": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 561001,
+      "partly_transparent_pixels": 1011863,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "frame_R",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_R_v002.png",
+      "exists": true,
+      "size": [
+        528,
+        736
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 232632,
+      "partly_transparent_pixels": 155976,
+      "center_alpha": 0,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        58,
+        43,
+        480,
+        704
+      ]
+    },
+    {
+      "assetId": "frame_SR",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_SR_v002.png",
+      "exists": true,
+      "size": [
+        528,
+        736
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 203978,
+      "partly_transparent_pixels": 184630,
+      "center_alpha": 0,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        40,
+        42,
+        482,
+        714
+      ]
+    },
+    {
+      "assetId": "frame_SSR",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_SSR_v002.png",
+      "exists": true,
+      "size": [
+        528,
+        832
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 200341,
+      "partly_transparent_pixels": 238955,
+      "center_alpha": 0,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        35,
+        27,
+        506,
+        757
+      ]
+    },
+    {
+      "assetId": "frame_UR",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_UR_v002.png",
+      "exists": true,
+      "size": [
+        527,
+        832
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 210580,
+      "partly_transparent_pixels": 227884,
+      "center_alpha": 0,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        28,
+        23,
+        494,
+        760
+      ]
+    },
+    {
+      "assetId": "button_normal",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_normal_v002.png",
+      "exists": true,
+      "size": [
+        832,
+        336
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 125823,
+      "partly_transparent_pixels": 152377,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        26,
+        99,
+        805,
+        299
+      ]
+    },
+    {
+      "assetId": "button_selected",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_selected_v002.png",
+      "exists": true,
+      "size": [
+        832,
+        336
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 119978,
+      "partly_transparent_pixels": 159478,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        25,
+        93,
+        806,
+        295
+      ]
+    },
+    {
+      "assetId": "button_pressed",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_pressed_v002.png",
+      "exists": true,
+      "size": [
+        832,
+        336
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 110975,
+      "partly_transparent_pixels": 168562,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        26,
+        73,
+        806,
+        273
+      ]
+    },
+    {
+      "assetId": "button_disabled",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_disabled_v002.png",
+      "exists": true,
+      "size": [
+        832,
+        336
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 117926,
+      "partly_transparent_pixels": 160848,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false,
+      "visible_bbox_alpha_gt_32": [
+        26,
+        73,
+        807,
+        274
+      ]
+    },
+    {
+      "assetId": "panel_information",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/panel_information_v001.png",
+      "exists": true,
+      "size": [
+        955,
+        312
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 72660,
+      "partly_transparent_pixels": 223854,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "panel_tooltip",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/panel_tooltip_v001.png",
+      "exists": true,
+      "size": [
+        648,
+        252
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 50131,
+      "partly_transparent_pixels": 112969,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "deco_star",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/deco_star_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        370
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 81906,
+      "partly_transparent_pixels": 57954,
+      "center_alpha": 253,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "icon_summon",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_summon_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 82789,
+      "partly_transparent_pixels": 60095,
+      "center_alpha": 252,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "icon_collection",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_collection_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 65304,
+      "partly_transparent_pixels": 77572,
+      "center_alpha": 252,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "icon_back",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_back_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        369
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 99947,
+      "partly_transparent_pixels": 39535,
+      "center_alpha": 238,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "icon_currency",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_currency_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 66920,
+      "partly_transparent_pixels": 75964,
+      "center_alpha": 252,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "element_ice",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_ice_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 58890,
+      "partly_transparent_pixels": 83994,
+      "center_alpha": 252,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "element_light",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_light_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 47933,
+      "partly_transparent_pixels": 94951,
+      "center_alpha": 252,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "element_thunder",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_thunder_v001.png",
+      "exists": true,
+      "size": [
+        377,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 54999,
+      "partly_transparent_pixels": 87507,
+      "center_alpha": 248,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "element_wind",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_wind_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 60406,
+      "partly_transparent_pixels": 82478,
+      "center_alpha": 250,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "element_fire",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_fire_v001.png",
+      "exists": true,
+      "size": [
+        378,
+        378
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 59615,
+      "partly_transparent_pixels": 83269,
+      "center_alpha": 252,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "fx_glint",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_blue_v002.png",
+      "exists": true,
+      "size": [
+        512,
+        512
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 178451,
+      "partly_transparent_pixels": 83693,
+      "center_alpha": 251,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "fx_sparkle_gold",
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_gold_v002.png",
+      "exists": true,
+      "size": [
+        512,
+        512
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels": 184058,
+      "partly_transparent_pixels": 78086,
+      "center_alpha": 249,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_01_ice_mage_v001",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001.png",
+      "exists": true,
+      "size": [
+        768,
+        1152
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_01_ice_mage_v001_thumb",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001_thumb.png",
+      "exists": true,
+      "size": [
+        256,
+        384
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_02_light_priest_v001",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001.png",
+      "exists": true,
+      "size": [
+        768,
+        1152
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_02_light_priest_v001_thumb",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001_thumb.png",
+      "exists": true,
+      "size": [
+        256,
+        384
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_03_wind_elf_archer_v002",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002.png",
+      "exists": true,
+      "size": [
+        768,
+        1152
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_03_wind_elf_archer_v002_thumb",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002_thumb.png",
+      "exists": true,
+      "size": [
+        256,
+        384
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_04_fire_warrior_v001",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001.png",
+      "exists": true,
+      "size": [
+        768,
+        1152
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_04_fire_warrior_v001_thumb",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001_thumb.png",
+      "exists": true,
+      "size": [
+        256,
+        384
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_05_thunder_miko_v001",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001.png",
+      "exists": true,
+      "size": [
+        768,
+        1152
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_05_thunder_miko_v001_thumb",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001_thumb.png",
+      "exists": true,
+      "size": [
+        256,
+        384
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_06_star_magical_girl_v001",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001.png",
+      "exists": true,
+      "size": [
+        768,
+        1152
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    },
+    {
+      "assetId": "ui_mock_06_star_magical_girl_v001_thumb",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001_thumb.png",
+      "exists": true,
+      "size": [
+        256,
+        384
+      ],
+      "size_matches_manifest": true,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels": 0,
+      "partly_transparent_pixels": 0,
+      "center_alpha": null,
+      "sha256_matches_manifest": true,
+      "unity_meta_exists": false
+    }
+  ],
+  "static_bindings": {
+    "Main_portraits_empty": true,
+    "UIPrototype_prefab_portraits_empty": true,
+    "UIPrototype_prefab_fixed_mock": true
+  },
+  "external_vision": "not executed: automatic approval rejected project image transmission to external gateway; audit completed locally"
+}

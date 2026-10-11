@@ -1,0 +1,209 @@
+IOException: Sharing violation on path D:\vibe\这次一定出\Docs\Production\U02_ART_Verification\U02.request
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <b0b3ee161b9b40739da01ef24d5555a8>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) (at <b0b3ee161b9b40739da01ef24d5555a8>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <b0b3ee161b9b40739da01ef24d5555a8>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) (at <b0b3ee161b9b40739da01ef24d5555a8>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) (at <b0b3ee161b9b40739da01ef24d5555a8>:0)
+System.IO.File.ReadAllText (System.String path) (at <b0b3ee161b9b40739da01ef24d5555a8>:0)
+U02ArtSetup.Poll () (at Assets/_Game/UI/Editor/U02ArtSetup.cs:162)
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at <80bea25354d94dc4aa1a171e9f8849d6>:0)
+
+CaptureScreenshot(L:0, B:0, W:1920, H:1080) requested a region that exceeds the active Render Target sized [W:321, H:573].
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture ()
+ThisTime.Game.PrototypeGame/<CaptureUI>d__89:MoveNext () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:999)
+P02FastSetup/<Drive>d__20:MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:190)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+CaptureScreenshotAsTexture() failed to generate texture! Was method called before the 'end of frame' state was reached?
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture ()
+ThisTime.Game.PrototypeGame/<CaptureUI>d__89:MoveNext () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:999)
+P02FastSetup/<Drive>d__20:MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:190)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ArgumentException: Passed in texture is invalid (null).
+ThisTime.Game.PrototypeGame+<CaptureUI>d__89.MoveNext () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:1000)
+P02FastSetup+<Drive>d__20.MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:190)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.OnDisable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:186)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:ShowSummon() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:560)
+ThisTime.Game.PrototypeGame:Awake() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:126)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.RecalculateClipping () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:288)
+UnityEngine.UI.MaskUtilities.Notify2DMaskStateChanged (UnityEngine.Component mask) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:26)
+UnityEngine.UI.RectMask2D.OnDisable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:150)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:ShowSummon() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:560)
+ThisTime.Game.PrototypeGame:Awake() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:126)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.RecalculateClipping () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:288)
+UnityEngine.UI.MaskUtilities.Notify2DMaskStateChanged (UnityEngine.Component mask) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:26)
+UnityEngine.UI.RectMask2D.OnEnable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:136)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:RequestSummon(Int32) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:376)
+<Check>d__13:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:61)
+<Guard>d__16:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:156)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+P03RevealSetup:PlayChanged(PlayModeStateChange) (at Assets/_Game/Editor/P03RevealSetup.cs:55)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged(PlayModeStateChange)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.OnDisable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:186)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:ShowSummon() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:560)
+ThisTime.Game.PrototypeGame:CancelSigning() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:413)
+ThisTime.Game.PrototypeGame:HandleEscape() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:137)
+<Check>d__13:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:64)
+<Guard>d__16:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:156)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+P03RevealSetup:PlayChanged(PlayModeStateChange) (at Assets/_Game/Editor/P03RevealSetup.cs:55)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged(PlayModeStateChange)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.RecalculateClipping () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:288)
+UnityEngine.UI.MaskUtilities.Notify2DMaskStateChanged (UnityEngine.Component mask) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:26)
+UnityEngine.UI.RectMask2D.OnDisable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:150)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:ShowSummon() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:560)
+ThisTime.Game.PrototypeGame:CancelSigning() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:413)
+ThisTime.Game.PrototypeGame:HandleEscape() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:137)
+<Check>d__13:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:64)
+<Guard>d__16:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:156)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+P03RevealSetup:PlayChanged(PlayModeStateChange) (at Assets/_Game/Editor/P03RevealSetup.cs:55)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged(PlayModeStateChange)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.RecalculateClipping () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:288)
+UnityEngine.UI.MaskUtilities.Notify2DMaskStateChanged (UnityEngine.Component mask) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:26)
+UnityEngine.UI.RectMask2D.OnEnable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:136)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:RequestSummon(Int32) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:376)
+<Check>d__13:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:66)
+<Guard>d__16:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:156)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+P03RevealSetup:PlayChanged(PlayModeStateChange) (at Assets/_Game/Editor/P03RevealSetup.cs:55)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged(PlayModeStateChange)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.OnDisable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:186)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:ShowSummon() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:560)
+ThisTime.Game.PrototypeGame:CancelSigning() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:413)
+<Check>d__13:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:68)
+<Guard>d__16:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:156)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+P03RevealSetup:PlayChanged(PlayModeStateChange) (at Assets/_Game/Editor/P03RevealSetup.cs:55)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged(PlayModeStateChange)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.RecalculateClipping () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:288)
+UnityEngine.UI.MaskUtilities.Notify2DMaskStateChanged (UnityEngine.Component mask) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:26)
+UnityEngine.UI.RectMask2D.OnDisable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:150)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:ShowSummon() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:560)
+ThisTime.Game.PrototypeGame:CancelSigning() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:413)
+<Check>d__13:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:68)
+<Guard>d__16:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:156)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+P03RevealSetup:PlayChanged(PlayModeStateChange) (at Assets/_Game/Editor/P03RevealSetup.cs:55)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged(PlayModeStateChange)
+
+MissingComponentException: There is no 'CanvasRenderer' attached to the "HandwrittenStroke" game object, but a script is trying to access it.
+You probably need to add a CanvasRenderer to the game object "HandwrittenStroke". Or your script needs to check if the component is attached before using it.
+UnityEngine.UI.MaskableGraphic.SetClipRect (UnityEngine.Rect clipRect, System.Boolean validRect) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160)
+UnityEngine.UI.RectMask2D.RemoveClippable (UnityEngine.UI.IClippable clippable) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:333)
+UnityEngine.UI.MaskableGraphic.UpdateClipParent () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272)
+UnityEngine.UI.MaskableGraphic.RecalculateClipping () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:288)
+UnityEngine.UI.MaskUtilities.Notify2DMaskStateChanged (UnityEngine.Component mask) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:26)
+UnityEngine.UI.RectMask2D.OnEnable () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs:136)
+UnityEngine.GameObject:SetActive(GameObject, Boolean)
+ThisTime.Game.PrototypeGame:ShowScreen(String) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:566)
+ThisTime.Game.PrototypeGame:RequestSummon(Int32) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:376)
+<Check>d__13:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:70)
+<Guard>d__16:MoveNext() (at Assets/_Game/Editor/P03RevealSetup.cs:156)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+P03RevealSetup:PlayChanged(PlayModeStateChange) (at Assets/_Game/Editor/P03RevealSetup.cs:55)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged(PlayModeStateChange)
+
+NullReferenceException: Object reference not set to an instance of an object
+ThisTime.Game.PrototypeGame.BuildReveal () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:318)
+ThisTime.Game.PrototypeGame.BuildInterface () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:218)
+ThisTime.Game.PrototypeGame.Awake () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:129)
+
+NullReferenceException: Object reference not set to an instance of an object
+ThisTime.Game.PrototypeGame.BuildReveal () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:318)
+ThisTime.Game.PrototypeGame.BuildInterface () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:218)
+ThisTime.Game.PrototypeGame.Awake () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:129)
+
+UnityException: CreateImpl is not allowed to be called from a MonoBehaviour constructor (or instance field initializer), call it in Awake or Start instead. Called from MonoBehaviour 'AltarInteriorStage' on game object 'P19_IsolatedCrystalStage'.
+See "Script Serialization" page in the Unity Manual for further details.
+UnityEngine.MaterialPropertyBlock..ctor () (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+ThisTime.Game.AltarInteriorStage..ctor () (at Assets/_Game/Scripts/Presentation/AltarInteriorStage.cs:18)
+UnityEngine.GameObject:AddComponent()
+ThisTime.Game.CrystalStage3D:Build(P04FeelConfig) (at Assets/_Game/Scripts/Presentation/CrystalStage3D.cs:70)
+ThisTime.Game.CrystalChargeView:.ctor(RectTransform, P04FeelConfig, Font) (at Assets/_Game/Scripts/Presentation/CrystalChargeView.cs:30)
+ThisTime.Game.PrototypeGame:BuildReveal() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:319)
+ThisTime.Game.PrototypeGame:BuildInterface() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:216)
+ThisTime.Game.PrototypeGame:Awake() (at Assets/_Game/Scripts/UI/PrototypeGame.cs:136)
+
+NullReferenceException: Object reference not set to an instance of an object
+ThisTime.Game.AltarInteriorStage.Pose (System.Single age, System.Single energy) (at Assets/_Game/Scripts/Presentation/AltarInteriorStage.cs:71)
+ThisTime.Game.CrystalStage3D.Tick () (at Assets/_Game/Scripts/Presentation/CrystalStage3D.cs:140)
+ThisTime.Game.CrystalStage3D.Begin (UnityEngine.Color color) (at Assets/_Game/Scripts/Presentation/CrystalStage3D.cs:78)
+ThisTime.Game.CrystalChargeView.Begin (ThisTime.Game.CardRarity rarity) (at Assets/_Game/Scripts/Presentation/CrystalChargeView.cs:48)
+ThisTime.Game.CrystalChargeView.BeginPreview (ThisTime.Game.CardRarity rarity) (at Assets/_Game/Scripts/Presentation/CrystalChargeView.cs:50)
+ThisTime.Game.PrototypeGame+<Reveal>d__116.MoveNext () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:454)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ThisTime.Game.PrototypeGame:PlayBatchForDebug(List`1) (at Assets/_Game/Scripts/UI/PrototypeGame.cs:443)
+<Check>d__17:MoveNext() (at Assets/_Game/Editor/P21AltarVerifySetup.cs:59)
+<Guard>d__30:MoveNext() (at Assets/_Game/Editor/P21AltarVerifySetup.cs:151)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+

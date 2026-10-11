@@ -1,0 +1,36 @@
+{
+  "task": "A02_RPG_02_light_priest",
+  "submission": {
+    "prompt_id": "c71e182e-8046-4886-a7f9-2cacf9ec4b1b",
+    "number": 12,
+    "node_errors": {}
+  },
+  "started_unix": 1791389254.092359,
+  "graph_path": "Workflows/A02_RPG_02_light_priest_api.json",
+  "elapsed_seconds": 45.28,
+  "output": "StyleTests\\RPG_Professions\\02_light_priest_v001.png",
+  "sha256": "edbfa8c8b210c23034fa8547be0c2a92f90300aaaa44a06b9c93f2d710b703d2",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "concept_pending_user_selection",
+  "profession": "光牧师",
+  "element": "光",
+  "declared_character_age": 20,
+  "visual_review": {
+    "strengths": [
+      "白金服饰、百合与日轮杖形成光牧师身份",
+      "偏温柔的表情和施法手势与其他职业区分"
+    ],
+    "defects": [
+      "实际姿态更像坐/跪而非转身伸手",
+      "权杖的实际握持关系不明确",
+      "背景较亮，正式页应检查脸部对比"
+    ]
+  },
+  "layers": "complete_image_only",
+  "unity_validation": "not_integrated",
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "style_chain": "User PNG workflow; same model/LoRA/sampler settings; profession prompt and seed changed; tiled decode"
+}

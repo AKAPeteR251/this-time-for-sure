@@ -1,0 +1,32 @@
+{
+  "task": "A01_a",
+  "submission": {
+    "prompt_id": "e3e43595-667a-4d07-9a27-cabef61cd58b",
+    "number": 2,
+    "node_errors": {}
+  },
+  "started_unix": 1791387441.909453,
+  "graph_path": "Workflows/A01_a_api.json",
+  "elapsed_seconds": 70.46,
+  "output": "StyleTests\\SSR001_style_a.png",
+  "sha256": "a8b9dcb828bc1b07b7c724f66b6e7bb460287a15ddf262b0fc1b460f25a11ca8",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "generated_pending_visual_review",
+  "visual_review": {
+    "status": "style_candidate_pending_user_choice",
+    "strengths": [
+      "清晰线条与大色块、小尺寸角色识别度较好",
+      "头部完整、面部位于上半部",
+      "无卡框或可读文字"
+    ],
+    "defects": [
+      "背景偏白且更像日间港口，未实现月港夜色",
+      "星图仪变成圆形容器、需要重绘",
+      "双手姿势与其他候选可能不同，不能视为严格同构图对比"
+    ],
+    "layers": "complete_image_only"
+  }
+}

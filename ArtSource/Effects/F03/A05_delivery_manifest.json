@@ -1,0 +1,213 @@
+{
+  "task": "A05-REVEAL",
+  "ready_for_integration": [
+    {
+      "assetId": "contract_paper",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/contract_paper_v001.png",
+      "size": [
+        1024,
+        800
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 36380,
+      "center_alpha": 255,
+      "sha256": "1abb064e11e12803ceed5d5da081ff9a237b7e482c5bdcb9319f574589e28f64",
+      "source": "ArtSource/Effects/F03/VectorSource/contract_paper_v001.svg",
+      "method": "original vector design, local Pillow 2x raster export",
+      "glow_radius": 0,
+      "status": "pending_unity_review"
+    },
+    {
+      "assetId": "contract_border",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/contract_border_v001.png",
+      "size": [
+        1024,
+        800
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 766744,
+      "center_alpha": 0,
+      "sha256": "fe0f1c3be4663744e69fb6f2d7d3619fc0b170b2e7af65d637f006a5ade7306d",
+      "source": "ArtSource/Effects/F03/VectorSource/contract_border_v001.svg",
+      "method": "original vector design, local Pillow 2x raster export",
+      "glow_radius": 0,
+      "status": "pending_unity_review"
+    },
+    {
+      "assetId": "star_seal",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/star_seal_v001.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 159452,
+      "center_alpha": 255,
+      "sha256": "b1fd5bcb03bbe8eea04f59db516495666764bb52ead43a9b944f55f092f024ab",
+      "source": "ArtSource/Effects/F03/VectorSource/star_seal_v001.svg",
+      "method": "original vector design, local Pillow 2x raster export",
+      "glow_radius": 3,
+      "status": "pending_unity_review"
+    },
+    {
+      "assetId": "ring_giant",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/ring_giant_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 724531,
+      "center_alpha": 0,
+      "sha256": "585484b57fb07a3ac7d9293755d962a020c49c5dd456f0eaede566a1b343542d",
+      "source": "ArtSource/Effects/F03/VectorSource/ring_giant_v001.svg",
+      "method": "original vector design, local Pillow 2x raster export",
+      "glow_radius": 4,
+      "status": "pending_unity_review"
+    },
+    {
+      "assetId": "ring_outer",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/ring_outer_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 840617,
+      "center_alpha": 0,
+      "sha256": "f28c2129f688664101f831839a5ee50bad04dedfa1508c394ccdc9952dc04d05",
+      "source": "ArtSource/Effects/F03/VectorSource/ring_outer_v001.svg",
+      "method": "original vector design, local Pillow 2x raster export",
+      "glow_radius": 4,
+      "status": "pending_unity_review"
+    },
+    {
+      "assetId": "ring_inner",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/ring_inner_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 831760,
+      "center_alpha": 0,
+      "sha256": "b8fba008551446340052502d933a6791c9d2992aea64a03d90a4aa806261f00e",
+      "source": "ArtSource/Effects/F03/VectorSource/ring_inner_v001.svg",
+      "method": "original vector design, local Pillow 2x raster export",
+      "glow_radius": 4,
+      "status": "pending_unity_review"
+    },
+    {
+      "assetId": "shockwave",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/shockwave_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 826014,
+      "sha256": "a6547bc28731f11905e723bd36fca9335f45b283ae647106d046dc08ec063a31",
+      "method": "original analytic local light texture",
+      "source": "ArtSource/Effects/F03/build_a05_layers.py",
+      "status": "pending_unity_review"
+    },
+    {
+      "assetId": "light_pillar",
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/light_pillar_v001.png",
+      "size": [
+        512,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 383728,
+      "sha256": "50ba872a8f2e7628b5f680fd2a2464973295f9a62811182bd402be338b0cae89",
+      "method": "original analytic local light texture",
+      "source": "ArtSource/Effects/F03/build_a05_layers.py",
+      "status": "pending_unity_review"
+    },
+    {
+      "path": "这次一定出/Assets/_Game/Art/Effects/F03/star_seal_anima_v001.png",
+      "source": "ArtSource/Effects/F03/LocalGenerationSmoke/star_fullimage_v001.png",
+      "source_sha256": "cfbaf066c56f9a6cd80fa5ca85c5b1c07bc87a63ebb2a2e321beb81e5aa083ba",
+      "sha256": "0ba89410a98a4b4c86d414671fccc585c651bb992f79f9f1bae08c489d076567",
+      "size": [
+        512,
+        512
+      ],
+      "method": "local Anima generation, local SAM vit_b mask, 0.45px mask antialias",
+      "scores": [
+        0.9960557818412781,
+        0.9674025177955627,
+        0.8181701898574829
+      ],
+      "selected": 0,
+      "real_alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 152187,
+      "status": "PNG alpha and local visual check passed; Unity pending",
+      "assetId": "star_seal_anima"
+    },
+    {
+      "path": "这次一定出/Assets/_Game/Art/Characters/UR001/RPG/UR001_fire_card_base_v001.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "50ef7c3506e8e4e09efad1b55b052ed2645e3cb394cc84bd773917ffe36a780a",
+      "alpha_extrema": null,
+      "zero_alpha_pixels": 0,
+      "status": "complete card, pending Unity import",
+      "assetId": "UR001_fire_card"
+    }
+  ],
+  "not_ready_candidate": [
+    {
+      "path": "ArtSource/Characters/UR001/RPG/UR001_fire_character_candidate_v002.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "44699b920ecbc387391134c27c336673af2afe0f64992fd073df2924b79a6dd5",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "zero_alpha_pixels": 640725,
+      "status": "real alpha candidate; visual defects remain; do not bind as final",
+      "assetId": "UR001_fire_character_candidate"
+    }
+  ],
+  "unity_runtime_validation": "not performed",
+  "original_pixels_preserved_pre_resampling": true,
+  "reuse_paths": [
+    "这次一定出/Assets/_Game/Art/Characters/UIIceMage/UIIceMage_character_v001.png",
+    "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_blue_v002.png",
+    "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_gold_v002.png"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "task": "A02_RPG_01_ice_mage",
+  "submission": {
+    "prompt_id": "ca0437ba-b646-46f1-a5ba-6c7e1cf06cb2",
+    "number": 11,
+    "node_errors": {}
+  },
+  "started_unix": 1791389208.7884898,
+  "graph_path": "Workflows/A02_RPG_01_ice_mage_api.json",
+  "elapsed_seconds": 45.3,
+  "output": "StyleTests\\RPG_Professions\\01_ice_mage_v001.png",
+  "sha256": "82745972cd6fb419103939c71e975216f3e32ced7fe07b9ec8be74b81913bac3",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "concept_pending_user_selection",
+  "profession": "冰法师",
+  "element": "冰",
+  "declared_character_age": 24,
+  "visual_review": {
+    "strengths": [
+      "尖帽、雪花杖和冰晶使职业/元素清楚",
+      "露肩、开衩和屈膝姿态保留稀有卡魅力"
+    ],
+    "defects": [
+      "法杖握持和右侧张开手需要正式图细检",
+      "帽沿与法杖距画幅边缘较近"
+    ]
+  },
+  "layers": "complete_image_only",
+  "unity_validation": "not_integrated",
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "style_chain": "User PNG workflow; same model/LoRA/sampler settings; profession prompt and seed changed; tiled decode"
+}

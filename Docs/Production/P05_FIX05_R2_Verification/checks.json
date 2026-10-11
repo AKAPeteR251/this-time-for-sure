@@ -1,0 +1,484 @@
+{
+    "checks": [
+        "侧栏与顶部切换删除",
+        "Main三张生成参考实际引用",
+        "没有下一张/查看结果按钮",
+        "揭晓没有称号节点",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "剪影阶段无姓名或稀有度",
+        "角色名字先于稀有度",
+        "稀有度随后完整浮现",
+        "仅名称，无称号或张数",
+        "首张等待新确认",
+        "空白区域真实射线命中",
+        "空白区域真实射线命中",
+        "动画点击补齐当前张与全部信息",
+        "不穿透下一张",
+        "非NEW角色不显示标签",
+        "空白区域真实射线命中",
+        "末张仍等待",
+        "空白区域真实射线命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "安全区:1920x1080:AdvanceSurface",
+        "安全区:1920x1080:跳过",
+        "纯净文案:RevealIdentity:尚未接入",
+        "纯净文案:RevealIdentity:本次运行",
+        "纯净文案:RevealIdentity:UI MOCK",
+        "纯净文案:RevealIdentity:占位",
+        "纯净文案:RevealIdentity:校准",
+        "纯净文案:RevealIdentity:SSR001",
+        "纯净文案:RevealIdentity:UR001",
+        "纯净文案:RevealIdentity:这次一定出",
+        "纯净文案:RevealIdentity:预览",
+        "纯净文案:RarityLabel:尚未接入",
+        "纯净文案:RarityLabel:本次运行",
+        "纯净文案:RarityLabel:UI MOCK",
+        "纯净文案:RarityLabel:占位",
+        "纯净文案:RarityLabel:校准",
+        "纯净文案:RarityLabel:SSR001",
+        "纯净文案:RarityLabel:UR001",
+        "纯净文案:RarityLabel:这次一定出",
+        "纯净文案:RarityLabel:预览",
+        "纯净文案:NewLabel:尚未接入",
+        "纯净文案:NewLabel:本次运行",
+        "纯净文案:NewLabel:UI MOCK",
+        "纯净文案:NewLabel:占位",
+        "纯净文案:NewLabel:校准",
+        "纯净文案:NewLabel:SSR001",
+        "纯净文案:NewLabel:UR001",
+        "纯净文案:NewLabel:这次一定出",
+        "纯净文案:NewLabel:预览",
+        "纯净文案:RevealSignal:尚未接入",
+        "纯净文案:RevealSignal:本次运行",
+        "纯净文案:RevealSignal:UI MOCK",
+        "纯净文案:RevealSignal:占位",
+        "纯净文案:RevealSignal:校准",
+        "纯净文案:RevealSignal:SSR001",
+        "纯净文案:RevealSignal:UR001",
+        "纯净文案:RevealSignal:这次一定出",
+        "纯净文案:RevealSignal:预览",
+        "纯净文案:Text:尚未接入",
+        "纯净文案:Text:本次运行",
+        "纯净文案:Text:UI MOCK",
+        "纯净文案:Text:占位",
+        "纯净文案:Text:校准",
+        "纯净文案:Text:SSR001",
+        "纯净文案:Text:UR001",
+        "纯净文案:Text:这次一定出",
+        "纯净文案:Text:预览",
+        "等待Esc回同批清白幕",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "水晶输入首命中",
+        "安全区:1600x1000:AdvanceSurface",
+        "安全区:1600x1000:跳过",
+        "纯净文案:RevealIdentity:尚未接入",
+        "纯净文案:RevealIdentity:本次运行",
+        "纯净文案:RevealIdentity:UI MOCK",
+        "纯净文案:RevealIdentity:占位",
+        "纯净文案:RevealIdentity:校准",
+        "纯净文案:RevealIdentity:SSR001",
+        "纯净文案:RevealIdentity:UR001",
+        "纯净文案:RevealIdentity:这次一定出",
+        "纯净文案:RevealIdentity:预览",
+        "纯净文案:RarityLabel:尚未接入",
+        "纯净文案:RarityLabel:本次运行",
+        "纯净文案:RarityLabel:UI MOCK",
+        "纯净文案:RarityLabel:占位",
+        "纯净文案:RarityLabel:校准",
+        "纯净文案:RarityLabel:SSR001",
+        "纯净文案:RarityLabel:UR001",
+        "纯净文案:RarityLabel:这次一定出",
+        "纯净文案:RarityLabel:预览",
+        "纯净文案:NewLabel:尚未接入",
+        "纯净文案:NewLabel:本次运行",
+        "纯净文案:NewLabel:UI MOCK",
+        "纯净文案:NewLabel:占位",
+        "纯净文案:NewLabel:校准",
+        "纯净文案:NewLabel:SSR001",
+        "纯净文案:NewLabel:UR001",
+        "纯净文案:NewLabel:这次一定出",
+        "纯净文案:NewLabel:预览",
+        "纯净文案:RevealSignal:尚未接入",
+        "纯净文案:RevealSignal:本次运行",
+        "纯净文案:RevealSignal:UI MOCK",
+        "纯净文案:RevealSignal:占位",
+        "纯净文案:RevealSignal:校准",
+        "纯净文案:RevealSignal:SSR001",
+        "纯净文案:RevealSignal:UR001",
+        "纯净文案:RevealSignal:这次一定出",
+        "纯净文案:RevealSignal:预览",
+        "纯净文案:Text:尚未接入",
+        "纯净文案:Text:本次运行",
+        "纯净文案:Text:UI MOCK",
+        "纯净文案:Text:占位",
+        "纯净文案:Text:校准",
+        "纯净文案:Text:SSR001",
+        "纯净文案:Text:UR001",
+        "纯净文案:Text:这次一定出",
+        "纯净文案:Text:预览",
+        "等待Esc回同批清白幕",
+        "手写区真实首命中",
+        "可见轨迹松笔前不扣费",
+        "手写统一Draw保持",
+        "补签统一十连Draw保持",
+        "演出跳过同批",
+        "按钮实际首命中:查看图鉴  ›; hit=查看图鉴  ›",
+        "总览保留图鉴入口",
+        "图鉴返回召唤保持"
+    ],
+    "audioCues": [
+        {
+            "cue": "voice_first",
+            "at": 3.9518821239471437,
+            "phaseSeconds": 0.0027246475219726564,
+            "dsp": 573.6356666666667
+        },
+        {
+            "cue": "prelude_bed",
+            "at": 3.951979875564575,
+            "phaseSeconds": 0.002820730209350586,
+            "dsp": 573.6356666666667
+        },
+        {
+            "cue": "crystal_wait",
+            "at": 4.002072811126709,
+            "phaseSeconds": 0.05291414260864258,
+            "dsp": 573.6746666666667
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 4.008796691894531,
+            "phaseSeconds": 0.05963754653930664,
+            "dsp": 573.6746666666667
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 4.161211013793945,
+            "phaseSeconds": 0.2120518684387207,
+            "dsp": 573.824
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 4.332042217254639,
+            "phaseSeconds": 0.38288307189941409,
+            "dsp": 574.016
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 4.503400802612305,
+            "phaseSeconds": 0.5542416572570801,
+            "dsp": 574.1866666666666
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 4.673295497894287,
+            "phaseSeconds": 0.7241368293762207,
+            "dsp": 574.336
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 4.843353748321533,
+            "phaseSeconds": 0.8941946029663086,
+            "dsp": 574.5066666666667
+        },
+        {
+            "cue": "voice_final",
+            "at": 4.933082103729248,
+            "phaseSeconds": 0.9839229583740234,
+            "dsp": 574.6233333333333
+        },
+        {
+            "cue": "gate_burst",
+            "at": 6.5330424308776859,
+            "phaseSeconds": 2.583883285522461,
+            "dsp": 576.2133333333334
+        },
+        {
+            "cue": "charge_SSR",
+            "at": 6.5339837074279789,
+            "phaseSeconds": 0.000027179718017578125,
+            "dsp": 576.2133333333334
+        },
+        {
+            "cue": "reveal_SSR",
+            "at": 7.192462921142578,
+            "phaseSeconds": 0.6585063934326172,
+            "dsp": 576.8533333333334
+        },
+        {
+            "cue": "confirm",
+            "at": 9.21467399597168,
+            "phaseSeconds": 2.6807174682617189,
+            "dsp": 578.9013333333334
+        },
+        {
+            "cue": "charge_SSR",
+            "at": 9.369942665100098,
+            "phaseSeconds": 0.00002956390380859375,
+            "dsp": 579.0506666666666
+        },
+        {
+            "cue": "reveal_SSR",
+            "at": 9.37960147857666,
+            "phaseSeconds": 0.009688377380371094,
+            "dsp": 579.072
+        },
+        {
+            "cue": "confirm",
+            "at": 9.682636260986329,
+            "phaseSeconds": 0.31272315979003909,
+            "dsp": 579.3493333333333
+        },
+        {
+            "cue": "reveal_R",
+            "at": 10.058704376220704,
+            "phaseSeconds": 0.2122631072998047,
+            "dsp": 579.7333333333333
+        },
+        {
+            "cue": "confirm",
+            "at": 11.13798999786377,
+            "phaseSeconds": 1.291548728942871,
+            "dsp": 580.8
+        },
+        {
+            "cue": "voice_first",
+            "at": 11.486936569213868,
+            "phaseSeconds": 0.00003147125244140625,
+            "dsp": 581.1876666666667
+        },
+        {
+            "cue": "prelude_bed",
+            "at": 11.486945152282715,
+            "phaseSeconds": 0.0000400543212890625,
+            "dsp": 581.1876666666667
+        },
+        {
+            "cue": "crystal_wait",
+            "at": 11.493103981018067,
+            "phaseSeconds": 0.006198883056640625,
+            "dsp": 581.184
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 11.493185043334961,
+            "phaseSeconds": 0.006279945373535156,
+            "dsp": 581.184
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 11.635467529296875,
+            "phaseSeconds": 0.14856243133544923,
+            "dsp": 581.312
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 11.776847839355469,
+            "phaseSeconds": 0.28994274139404299,
+            "dsp": 581.44
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 11.918583869934082,
+            "phaseSeconds": 0.43167877197265627,
+            "dsp": 581.5893333333333
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 12.06351375579834,
+            "phaseSeconds": 0.5766096115112305,
+            "dsp": 581.7173333333334
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 12.20500373840332,
+            "phaseSeconds": 0.7180986404418945,
+            "dsp": 581.8666666666667
+        },
+        {
+            "cue": "voice_final",
+            "at": 12.278199195861817,
+            "phaseSeconds": 0.7912940979003906,
+            "dsp": 581.962
+        },
+        {
+            "cue": "gate_burst",
+            "at": 13.879146575927735,
+            "phaseSeconds": 2.3922414779663088,
+            "dsp": 583.552
+        },
+        {
+            "cue": "charge_SSR",
+            "at": 13.879406929016114,
+            "phaseSeconds": 0.00001239776611328125,
+            "dsp": 583.552
+        },
+        {
+            "cue": "reveal_SSR",
+            "at": 14.538426399230957,
+            "phaseSeconds": 0.659031867980957,
+            "dsp": 584.2133333333334
+        },
+        {
+            "cue": "skip",
+            "at": 16.194629669189454,
+            "phaseSeconds": 2.315235137939453,
+            "dsp": 585.8773333333334
+        },
+        {
+            "cue": "voice_first",
+            "at": 16.39351463317871,
+            "phaseSeconds": 0.00002288818359375,
+            "dsp": 586.0943333333333
+        },
+        {
+            "cue": "prelude_bed",
+            "at": 16.393522262573243,
+            "phaseSeconds": 0.000030517578125,
+            "dsp": 586.0943333333333
+        },
+        {
+            "cue": "crystal_wait",
+            "at": 16.398887634277345,
+            "phaseSeconds": 0.0053958892822265629,
+            "dsp": 586.0693333333334
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 16.39896011352539,
+            "phaseSeconds": 0.0054683685302734379,
+            "dsp": 586.0693333333334
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 16.541461944580079,
+            "phaseSeconds": 0.14797019958496095,
+            "dsp": 586.2186666666666
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 16.68359375,
+            "phaseSeconds": 0.2901020050048828,
+            "dsp": 586.368
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 16.825956344604493,
+            "phaseSeconds": 0.432464599609375,
+            "dsp": 586.5173333333333
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 16.968276977539064,
+            "phaseSeconds": 0.5747852325439453,
+            "dsp": 586.6666666666666
+        },
+        {
+            "cue": "crystal_hit",
+            "at": 17.11040496826172,
+            "phaseSeconds": 0.7169132232666016,
+            "dsp": 586.7733333333333
+        },
+        {
+            "cue": "voice_final",
+            "at": 17.184160232543947,
+            "phaseSeconds": 0.7906684875488281,
+            "dsp": 586.8686666666666
+        },
+        {
+            "cue": "gate_burst",
+            "at": 18.78441047668457,
+            "phaseSeconds": 2.390918731689453,
+            "dsp": 588.4586666666667
+        },
+        {
+            "cue": "charge_SSR",
+            "at": 18.784618377685548,
+            "phaseSeconds": 0.0000133514404296875,
+            "dsp": 588.4586666666667
+        },
+        {
+            "cue": "reveal_SSR",
+            "at": 19.4429874420166,
+            "phaseSeconds": 0.6583824157714844,
+            "dsp": 589.12
+        },
+        {
+            "cue": "skip",
+            "at": 21.078683853149415,
+            "phaseSeconds": 2.2940807342529299,
+            "dsp": 590.7626666666666
+        },
+        {
+            "cue": "voice_first",
+            "at": 21.292957305908204,
+            "phaseSeconds": 0.000026702880859375,
+            "dsp": 591.001
+        },
+        {
+            "cue": "prelude_bed",
+            "at": 21.292964935302736,
+            "phaseSeconds": 0.000034332275390625,
+            "dsp": 591.001
+        },
+        {
+            "cue": "skip",
+            "at": 21.29303550720215,
+            "phaseSeconds": 0.0001049041748046875,
+            "dsp": 590.976
+        },
+        {
+            "cue": "voice_first",
+            "at": 21.701648712158204,
+            "phaseSeconds": 0.00002288818359375,
+            "dsp": 591.4063333333334
+        },
+        {
+            "cue": "prelude_bed",
+            "at": 21.701656341552736,
+            "phaseSeconds": 0.000030517578125,
+            "dsp": 591.4063333333334
+        },
+        {
+            "cue": "skip",
+            "at": 21.702112197875978,
+            "phaseSeconds": 0.0004863739013671875,
+            "dsp": 591.3813333333334
+        }
+    ],
+    "currency": 19,
+    "totalPulls": 11,
+    "commits": 2
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "main_crystal_high_frequency.mp4",
+    "sha256": "6ab3b6b3ea2b4dd35058296fd07fea3184d775763bc1ea062b3dc49644178cc4",
+    "bytes": 5640997,
+    "actualCaptureSeconds": 10.52637,
+    "muxSeconds": 10.526,
+    "frames": 241,
+    "averageCaptureFps": 22.89488209135723,
+    "audioSeconds": 10.538666666666666,
+    "audioStart": 0.0012461,
+    "audioRate": 48000,
+    "peak": 0.5439453125,
+    "rms": 0.03181199301773418,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  },
+  {
+    "file": "main_crystal_skip_cleanup.mp4",
+    "sha256": "739562e11cc67334ed0413e33a67c86cfa833ebd30dca044e33ec315a9526df8",
+    "bytes": 1844419,
+    "actualCaptureSeconds": 4.4289191,
+    "muxSeconds": 4.44,
+    "frames": 104,
+    "averageCaptureFps": 23.48202747708803,
+    "audioSeconds": 4.394666666666667,
+    "audioStart": 0.0357674,
+    "audioRate": 48000,
+    "peak": 0.3472900390625,
+    "rms": 0.026237339423145687,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  },
+  {
+    "file": "main_crystal_slow_pause.mp4",
+    "sha256": "0ee25fdf490fb76832002e925a37892abfb0f5f9b5e79d58aeeef0472be05049",
+    "bytes": 6627446,
+    "actualCaptureSeconds": 16.7262941,
+    "muxSeconds": 16.726,
+    "frames": 383,
+    "averageCaptureFps": 22.898078780044887,
+    "audioSeconds": 16.72533333333333,
+    "audioStart": 0.0085884,
+    "audioRate": 48000,
+    "peak": 0.5491943359375,
+    "rms": 0.026219164251229787,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  },
+  {
+    "file": "main_random_contract_ten.mp4",
+    "sha256": "fa31d954ddd93517c5d0b31c7872ea20d20d22c9f5ac835c1685d51c95e0a3ce",
+    "bytes": 2743714,
+    "actualCaptureSeconds": 6.2252518,
+    "muxSeconds": 6.24,
+    "frames": 146,
+    "averageCaptureFps": 23.452866597299728,
+    "audioSeconds": 6.250666666666667,
+    "audioStart": 0.0027986,
+    "audioRate": 48000,
+    "peak": 0.286285400390625,
+    "rms": 0.02868904026804347,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

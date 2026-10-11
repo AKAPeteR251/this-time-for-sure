@@ -1,0 +1,47 @@
+[
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Core\\PrototypeGacha.cs",
+    "Hash": "AA1768FF0AD07CCE13ACDF066D41FCF13DFF0E7AB35C04E91BC4F7CA12BF41E2",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Core\\PrototypeGacha.cs.meta",
+    "Hash": "39ECCFC1D84076B8C9E42BECAE28AFAED33C29A37066B1563C03E2B094A312FF",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Presentation\\ContractCeremonyView.cs",
+    "Hash": "2B4C3B44A0F30BD7B1A8E6BEB846C6C47CD73DD63B9490EFBBC038BCF0D5F6E0",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Presentation\\ContractCeremonyView.cs.meta",
+    "Hash": "9E8CBE68521DCB1FEDE2C6B30A0CF5004291D82E60B968294F1161B168DE636C",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Presentation\\ContractSignaturePad.cs",
+    "Hash": "A6AEC63E3CF4F75F1EC94EAB63FE9DFA6300D61E56BAFE4A673EF74E1D148668",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Presentation\\ContractSignaturePad.cs.meta",
+    "Hash": "987D2060E7A5553253CB2A838EA0451DFEE8CEF02B6839B1270DFD77574BB5EA",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Presentation\\FastRevealView.cs",
+    "Hash": "D44BFA1CC1ACC8A6681F44F4E4D2137B33DF65C193BF360965F2F8531D3EDF92",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scripts\\Presentation\\FastRevealView.cs.meta",
+    "Hash": "9CD502FA18ECC9AF95A9CD8A8A134FB415A0B63A0A25DBEAD16D45313A727E5D",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\vibe\\这次一定出\\这次一定出\\Assets\\_Game\\Scenes\\Main.unity",
+    "Hash": "B5B3519AA3320522A795F19251AA4559CE2A9BFFE6B565C2677DCBD5B93C2E34",
+    "Unchanged": true
+  }
+]

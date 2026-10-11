@@ -1,0 +1,28 @@
+{
+  "task": "A00_smoke",
+  "submission": {
+    "prompt_id": "3501002e-743d-4703-8624-77bb1dbf272f",
+    "number": 1,
+    "node_errors": {}
+  },
+  "started_unix": 1791387336.3516195,
+  "graph_path": "Workflows/A00_smoke_api.json",
+  "elapsed_seconds": 105.55,
+  "output": "StyleTests\\A00_smoke.png",
+  "sha256": "f616b3f3476dbfc14a3698992d5b84ba51559e74d4102b6e167292f3af7edd10",
+  "dimensions": [
+    512,
+    768
+  ],
+  "status": "generated_pending_visual_review",
+  "visual_review": {
+    "reviewer": "art agent",
+    "status": "environment_test_only",
+    "notes": [
+      "完整头部、银灰发与蓝白制服可辨识",
+      "道具更像小灯，正式图需增强星图仪结构",
+      "背景对比偏亮；不是正式稿",
+      "完整RGB图，无人物透明层"
+    ]
+  }
+}

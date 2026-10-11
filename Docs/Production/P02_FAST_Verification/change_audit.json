@@ -1,0 +1,192 @@
+{
+  "protectedFiles": [
+    {
+      "unchanged": true,
+      "path": "这次一定出/Assets/_Game/Scripts/Core/PrototypeGacha.cs",
+      "sha256": "AA1768FF0AD07CCE13ACDF066D41FCF13DFF0E7AB35C04E91BC4F7CA12BF41E2"
+    },
+    {
+      "unchanged": true,
+      "path": "这次一定出/Assets/_Game/Scripts/UI/PrototypeUIAdapter.cs",
+      "sha256": "B5DDE60B350BAB31D95CBBE8EFB40EF7B67A8373D683276B9AF48EFD6F78D006"
+    },
+    {
+      "unchanged": true,
+      "path": "这次一定出/Assets/_Game/Scripts/UI/PrototypeUITheme.cs",
+      "sha256": "FA7475C8CCEA1C86D2044135EA8134084C534F37B2E3C60CEC52ABAB224BC527"
+    },
+    {
+      "unchanged": true,
+      "path": "这次一定出/Assets/_Game/Scenes/UIPrototype.unity",
+      "sha256": "86B825ADF4A2317AD9981E48B65CDBCDFA94245FFA8B7DF81F9B78DD4E0984F8"
+    },
+    {
+      "unchanged": true,
+      "path": "这次一定出/Assets/_Game/UI/Prefabs/UIPrototype.prefab",
+      "sha256": "64B6AA5596D494F87D0CFBF21699716813CD61196A70DFCB04BB1573EF9458C8"
+    },
+    {
+      "unchanged": true,
+      "path": "这次一定出/Assets/_Game/UI/Styles/U02ArtTheme.asset",
+      "sha256": "C1F90CE3C497D358D432D17A8CB8D6DF4F0DA44F0F0655221B1B5152C7C465E2"
+    },
+    {
+      "unchanged": true,
+      "path": "这次一定出/ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "1EF28389FDBE41C01DDBA69A8D8D90A90EDD542F4D1242736CA63FBEC90B8F45"
+    },
+    {
+      "unchanged": true,
+      "path": "这次一定出/Assets/_Game/Scenes/Main.unity.meta",
+      "sha256": "E76417344C83F03AADEBBDA1B8363C5BAF7AD850103334F2951E89D039154479"
+    }
+  ],
+  "onlyHandedOffRevealCodeChanged": true,
+  "atUtc": "2026-10-08T03:32:38.0923735Z",
+  "pngs": [
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Backgrounds/UI_FrozenCastle_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIIceMage/UIIceMage_character_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_R_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_SR_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_SSR_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/frame_UR_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_normal_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_selected_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_pressed_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/button_disabled_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/panel_information_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/panel_tooltip_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/deco_star_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_summon_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_collection_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_back_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/icon_currency_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_ice_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_light_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_thunder_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_wind_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/element_fire_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_blue_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Effects/UIAssets/fx_sparkle_gold_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001_thumb.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001_thumb.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002_thumb.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001_thumb.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001_thumb.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001.png"
+    },
+    {
+      "manifestMatch": true,
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001_thumb.png"
+    }
+  ]
+}

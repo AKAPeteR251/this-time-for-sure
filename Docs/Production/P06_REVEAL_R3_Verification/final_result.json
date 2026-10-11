@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: Main仅名称、无按钮/张数、空白新点击确认与末张等待、R3分层动态、四档字图、三窗口、真实Draw和同批跳过；实际带声片段。",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-10T10:23:17.7877788Z"
+}

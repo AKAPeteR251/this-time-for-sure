@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p27_contract_float.mp4",
+    "sha256": "c599154c0dc6a4103ea16bd282bc3267f1d4df421f0a8d7ad5f3059f4d61d919",
+    "bytes": 7457247,
+    "actualCaptureSeconds": 11.4875926,
+    "muxSeconds": 11.487,
+    "frames": 247,
+    "averageCaptureFps": 21.501458887043054,
+    "audioSeconds": 11.498666666666667,
+    "audioStart": 0.0014965999999999998,
+    "audioRate": 48000,
+    "peak": 0.52838134765625,
+    "rms": 0.026167659537285077,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "characters": 10,
+  "files": 93,
+  "zip_crc": "passed",
+  "bytes": 43697733,
+  "sha256": "57e501f8c86c713bf14849372cefabd975cf04ab54180aafaad8d46f99a06b73"
+}

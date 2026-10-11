@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_r3_layered_reveal.mp4",
+    "sha256": "e9fa5d6ec3f5cb2ce24da249d8365d86f2437c16ebd00ad5f15bc959c3c53aa7",
+    "bytes": 3136093,
+    "actualCaptureSeconds": 11.2566916,
+    "muxSeconds": 11.257,
+    "frames": 254,
+    "averageCaptureFps": 22.564356298079623,
+    "audioSeconds": 11.264,
+    "audioStart": 0.012103299999999999,
+    "audioRate": 48000,
+    "peak": 0.26922607421875,
+    "rms": 0.02293166153388926,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

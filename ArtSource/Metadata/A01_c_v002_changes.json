@@ -1,0 +1,16 @@
+{
+  "source": "Workflows/user_00348_prompt.json",
+  "changes": {
+    "positive_prompt": "original SSR001 plus style emphasis",
+    "negative_prompt": "project negative prompt",
+    "size": [
+      768,
+      1152
+    ],
+    "seed": 71007001,
+    "lora_strength_multiplier": 0.3,
+    "output_prefix": "A01_SSR001_c_v002"
+  },
+  "unchanged": "graph structure, model, text encoder, VAE, sampler and replay settings",
+  "reason": "v001 style LoRA dominates brushwork; maintain original files and try reduced strength"
+}

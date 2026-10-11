@@ -1,0 +1,281 @@
+{
+  "1": {
+    "inputs": {
+      "vae_name": "qwenImage_qwenImageVAE.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "加载VAE"
+    }
+  },
+  "2": {
+    "class_type": "VAEEncodeTiled",
+    "inputs": {
+      "pixels": [
+        "19",
+        0
+      ],
+      "vae": [
+        "1",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "3": {
+    "inputs": {
+      "clip_name": "anima_baseV10_txt.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "加载CLIP"
+    }
+  },
+  "4": {
+    "inputs": {
+      "text": "One adult 24-year-old ice sorceress, preserve the source character's exact face, icy blue eyes, long silver-white hair, huge white-and-blue pointed witch hat with snowflake decorations, white and ice-blue off-shoulder fitted slit gown, dark thigh-high stockings and black ankle boots. Preserve the source's seated floating bent-knee pose, complete snowflake staff in one hand and other palm extended, all clothing shapes and the same full-body composition. Clean fine anime linework, precise cel shading with restrained soft gradients, clean skin colors, readable eyes, carefully rendered hair strands, stocking material, fabric folds and crystal facets. Plain mid-gray background, no new scenery or additional accessories. No text, UI, card frame, logo, watermark or separate floating particles.",
+      "clip": [
+        "21",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码"
+    }
+  },
+  "5": {
+    "inputs": {
+      "text": "blurry, muddy colors, excessive microtexture, gritty skin, oversharpening, noise, photorealistic, 3D render, extra character, changed face, changed hairstyle, changed costume, extra limbs, malformed hands, extra fingers, broken wrist, distorted staff, cropped head, cropped feet, cropped weapon, face hidden, dense effects, background scenery, text, logo, watermark, card frame, checkerboard",
+      "clip": [
+        "21",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码"
+    }
+  },
+  "6": {
+    "inputs": {
+      "lora_name": "anima\\Flatline.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0.6,
+      "model": [
+        "7",
+        0
+      ],
+      "clip": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  },
+  "7": {
+    "inputs": {
+      "unet_name": "anima_turboV11.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNet加载器"
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "10",
+        0
+      ],
+      "vae": [
+        "1",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "9": {
+    "inputs": {
+      "enable_replay": false,
+      "block_indices": "3,4,5",
+      "denoise_start_pct": 0.5,
+      "denoise_end_pct": 1.0,
+      "enable_spectrum": false,
+      "spectrum_w": 0.2,
+      "spectrum_m": 16,
+      "spectrum_lam": 0.5,
+      "spectrum_warmup_steps": 6,
+      "spectrum_window_size": 2,
+      "spectrum_flex_window": 0.0,
+      "model": [
+        "21",
+        0
+      ]
+    },
+    "class_type": "AnimaLayerReplayPatcher",
+    "_meta": {
+      "title": "Anima Layer Replay Patcher"
+    }
+  },
+  "10": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "9",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "2",
+        0
+      ],
+      "seed": 71008031,
+      "steps": 12,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 0.3
+    }
+  },
+  "12": {
+    "inputs": {
+      "filename_prefix": "A08_LORA_B0_v001",
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "14": {
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "16": {
+    "inputs": {
+      "lora_name": "anima\\chen-bin_v4.0.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0.6,
+      "model": [
+        "6",
+        0
+      ],
+      "clip": [
+        "6",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  },
+  "17": {
+    "inputs": {
+      "lora_name": "anima\\bakav3-000012.safetensors",
+      "strength_model": 0.8,
+      "strength_clip": 0.8,
+      "model": [
+        "16",
+        0
+      ],
+      "clip": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  },
+  "18": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "zheciyidingchu_art/A08_LORA/A08_ice_mage_gray_v001.png"
+    }
+  },
+  "19": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "18",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1024,
+      "height": 1536,
+      "crop": "disabled"
+    }
+  },
+  "20": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "lora_name": "anima\\anima_context_detailer_base10.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "17",
+        0
+      ],
+      "clip": [
+        "17",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "A08 Detailer model only"
+    }
+  },
+  "21": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "lora_name": "anima\\reina_v1_epoch14.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "20",
+        0
+      ],
+      "clip": [
+        "20",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "A08 Reina model only"
+    }
+  }
+}

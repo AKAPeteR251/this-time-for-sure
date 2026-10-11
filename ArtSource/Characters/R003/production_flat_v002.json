@@ -1,0 +1,134 @@
+{
+  "task": "A07-PILOT",
+  "subtask": "Milo flat cel style revision",
+  "style_request": "User rejected oily rendering; now flat colors, hard-edged cel shadows, minimal highlights",
+  "status": "candidate ready for visual review; no formal master, alpha extraction or Unity integration",
+  "selected_preview_candidate": 4,
+  "positive": "anime screencap style, 2D cel animation, flat colors, limited color palette, crisp thin black outlines, uniform opaque base color fills, simple hard-edged shadow shapes, absolutely no gradients, no material reflections. A SINGLE adult 27-year-old female fantasy shield knight, full body. Dark brown short bob hair, gray-green eyes, embarrassed slight smile. Flat light-gray chest armor, shoulder plates and forearm armor, dark green short cape, fitted waist, short pleated armored skirt, one small triangular opening revealing skin at the side waist. Opaque matte charcoal pantyhose, small knee guards, short ankle boots. All armor and shield are painted as uniform gray graphic shapes with one darker flat shadow plane, no white shine. One broad shield held at her left side, a small simple orange lantern hanging from its rim, a short sheathed sword at her right hip. Natural balanced three-quarter standing stance with one foot forward, complete hands, complete shield, both boots fully visible. Character occupies 80 percent of portrait 2:3 canvas height. Completely flat solid mid-gray background, empty margins, no floor, no shadow. Animation cel, simple two-tone shading, matte flat graphic illustration.",
+  "negative": "photorealistic, 3D, painterly, airbrush, oil painting, oily, glossy, shiny, wet, realistic metal, metallic glare, specular highlights, rim light, bloom, gradients, smooth shading, texture, cinematic lighting, floor, cast shadow, particles, embers, character sheet, duplicate character, background portrait, text, logo, watermark, child, teen, chibi, malformed hands, cropped feet, cropped shield, tall boots, bare thigh gap, shorts",
+  "seed": 71011064,
+  "sampler": {
+    "eta": 0.5,
+    "sampler_name": "dpmpp_2m",
+    "scheduler": "sgm_uniform",
+    "steps": 8,
+    "steps_to_run": -1,
+    "denoise": 1.0,
+    "cfg": 1.0,
+    "seed": 71011064,
+    "sampler_mode": "standard",
+    "bongmath": true,
+    "model": [
+      "9",
+      0
+    ],
+    "positive": [
+      "4",
+      0
+    ],
+    "negative": [
+      "5",
+      0
+    ],
+    "latent_image": [
+      "2",
+      0
+    ]
+  },
+  "lora_chain": [
+    {
+      "lora_name": "anima\\Flatline.safetensors",
+      "strength_model": 1.0,
+      "strength_clip": 1.0,
+      "model": [
+        "7",
+        0
+      ],
+      "clip": [
+        "3",
+        0
+      ]
+    },
+    {
+      "lora_name": "anima\\chen-bin_v4.0.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0.6,
+      "model": [
+        "6",
+        0
+      ],
+      "clip": [
+        "6",
+        1
+      ]
+    },
+    {
+      "lora_name": "anima\\bakav3-000012.safetensors",
+      "strength_model": 0.8,
+      "strength_clip": 0.8,
+      "model": [
+        "16",
+        0
+      ],
+      "clip": [
+        "16",
+        1
+      ]
+    },
+    {
+      "lora_name": "anima\\anima_context_detailer_base10.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0,
+      "model": [
+        "17",
+        0
+      ],
+      "clip": [
+        "17",
+        1
+      ]
+    },
+    {
+      "lora_name": "anima\\reina_v1_epoch14.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0,
+      "model": [
+        "20",
+        0
+      ],
+      "clip": [
+        "20",
+        1
+      ]
+    }
+  ],
+  "generated_dimensions": [
+    768,
+    1152
+  ],
+  "generated_mode": "RGB",
+  "prompt_id": "21c53fe7-2f0c-455d-8d71-161df9bed00a",
+  "elapsed_seconds": 197.01,
+  "source_sha256": "f41ace9006db513019c5436b64029d1bcdd559be51b0e637a0e6c4512af0e57d",
+  "face_review_crop_top_left": [
+    294,
+    74,
+    550,
+    330
+  ],
+  "source": "Local ComfyUI Anima Turbo; no built-in image tool; no portrait reference-conditioning node",
+  "style_review": "Hair, cloth and legwear use broad flat fills and hard shadows; metal retains small graphic light shapes. Reduced oily specular appearance relative to trial01.",
+  "remaining_design_issues": [
+    "Shield nearly touches left canvas boundary; needs safe margin",
+    "Exposed upper-thigh gap means continuous pantyhose requirement not yet met",
+    "No clearly resolved side-waist skin opening",
+    "Source background still has shadow and stray specks; RGB is not a transparent sprite"
+  ],
+  "sources_retained": [
+    "candidate01",
+    "candidate02 recovered from real history after interruption",
+    "candidate03 first flat attempt",
+    "candidate04 second flat attempt"
+  ],
+  "master_rule": "Confirm style/design before formal rebuild; exact observed gaps require correction before alpha delivery"
+}

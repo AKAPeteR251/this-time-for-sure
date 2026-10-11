@@ -1,0 +1,42 @@
+[32m[INFO][0m setup plugin alembic.autogenerate.schemas
+[32m[INFO][0m setup plugin alembic.autogenerate.tables
+[32m[INFO][0m setup plugin alembic.autogenerate.types
+[32m[INFO][0m setup plugin alembic.autogenerate.constraints
+[32m[INFO][0m setup plugin alembic.autogenerate.defaults
+[32m[INFO][0m setup plugin alembic.autogenerate.comments
+[1m[33m[WARNING][0m On windows we are currently forcing single GPU mode in ComfyUI due to a Nvidia related issue, if you want to disable this use: --cuda-device all
+[32m[INFO][0m Setting output directory to: D:\vibe\Õâ´ÎÒ»¶¨³ö\ArtSource\Runtime\output
+[32m[INFO][0m Setting user directory to: D:\vibe\Õâ´ÎÒ»¶¨³ö\ArtSource\Runtime\user
+E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\Lib\site-packages\torch\cuda\__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[32m[INFO][0m Found comfy_kitchen backend cuda: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'convrot_w4a4_linear', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'fp16_conv3d', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'int8_linear', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear']}
+[32m[INFO][0m Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': "ImportError: No module named 'triton'", 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend hip: {'available': False, 'disabled': False, 'unavailable_reason': 'PyTorch ROCm/HIP runtime not available', 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope1_', 'apply_rope_', 'apply_rope_split_half', 'apply_rope_split_half1', 'apply_rope_split_half1_', 'apply_rope_split_half_', 'convrot_w4a4_linear', 'dequantize_convrot_w4a4_weight', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_embedding', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'dequantize_w4a8_int8_weight', 'fp16_conv3d', 'fp16_linear', 'gemv_awq_w4a16', 'group_norm_silu_pad3d', 'int8_linear', 'na3d', 'prepare_int4_weight_for_int8_linear', 'quantize_and_rotate_rowwise', 'quantize_convrot_w4a4_weight', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'quantize_w4a8_int8_weight', 'rms_adaln', 'rms_rope', 'rms_rope1', 'rms_rope1_', 'rms_rope_', 'rms_rope_split_half', 'rms_rope_split_half1', 'rms_rope_split_half1_', 'rms_rope_split_half_', 'rotate_int8_convrot_weight', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'sol_attn', 'stochastic_rounding_fp8', 'w4a8_int8_linear']}
+[32m[INFO][0m Checkpoint files will always be loaded safely.
+[32m[INFO][0m Total VRAM 6144 MB, total RAM 15613 MB
+[32m[INFO][0m pytorch version: 2.9.1+cu130
+[32m[INFO][0m Set vram state to: LOW_VRAM
+[32m[INFO][0m Device: cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync
+[32m[INFO][0m Using async weight offloading with 2 streams
+[32m[INFO][0m Enabled pinned memory 6245.0
+[32m[INFO][0m working around nvidia conv3d memory bug.
+[32m[INFO][0m Using pytorch attention
+[32m[INFO][0m aimdo: src-win/cuda-detour.c:38:INFO:aimdo_setup_hooks: installing 6 hooks
+[32m[INFO][0m aimdo: src/control.c:269:INFO:comfy-aimdo NVML pressure enabled
+[32m[INFO][0m aimdo: src-win/shmem-detect.c:80:INFO:comfy-aimdo WDDM adapter match: NVIDIA GeForce RTX 3060 Laptop GPU runtime_luid=00000000:00013831 dxgi_luid=00000000:00013831
+[32m[INFO][0m aimdo: src/control.c:284:INFO:comfy-aimdo inited for GPU: NVIDIA GeForce RTX 3060 Laptop GPU (VRAM: 6143 MB)
+[32m[INFO][0m DynamicVRAM support detected and enabled
+[32m[INFO][0m Python version: 3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]
+[32m[INFO][0m ComfyUI version: 0.37.0
+[32m[INFO][0m comfy-aimdo version: 0.5.5
+[32m[INFO][0m comfy-kitchen version: 0.2.35
+[32m[INFO][0m Setting temp directory to: D:\vibe\Õâ´ÎÒ»¶¨³ö\ArtSource\Runtime\temp\temp
+[32m[INFO][0m comfyui-frontend-package version: 1.52.7
+[32m[INFO][0m comfyui-workflow-templates version: 0.11.66
+[32m[INFO][0m comfyui-embedded-docs version: 0.5.12
+[32m[INFO][0m comfy-kitchen version: 0.2.35
+[32m[INFO][0m comfy-aimdo version: 0.5.5
+[32m[INFO][0m [Prompt Server] web root: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\Lib\site-packages\comfyui_frontend_package\static
+[32m[INFO][0m Asset seeder disabled
+[32m[INFO][0m No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'

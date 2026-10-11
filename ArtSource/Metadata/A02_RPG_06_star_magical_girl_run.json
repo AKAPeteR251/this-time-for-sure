@@ -1,0 +1,35 @@
+{
+  "task": "A02_RPG_06_star_magical_girl",
+  "submission": {
+    "prompt_id": "f464d0b5-242f-4116-9a20-d23a053efdaf",
+    "number": 16,
+    "node_errors": {}
+  },
+  "started_unix": 1791389440.148731,
+  "graph_path": "Workflows/A02_RPG_06_star_magical_girl_api.json",
+  "elapsed_seconds": 37.32,
+  "output": "StyleTests\\RPG_Professions\\06_star_magical_girl_v001.png",
+  "sha256": "96b47601adcde775dc03ebb2667173e9fd3aae88420baff3cd9b0983a1201827",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "concept_pending_user_selection",
+  "profession": "星魔法少女",
+  "element": "星",
+  "declared_character_age": 19,
+  "visual_review": {
+    "strengths": [
+      "粉色双马尾、星胸针、飘带和星杖形成清楚魔法少女风格",
+      "伸手与倾斜构图有亲和力和动势"
+    ],
+    "defects": [
+      "星杖实际握持不明确",
+      "伸向镜头的手部与近大远小透视需正式图检查"
+    ]
+  },
+  "layers": "complete_image_only",
+  "unity_validation": "not_integrated",
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "style_chain": "User PNG workflow; same model/LoRA/sampler settings; profession prompt and seed changed; tiled decode"
+}

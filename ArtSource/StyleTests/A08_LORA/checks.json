@@ -1,0 +1,351 @@
+{
+  "task": "A08-LORA",
+  "checks": [
+    {
+      "item": "Approved original unchanged",
+      "result": "PASS"
+    },
+    {
+      "item": "Shared gray input unchanged",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 successful execution history",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 recorded prompt matches saved workflow",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 common input hash",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 output matches recorded hash",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 native generated 1024x1536 RGB",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 PNG embeds workflow and prompt",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 no unmatched LoRA or matrix failure log",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 UI graph node IDs match API",
+      "result": "PASS"
+    },
+    {
+      "item": "B0 UI links reference existing nodes",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 successful execution history",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 recorded prompt matches saved workflow",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 common input hash",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 output matches recorded hash",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 native generated 1024x1536 RGB",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 PNG embeds workflow and prompt",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 no unmatched LoRA or matrix failure log",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 UI graph node IDs match API",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 UI links reference existing nodes",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 successful execution history",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 recorded prompt matches saved workflow",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 common input hash",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 output matches recorded hash",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 native generated 1024x1536 RGB",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 PNG embeds workflow and prompt",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 no unmatched LoRA or matrix failure log",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 UI graph node IDs match API",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 UI links reference existing nodes",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 successful execution history",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 recorded prompt matches saved workflow",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 common input hash",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 output matches recorded hash",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 native generated 1024x1536 RGB",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 PNG embeds workflow and prompt",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 no unmatched LoRA or matrix failure log",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 UI graph node IDs match API",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 UI links reference existing nodes",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 1",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 2",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 3",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 4",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 5",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 6",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 7",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 8",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 9",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 10",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 14",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 16",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 17",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 18",
+      "result": "PASS"
+    },
+    {
+      "item": "D1 same public conditions node 19",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 1",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 2",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 3",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 4",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 5",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 6",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 7",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 8",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 9",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 10",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 14",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 16",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 17",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 18",
+      "result": "PASS"
+    },
+    {
+      "item": "R1 same public conditions node 19",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 1",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 2",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 3",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 4",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 5",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 6",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 7",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 8",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 9",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 10",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 14",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 16",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 17",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 18",
+      "result": "PASS"
+    },
+    {
+      "item": "DR1 same public conditions node 19",
+      "result": "PASS"
+    },
+    {
+      "item": "anima_context_detailer_base10.safetensors 280 matched adapters",
+      "result": "PASS"
+    },
+    {
+      "item": "reina_v1_epoch14.safetensors 280 matched adapters",
+      "result": "PASS"
+    },
+    {
+      "item": "Four distinct generated PNGs",
+      "result": "PASS"
+    }
+  ],
+  "scope": "Generated RGB comparison assets, not accepted character sprites",
+  "ui_limit": "LiteGraph JSON checked for node and link integrity; not imported in browser UI. Actual generation used corresponding API graph."
+}

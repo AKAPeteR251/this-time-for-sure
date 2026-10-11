@@ -1,0 +1,42 @@
+{
+  "taskId": "U02-ART",
+  "component": "ThisTime.Game.PrototypeGame",
+  "themeAssetPath": "Assets/_Game/UI/Styles/U02ArtTheme.asset",
+  "sourcePrefabPath": "Assets/_Game/UI/Prefabs/UIPrototype.prefab",
+  "useFixedMock": false,
+  "portraits": [
+    {
+      "characterId": "R001",
+      "portraitAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001.png",
+      "thumbnailAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001_thumb.png"
+    },
+    {
+      "characterId": "SR001",
+      "portraitAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001.png",
+      "thumbnailAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001_thumb.png"
+    },
+    {
+      "characterId": "SR002",
+      "portraitAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002.png",
+      "thumbnailAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002_thumb.png"
+    },
+    {
+      "characterId": "SR003",
+      "portraitAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001.png",
+      "thumbnailAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001_thumb.png"
+    },
+    {
+      "characterId": "SSR001",
+      "portraitAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001.png",
+      "thumbnailAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001_thumb.png"
+    },
+    {
+      "characterId": "UR001",
+      "portraitAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001.png",
+      "thumbnailAssetPath": "Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001_thumb.png"
+    }
+  ],
+  "normalRevealSeconds": 0.9,
+  "ssrRevealSeconds": 1.8,
+  "urRevealSeconds": 2.6
+}

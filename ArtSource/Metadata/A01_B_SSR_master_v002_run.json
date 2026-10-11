@@ -1,0 +1,32 @@
+{
+  "task": "A01_B_SSR_master_v002",
+  "submission": {
+    "prompt_id": "694b7740-c3c3-4fc1-a382-94a8417f9eca",
+    "number": 10,
+    "node_errors": {}
+  },
+  "started_unix": 1791388541.9298444,
+  "graph_path": "Workflows/A01_B_SSR_master_v002_api.json",
+  "elapsed_seconds": 121.33,
+  "output": "Characters\\SSR001\\SSR001_card_base_v002.png",
+  "sha256": "90823f4f3cbcfb92ccbaee1cf5d23df72e284d6fcb48752ac47bfeeb04cb7789",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "status": "pending_integration_review",
+  "visual_review": {
+    "result": "art_candidate_ready_for_integration",
+    "strengths": [
+      "保留认可稿的构图、角色身份、服装与月港主题",
+      "v001噪点已消除，线条与肤色干净"
+    ],
+    "remaining": [
+      "抬腿支撑与星图仪持握仍需实际欣赏页细检"
+    ]
+  },
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "layers": "complete_image_only",
+  "unity_validation": "pending",
+  "unity_version": "2022.3.53f1c1 target; actual import not verified"
+}

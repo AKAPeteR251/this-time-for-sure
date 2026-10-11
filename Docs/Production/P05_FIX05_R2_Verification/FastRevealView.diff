@@ -1,0 +1,77 @@
+--- FastRevealView.before
++++ FastRevealView.cs
+@@ -5,11 +5,10 @@
+     // 原批次只读表现：剪影/碎屑 → 角色与名字 → 稀有度 → 新确认。
+     public sealed class FastRevealView
+     {
+-        private readonly Image backdrop,artwork,silhouette,transition,veil;
+-        private readonly Text identity,title,rarityLabel,newLabel,signal;
++        private readonly Image backdrop,artwork,silhouette,transition,veil,iceBackdrop,rarityIcon,newIcon;
++        private readonly Text identity,rarityLabel,newLabel,signal;
+         private readonly RectTransform artworkSlot,info;
+         private readonly RevealBurstGraphic burst;
+-        private readonly RaritySigilGraphic sigil;
+         private readonly P04FeelConfig config;
+         private readonly PrototypeUITheme theme;
+         private readonly SummonAudio audio;
+@@ -25,23 +24,25 @@
+             this.theme=theme;this.config=config;this.audio=audio;
+             backdrop=ImageAt(page,"RevealBackdrop",0,0,1,1);backdrop.color=new Color(.025f,.04f,.08f,1);
+             burst=RectAt(page,"OutwardShardsAndStars",0,0,1,1).gameObject.AddComponent<RevealBurstGraphic>();burst.raycastTarget=false;
+-            artworkSlot=RectAt(page,"RevealArtworkSlot",.36f,.10f,.90f,.96f);
++            iceBackdrop=ImageAt(page,"IceMageSnowflake",.22f,.07f,.82f,.95f);iceBackdrop.preserveAspect=true;iceBackdrop.sprite=config==null?null:config.iceMageBackdrop;
++            artworkSlot=RectAt(page,"RevealArtworkSlot",.26f,.10f,.81f,.96f);
+             artwork=ImageAt(artworkSlot,"RevealArtwork",0,0,1,1);artwork.preserveAspect=true;
+             silhouette=ImageAt(artworkSlot,"UnknownSilhouette",.2f,.08f,.8f,.92f);
+             veil=ImageAt(page,"BlackRevealVeil",0,0,1,1);veil.color=Color.clear;
+-            info=RectAt(page,"RevealInformation",.075f,.19f,.43f,.61f);
+-            identity=TextAt(page,"RevealIdentity",titleFont,72,.075f,.44f,.43f,.59f);identity.alignment=TextAnchor.MiddleLeft;
+-            title=TextAt(info,"CharacterTitle",font,29,0,.41f,1,.57f);title.alignment=TextAnchor.MiddleLeft;
+-            rarityLabel=TextAt(info,"RarityLabel",titleFont,47,0,.18f,.34f,.40f);rarityLabel.alignment=TextAnchor.MiddleLeft;
+-            sigil=RectAt(info,"OriginalRaritySigil",.37f,.17f,.61f,.42f).gameObject.AddComponent<RaritySigilGraphic>();sigil.raycastTarget=false;
+-            newLabel=TextAt(info,"NewLabel",font,25,0,0,.28f,.16f);newLabel.alignment=TextAnchor.MiddleLeft;
++            info=RectAt(page,"RevealInformation",.075f,.19f,.28f,.59f);
++            identity=TextAt(page,"RevealIdentity",titleFont,72,.075f,.44f,.35f,.59f);identity.alignment=TextAnchor.MiddleLeft;
++            rarityIcon=ImageAt(page,"SsrCrest",.065f,.19f,.245f,.43f);rarityIcon.preserveAspect=true;rarityIcon.sprite=config==null?null:config.revealSsrBadge;
++            rarityLabel=TextAt(rarityIcon.rectTransform,"RarityLabel",font,40,.28f,.39f,.72f,.62f);rarityLabel.fontStyle=FontStyle.Bold;
++            newIcon=ImageAt(page,"NewPlaque",.075f,.60f,.255f,.68f);newIcon.preserveAspect=true;newIcon.sprite=config==null?null:config.revealNewPlaque;
++            newLabel=TextAt(newIcon.rectTransform,"NewLabel",font,31,.30f,.20f,.77f,.75f);newLabel.fontStyle=FontStyle.Bold;
++            RectAt(page,"FutureExtrasArea",.80f,.26f,.97f,.67f);
+             signal=TextAt(page,"RevealSignal",font,22,0,0,0,0);signal.text="";
+             transition=ImageAt(page,"CardTransition",0,0,1,1);transition.color=Color.clear;
+         }
+         public void Begin(PrototypeCard result,Sprite portrait,bool newCharacter=false)
+         {
+             card=result;isNew=newCharacter;impactPlayed=false;artwork.sprite=portrait;artwork.enabled=portrait!=null;
+-            silhouette.enabled=portrait==null;identity.text=card.Name;title.text=card.Title;rarityLabel.text=card.Rarity.ToString();newLabel.text=isNew?"NEW":"";
++            silhouette.enabled=portrait==null;identity.text=card.Name;rarityLabel.text=card.Rarity.ToString();newLabel.text=isNew?"NEW":"";
+             transition.color=Color.clear;artworkSlot.localScale=Vector3.one;artworkSlot.anchoredPosition=Vector2.zero;
+             if(audio!=null)audio.BeginCard(card.Rarity);Animate(0);
+         }
+@@ -49,6 +50,10 @@
+         {
+             Progress=Mathf.Clamp01(progress);if(card==null)return;
+             Color tint=theme.Rarity(card.Rarity);burst.signal=tint;burst.Animate(Progress);
++            bool ice=card.Id=="SSR001"&&iceBackdrop.sprite!=null;
++            burst.showHalo=!ice;iceBackdrop.enabled=ice;
++            iceBackdrop.color=new Color(1,1,1,(config==null?.22f:config.iceBackdropAlpha)*Mathf.Lerp(.35f,1,Mathf.InverseLerp(.16f,.50f,Progress)));
++            rarityIcon.enabled=card.Rarity==CardRarity.SSR&&rarityIcon.sprite!=null;
+             float reveal=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.23f,.44f,Progress));
+             artwork.color=Color.Lerp(Color.black,Color.white,reveal);
+             var missing=silhouette.GetComponentInChildren<UICharacterSilhouette>();
+@@ -68,11 +73,11 @@
+             else artworkSlot.anchoredPosition=Vector2.right*(1-reveal)*30;
+             float name=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.30f,.48f,Progress));
+             identity.color=new Color(.97f,.98f,1,name);identity.rectTransform.anchoredPosition=Vector2.up*(1-name)*18;
+-            title.color=new Color(.65f,.72f,.83f,Mathf.InverseLerp(.44f,.57f,Progress));
+             float rarity=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.67f,.83f,Progress));
+-            rarityLabel.color=new Color(tint.r,tint.g,tint.b,rarity);sigil.color=new Color(tint.r,tint.g,tint.b,rarity);
+-            sigil.rectTransform.localScale=Vector3.one*Mathf.Lerp(1.35f,1,rarity);
+-            newLabel.color=new Color(1,.83f,.45f,Mathf.InverseLerp(.84f,.95f,Progress));
++            rarityLabel.color=new Color(1,.92f,.67f,rarity);rarityIcon.color=new Color(1,1,1,rarity);
++            rarityIcon.rectTransform.localScale=Vector3.one*Mathf.Lerp(1.15f,1,rarity);
++            float fresh=isNew?Mathf.InverseLerp(.84f,.95f,Progress):0;
++            newIcon.enabled=isNew&&newIcon.sprite!=null;newIcon.color=new Color(1,1,1,fresh);newLabel.color=new Color(1,.94f,.75f,fresh);
+             veil.color=new Color(0,0,0,(1-reveal)*.14f);
+             if(!impactPlayed&&Progress>=.30f){impactPlayed=true;if(audio!=null)audio.CardImpact(card.Rarity);}
+         }

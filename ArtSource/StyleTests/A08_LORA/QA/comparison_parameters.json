@@ -1,0 +1,101 @@
+{
+  "canvas": [
+    1024,
+    1536
+  ],
+  "crop_origin": "top-left",
+  "crops": {
+    "face": [
+      402,
+      216,
+      626,
+      440
+    ],
+    "hair": [
+      667,
+      423,
+      891,
+      647
+    ],
+    "stockings": [
+      147,
+      637,
+      371,
+      861
+    ],
+    "snow_crystal": [
+      63,
+      41,
+      287,
+      265
+    ],
+    "staff_grip": [
+      172,
+      366,
+      396,
+      590
+    ]
+  },
+  "avatar_crop": [
+    388,
+    190,
+    644,
+    446
+  ],
+  "crop_scale": "100% native pixels",
+  "metrics": {
+    "B0": {
+      "sha256": "1dd019a8c9272fceb0c516f7b69e3cfad1544788e7587813c797eadcfbaf9502",
+      "mean_absolute_difference_from_input": 14.81747817993164,
+      "mean_absolute_difference_from_B0": 0.0,
+      "pixel_difference_from_B0_count": 0,
+      "crop_mean_absolute_difference_from_B0": {
+        "face": 0.0,
+        "hair": 0.0,
+        "stockings": 0.0,
+        "snow_crystal": 0.0,
+        "staff_grip": 0.0
+      }
+    },
+    "D1": {
+      "sha256": "96e15b37020cae4e93b33e40443828b014f1726f1ae62e723c8cf731ebb591c2",
+      "mean_absolute_difference_from_input": 14.704338709513346,
+      "mean_absolute_difference_from_B0": 2.366811752319336,
+      "pixel_difference_from_B0_count": 1317658,
+      "crop_mean_absolute_difference_from_B0": {
+        "face": 5.187061543367347,
+        "hair": 3.5482501594387754,
+        "stockings": 3.139143548044218,
+        "snow_crystal": 2.871060533588435,
+        "staff_grip": 3.6411166028911564
+      }
+    },
+    "R1": {
+      "sha256": "98a0c9ae246f54272b041f0260119b871770d7ddc375cb181e2af6c572625659",
+      "mean_absolute_difference_from_input": 14.852490531073677,
+      "mean_absolute_difference_from_B0": 2.8553155263264975,
+      "pixel_difference_from_B0_count": 1160693,
+      "crop_mean_absolute_difference_from_B0": {
+        "face": 6.467534279336735,
+        "hair": 4.164421237244898,
+        "stockings": 4.017471832482993,
+        "snow_crystal": 2.928989955357143,
+        "staff_grip": 5.152151094812925
+      }
+    },
+    "DR1": {
+      "sha256": "4b95e61ddb8d4368c15f753009fcd79f0760f09c6bf01395dd18e74374c92635",
+      "mean_absolute_difference_from_input": 14.783220714992947,
+      "mean_absolute_difference_from_B0": 3.526264402601454,
+      "pixel_difference_from_B0_count": 1315141,
+      "crop_mean_absolute_difference_from_B0": {
+        "face": 8.066685267857142,
+        "hair": 4.964551445578231,
+        "stockings": 4.539912840136054,
+        "snow_crystal": 4.012316645408164,
+        "staff_grip": 6.135476456207483
+      }
+    }
+  },
+  "metric_limit": "pixel differences prove altered output; they do not establish beauty, identity preservation or effective LoRA gain"
+}

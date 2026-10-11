@@ -1,0 +1,225 @@
+{
+  "1": {
+    "inputs": {
+      "vae_name": "qwenImage_qwenImageVAE.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "加载VAE"
+    }
+  },
+  "2": {
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent图像"
+    }
+  },
+  "3": {
+    "inputs": {
+      "clip_name": "anima_baseV10_txt.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "加载CLIP"
+    }
+  },
+  "4": {
+    "inputs": {
+      "text": "masterpiece, best quality, safe, solo, 1girl, original adult female JRPG character, grown adult proportions, attractive expressive face, looking at viewer, premium anime collectible illustration, clear elegant anime linework, precise cel shading, soft gradients within clean color shapes, coherent costume construction, dynamic diagonal composition, believable weight balance, natural anatomy, hair and loose fabric following the motion, strong readable silhouette, tasteful glamour and carefully designed skin exposure, no nudity. Vertical 2:3 canvas, character fills approximately 80 percent of height, entire head and main prop inside frame, face in upper third, clear readable eyes, face is the main contrast focus, legs visible, a quiet lower area for later UI. No lettering, no logo, no watermark, no card border. An adult 22-year-old female woodland elf ranger, long sharply pointed elf ears, pale mint green hair in a flowing high ponytail, emerald green eyes, an alert playful smile, a golden leaf hair clasp. Forest green fitted leather ranger bodice, bare shoulders, a small waist opening, leaf-shaped short skirt panels over opaque fitted shorts, brown utility belt, fingerless leather arm guards, high brown boots, short flowing green hooded cape. She is dashing forward through the forest while looking back toward the viewer, one knee raised in a natural running stride, torso in a dynamic three-quarter turn, ponytail and cape swept far sideways by the wind. She carries ONE SIMPLE FULLY VISIBLE wooden longbow in one hand beside her body. The bow is relaxed, NOT being drawn or fired. The bow has a single clean curved wooden arch and ONE straight string connecting its two tips, both tips fit inside the picture. Her fingers clearly wrap around the central grip, the entire bow is angled diagonally from upper left to lower center, away from the face and legs. Her other free hand reaches naturally backward for balance, not toward her mouth. A leather quiver with a few visible arrow feathers is strapped to her back, no loose arrow being held. A few emerald wind wisps and leaves follow her motion. Ancient forest ruins, sunlit canopy and deep green shadows, skin clearly separated from the background, readable fantasy adventure character with a clear elf-ranger identity.",
+      "clip": [
+        "17",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码"
+    }
+  },
+  "5": {
+    "inputs": {
+      "text": "worst quality, low quality, blurry, text, watermark, logo, signature, artist name, card border, extra character, extra limbs, malformed hands, extra fingers, broken wrists, twisted torso, impossible spine, cropped head, face hidden by effects, stiff symmetrical standing pose, nude, exposed nipples, exposed genitals, underwear exposure, explicit sex, child, teen, underage, childlike proportions, chibi, school uniform, excessive particles, drawn bow, firing arrow, hand at mouth, disconnected arrow, multiple bowstrings, tangled bow limbs",
+      "clip": [
+        "17",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码"
+    }
+  },
+  "6": {
+    "inputs": {
+      "lora_name": "anima\\Flatline.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0.6,
+      "model": [
+        "7",
+        0
+      ],
+      "clip": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  },
+  "7": {
+    "inputs": {
+      "unet_name": "anima_turboV11.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNet加载器"
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "10",
+        0
+      ],
+      "vae": [
+        "1",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "9": {
+    "inputs": {
+      "enable_replay": false,
+      "block_indices": "3,4,5",
+      "denoise_start_pct": 0.5,
+      "denoise_end_pct": 1.0,
+      "enable_spectrum": false,
+      "spectrum_w": 0.2,
+      "spectrum_m": 16,
+      "spectrum_lam": 0.5,
+      "spectrum_warmup_steps": 6,
+      "spectrum_window_size": 2,
+      "spectrum_flex_window": 0.0,
+      "model": [
+        "17",
+        0
+      ]
+    },
+    "class_type": "AnimaLayerReplayPatcher",
+    "_meta": {
+      "title": "Anima Layer Replay Patcher"
+    }
+  },
+  "10": {
+    "inputs": {
+      "eta": 0.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "sgm_uniform",
+      "steps": 8,
+      "steps_to_run": -1,
+      "denoise": 1.0,
+      "cfg": 1.0,
+      "seed": 71008043,
+      "sampler_mode": "standard",
+      "bongmath": true,
+      "model": [
+        "9",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "ClownsharKSampler_Beta",
+    "_meta": {
+      "title": "ClownsharKSampler"
+    }
+  },
+  "12": {
+    "inputs": {
+      "filename_prefix": "A02_RPG_03_wind_elf_archer_v002",
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "14": {
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "16": {
+    "inputs": {
+      "lora_name": "anima\\chen-bin_v4.0.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0.6,
+      "model": [
+        "6",
+        0
+      ],
+      "clip": [
+        "6",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  },
+  "17": {
+    "inputs": {
+      "lora_name": "anima\\bakav3-000012.safetensors",
+      "strength_model": 0.8,
+      "strength_clip": 0.8,
+      "model": [
+        "16",
+        0
+      ],
+      "clip": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  }
+}

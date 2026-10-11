@@ -1,0 +1,32 @@
+{
+  "task": "A01_b",
+  "submission": {
+    "prompt_id": "a0d27b9e-035e-4044-a34d-0818103348a8",
+    "number": 3,
+    "node_errors": {}
+  },
+  "started_unix": 1791387512.3769968,
+  "graph_path": "Workflows/A01_b_api.json",
+  "elapsed_seconds": 75.51,
+  "output": "StyleTests\\SSR001_style_b.png",
+  "sha256": "68af26cafcae54e79f6e00dd29af9fa80abd0f4caa597e42f33d259c63cb3a07",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "generated_pending_visual_review",
+  "visual_review": {
+    "status": "style_candidate_pending_user_choice",
+    "strengths": [
+      "角色配色和面部画法与A接近",
+      "道具青蓝光更有星图主题",
+      "暗部让人物脸部更集中"
+    ],
+    "defects": [
+      "仍为硬边平涂，柔和绘画风格没有充分体现",
+      "背景像建筑廊檐，港口主题弱",
+      "道具仍为球形灯具；双手托举偏离单手要求"
+    ],
+    "layers": "complete_image_only"
+  }
+}

@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29666852a911f574a82e046ad72d5eec, type: 3}
+  m_Name: P05FeelConfig
+  m_EditorClassIdentifier: 
+  crystalInteraction: 1
+  revealSsrBadge: {fileID: 21300000, guid: 56916bb37ab7ee34e95c37732e18f5f6, type: 3}
+  revealNewPlaque: {fileID: 21300000, guid: fd18d201835de5e4b92d278f9f36d9a2, type: 3}
+  iceMageBackdrop: {fileID: 21300000, guid: b2777048df72afd4a9824b6c460b030e, type: 3}
+  iceBackdropAlpha: 0.22
+  revealStarfield: {fileID: 2800000, guid: 873f5ca4022c92d45b617d3e1e661fe8, type: 3}
+  nebulaFar: {fileID: 2800000, guid: 22abab019d5ce564c8098e5424655a7d, type: 3}
+  nebulaNear: {fileID: 2800000, guid: b065e86340e00ed48a29fe3cd669aeff, type: 3}
+  starSoft: {fileID: 21300000, guid: d762c9020823a824284411e82ee60af1, type: 3}
+  starCross: {fileID: 21300000, guid: 4eca4f2d876a4b6488980911f8496200, type: 3}
+  meteorTrail: {fileID: 21300000, guid: 5041d253dbc24fc45895221e1afc0003, type: 3}
+  revealShard: {fileID: 21300000, guid: df8a64b3d08ad7847ad32b156dc024a4, type: 3}
+  rarityR: {fileID: 21300000, guid: 9d436080cc01ec64a9984e65b7e83ca1, type: 3}
+  raritySR: {fileID: 21300000, guid: 36df6ce043d002949b64278c4e699f11, type: 3}
+  raritySSR: {fileID: 21300000, guid: 353c3dacaa89b364b82a31e9d70cadaa, type: 3}
+  rarityUR: {fileID: 21300000, guid: 884c0ae77abc8ce44ac7f06e5b2ab404, type: 3}
+  rarityAccent: {fileID: 21300000, guid: 0ac0bc4ab73c3774cb686c7c91808bb6, type: 3}
+  newText: {fileID: 21300000, guid: c8cc2fbea398a704f8b70e87981b1ec2, type: 3}
+  newBorder: {fileID: 21300000, guid: 5b9a5244a38a6a94989676556dae878d, type: 3}
+  nebulaFarSpeed: 0.006
+  nebulaNearSpeed: -0.01
+  nebulaFarAlpha: 0.45
+  nebulaNearAlpha: 0.25
+  revealStarCount: 28
+  meteorInterval: 7
+  meteorSeconds: 3.2
+  newGradientSpeed: 0.36
+  revealAtmosphereShader: {fileID: 4800000, guid: 74bda9a9fe085584ab60fcca95a06c85,
+    type: 3}
+  proceduralRevealSky: 1
+  nebulaEvolution: 0.06
+  proceduralNebulaAlpha: 0.4
+  newBlinkStrength: 0.35
+  newBlinkFrequency: 1.6
+  nebulaWarp: 0.035
+  nebulaGrain: 0.3
+  meteorOpacity: 0.28
+  meteorFadeSeconds: 2.2
+  nebulaThreshold: 0.5
+  nebulaScale: 2.8
+  nebulaDrift: 0.0022
+  nebulaFilaments: 0.55
+  nebulaBillow: 0.025
+  nebulaComposition: 69.7511
+  nebulaDistortion: 0.035
+  revealArrivalShader: {fileID: 4800000, guid: be912b589dc72c746969aa37cc59a762, type: 3}
+  revealBurstShards:
+  - {fileID: 21300000, guid: b2815f2bfc8d6b945887e41a3ba05ac5, type: 3}
+  - {fileID: 21300000, guid: e566239be62b27b4186c055f765bb13d, type: 3}
+  - {fileID: 21300000, guid: afc9e2e192985ff4489a184b77ba3ffc, type: 3}
+  revealBurstStreak: {fileID: 21300000, guid: a28815841f886d04d8707fc9dc9990a7, type: 3}
+  silhouetteBurstEnd: 0.24
+  characterBurstStart: 0.46
+  characterBurstSpan: 0.34
+  silhouetteBurstRadius: 0.62
+  characterBurstRadius: 0.88
+  revealLightGap: 0.075
+  revealBurstStrength: 0.85
+  silhouetteBurstStart: 0.08
+  revealShardTravelFraction: 0.26
+  revealLightSoftness: 0.14
+  revealLightScatter: 0.8
+  crystalStageModel: {fileID: 919132149155446097, guid: 11452bfe99dd930458f4a44c7e0738ff,
+    type: 3}
+  crystalTransitionSeconds: 1.8
+  crystalCameraDistance: 18
+  crystalPortalCamera: 1
+  crystalPortalShader: {fileID: 4800000, guid: 84f0a674c30d50e468db34eb06192a1a, type: 3}
+  crystalPortalScale: 3.1
+  crystalPortalRoll: 2
+  crystalPortalEntryOffset: {x: -0.7, y: 0.6, z: -0.5}
+  crystalOuterSpeed: 8
+  crystalInnerSpeed: -12
+  crystalFloorSpeed: 7
+  crystalOrbitSpeed: 7
+  crystalBodySpeed: 4
+  crystalFloatAmplitude: 0.16
+  crystalBodyScale: 2
+  crystalStarDrift: 0.0003
+  crystalOuterEulerSpeed: {x: 9, y: 3, z: 0}
+  crystalMiddleEulerSpeed: {x: 0, y: -11, z: 4}
+  crystalInnerEulerSpeed: {x: -4, y: 0, z: 13}
+  altarEnvironmentModel: {fileID: 919132149155446097, guid: 427c2ed4b93bc884fbebae0197469b11,
+    type: 3}
+  altarFlame: {fileID: 2800000, guid: d7d7576330e72cf4d91ccc8456114177, type: 3}
+  altarMist: {fileID: 2800000, guid: 32e0b12acdd272e4fb4e3828db2d1d53, type: 3}
+  altarDust: {fileID: 2800000, guid: bc3f83d671876444bab2431e3243d7f2, type: 3}
+  altarBillboardShader: {fileID: 4800000, guid: 38d18b32c0325b04dad1220a6ec22c32,
+    type: 3}
+  altarCameraWide: {x: 0, y: 7.2, z: -13.7}
+  altarCameraClose: {x: 0, y: 6.4, z: -11}
+  altarFocusWide: {x: 0, y: 5.6, z: 0}
+  altarFocusClose: {x: 0, y: 4.9, z: 0}
+  altarWideFov: 59
+  altarCloseFov: 46
+  altarStageLift: 0.585
+  altarWarmLight: 5
+  altarCoolLight: 8
+  altarFlameFps: 12
+  altarMistAlpha: 0.08
+  altarBloom: 0.4
+  altarExposure: 0.15
+  crystalSheetLightShader: {fileID: 4800000, guid: f0da242ef5305a1429db90109b88c2fa,
+    type: 3}
+  crystalSheetStart: 0.24
+  crystalSheetLength: 3.8
+  crystalSheetWidth: 0.9
+  crystalSheetIntensity: 2.7
+  crystalBackground: {fileID: 21300000, guid: 49f3d912b39711f47b6928ac89c47f40, type: 3}
+  crystalIntact: {fileID: 21300000, guid: fcc40f98dae10b344a2071f046c760ca, type: 3}
+  crystalCracks: {fileID: 21300000, guid: f306137deecab074abb12a4a7df2de74, type: 3}
+  crystalDeep: {fileID: 21300000, guid: 981e4cb2a7436af4b8d9270b00a51c36, type: 3}
+  crystalLeak: {fileID: 21300000, guid: 94884616cfdd89244a102239c085522b, type: 3}
+  crystalRupture:
+  - {fileID: 21300000, guid: 7f3207d18ff7e764b824e2027fb19104, type: 3}
+  - {fileID: 21300000, guid: 0fa65a5598ac8114993f7a6790fd9871, type: 3}
+  - {fileID: 21300000, guid: fcc1a5d1ba8705d4b8ecee5b8578bffe, type: 3}
+  - {fileID: 21300000, guid: b28de0c9e59fa014fb9e2ecead8a222a, type: 3}
+  - {fileID: 21300000, guid: 23c78db9c624154408be1b94e289c798, type: 3}
+  - {fileID: 21300000, guid: d6b939d256f1d604eaf903e60d5bd2e5, type: 3}
+  - {fileID: 21300000, guid: d4ab9f061f295c24896411e706db029e, type: 3}
+  - {fileID: 21300000, guid: ad249fe7926c5554280b3a71e7b67941, type: 3}
+  - {fileID: 21300000, guid: 3d36820a35491b54189912843802f6b3, type: 3}
+  - {fileID: 21300000, guid: f76a9e5574a2e3348816a25d3ae8b8b2, type: 3}
+  - {fileID: 21300000, guid: b88ca8012dccba941a9179a62b980ca2, type: 3}
+  - {fileID: 21300000, guid: 10aeccd2f6b4a254cb4cfb17ec3df3a7, type: 3}
+  - {fileID: 21300000, guid: 27162107ebc28bb4b9ef5fd99f689af3, type: 3}
+  - {fileID: 21300000, guid: 62a222cdcd54ed84591f9c555fae220e, type: 3}
+  - {fileID: 21300000, guid: 92d996b65a2438e419203e3ebb1198ba, type: 3}
+  - {fileID: 21300000, guid: 52363690e598e954d9b854b8d32650ce, type: 3}
+  - {fileID: 21300000, guid: e3be17f76f13c2842ae1a4444bdc125c, type: 3}
+  - {fileID: 21300000, guid: 2372fc4ea367c3749897681312a50126, type: 3}
+  - {fileID: 21300000, guid: 8cf32364181409d499a9936d27444cbd, type: 3}
+  - {fileID: 21300000, guid: 789a296d42032384ea91640bed24bc88, type: 3}
+  - {fileID: 21300000, guid: 7ad79857fbf9797429491ee340430c58, type: 3}
+  - {fileID: 21300000, guid: 337ebecc8e4bea74b8b3be418fb5e143, type: 3}
+  - {fileID: 21300000, guid: 46e97b2757ab86c44895f3f94cfcc5e9, type: 3}
+  - {fileID: 21300000, guid: 04ed0483d815bf2488c91a440e73e9a2, type: 3}
+  voiceFirst: {fileID: 8300000, guid: 49c9ce5afba3bff4788933a8507e0397, type: 3}
+  voiceSecond: {fileID: 8300000, guid: 1a5bb717239c5dc45a6c12a704d119d9, type: 3}
+  voiceFinal: {fileID: 8300000, guid: d73308d8745e37e4c99e5055ef465bbe, type: 3}
+  preludeSeconds: 4.35
+  hitEnergy: 0.065
+  comboWindow: 0.28
+  comboMultiplier: 1.5
+  hitShakeSeconds: 0.25
+  crystalShakePixels: 12
+  ruptureFps: 28
+  finalChargeSeconds: 1.6
+  whiteSeconds: 0.22
+  faceZoom: 1.9
+  faceUv: {x: 0.5, y: 0.8}
+  faceTarget: {x: 0.55, y: 0.68}
+  nameCharacterSeconds: 0.12
+  contractPaper: {fileID: 21300000, guid: 8205aff9579f8e443be3902bad95c02f, type: 3}
+  contractBorder: {fileID: 21300000, guid: e61fdfbbfa00d4b448cb01f24ed98b54, type: 3}
+  starSeal: {fileID: 21300000, guid: 953944c6df3a4de4ba67514455763394, type: 3}
+  giantRing: {fileID: 21300000, guid: b7a39b4d0461f0645a7ab2f4243cf9ba, type: 3}
+  outerRing: {fileID: 21300000, guid: ef1a648a4d334c9418580f343af21de8, type: 3}
+  innerRing: {fileID: 21300000, guid: cccce40430cfd4c47a6dd4d3de6e4349, type: 3}
+  shockwave: {fileID: 21300000, guid: 27452742a385d8e41b710d95483d7059, type: 3}
+  lightPillar: {fileID: 21300000, guid: d51cae97402f9774cb5f528aaa1d2247, type: 3}
+  contractEnglishLettering: {fileID: 21300000, guid: 93b9e0d02f9759f4b8b57634171adf36,
+    type: 3}
+  contractWaxShadow: {fileID: 21300000, guid: e96c327f2d0fcaf4bb7db4f375582777, type: 3}
+  contractAspect: 1.3333334
+  contractSignatureRect: {x: 0.100097656, y: 0.16992188, z: 0.72021484, w: 0.39973956}
+  contractWaxRect: {x: 0.7421875, y: 0.029947937, z: 0.91796875, w: 0.26432294}
+  contractWaxShadowAlpha: 0.7
+  contractBurnShader: {fileID: 4800000, guid: d053d65d2f8d7464d8c0013e112f982f, type: 3}
+  contractBurnStart: 1.05
+  contractBurnSeconds: 1.5
+  contractBurnEdge: 0.06
+  contractArriveSeconds: 0.95
+  contractFloatPixels: 7
+  contractFloatSpeed: 0.6
+  contractEmberCount: 30
+  contractEmberAlpha: 0.5
+  referenceSeconds: 6.8
+  sealImpact: 0.72
+  ringsAppear: 1.35
+  contraction: 4.25
+  gateBurst: 5.85
+  voiceSecondLine: 1.75
+  voiceLastLine: 5
+  effectStrength: 0.85
+  shakePixels: 12
+  giantRingScale: 1.65
+  ringRotation: 110
+  narration: {fileID: 8300000, guid: e7d3d8e77ec47c24c98a3fb5c6c8f427, type: 3}
+  ceremonyBed: {fileID: 8300000, guid: dd72d098f851f4340b007ca9d4badcbd, type: 3}
+  sealSound: {fileID: 8300000, guid: ab5e7b3e06d944247add1bc94ce9ef6c, type: 3}
+  gateSound: {fileID: 8300000, guid: 08afa9121dbebbf4492b38c46aa1446b, type: 3}
+  rReveal: {fileID: 8300000, guid: 7046ac73aa5fbcc4aaefc9380de89e72, type: 3}
+  srReveal: {fileID: 8300000, guid: cda02d1e41e20b545a49a9d2fc8cfe4d, type: 3}
+  ssrCharge: {fileID: 8300000, guid: 2a479caa6ad43e4469df41dbe9dd7993, type: 3}
+  ssrReveal: {fileID: 8300000, guid: 7c2c65f76bd5eb44f8745b11d9b80e31, type: 3}
+  urCharge: {fileID: 8300000, guid: 5424f81b1cbfd7e45b18d37415ffd9ee, type: 3}
+  urReveal: {fileID: 8300000, guid: 94baec1b58173fe45bf1f2e89b74b105, type: 3}
+  confirm: {fileID: 8300000, guid: 6b52afc4da2e5344ea2c18f8eaebec91, type: 3}
+  skip: {fileID: 8300000, guid: c6fdd930566b722469aa3d1fc667adc5, type: 3}
+  masterVolume: 0.8
+  voiceVolume: 0.95
+  bedVolume: 0.32
+  effectVolume: 0.65
+  stopFadeSeconds: 0.075

@@ -1,0 +1,60 @@
+{
+  "task": "A07-PILOT",
+  "stage": "Light-element character color design",
+  "status": "actual RGBA trial ready; visual review pending; not Unity integrated",
+  "tool": "image_gen.imagegen built-in edit",
+  "tool_model_seed_cfg": "not exposed / not applicable; no local LoRA inference for this edit",
+  "transparent_background": true,
+  "reference": "R003_character_internal_v001.png",
+  "reference_sha256": "d658ba9cdb66a7f1e15cf1eeff9ad463bcac1c289cee6370c61028e1511afea7",
+  "prompt": "source/R003_light_v002_prompt.txt",
+  "source_sha256": "f751e0058c9aff64e1803b9ccd4af62154fc1130236123d8af996f3a315f9f8e",
+  "export_sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "transparent_pixels": 1061196,
+  "bounds": [
+    151,
+    136,
+    946,
+    1428
+  ],
+  "light_palette_targets": {
+    "ivory": "#F0DFA8",
+    "pale_gold": "#C6A15D",
+    "warm_white": "#FFF4D0"
+  },
+  "design_changes": [
+    "ivory outer cloak, dark lining, slim pale-gold hem",
+    "small four-ray sun emblem and narrow ivory/gold stripe on shield",
+    "warm-white crystal/lantern accents instead of orange"
+  ],
+  "export_operation": "whole source canvas scaled to922x1382 and centered at51,77; native alpha preserved; no segmentation/recolor/posterization",
+  "face_crop_top_left": [
+    368,
+    168,
+    624,
+    424
+  ],
+  "face_uv_bottom_left": [
+    0.484375,
+    0.8072916666666666
+  ],
+  "checks": [
+    "RGBA and 5%+ outer transparent margins",
+    "black/white/gray actual composites",
+    "ZIP CRC"
+  ],
+  "limits": [
+    "Generative edit is not pixel-identical to approved reference; slight face/fold changes require visual review",
+    "HEX values guide color family, not exact rendered pixel equality",
+    "Existing Unity element icons and rarity frames unchanged"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p16_double_burst.mp4",
+    "sha256": "c25785590df4a49236f820f78e98c66a467d67cf88fb2c8b0df73f0a1dde508a",
+    "bytes": 7076095,
+    "actualCaptureSeconds": 32.579395999999996,
+    "muxSeconds": 32.579,
+    "frames": 727,
+    "averageCaptureFps": 22.31471694564258,
+    "audioSeconds": 32.576,
+    "audioStart": 0.0132465,
+    "audioRate": 48000,
+    "peak": 0.2696533203125,
+    "rms": 0.013468778931573435,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

@@ -1,0 +1,1 @@
+ready 2026-10-11T02:22:42.4869075Z; F08 127 meshes, four URP materials, 12 source maps, two packed maps; existing Main config updated

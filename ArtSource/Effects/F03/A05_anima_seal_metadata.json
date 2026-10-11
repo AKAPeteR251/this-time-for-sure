@@ -1,0 +1,23 @@
+{
+  "path": "这次一定出/Assets/_Game/Art/Effects/F03/star_seal_anima_v001.png",
+  "source": "ArtSource/Effects/F03/LocalGenerationSmoke/star_fullimage_v001.png",
+  "source_sha256": "cfbaf066c56f9a6cd80fa5ca85c5b1c07bc87a63ebb2a2e321beb81e5aa083ba",
+  "sha256": "0ba89410a98a4b4c86d414671fccc585c651bb992f79f9f1bae08c489d076567",
+  "size": [
+    512,
+    512
+  ],
+  "method": "local Anima generation, local SAM vit_b mask, 0.45px mask antialias",
+  "scores": [
+    0.9960557818412781,
+    0.9674025177955627,
+    0.8181701898574829
+  ],
+  "selected": 0,
+  "real_alpha_extrema": [
+    0,
+    255
+  ],
+  "zero_alpha_pixels": 152187,
+  "status": "pending_visual_review"
+}

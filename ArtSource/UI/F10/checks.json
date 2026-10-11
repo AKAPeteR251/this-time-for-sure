@@ -1,0 +1,431 @@
+{
+  "task": "F10-CARD-UI",
+  "status": "Delivered; visual and Unity integration acceptance pending",
+  "checks": [
+    {
+      "check": "Exactly 12 expected runtime textures",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_R_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_R_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_R_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_R_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_R_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_R_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_SR_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_SR_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_SR_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_SR_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_SR_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_SR_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_SSR_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_SSR_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_SSR_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_SSR_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_SSR_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_SSR_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_UR_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_UR_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_frame_UR_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_UR_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_UR_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_rarity_UR_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_new_border_mask_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_new_border_mask_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_new_border_mask_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_new_fill_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_new_fill_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_new_fill_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_name_shade_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_name_shade_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_name_shade_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "card_name_ornament_v001.png RGBA and correct size",
+      "result": "PASS"
+    },
+    {
+      "check": "card_name_ornament_v001.png transparent outside and nonempty layer",
+      "result": "PASS"
+    },
+    {
+      "check": "card_name_ornament_v001.png transparent pixels contain no hidden RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "R exact empty inner window",
+      "result": "PASS"
+    },
+    {
+      "check": "R identical frame alpha geometry",
+      "result": "PASS"
+    },
+    {
+      "check": "SR exact empty inner window",
+      "result": "PASS"
+    },
+    {
+      "check": "SR identical frame alpha geometry",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR exact empty inner window",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR identical frame alpha geometry",
+      "result": "PASS"
+    },
+    {
+      "check": "UR exact empty inner window",
+      "result": "PASS"
+    },
+    {
+      "check": "UR identical frame alpha geometry",
+      "result": "PASS"
+    },
+    {
+      "check": "NEW mask grayscale RGB",
+      "result": "PASS"
+    },
+    {
+      "check": "NEW mask and fill same canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "NEW fill translucent",
+      "result": "PASS"
+    },
+    {
+      "check": "Name ornament leaves mapped character-name area empty",
+      "result": "PASS"
+    },
+    {
+      "check": "Name shade fades continuously from transparent top",
+      "result": "PASS"
+    },
+    {
+      "check": "R ORA archive integrity",
+      "result": "PASS"
+    },
+    {
+      "check": "R ten independent editable layers",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer Original character preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer Name shade aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer Name ornament aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer Existing element preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer Character name preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer Frame aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer Rarity aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer NEW fill aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer NEW mask preview tint aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R layer NEW text preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "R ORA recomposition exactly matches delivered preview",
+      "result": "PASS"
+    },
+    {
+      "check": "SR ORA archive integrity",
+      "result": "PASS"
+    },
+    {
+      "check": "SR ten independent editable layers",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer Original character preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer Name shade aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer Name ornament aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer Existing element preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer Character name preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer Frame aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer Rarity aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer NEW fill aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer NEW mask preview tint aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR layer NEW text preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SR ORA recomposition exactly matches delivered preview",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR ORA archive integrity",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR ten independent editable layers",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer Original character preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer Name shade aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer Name ornament aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer Existing element preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer Character name preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer Frame aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer Rarity aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer NEW fill aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer NEW mask preview tint aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR layer NEW text preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "SSR ORA recomposition exactly matches delivered preview",
+      "result": "PASS"
+    },
+    {
+      "check": "UR ORA archive integrity",
+      "result": "PASS"
+    },
+    {
+      "check": "UR ten independent editable layers",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer Original character preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer Name shade aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer Name ornament aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer Existing element preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer Character name preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer Frame aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer Rarity aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer NEW fill aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer NEW mask preview tint aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR layer NEW text preview only aligned to full canvas",
+      "result": "PASS"
+    },
+    {
+      "check": "UR ORA recomposition exactly matches delivered preview",
+      "result": "PASS"
+    },
+    {
+      "check": "Preview character identical to existing original",
+      "result": "PASS"
+    },
+    {
+      "check": "Preview icon identical to existing runtime icon",
+      "result": "PASS"
+    }
+  ],
+  "manual_visual_review": {
+    "small_cards": "Viewed actual 180x270 and 300x450 comparisons; rank, NEW and character name distinguishable; no red sticker or solid black badge",
+    "runtime_content": "Procedural geometry and exact fixed rank glyphs only; character/name/NEW text and icon confined to preview-only ORA layers"
+  },
+  "limits": [
+    "No Unity import or Main runtime validation performed",
+    "ORA verified by archive parsing and exact layer recomposition; external editor opening not tested",
+    "UR and NEW animation require later Unity shader implementation"
+  ]
+}

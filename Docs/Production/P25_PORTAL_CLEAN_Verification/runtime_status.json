@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: 删除2D聚集/签署法阵同背景同遮罩/相机推进/三窗口/唯一Draw与跳过清场；实际带声片段，视觉待验收。",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-11T01:57:41.4399822Z"
+}

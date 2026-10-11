@@ -1,0 +1,12 @@
+{
+  "blender": "2.93.4",
+  "build_hash": "b7205031cec4",
+  "engine": "BLENDER_EEVEE",
+  "size": [
+    320,
+    180
+  ],
+  "samples": 8,
+  "elapsed_seconds": 3.102,
+  "status": "actual EEVEE PNG render completed"
+}

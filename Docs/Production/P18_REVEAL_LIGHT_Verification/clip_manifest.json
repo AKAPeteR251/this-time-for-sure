@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p18_reveal_light.mp4",
+    "sha256": "27eb4b2e91ffb1cceebe0bbd92a402a1d0fcd3468d4a4760da0d30a5fcce211a",
+    "bytes": 8123514,
+    "actualCaptureSeconds": 35.9607469,
+    "muxSeconds": 36.0,
+    "frames": 803,
+    "averageCaptureFps": 22.329903275729794,
+    "audioSeconds": 35.968,
+    "audioStart": 0.0036991999999999997,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.0131828255916573,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

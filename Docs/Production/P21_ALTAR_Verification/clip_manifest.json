@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p21_altar.mp4",
+    "sha256": "503e98af50c0aed4978fdcea116796cb44b3a9344002ba20c9b190782629976b",
+    "bytes": 10267688,
+    "actualCaptureSeconds": 17.155519599999998,
+    "muxSeconds": 17.155,
+    "frames": 359,
+    "averageCaptureFps": 20.926209661408333,
+    "audioSeconds": 17.130666666666666,
+    "audioStart": 0.0163371,
+    "audioRate": 48000,
+    "peak": 0.5341796875,
+    "rms": 0.02522734568673145,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

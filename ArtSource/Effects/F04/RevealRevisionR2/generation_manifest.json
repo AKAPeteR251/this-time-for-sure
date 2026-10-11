@@ -1,0 +1,32 @@
+[
+  {
+    "file": "ssr_crest_v002.png",
+    "width": 1254,
+    "height": 1254,
+    "transparentPixels": 1072012,
+    "sha256": "7cdaa3c47fc837f634bfd4d278e1ac9aaf5de7f33142eb871d88510d361e2093",
+    "prompt": "Use case: stylized-concept. Create a single premium original fantasy RPG rarity UI badge, isolated on actual transparent background, 1024 square composition. A bold compact eight-point gilded celestial crystal crest, sculpted beveled warm champagne gold facets, a small navy diamond medallion center deliberately EMPTY to allow Unity to overlay the letters SSR. Clear silhouette readable at 96 pixels, polished anime fantasy game UI art, restrained small halo, symmetrical, generous transparent margin, frontal orthographic. No text, no letters, no laurel circle, no thin spoked wheel, no character, no background, no copying an existing game's icon. Goal: redesign a cheap line-art SSR emblem into a substantial tasteful high rarity crest.",
+    "generator": "built-in image_gen",
+    "transparent_background": true
+  },
+  {
+    "file": "new_plaque_v002.png",
+    "width": 2200,
+    "height": 715,
+    "transparentPixels": 956001,
+    "sha256": "ea67cfbe3082b25594d48ebe1ba4e0625e3ae77971bda172ec2a86178c697b1a",
+    "prompt": "Use case: stylized-concept. A single polished fantasy RPG NEW-label background sprite on actual transparent background. Wide horizontal compact plaque with ratio roughly 3:1, midnight navy enamel interior, elegant champagne gold beveled rim, small original four-point star accent at left, a tiny ice-blue glint. Center EMPTY with clean dark space for Unity to overlay the word NEW, no letters or text. Bold readable silhouette and crisp edges at 160x52 pixel display, refined anime fantasy game UI style, minimal ornament, no medallion, no laurel, no background, flat frontal view, generous transparent margin. One asset only.",
+    "generator": "built-in image_gen",
+    "transparent_background": true
+  },
+  {
+    "file": "ice_snowflake_v002.png",
+    "width": 1254,
+    "height": 1254,
+    "transparentPixels": 808818,
+    "sha256": "dd8f8de3d34f65ab77fefb23ab94ef9def21c9101e60c54d64fc37d416333b00",
+    "prompt": "Use case: stylized-concept. One enormous elegant snowflake background motif for a seated anime ice mage reveal screen. Transparent background, no character, no text. A bold six-armed crystalline ice snowflake with angular faceted thick branches, long tapered ice crystal tips, asymmetrical secondary little crystal fragments near silhouette, pale icy blue and white frosted translucent faces, soft restrained cyan rim glow. Graphic anime fantasy game illustration, frontal orthographic view, readable large silhouette rather than tiny intricate filigree, central mass subtle and semi-transparent so the mage can be overlaid without visual clutter. Fits a square with all six tips inside and transparent margins. Original motif, not a magical circular seal, not a golden rarity icon, not a filled regular polygon. Real alpha transparency.",
+    "generator": "built-in image_gen",
+    "transparent_background": true
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p10_evolving_nebula.mp4",
+    "sha256": "bfeae00230aa5e3f0f50e817b1ddc158d05b4ca98e97b422f1bcc5737a6d1f0c",
+    "bytes": 4548603,
+    "actualCaptureSeconds": 32.1344907,
+    "muxSeconds": 32.134,
+    "frames": 723,
+    "averageCaptureFps": 22.49918963240329,
+    "audioSeconds": 32.128,
+    "audioStart": 0.0174075,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.013766621888704134,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

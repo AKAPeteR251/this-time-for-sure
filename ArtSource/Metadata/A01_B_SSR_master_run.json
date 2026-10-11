@@ -1,0 +1,22 @@
+{
+  "task": "A01_B_SSR_master",
+  "submission": {
+    "prompt_id": "64b546c0-705f-4c6a-8b75-d2c277cb993e",
+    "number": 8,
+    "node_errors": {}
+  },
+  "started_unix": 1791388350.1257896,
+  "graph_path": "Workflows/A01_B_SSR_master_api.json",
+  "elapsed_seconds": 70.46,
+  "output": "Characters\\SSR001\\SSR001_card_base_v001.png",
+  "sha256": "d8fc4f939c4aa8be64c0febdbbfe175b5dae72e149c3f4fbe6ce756dd770a936",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "status": "rejected_visual_quality",
+  "visual_review": {
+    "result": "reject",
+    "reason": "Strong grain/noisy artifacts over face, fabric and background; not delivered to Unity"
+  }
+}

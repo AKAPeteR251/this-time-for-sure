@@ -1,0 +1,196 @@
+[
+  {
+    "id": "SR001",
+    "name": "赛蕾娜",
+    "element": "光",
+    "age": 20,
+    "role": "治疗辅助",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-3026d15f-a421-47ef-9abd-9723b8948944.png",
+    "references": [
+      "ArtSource/StyleTests/RPG_Professions/02_light_priest_v001.png",
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character. Character SR001 Selena/赛蕾娜, adult20 light-element healing priestess. Image1 is her EXISTING IDENTITY reference: preserve gentle distinctive face, pale blond long hair, gold-green eyes, white lily hair ornament and SUN-RING STAFF. Image2 is accepted cel-rendering and light palette reference ONLY, don't copy guardian armor or face. Design SR quality: graceful ivory-and-warm-white off-shoulder fitted long robe with narrow subdued pale-gold trim and sunlight brooch, one side slit revealing white semi-sheer thigh-high stockings and elegant white low boots. Small understated back sun-emblem-shaped opening if visible in the three-quarter turn, coherent covered clothing. Light palette warm ivory #F0DFA8, pale gold #C6A15D, warm white #FFF4D0. Her main distinction is caring soft smile and a softly turning standing pose with one hand extended open in a reassuring healing gesture, the other securely holding a complete tall slender staff with a simple sun-ring crystal head. Hair and long sleeve/robe panels flow gently, legs and feet complete. Original adult proportions; natural hands, no overly twisted back. More elegant than R guardian, not overloaded with lace or jewels; no floating halo behind head, no light explosion. Keep full robe hem and entire staff inside transparent canvas.",
+    "face_rect": [
+      366,
+      144,
+      638,
+      416
+    ]
+  },
+  {
+    "id": "UR001",
+    "name": "芙蕾娅",
+    "element": "火",
+    "age": 25,
+    "role": "战士",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-d674a9aa-d2e7-423d-83d9-9d32ccd057f8.png",
+    "references": [
+      "ArtSource/StyleTests/RPG_Professions/04_fire_warrior_v001.png",
+      "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character. UR001 Freya/芙蕾娅, adult25 FIRE element front-line offensive greatsword warrior. Image1 IDENTITY reference: preserve red high ponytail, amber eyes, bold confident inviting grin, black and gold LIGHT combat armor, red cape, large broad sword, her daring dynamic diagonal forward combat posture. Image2 accepted cel-shading quality reference ONLY; do not copy its white dress/hat or face. UR design should be charismatic and dynamic with tasteful mature glamour, not crude nudity: tailored armored bodice with protected chest and bare shoulders, narrow exposed side waist, short asymmetrical slit armored skirt, black thigh-high stockings with thin gold flame-pattern cuffs, armored ankle/low boots. Reinforce fire palette vermilion #E7634A in flowing red cape and skirt accent panels, charcoal-red #81382D in dark fabrics; a restrained flame-shaped enamel in sword guard and small carved flame lines on armor. No literal flames/embers around character or sword, effects will be separate. Main blade neutral steel with dark red spine trim, not entirely glowing gold. Show clear complete hands correctly gripping a single broad sword diagonally across body, aggressive balanced step and bent forward knee, hips/shoulders naturally counter-turned, hair and cape swept by motion. Entire sword tip, long ponytail and both complete boots inside frame with transparent margins. Preserve recognizable face and fire warrior identity, only complete cropped extremities; no background rocks, floor, sparks, UI or halo. Fine clean anime linework, distinct flat cel shadow planes, avoid glossy oily skin or realistic metal renders.",
+    "face_rect": [
+      312,
+      255,
+      596,
+      539
+    ],
+    "review": "Framing repair completes top ponytail and right cape tips; verify alpha then add uniform transparent export margin.",
+    "initial_generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-90163b5a-51a2-42c0-a702-ad045c765825.png",
+    "repair_prompt": "Edit target: this newly generated adult25 Freya UR fire-warrior transparent sprite. Preserve EXACT character face, red ponytail hairstyle, amber eyes, smile, armor, black thigh-high stockings, broad sword shape, hand grip and dynamic bent-knee pose. ONLY repair framing: zoom the ENTIRE character AND all equipment out to occupy about75-80% of the canvas height, center it on portrait2:3 transparent canvas, leave at least8% genuine transparent margin on all FOUR sides. Faithfully COMPLETE any clipped red cape tips and hair curls at the top/right using the same red cel-shaded fabric/strand shapes. Keep full swordtip and boot toe visible. Same physical proportions, no pose or armor redesign, no extra limbs, don't stretch. Same fine anime cel shading and fire palette. Genuinely transparent output, no ground shadow, no glow, no haze, no particles, no text or UI. This is a complete-character framing repair, not a new design."
+  },
+  {
+    "id": "SSR002",
+    "name": "星澜",
+    "element": "暗",
+    "age": 29,
+    "role": "肉盾",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-2922f02a-167a-40fc-b9f2-9931b827e39d.png",
+    "references": [
+      "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character. NEW DESIGN SSR002 Xinglan/星澜, adult29 female DARK-element protective knight, not an assassin. References are only approved series linework/material and quality, do NOT copy either face or hairstyle. Give her a DISTINCT mature sharp face, silver-gray eyes, long nearly-black deep-purple hair, reserved stern expression with subtle protective warmth. Silver-black chest/shoulder/forearm armor, fitted short armored skirt, small uncovered shoulder areas and ONE narrow tasteful side-waist opening, matte black long stockings, silver shin guards with complete low armored boots. A substantial long flowing cape in deep INDIGO-VIOLET #575074 with dark-night lining #292839 and muted silver/mauve #B4A1C6 edge details, SMALL crescent/eclipse motif in cape clasp and shield engravings. DARK identity comes from broad cool dark-purple clothing shapes and moon/eclipse symbols, not smoke or black fog. One LARGE crescent-sided heavy shield carried forward on viewer LEFT, readable thick protective edge, her other hand holds a short star-shaped blade beside right hip. Shield presents a stable wide protective silhouette, no spear or giant sword. Graceful three-quarter defensive step with front knee slightly bent, shoulders squared protectively, face fully visible, cape flows diagonally behind, a natural balanced body, mature collector SSR charisma and refined coherent armor construction. Hands correctly hold shield handle and short blade, all hair, cape, shield and feet complete. No stars floating around, no scene, floor shadow or halo. Quality more refined than modest R guardian but uncluttered readable large shapes, not photorealistic chrome or oily skin.",
+    "face_rect": [
+      414,
+      91,
+      718,
+      395
+    ],
+    "review": "New design; crescent shield, purple cloak and adult face distinct; shield appears viewer-right rather than requested left; not a gameplay limitation."
+  },
+  {
+    "id": "SR002",
+    "name": "艾露薇",
+    "element": "风",
+    "age": 22,
+    "role": "射手",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-967865e7-d162-457a-9b71-ee1bbaaec970.png",
+    "references": [
+      "ArtSource/StyleTests/RPG_Professions/03_wind_elf_archer_v002.png",
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character. SR002 Eluvie/艾露薇, adult22 female WIND elf archer. Image1 identity reference: preserve light mint-green long ponytail hair, emerald eyes, long pointed elf ears, distinct playful sly smile, leaf hair ornament, green fantasy woodland archer clothing. Image2 approved series cel-rendering reference only, do not copy its face/armor. Outfit: fitted emerald/mint-green off-shoulder short tunic with short leaf-panel skirt, small coherent leaf-shaped opening at SIDE waist, leather wrist guards and belt, dark green short cloak flowing backwards, black semi-sheer thigh-high stockings with subtle green leaf-pattern cuffs, complete brown-and-green ankle boots. WIND palette obvious broad emerald #63BF91 and mint #DCF2E3 fabric areas, leaf motifs rather than yellow/gold armor. She holds ONE full leaf-shaped longbow in her forward left hand, other hand gently resting near the bowstring at chest height; visible continuous bowstring correctly attached to bow tips, no arrow nocked so hands aren't tangled. Quiver attached to back, feather ends are part of worn equipment. A lively three-quarter turning stance with one bent knee and one pointed toe, playful confident eye contact, hair/cape follow the turn, balanced adult body. More individual costume detail than R but not ornate SSR armor. Entire bow BOTH tips, feet, ears, hair and cloak complete within transparent margins. Remove all forest scenery, falling leaves, magical wind trails and floor; keep only the unified character and worn props.",
+    "face_rect": [
+      414,
+      113,
+      714,
+      413
+    ],
+    "review": "Existing elf identity reference; longbow string visible, lower hand holds grip, other hand near chest; full tips and boots visible."
+  },
+  {
+    "id": "R001",
+    "name": "露弥娅",
+    "element": "光",
+    "age": 19,
+    "role": "星术学徒",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-acb69973-d313-491c-9ad0-c5be364635eb.png",
+    "references": [
+      "ArtSource/StyleTests/RPG_Professions/06_star_magical_girl_v001.png",
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character.  R001 Lumia/露弥娅 adult19 LIGHT-element apprentice magical girl. Image1 identity: preserve pink twin ponytails, blue-green eyes, lively slightly shy tsundere face, white/pink school-mage short dress and star wand. Image2 approved R cel style only. R rarity: SIMPLE practical white-and-pink short dress with plain sleeves, one small star brooch, ivory shoulder ribbon, no elaborate lace, gems, crown or giant frills. White opaque thigh-high stockings with small pink ribbon cuffs, white ankle shoes. Light attribute warm ivory #F0DFA8 shoulder ribbons and warm white #FFF4D0 star wand head with thin pale gold #C6A15D edges, no glow effects. Cheerful stepping stance, one hand firmly holding a modest complete star wand diagonally beside body, other gently clenched near chest. Preserve adult proportions. Full head to toe and wand, transparent margins, flat cel shading, no background or ground.",
+    "face_rect": [
+      482,
+      117,
+      742,
+      377
+    ]
+  },
+  {
+    "id": "R002",
+    "name": "风铃",
+    "element": "风",
+    "age": 23,
+    "role": "吟游诗人",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-f3e0b136-af3d-432d-ab78-1250bca21bdc.png",
+    "references": [
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character.  NEW R002 Fengling/风铃, adult23 WIND bard. Reference ONLY modest R rendering, do not copy face or armor. Short chestnut softly curly bob, moss green eyes, relaxed playful warm smile. SIMPLE moss-green short cape #63BF91, ivory shoulder-baring blouse, plain brown fitted waistcoat, modest layered short skirt, thin matte black thigh-high stockings with tiny music-note cuff embroidery, simple brown low boots. Only one small leaf clasp, no jewels, no lace overload. Hold a compact complete wooden lute naturally across torso, left hand on neck and right hand gently plucking strings; believable fingers. Three-quarter side standing pose with one knee softly bent, head turned toward viewer, cape gently drifting. Wind identity through green cloak and two simple leaf seam motifs, no magic trails. Adult proportions, full head to boots and lute with margins.",
+    "face_rect": [
+      411,
+      108,
+      627,
+      324
+    ]
+  },
+  {
+    "id": "R004",
+    "name": "洛恩",
+    "element": "光",
+    "age": 21,
+    "role": "弩手",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-21ab2079-38f1-4dc0-b111-d47fc7ad9a20.png",
+    "references": [
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character.  NEW R004 Luoen/洛恩 adult21 LIGHT female crossbow archer. Reference modest R cel shading ONLY, distinct face. Gray-blue short straight hair with asymmetric bangs, amber eyes, calm serious expression. SIMPLE navy jacket with ivory collar and small warm ivory shoulder drape #F0DFA8, white fitted inner blouse, navy short skirt, plain wrist guards, dark blue thigh-high stockings one cuff small gold star-track seam other plain, simple navy ankle boots. Thin pale-gold sun-star pin, practical brown belt pouch with small closed star-map notebook, no fancy lace or jewels. Hold ONE complete compact mechanical fantasy crossbow with both hands at waist, bow limbs and continuous string clearly constructed, no rifle or giant bow. Light identity ivory panels and small sun emblem, no halo. Stable three-quarter standing slight forward step, full body and crossbow, adult proportions, restrained flat material highlights.",
+    "face_rect": [
+      385,
+      103,
+      591,
+      309
+    ]
+  },
+  {
+    "id": "R005",
+    "name": "浅汐",
+    "element": "风",
+    "age": 24,
+    "role": "剑士",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-47b063f0-5910-4da9-a0c6-d15a616f8243.png",
+    "references": [
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character.  NEW R005 Qianxi/浅汐 adult24 WIND seafaring swordswoman, marine personality but NOT water element. Reference modest R cel rendering ONLY, do not copy face or shield. Long dark navy hair with small rope-knot hair tie, teal eyes, cheerful bold grin, adult face. SIMPLE navy short jacket, ivory off-shoulder inner top, plain short navy skirt, light wrist guards, black thigh-high stockings with narrow blue cuffs, complete navy long boots. Wind identity readable sage-green #63BF91 flowing waist sash and short mint-lined cape, tiny gust/leaf motif embroidered once, no watery effects. One small sailor rope knot on belt, no jewels or gold decorative armor. Single straight steel one-handed sword with simple blue-brown hilt held away from body diagonally downward, other hand near hip. Light forward step, naturally counter-turned shoulders, sash/hair flowing with gesture; complete blade and full shoes inside margins. No shield, no ocean, no waves, no particles. Flat controlled cel shading rather than glossy metal.",
+    "face_rect": [
+      403,
+      76,
+      609,
+      282
+    ]
+  },
+  {
+    "id": "SR003",
+    "name": "绫音",
+    "element": "雷",
+    "age": 19,
+    "role": "巫女",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-8b79cd27-64d1-4cdf-925b-b39bb9644573.png",
+    "initial_generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-9ca863d4-c4b1-4167-8f5c-d425610c2b9a.png",
+    "references": [
+      "ArtSource/StyleTests/RPG_Professions/05_thunder_miko_v001.png",
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character.  SR003 Ayane/绫音 adult19 THUNDER shrine maiden. Image1 IDENTITY reference preserve long black-purple hair, purple eyes, sly playful mysterious smile, white/red Japanese shrine maiden costume, red hair cords and complete gohei wand. Image2 series cel rendering ONLY. SR detail: shoulder-baring white top, detached wide sleeves, red high-waist short skirt, small diamond-shaped SIDE waist opening, black thigh-high stockings with white geometric rune cuffs, white/red ankle boots. Thunder signature lavender #B191EF sash and substantial sleeve lining panels with purple #60458C geometric lightning seam patterns, retain red skirt identity, no actual lightning or aura. Small paper charm held in other hand has ONLY simple abstract violet geometric shapes, NO writing or fake text. Gohei paper streamers connected correctly to wand. Lively mid-step with one bent knee, body naturally turning, eyes toward viewer, moving long hair and sleeve ends, both hands clearly formed. Original adult figure, full head to toes and complete props within margins.",
+    "repair_prompt": "Repair this exact adult thunder shrine maiden transparent illustration. Preserve identity face, black-purple long hair, purple eyes, red/white/violet outfit, lightning geometric motifs, pose, wand and charm. Zoom entire full character out to occupy 78% of portrait canvas height and WIDTH less than82%, leave 8% transparent margin all sides. Faithfully COMPLETE the clipped left wide sleeve fabric edge using same violet/white sleeve geometry. All hair and flowing sleeves, shoes and entire wand complete. No redesign, no stretching, no text, no background, no glow or floor. Genuine alpha transparency, clean cel shaded anime.",
+    "face_rect": [
+      427,
+      152,
+      641,
+      366
+    ]
+  },
+  {
+    "id": "SR004",
+    "name": "弦月",
+    "element": "暗",
+    "age": 26,
+    "role": "歌姬",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-7ea29421-4807-4b05-84b6-0652a678e7e3.png",
+    "references": [
+      "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character.  NEW SR004 Xianyue/弦月 adult26 DARK debuff songstress, mature calm teasing smile. References approved series cel style only, do NOT copy faces, hair or occupations. Long wavy deep navy hair, pale purple eyes, small silver crescent hair ornament. Fitted flowing indigo long dress #575074 with deep midnight #292839 shadow panels, muted mauve #B4A1C6 and slender silver moon seams. Translucent attached long sleeves, tasteful side slit revealing black stockings with one small silver moon motif and elegant dark low shoes, small crescent-shaped BACK opening if seen. Natural graceful three-quarter turning pose, skirt sweeps sideways, one hand holds a COMPLETE SMALL ornate silver hand mirror at waist, other hand near chest holding a small worn bell on cord. Face fully visible, differentiated mature poised singer identity, no staff or weapons or armor. SR elegance but limited decoration, coherent covered dress. No floating moons, water, smoke, halo, sparkles or magic effect. All hair, sleeves, dress hem, feet and mirror complete well inside transparent margins.",
+    "face_rect": [
+      424,
+      93,
+      638,
+      307
+    ]
+  }
+]

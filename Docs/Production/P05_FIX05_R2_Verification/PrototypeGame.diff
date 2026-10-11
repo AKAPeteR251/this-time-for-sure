@@ -1,0 +1,73 @@
+--- PrototypeGame.before
++++ PrototypeGame.cs
+@@ -57,10 +57,9 @@
+         public Text AutoSignatureText { get { return autoSignatureText; } }
+         private Font handwriting;
+         private ContractSignaturePad signaturePad;
+-        private Text autoSignatureText, revealCount;
++        private Text autoSignatureText;
+         private RectTransform autoSignatureMask, cardStage, ceremonyStage;
+         private ContractCeremonyView ceremonyView;
+-        private Button confirmCardButton;
+         private Coroutine signingRoutine;
+         private int pendingSummonCount, lastAdvanceFrame = -1, confirmationReadyFrame;
+         private bool finishCurrentPhase, confirmedCard;
+@@ -309,7 +308,7 @@
+             cardStage = Rect(page, "CardStage", 0, 0, 1, 1);
+             fastReveal = new FastRevealView(cardStage, theme, font, titleFont, feelConfig, summonAudio);
+             RectTransform identity = cardStage.Find("RevealIdentity").GetComponent<RectTransform>();
+-            identity.anchorMin = new Vector2(0.075f, 0.44f); identity.anchorMax = new Vector2(0.43f, 0.59f);
++            identity.anchorMin = new Vector2(0.075f, 0.44f); identity.anchorMax = new Vector2(0.35f, 0.59f);
+             RectTransform unknown = cardStage.Find("RevealArtworkSlot/UnknownSilhouette").GetComponent<RectTransform>();
+             revealSilhouette = Rect(unknown, "CharacterSilhouette", 0, 0, 1, 1).gameObject.AddComponent<UICharacterSilhouette>();
+             revealSilhouette.color = new Color(0.12f, 0.18f, 0.28f); revealSilhouette.raycastTarget = false;
+@@ -319,9 +318,6 @@
+             ceremonyName.resizeTextForBestFit = true; ceremonyName.resizeTextMinSize = 24; ceremonyName.resizeTextMaxSize = 56;
+             if(feelConfig!=null&&feelConfig.crystalInteraction)crystalView=new CrystalChargeView(page,feelConfig,font);
+             ActionButton(page, "跳过", 0.86f, 0.90f, 0.97f, 0.97f, SkipPresentation);
+-            revealCount = Label(page, "", 26, 0.04f, 0.045f, 0.15f, 0.11f);
+-            confirmCardButton = ActionButton(page, "下一张", 0.80f, 0.035f, 0.96f, 0.115f, AdvancePresentation);
+-            SetPrimary(confirmCardButton);
+         }
+         private void BuildSummary()
+         {
+@@ -450,7 +446,6 @@
+         {
+             ShowScreen("Reveal"); refillButton.interactable = false; RevealIndex = -1;
+             cardStage.gameObject.SetActive(false); ceremonyStage.gameObject.SetActive(true);
+-            revealCount.gameObject.SetActive(false); confirmCardButton.gameObject.SetActive(false);
+             SetFlowStage(SummonFlowStage.Ceremony); finishCurrentPhase = false;
+             CardRarity highest = CardRarity.R; foreach (PrototypePull result in lastResults) if (result.Card.Rarity > highest) highest = result.Card.Rarity;
+             bool crystal=crystalView!=null;
+@@ -469,13 +464,10 @@
+                 summonAudio.CrystalBreak();crystalView.Burst(0);
+             }
+             cardStage.gameObject.SetActive(true);
+-            revealCount.gameObject.SetActive(true);
+             for (int i = 0; i < lastResults.Count; i++)
+             {
+                 RevealIndex = i; PrototypePull pull = lastResults[i];
+                 SetFlowStage(SummonFlowStage.Revealing); finishCurrentPhase = false; confirmedCard = false;
+-                confirmCardButton.gameObject.SetActive(false);
+-                revealCount.text = (i + 1) + "/" + lastResults.Count;
+                 PrototypePortrait binding = portraits.Find(item => item.characterId == pull.Card.Id);
+                 Sprite portrait = pull.Card.Id == "SSR001" && theme.summonCharacter != null ? theme.summonCharacter : binding == null ? null : binding.portrait;
+                 revealInputReadyFrame=Time.frameCount+2;
+@@ -491,8 +483,6 @@
+                 if(crystal)crystalView.Clear();
+                 fastReveal.Animate(1); fastReveal.Finish();
+                 SetFlowStage(SummonFlowStage.AwaitingConfirm); confirmationReadyFrame = Time.frameCount + 1;
+-                confirmCardButton.GetComponentInChildren<Text>().text = i + 1 == lastResults.Count ? "查看结果" : "下一张";
+-                confirmCardButton.gameObject.SetActive(true);
+                 while (!confirmedCard) yield return null;
+                 if (i + 1 < lastResults.Count)
+                     for (float transitionTime = 0; transitionTime < 0.15f; transitionTime += Time.unscaledDeltaTime) { fastReveal.Transition(transitionTime / 0.15f); yield return null; }
+@@ -506,7 +496,7 @@
+             if (FlowStage == SummonFlowStage.Ceremony || FlowStage == SummonFlowStage.Revealing)
+             { lastAdvanceFrame = Time.frameCount; finishCurrentPhase = true; }
+             else if (FlowStage == SummonFlowStage.AwaitingConfirm && Time.frameCount >= confirmationReadyFrame)
+-            { lastAdvanceFrame = Time.frameCount; confirmedCard = true; confirmCardButton.gameObject.SetActive(false); summonAudio.Confirm(); }
++            { lastAdvanceFrame = Time.frameCount; confirmedCard = true; summonAudio.Confirm(); }
+         }
+         public void SkipPresentation()
+         {

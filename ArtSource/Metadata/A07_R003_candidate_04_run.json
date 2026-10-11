@@ -1,0 +1,26 @@
+{
+  "task": "A07-PILOT",
+  "stage": "candidate",
+  "index": 4,
+  "prompt_id": "21c53fe7-2f0c-455d-8d71-161df9bed00a",
+  "submission": {
+    "prompt_id": "21c53fe7-2f0c-455d-8d71-161df9bed00a",
+    "number": 7,
+    "node_errors": {}
+  },
+  "started_unix": 1791696881.5684876,
+  "api": "D:\\vibe\\这次一定出\\ArtSource\\Workflows\\A07_R003_candidate_04_api.json",
+  "status": "candidate_generated_pending_design_review",
+  "positive": "anime screencap style, 2D cel animation, flat colors, limited color palette, crisp thin black outlines, uniform opaque base color fills, simple hard-edged shadow shapes, absolutely no gradients, no material reflections. A SINGLE adult 27-year-old female fantasy shield knight, full body. Dark brown short bob hair, gray-green eyes, embarrassed slight smile. Flat light-gray chest armor, shoulder plates and forearm armor, dark green short cape, fitted waist, short pleated armored skirt, one small triangular opening revealing skin at the side waist. Opaque matte charcoal pantyhose, small knee guards, short ankle boots. All armor and shield are painted as uniform gray graphic shapes with one darker flat shadow plane, no white shine. One broad shield held at her left side, a small simple orange lantern hanging from its rim, a short sheathed sword at her right hip. Natural balanced three-quarter standing stance with one foot forward, complete hands, complete shield, both boots fully visible. Character occupies 80 percent of portrait 2:3 canvas height. Completely flat solid mid-gray background, empty margins, no floor, no shadow. Animation cel, simple two-tone shading, matte flat graphic illustration.",
+  "negative": "photorealistic, 3D, painterly, airbrush, oil painting, oily, glossy, shiny, wet, realistic metal, metallic glare, specular highlights, rim light, bloom, gradients, smooth shading, texture, cinematic lighting, floor, cast shadow, particles, embers, character sheet, duplicate character, background portrait, text, logo, watermark, child, teen, chibi, malformed hands, cropped feet, cropped shield, tall boots, bare thigh gap, shorts",
+  "elapsed_seconds": 197.01,
+  "sha256": "f41ace9006db513019c5436b64029d1bcdd559be51b0e637a0e6c4512af0e57d",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "mode": "RGB",
+  "output": "D:\\vibe\\这次一定出\\ArtSource\\Characters\\R003\\source\\R003_candidate_04_v001.png",
+  "model_hashes_reference": "ArtSource/StyleTests/A08_LORA/runtime/model_checks.json",
+  "transparency": "RGB concept only; not yet extracted or rebuilt master"
+}

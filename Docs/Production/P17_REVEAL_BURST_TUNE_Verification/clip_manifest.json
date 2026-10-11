@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p17_burst_tune.mp4",
+    "sha256": "1f87f703fa99a6fa5588b60f3a6e2cbc42eaa0be05907bb0e35aa34e653d521e",
+    "bytes": 8474661,
+    "actualCaptureSeconds": 36.4267776,
+    "muxSeconds": 36.44,
+    "frames": 812,
+    "averageCaptureFps": 22.29129375418593,
+    "audioSeconds": 36.394666666666666,
+    "audioStart": 0.0168693,
+    "audioRate": 48000,
+    "peak": 0.26922607421875,
+    "rms": 0.013114322950652967,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

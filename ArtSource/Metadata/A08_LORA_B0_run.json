@@ -1,0 +1,27 @@
+{
+  "task": "A08-LORA",
+  "group": "B0",
+  "prompt_id": "1ed47dab-e949-4b77-92d0-699e6ddd9eab",
+  "submission": {
+    "prompt_id": "1ed47dab-e949-4b77-92d0-699e6ddd9eab",
+    "number": 0,
+    "node_errors": {}
+  },
+  "elapsed_seconds": 254.62,
+  "input_sha256": "a0be389e571e367614962cb8ff5c5ff5d727d6519f877cdb6b7406bddecc2703",
+  "seed": 71008031,
+  "detailer_model": 0,
+  "reina_model": 0,
+  "new_lora_clip": 0,
+  "api": "D:\\vibe\\这次一定出\\ArtSource\\Workflows\\A08_LORA_B0_api.json",
+  "ui": "D:\\vibe\\这次一定出\\ArtSource\\Workflows\\A08_LORA_B0_ui.json",
+  "status": "generated_test_only_pending_review",
+  "output": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\A08_LORA\\outputs\\B0.png",
+  "sha256": "1dd019a8c9272fceb0c516f7b69e3cfad1544788e7587813c797eadcfbaf9502",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "lora_warning_lines": []
+}

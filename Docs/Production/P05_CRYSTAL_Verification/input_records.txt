@@ -1,0 +1,34 @@
+slow hit=1 energy=0.0650 at=7.777
+slow hit=2 energy=0.1300 at=8.158
+slow hit=3 energy=0.1950 at=8.539
+slow hit=4 energy=0.2600 at=8.920
+slow hit=5 energy=0.3250 at=9.302
+slow hit=6 energy=0.3900 at=10.885
+slow hit=7 energy=0.4550 at=11.323
+slow hit=8 energy=0.5200 at=11.704
+slow hit=9 energy=0.5850 at=12.084
+slow hit=10 energy=0.6500 at=12.466
+slow hit=11 energy=0.7150 at=12.847
+slow hit=12 energy=0.7800 at=13.228
+slow hit=13 energy=0.8450 at=13.609
+slow hit=14 energy=0.9100 at=13.991
+slow hit=15 energy=0.9750 at=14.373
+slow hit=16 energy=1.0000 at=14.755
+slow thresholdHits=16
+high hit=1 energy=0.0650 at=24.521
+high hit=2 energy=0.1537 at=24.596
+high hit=3 energy=0.2412 at=24.682
+high hit=4 energy=0.3289 at=24.767
+high hit=5 energy=0.4165 at=24.852
+high hit=6 energy=0.5041 at=24.937
+high hit=7 energy=0.5918 at=25.022
+high hit=8 energy=0.6794 at=25.107
+high hit=9 energy=0.7671 at=25.192
+high hit=10 energy=0.8547 at=25.277
+high hit=11 energy=0.9420 at=25.365
+high hit=12 energy=1.0000 at=25.449
+high thresholdHits=12
+skip stage=Ceremony at=37.212
+skip stage=CrystalCharging at=37.434
+skip stage=CrystalBreaking at=38.663
+skip stage=Revealing at=41.414

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p26_contract_burn.mp4",
+    "sha256": "57a657bab4c682617269c9b72253528e45be4fd2371fb3216d45e38b5b05cbf8",
+    "bytes": 3490968,
+    "actualCaptureSeconds": 5.2563724999999994,
+    "muxSeconds": 5.256,
+    "frames": 110,
+    "averageCaptureFps": 20.926979585255804,
+    "audioSeconds": 5.226666666666667,
+    "audioStart": 0.0193674,
+    "audioRate": 48000,
+    "peak": 0.529052734375,
+    "rms": 0.03333159987627452,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

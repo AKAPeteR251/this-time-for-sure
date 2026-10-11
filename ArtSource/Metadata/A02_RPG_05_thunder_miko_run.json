@@ -1,0 +1,36 @@
+{
+  "task": "A02_RPG_05_thunder_miko",
+  "submission": {
+    "prompt_id": "361e930d-bdbb-4ecc-926a-3979d3fa6181",
+    "number": 15,
+    "node_errors": {}
+  },
+  "started_unix": 1791389399.898087,
+  "graph_path": "Workflows/A02_RPG_05_thunder_miko_api.json",
+  "elapsed_seconds": 40.24,
+  "output": "StyleTests\\RPG_Professions\\05_thunder_miko_v001.png",
+  "sha256": "30387a1fa65411f418b5d5173c62e5e7fcce5ab9552f124230bf900c9f5e4cf9",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "concept_pending_user_selection",
+  "profession": "雷巫女",
+  "element": "雷",
+  "declared_character_age": 19,
+  "visual_review": {
+    "strengths": [
+      "红白服饰、御币、鸟居和紫雷让职业题材清楚",
+      "明快表情和抬腿舞步呈现年轻成人气质"
+    ],
+    "defects": [
+      "符札出现伪文字，正式图应去除或换为原创非文字纹样",
+      "狐狸面饰与发结未充分实现",
+      "符札手指需精修"
+    ]
+  },
+  "layers": "complete_image_only",
+  "unity_validation": "not_integrated",
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "style_chain": "User PNG workflow; same model/LoRA/sampler settings; profession prompt and seed changed; tiled decode"
+}

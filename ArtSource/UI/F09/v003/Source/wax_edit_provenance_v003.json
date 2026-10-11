@@ -1,0 +1,8 @@
+{
+  "task": "F09-CONTRACT v003",
+  "tool": "image_gen.imagegen built-in edit",
+  "reference": "v002/Textures/contract_wax_seal_red_v002.png",
+  "prompt": "Edit this realistic burgundy sealing-wax asset for an old parchment contract. Preserve ONE isolated front-facing red wax seal with physical thickness, poured irregular circular contour, transparent exterior, soft upper-left reference light, center placement and generous transparent margins. Make it noticeably older and more subdued: dark oxblood/wine red, lower shine and restrained soft highlights, wax scuffing, tiny chips along the outer rim, gently flattened and rubbed relief edges, shallow fine natural hairline fractures, subtle dusty matte patina within grooves. Still intact and dignified, not crumbling or destroyed; no large missing chunk. REPLACE the entire pointed arch gate and five-point star relief: remove them completely. New original design is TWO clear complete concentric circular embossed rings around ONE vertically pointed faceted crystal/rhomboid relief, its elongated hexagonal double-pyramid silhouette and 3-4 large engraved facet lines are readable at small thumbnail size. All embossing is SAME aged burgundy wax, not blue gems or metallic attachments. No arch, stars, letters, numbers, family coat-of-arms, logos, ribbons, paper or background. Transparent outside the seal, no separately baked external drop shadow, no bloom. Entire circular wax and scuffed edges must be present with ~12% alpha-zero safe margin. Photorealistic material consistent with an old parchment, not icon art.",
+  "raw": "Source/Raw/wax_aged_crystal_generated_v003.png",
+  "hidden_parameters": "model version, seed, steps, CFG not exposed"
+}

@@ -1,0 +1,31 @@
+[Package Manager Window] Error fetching package list.
+The "path" argument must be of type string. Received undefined
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Package Manager Window] Error fetching package list offline.
+The "path" argument must be of type string. Received undefined
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Package Manager Window] The "path" argument must be of type string. Received undefined
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Package Manager Window] The "path" argument must be of type string. Received undefined
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+CaptureScreenshot(L:0, B:0, W:1920, H:1080) requested a region that exceeds the active Render Target sized [W:321, H:573].
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture ()
+ThisTime.Game.PrototypeGame/<CaptureUI>d__89:MoveNext () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:999)
+P02FastSetup/<Drive>d__20:MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:190)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+CaptureScreenshotAsTexture() failed to generate texture! Was method called before the 'end of frame' state was reached?
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture ()
+ThisTime.Game.PrototypeGame/<CaptureUI>d__89:MoveNext () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:999)
+P02FastSetup/<Drive>d__20:MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:190)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ArgumentException: Passed in texture is invalid (null).
+ThisTime.Game.PrototypeGame+<CaptureUI>d__89.MoveNext () (at Assets/_Game/Scripts/UI/PrototypeGame.cs:1000)
+P02FastSetup+<Drive>d__20.MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:190)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+

@@ -1,0 +1,4 @@
+SSR_premonition: 实际Play状态采样；batchmode未截屏。
+SSR_revealed: 实际Play状态采样；batchmode未截屏。
+UR_premonition: 实际Play状态采样；batchmode未截屏。
+UR_revealed_accelerated: 实际Play状态采样；batchmode未截屏。

@@ -1,0 +1,1264 @@
+{
+  "task_id": "C17",
+  "date": "2026-10-11",
+  "scope": "独立文件/哈希/尺寸/alpha核对；人工总览及SR003脚部、米洛视觉检查；未运行Unity",
+  "status": "文件检查通过，映射可交程序接入",
+  "character_count": 12,
+  "selected_image_count": 34,
+  "art_source_route": "新11人由内置image_gen产出，本轮总指挥未生成；既有SSR001母本沿用",
+  "characters": [
+    {
+      "character_id": "R001",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.587890625,
+        0.8053385416666666
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/R001/Internal_A09_v001/R001_character_v001.png",
+          "sha256": "41404a07df5d5953ff0ae13d5ae72029e16cb253434d403ee1f20a23ae05d8d2",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            59,
+            86,
+            950,
+            1448
+          ],
+          "zero_alpha_fraction": 0.6922340393066406,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/R001/Internal_A09_v001/R001_avatar_v001.png",
+          "sha256": "5469658f07607e0a3e1f1b9af3c6f16251df1b60e61d2b3ab1615eac4d94b6f8",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.0294952392578125,
+          "edge_alpha_max_top_right_bottom_left": [
+            254,
+            254,
+            253,
+            255
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/R001/Internal_A09_v001/R001_thumb_v001.png",
+          "sha256": "d823b853afa05b533f2c4c9fcfd4cc501f9461527dd4fd8d8b43b6a5814bf377",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            13,
+            20,
+            236,
+            364
+          ],
+          "zero_alpha_fraction": 0.6830342610677084,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "R002",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.50634765625,
+        0.8232421875
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/R002/Internal_A09_v001/R002_character_v001.png",
+          "sha256": "e54d73009bcb85ba8ef57e58dcc2a0a0dc8fb628dc80e9cbb118358a3b958b6f",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            51,
+            98,
+            952,
+            1449
+          ],
+          "zero_alpha_fraction": 0.7389119466145834,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/R002/Internal_A09_v001/R002_avatar_v001.png",
+          "sha256": "d4be5d1d83bf5100a1471a4a9220a84db4ab23ba99130d1e416a1c042aa52237",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.00830078125,
+          "edge_alpha_max_top_right_bottom_left": [
+            254,
+            254,
+            254,
+            253
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/R002/Internal_A09_v001/R002_thumb_v001.png",
+          "sha256": "a37647111995af35439a34ec3ed5817ddd829c912da5c7a34f6fc911794bcf94",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            30,
+            23,
+            227,
+            364
+          ],
+          "zero_alpha_fraction": 0.7275594075520834,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "R003",
+      "selected_version": "light_v002",
+      "face_uv_bottom_origin": [
+        0.484375,
+        0.8072916666666666
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+          "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            151,
+            136,
+            946,
+            1428
+          ],
+          "zero_alpha_fraction": 0.6746902465820312,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/R003/R003_avatar_light_v002.png",
+          "sha256": "a23e686c5633c91a48296eaac11b70588428d0cd89d7fe729270d690648c6c6e",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.131927490234375,
+          "edge_alpha_max_top_right_bottom_left": [
+            253,
+            255,
+            254,
+            255
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/R003/R003_thumb_light_v002.png",
+          "sha256": "8121df56e84827cdd6882c8508c6599ebbe28fc8203b4f3f6ebb751e5c998766",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            37,
+            32,
+            220,
+            346
+          ],
+          "zero_alpha_fraction": 0.66412353515625,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "R004",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.47900390625,
+        0.8291015625
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/R004/Internal_A09_v001/R004_character_v001.png",
+          "sha256": "195132930afd20b99cea939dfe1b897bc9d27194f909723615ec4bc9d74e7ac6",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            66,
+            101,
+            944,
+            1446
+          ],
+          "zero_alpha_fraction": 0.7648728688557943,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/R004/Internal_A09_v001/R004_avatar_v001.png",
+          "sha256": "23dd3d9e8aa10f2398e12fd4e14a4702a5a873f9abed5922a00af9cf824d0688",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.0134124755859375,
+          "edge_alpha_max_top_right_bottom_left": [
+            254,
+            255,
+            254,
+            253
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/R004/Internal_A09_v001/R004_thumb_v001.png",
+          "sha256": "040321fd5a4c6c636c1936a444a2ff5d5008dc05d8182d565c4239fc2c40e1c4",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            26,
+            23,
+            235,
+            364
+          ],
+          "zero_alpha_fraction": 0.756134033203125,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "R005",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.49462890625,
+        0.8450520833333334
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/R005/Internal_A09_v001/R005_character_v001.png",
+          "sha256": "8aba2cdbf935908fc9a3b4c124fdb82ef74bd20243261e01cbc8d705ed78d160",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            86,
+            78,
+            952,
+            1450
+          ],
+          "zero_alpha_fraction": 0.7167841593424479,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/R005/Internal_A09_v001/R005_avatar_v001.png",
+          "sha256": "10e0c6c88189e5b1ada3edecbd6214163e05bac7c83bb0416e5f3d8880900e1b",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.0023193359375,
+          "edge_alpha_max_top_right_bottom_left": [
+            255,
+            253,
+            253,
+            253
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/R005/Internal_A09_v001/R005_thumb_v001.png",
+          "sha256": "e5a2bf7bfe88311bc2aab1518b13a2d6215d32cb318ce7aa05c2660564923e3b",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            20,
+            19,
+            240,
+            364
+          ],
+          "zero_alpha_fraction": 0.7016194661458334,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "SR001",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.4912109375,
+        0.7858072916666666
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/SR001/Internal_A09_v001/SR001_character_v001.png",
+          "sha256": "d08efe1e1f385ab3b08d412677a64e4388b9754c30e619a3b0e91bcd22965ccf",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            51,
+            87,
+            973,
+            1446
+          ],
+          "zero_alpha_fraction": 0.5461463928222656,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/SR001/Internal_A09_v001/SR001_avatar_v001.png",
+          "sha256": "835af8917637a9e760147b162c44535a19248da1db5c59c2f4455af1de70f73a",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.0735931396484375,
+          "edge_alpha_max_top_right_bottom_left": [
+            255,
+            255,
+            253,
+            251
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/SR001/Internal_A09_v001/SR001_thumb_v001.png",
+          "sha256": "50549c78f7b17ac60027a7c9e9208f0bd1aed9ca3ce8e9448b5f48a116d52fbf",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            13,
+            20,
+            244,
+            363
+          ],
+          "zero_alpha_fraction": 0.5440165201822916,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "SR002",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.5458984375,
+        0.7955729166666666
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/SR002/Internal_A09_v001/SR002_character_v001.png",
+          "sha256": "8d5d84d7a5243360b985624a6112528979b8ed5055688a0603d17fba7cde24da",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            51,
+            77,
+            970,
+            1459
+          ],
+          "zero_alpha_fraction": 0.6500848134358724,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/SR002/Internal_A09_v001/SR002_avatar_v001.png",
+          "sha256": "fba30291150b8ff2db985806bf77a5ccaefde4e8b279270c8c0187a8a7d1c32a",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.005126953125,
+          "edge_alpha_max_top_right_bottom_left": [
+            253,
+            255,
+            253,
+            253
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/SR002/Internal_A09_v001/SR002_thumb_v001.png",
+          "sha256": "b396a23820f8cfcdb45bbd9153fee05c2056efe6928138a2062ed78784acb989",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            13,
+            19,
+            241,
+            366
+          ],
+          "zero_alpha_fraction": 0.640350341796875,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "SR003",
+      "selected_version": "Internal_A09_v002",
+      "face_uv_bottom_origin": [
+        0.51904296875,
+        0.7981770833333334
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/SR003/Internal_A09_v002/SR003_character_v002.png",
+          "sha256": "449582b68d7d4d3b06b8bad3a73dc06566ea3bbece92c08735e7629a14ea5c7d",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            51,
+            95,
+            972,
+            1423
+          ],
+          "zero_alpha_fraction": 0.5977751413981119,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/SR003/Internal_A09_v002/SR003_avatar_v002.png",
+          "sha256": "add53673a48ee8e31b10c4d2ad13c42b31c9c7d205dfcb9c21437b4951b6d8a4",
+          "metadata_hash_match": true,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.0001373291015625,
+          "edge_alpha_max_top_right_bottom_left": [
+            254,
+            255,
+            254,
+            254
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/SR003/Internal_A09_v002/SR003_thumb_v002.png",
+          "sha256": "f1f6a368c9689cc4b0924601fc28f338c554c448caef93c9ded4da787b5f8a0e",
+          "metadata_hash_match": true,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            13,
+            22,
+            243,
+            357
+          ],
+          "zero_alpha_fraction": 0.585357666015625,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "SR004",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.5166015625,
+        0.8326822916666666
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/SR004/Internal_A09_v001/SR004_character_v001.png",
+          "sha256": "3a864f15141c0947112274470695d2b6e6fd6f91e7837bd12e59fe92c7f94844",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            79,
+            77,
+            964,
+            1445
+          ],
+          "zero_alpha_fraction": 0.5261637369791666,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/SR004/Internal_A09_v001/SR004_avatar_v001.png",
+          "sha256": "196e1f9a9ec9408105c3899d0f30a1f82c2e71321eeb75316fab554664e31898",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.006195068359375,
+          "edge_alpha_max_top_right_bottom_left": [
+            254,
+            255,
+            253,
+            253
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/SR004/Internal_A09_v001/SR004_thumb_v001.png",
+          "sha256": "36c9c29993541f2b92b359139ae3c1a203ac7fc1bde2094c47dedf1f9495cd24",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            18,
+            19,
+            243,
+            363
+          ],
+          "zero_alpha_fraction": 0.5129292805989584,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "SSR001",
+      "selected_version": "UIIceMage_v001（沿用已验收母本）",
+      "face_uv_bottom_origin": [
+        0.5,
+        0.8
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "这次一定出/Assets/_Game/Art/Characters/UIIceMage/UIIceMage_character_v001.png",
+          "sha256": "d83181561ae7923a5b1ec19c406fbf4d35ece1929be394421b09ab9c205dfc99",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            254
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "zero_alpha_fraction": 0.3566748301188151,
+          "edge_alpha_max_top_right_bottom_left": [
+            6,
+            3,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "SSR002",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.54736328125,
+        0.8076171875
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/SSR002/Internal_A09_v001/SSR002_character_v001.png",
+          "sha256": "2fea89dc21741a893cf24632670c85af1e16718f6830bf5a174801dbb2635e2b",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            64,
+            87,
+            973,
+            1450
+          ],
+          "zero_alpha_fraction": 0.5125923156738281,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/SSR002/Internal_A09_v001/SSR002_avatar_v001.png",
+          "sha256": "e30ee66a6c561a9488844b0a9039211c94404623b321042c64f57360be60b4fe",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.0464019775390625,
+          "edge_alpha_max_top_right_bottom_left": [
+            255,
+            253,
+            253,
+            255
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/SSR002/Internal_A09_v001/SSR002_thumb_v001.png",
+          "sha256": "0a458fc16025ebc1c57b7aa46c9b4c687e979f1263bba92f0d82ce37d8350afb",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            14,
+            20,
+            246,
+            364
+          ],
+          "zero_alpha_fraction": 0.4991658528645833,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "UR001",
+      "selected_version": "Internal_A09_v001",
+      "face_uv_bottom_origin": [
+        0.44921875,
+        0.7174479166666667
+      ],
+      "files": [
+        {
+          "kind": "portrait",
+          "path": "ArtSource/Characters/UR001/Internal_A09_v001/UR001_character_v001.png",
+          "sha256": "52e808e12edc96c6c00a2ffff2074b3bc8dd1657eb0d43b622cd2952aa2327ce",
+          "metadata_hash_match": true,
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            66,
+            85,
+            973,
+            1430
+          ],
+          "zero_alpha_fraction": 0.6096814473470052,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "avatar",
+          "path": "ArtSource/Characters/UR001/Internal_A09_v001/UR001_avatar_v001.png",
+          "sha256": "d01315956b875cfb28b531d44b566d6316cdbb348d89784a51b7cbbc1ca6c154",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "zero_alpha_fraction": 0.0035400390625,
+          "edge_alpha_max_top_right_bottom_left": [
+            253,
+            253,
+            254,
+            254
+          ]
+        },
+        {
+          "kind": "thumbnail",
+          "path": "ArtSource/Characters/UR001/Internal_A09_v001/UR001_thumb_v001.png",
+          "sha256": "574819f9944a2ee759ff564c0543a19c2f63de6b203e824c002b99cc9e3d575b",
+          "metadata_hash_match": null,
+          "dimensions": [
+            256,
+            384
+          ],
+          "mode": "RGBA",
+          "alpha_range": [
+            0,
+            255
+          ],
+          "alpha_bbox": [
+            16,
+            36,
+            245,
+            355
+          ],
+          "zero_alpha_fraction": 0.593414306640625,
+          "edge_alpha_max_top_right_bottom_left": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "zip_checks": [
+    {
+      "path": "ArtSource/Characters/SR003/Internal_A09_v002/A09_SR003_TabiShoes_v002.zip",
+      "bytes": 6333455,
+      "sha256": "f905f37eab084f34c66a4669031a8daca8ea7fbebaab2383dec58d9dfabede6a",
+      "crc_pass": true,
+      "entry_count": 12,
+      "selected_exports": [
+        {
+          "path": "ArtSource/Characters/SR003/Internal_A09_v002/SR003_character_v002.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR003/Internal_A09_v002/SR003_avatar_v002.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR003/Internal_A09_v002/SR003_thumb_v002.png",
+          "matches_selected_export": true
+        }
+      ],
+      "sample_entries": [
+        "ArtSource/Characters/SR003/Internal_A09_v002/A09_SR003_交接_v002.md",
+        "ArtSource/Characters/SR003/Internal_A09_v002/export_v002.py",
+        "ArtSource/Characters/SR003/Internal_A09_v002/production_v002.json"
+      ],
+      "matches_artist_package_hash": true
+    },
+    {
+      "path": "ArtSource/Characters/_Batches/A09_v001/A09_CharacterPortraits_v001.zip",
+      "bytes": 43697733,
+      "sha256": "57e501f8c86c713bf14849372cefabd975cf04ab54180aafaad8d46f99a06b73",
+      "crc_pass": true,
+      "entry_count": 93,
+      "selected_exports": [
+        {
+          "path": "ArtSource/Characters/R001/Internal_A09_v001/R001_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R001/Internal_A09_v001/R001_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R001/Internal_A09_v001/R001_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R002/Internal_A09_v001/R002_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R002/Internal_A09_v001/R002_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R002/Internal_A09_v001/R002_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R004/Internal_A09_v001/R004_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R004/Internal_A09_v001/R004_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R004/Internal_A09_v001/R004_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R005/Internal_A09_v001/R005_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R005/Internal_A09_v001/R005_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R005/Internal_A09_v001/R005_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR001/Internal_A09_v001/SR001_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR001/Internal_A09_v001/SR001_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR001/Internal_A09_v001/SR001_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR002/Internal_A09_v001/SR002_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR002/Internal_A09_v001/SR002_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR002/Internal_A09_v001/SR002_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR004/Internal_A09_v001/SR004_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR004/Internal_A09_v001/SR004_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SR004/Internal_A09_v001/SR004_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SSR002/Internal_A09_v001/SSR002_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SSR002/Internal_A09_v001/SSR002_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/SSR002/Internal_A09_v001/SSR002_thumb_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/UR001/Internal_A09_v001/UR001_character_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/UR001/Internal_A09_v001/UR001_avatar_v001.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/UR001/Internal_A09_v001/UR001_thumb_v001.png",
+          "matches_selected_export": true
+        }
+      ],
+      "sample_entries": [
+        "ArtSource/Characters/_Batches/A09_v001/A09_avatars_contact_v001.jpg",
+        "ArtSource/Characters/_Batches/A09_v001/A09_characters_contact_v001.jpg",
+        "ArtSource/Characters/_Batches/A09_v001/A09_交接_v001.md"
+      ]
+    },
+    {
+      "path": "ArtSource/Characters/R003/A07_R003_LightElement_v002.zip",
+      "bytes": 5933521,
+      "sha256": "b3c096d5ad6c0d4e799e089af75078ba5e6d6eb4df9b973314436aef760beffc",
+      "crc_pass": true,
+      "entry_count": 14,
+      "selected_exports": [
+        {
+          "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R003/R003_avatar_light_v002.png",
+          "matches_selected_export": true
+        },
+        {
+          "path": "ArtSource/Characters/R003/R003_thumb_light_v002.png",
+          "matches_selected_export": true
+        }
+      ],
+      "sample_entries": [
+        "R003_character_light_v002.png",
+        "R003_thumb_light_v002.png",
+        "R003_avatar_light_v002.png"
+      ]
+    }
+  ],
+  "a09_manifest_checked_files": 92,
+  "a09_manifest_all_match": true,
+  "failures": [],
+  "runtime_status": "P33-CHARACTERS待派工/未集成；不能据静态核对写成十二人游戏验收"
+}

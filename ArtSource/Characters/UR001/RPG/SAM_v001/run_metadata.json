@@ -1,0 +1,121 @@
+{
+  "method": "local SAM vit_b point prompted; no repainting",
+  "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\04_fire_warrior_v001.png",
+  "source_sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135",
+  "weight": "E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth",
+  "weight_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "device": "cuda",
+  "torch": "2.9.1+cu130",
+  "points_positive": [
+    [
+      409,
+      277
+    ],
+    [
+      420,
+      366
+    ],
+    [
+      530,
+      152
+    ],
+    [
+      667,
+      284
+    ],
+    [
+      728,
+      398
+    ],
+    [
+      638,
+      604
+    ],
+    [
+      353,
+      495
+    ],
+    [
+      353,
+      743
+    ],
+    [
+      159,
+      855
+    ],
+    [
+      602,
+      975
+    ],
+    [
+      607,
+      1100
+    ],
+    [
+      331,
+      989
+    ],
+    [
+      184,
+      283
+    ],
+    [
+      509,
+      737
+    ],
+    [
+      682,
+      928
+    ]
+  ],
+  "points_negative": [
+    [
+      39,
+      173
+    ],
+    [
+      85,
+      427
+    ],
+    [
+      708,
+      24
+    ],
+    [
+      32,
+      1078
+    ],
+    [
+      493,
+      1064
+    ],
+    [
+      243,
+      179
+    ],
+    [
+      94,
+      346
+    ],
+    [
+      673,
+      709
+    ]
+  ],
+  "scores": [
+    0.9496439099311829,
+    0.9143515229225159,
+    0.8043547868728638
+  ],
+  "areas": [
+    488387,
+    413751,
+    272194
+  ],
+  "elapsed_seconds": 10.578,
+  "status": "pending_visual_review",
+  "original_size": [
+    768,
+    1152
+  ]
+}

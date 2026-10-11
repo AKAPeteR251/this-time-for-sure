@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71da0d79cf3ff7a4584f458de488d0b8, type: 3}
+  m_Name: PrototypeUITheme
+  m_EditorClassIdentifier: 
+  background: {r: 0.055, g: 0.065, b: 0.085, a: 1}
+  panel: {r: 0.105, g: 0.12, b: 0.15, a: 1}
+  button: {r: 0.2, g: 0.24, b: 0.29, a: 1}
+  primary: {r: 0.76, g: 0.65, b: 0.43, a: 1}
+  text: {r: 0.94, g: 0.93, b: 0.89, a: 1}
+  muted: {r: 0.64, g: 0.68, b: 0.72, a: 1}
+  rare: {r: 0.39, g: 0.64, b: 0.79, a: 1}
+  superRare: {r: 0.64, g: 0.49, b: 0.83, a: 1}
+  ssr: {r: 0.86, g: 0.71, b: 0.4, a: 1}
+  ur: {r: 0.95, g: 0.8, b: 0.52, a: 1}

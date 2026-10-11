@@ -1,0 +1,32 @@
+{
+  "task": "A01_c",
+  "submission": {
+    "prompt_id": "09e2ccb6-bfc1-4c9f-a78a-cde7613b8765",
+    "number": 4,
+    "node_errors": {}
+  },
+  "started_unix": 1791387587.8941462,
+  "graph_path": "Workflows/A01_c_api.json",
+  "elapsed_seconds": 75.39,
+  "output": "StyleTests\\SSR001_style_c.png",
+  "sha256": "75c744e52d95adb71412278192e74d000a54285f13429056e78004266635d1f3",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "generated_pending_visual_review",
+  "visual_review": {
+    "status": "style_candidate_pending_user_choice",
+    "strengths": [
+      "单手持物、人物轮廓清楚",
+      "深色天幕、金色弧线和港口主题明确",
+      "相对A/B更接近收藏卡构图"
+    ],
+    "defects": [
+      "制服上衣变为偏白、与A/B蓝色占比不完全一致",
+      "道具更像灯具而非星图仪",
+      "天空下方像落日而非月夜；背景要进一步校准"
+    ],
+    "layers": "complete_image_only"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "id": "SR004",
+  "name": "弦月",
+  "element": "暗",
+  "age": 26,
+  "role": "歌姬",
+  "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+  "model_seed_cfg": "工具未披露，未记录推测值",
+  "source": "ArtSource/Characters/SR004/Internal_A09_v001/source/original_tool_output.png",
+  "source_sha256": "5b7acdd6eab6fd2e6f6ff32fd98ad1253cf4e5974a41eea7044a5cf918bf4211",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "native_alpha_range": [
+    0,
+    254
+  ],
+  "native_alpha_bbox": [
+    32,
+    0,
+    1014,
+    1520
+  ],
+  "native_zero_alpha_fraction": 0.41234779357910156,
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    79,
+    77,
+    964,
+    1445
+  ],
+  "zero_alpha_fraction": 0.5261637369791666,
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop_px": [
+    433,
+    161,
+    625,
+    353
+  ],
+  "face_center_uv_bottom_origin": [
+    0.5166015625,
+    0.8326822916666666
+  ],
+  "references": [
+    {
+      "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+    },
+    {
+      "path": "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png",
+      "sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0"
+    }
+  ],
+  "prompt": "source/prompt.txt",
+  "output_sha256": "3a864f15141c0947112274470695d2b6e6fd6f91e7837bd12e59fe92c7f94844",
+  "review": "初版候选，脸、道具和边缘需视觉评审",
+  "native_edge_alpha_max": [
+    1,
+    0,
+    0,
+    0
+  ]
+}

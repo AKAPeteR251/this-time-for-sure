@@ -1,0 +1,128 @@
+{
+  "task": "A05-BLENDER",
+  "status": "render and complete MP4 decoding checked; visual review pending user",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "decoded_frames": 132,
+  "duration_seconds": 5.5,
+  "png_frames": 132,
+  "first_middle_last_differ": true,
+  "sample_brightness": [
+    {
+      "frame": 1,
+      "mean_rgb": [
+        21.953045789930556,
+        24.082712673611113,
+        34.23353841145833
+      ]
+    },
+    {
+      "frame": 24,
+      "mean_rgb": [
+        29.018862847222223,
+        29.609596354166666,
+        37.09439778645833
+      ]
+    },
+    {
+      "frame": 42,
+      "mean_rgb": [
+        41.26664605034722,
+        40.12488498263889,
+        43.629223090277776
+      ]
+    },
+    {
+      "frame": 55,
+      "mean_rgb": [
+        46.92058810763889,
+        44.94123914930555,
+        46.086431206597226
+      ]
+    },
+    {
+      "frame": 78,
+      "mean_rgb": [
+        51.179937065972226,
+        47.828740234375,
+        47.07664605034722
+      ]
+    },
+    {
+      "frame": 94,
+      "mean_rgb": [
+        51.3031640625,
+        47.886341145833335,
+        46.97193142361111
+      ]
+    },
+    {
+      "frame": 105,
+      "mean_rgb": [
+        162.49610243055557,
+        155.49661783854165,
+        141.10722113715278
+      ]
+    },
+    {
+      "frame": 118,
+      "mean_rgb": [
+        223.68787109375,
+        220.16899305555555,
+        208.86233506944444
+      ]
+    },
+    {
+      "frame": 132,
+      "mean_rgb": [
+        248.72233506944445,
+        247.37620551215278,
+        242.70887261284722
+      ]
+    }
+  ],
+  "checks": [
+    "132 sequential frame files",
+    "all images 1280x720",
+    "video complete decode exit 0",
+    "decoded frame count 132",
+    "three review renders exist"
+  ],
+  "assets": [
+    {
+      "path": "v002/A05_SummonStage_v002.blend",
+      "bytes": 5078792,
+      "sha256": "f96193b4223efc59c8ba064662796467fc823fba1571c49e49df95f15b20eee4"
+    },
+    {
+      "path": "v002/A05_SummonSpace_720p_v002.mp4",
+      "bytes": 2790214,
+      "sha256": "49287cc73cd1fbfb79ac4fd952d8afc27ff1a0560cb04d26134b89cf7c0f136e"
+    },
+    {
+      "path": "v002/parameters_v002.json",
+      "bytes": 917,
+      "sha256": "98889ea6cfdf5a8659da3087e09e0b5424c06e67ca45d75b2a74bb2e3d0640de"
+    },
+    {
+      "path": "v002/Review/01_establish_v002.png",
+      "bytes": 888200,
+      "sha256": "47fdaa29ab1d17bab37334ec28114825aa6dbc9a720492761aafcb5ff69ded2f"
+    },
+    {
+      "path": "v002/Review/02_giant_ring_v002.png",
+      "bytes": 1077232,
+      "sha256": "0318d09b1273618a5cfaf59fcce7fecdc0cd7ee8a722e7bb3c897f18c8193bc6"
+    },
+    {
+      "path": "v002/Review/03_gate_burst_v002.png",
+      "bytes": 845763,
+      "sha256": "7971efe33bca2d4d3722e4709ef34861a1f3b549609c54653bb140df0cb7f073"
+    }
+  ],
+  "unity_integration": "not performed",
+  "audio": "none"
+}

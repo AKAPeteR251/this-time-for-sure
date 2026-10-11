@@ -1,0 +1,81 @@
+[START] Security scan
+[DONE] Security scan
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2026-10-08 17:21:39.107
+** Platform: Windows
+** Python version: 3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]
+** Python executable: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\python\python.exe
+** ComfyUI Path: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI
+** ComfyUI Base Folder Path: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI
+** User directory: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\user
+** ComfyUI-Manager config path: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\user\__manager\config.ini
+** Log path: E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\user\comfyui.log
+[34m[ComfyUI-Easy-Use] server: [0mv1.3.6 [92mLoaded[0m
+[34m[ComfyUI-Easy-Use] web root: [0mE:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\comfyui-easy-use\web_version/v2 [92mLoaded[0m
+[JoyCaption] ℹ️ No custom models found, skipping user-defined HF models.
+[JoyCaption GGUF] ℹ️ No custom models found, skipping user-defined GGUF models.
+Error loading E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-RMBG\py\AILab_SAM3Segment.py: No module named 'triton'
+Error loading E:\ComfyUI-aki-v3\ComfyUI-aki-v3\ComfyUI\custom_nodes\ComfyUI-RMBG\py\AILab_SAM3Segment.py: No module named 'triton'
+[34m[ComfyUI-RMBG][0m v[93m3.0.0[0m | [93m42 nodes[0m [92mLoaded[0m
+[92mRvTools v2: [0mVersion: 2.5.2[0m
+(pysssss:WD14Tagger) [DEBUG] Available ORT providers: TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider
+(pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+DWPose: Onnxruntime with acceleration providers detected
+FETCH ComfyRegistry Data: 5/197
+[1;35m
+### [START] ComfyUI AlekPet Nodes [1;34mv1.0.92[0m[1;35m ###[0m
+[92mNode -> ArgosTranslateNode: [93mArgosTranslateCLIPTextEncodeNode, ArgosTranslateTextNode[0m [92m[92m[Loading][0m[0m
+[92mNode -> ChatGLMNode[92m[92m[Loading][0m[0m
+[92mNode -> DeepTranslatorNode: [93mDeepTranslatorCLIPTextEncodeNode, DeepTranslatorTextNode[0m [92m[92m[Loading][0m[0m
+[92mNode -> ExtrasNode: [93mPreviewTextNode, HexToHueNode, ColorsCorrectNode[0m [92m[92m[Loading][0m[0m
+[92mNode -> GoogleTranslateNode: [93mGoogleTranslateCLIPTextEncodeNode, GoogleTranslateTextNode[0m [92m[92m[Loading][0m[0m
+[92mNode -> IDENode: [93mIDENode[0m [92m[92m[Loading][0m[0m
+[92mNode -> PainterNode: [93mPainterNode[0m [92m[92m[Loading][0m[0m
+[92mNode -> PoseNode: [93mPoseNode[0m [92m[92m[Loading][0m[0m
+[1;35m### [END] ComfyUI AlekPet Nodes ###[0m
+[36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+FETCH ComfyRegistry Data: 10/197
+
+[92m[rgthree-comfy] Loaded 48 fantastic nodes. 🎉[0m
+
+[33m[rgthree-comfy] ComfyUI's new Node 2.0 rendering may be incompatible with some rgthree-comfy nodes and features, breaking some rendering as well as losing the ability to access a node's properties (a vital part of many nodes). It also appears to run MUCH more slowly spiking CPU usage and causing jankiness and unresponsiveness, especially with large workflows. Personally I am not planning to use the new Nodes 2.0 and, unfortunately, am not able to invest the time to investigate and overhaul rgthree-comfy where needed. If you have issues when Nodes 2.0 is enabled, I'd urge you to switch it off as well and join me in hoping ComfyUI is not planning to deprecate the existing, stable canvas rendering all together.
+[0m
+FETCH ComfyRegistry Data: 15/197
+FETCH ComfyRegistry Data: 20/197
+FETCH ComfyRegistry Data: 25/197
+FETCH ComfyRegistry Data: 30/197
+FETCH ComfyRegistry Data: 35/197
+FETCH ComfyRegistry Data: 40/197
+FETCH ComfyRegistry Data: 45/197
+FETCH ComfyRegistry Data: 50/197
+FETCH ComfyRegistry Data: 55/197
+FETCH ComfyRegistry Data: 60/197
+FETCH ComfyRegistry Data: 65/197
+FETCH ComfyRegistry Data: 70/197
+FETCH ComfyRegistry Data: 75/197
+FETCH ComfyRegistry Data: 80/197
+FETCH ComfyRegistry Data: 85/197
+FETCH ComfyRegistry Data: 90/197
+FETCH ComfyRegistry Data: 95/197
+FETCH ComfyRegistry Data: 100/197
+FETCH ComfyRegistry Data: 105/197
+FETCH ComfyRegistry Data: 110/197
+FETCH ComfyRegistry Data: 115/197
+FETCH ComfyRegistry Data: 120/197
+FETCH ComfyRegistry Data: 125/197
+FETCH ComfyRegistry Data: 130/197
+FETCH ComfyRegistry Data: 135/197
+FETCH ComfyRegistry Data: 140/197
+FETCH ComfyRegistry Data: 145/197
+FETCH ComfyRegistry Data: 150/197
+FETCH ComfyRegistry Data: 155/197
+FETCH ComfyRegistry Data: 160/197
+FETCH ComfyRegistry Data: 165/197
+FETCH ComfyRegistry Data: 170/197
+FETCH ComfyRegistry Data: 175/197
+FETCH ComfyRegistry Data: 180/197
+FETCH ComfyRegistry Data: 185/197
+FETCH ComfyRegistry Data: 190/197
+FETCH ComfyRegistry Data: 195/197
+FETCH ComfyRegistry Data [DONE]
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]

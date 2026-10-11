@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p07_shader_sky.mp4",
+    "sha256": "f01ba5e4d4199814a51ed44a7bade450a7946bc4089fa709afc5eb4e2e084d5c",
+    "bytes": 2965773,
+    "actualCaptureSeconds": 11.713552199999999,
+    "muxSeconds": 11.72,
+    "frames": 258,
+    "averageCaptureFps": 22.025769433118676,
+    "audioSeconds": 11.712,
+    "audioStart": 0.0173251,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.02285845049312217,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

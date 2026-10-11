@@ -1,0 +1,10 @@
+[
+  {
+    "material": "stone",
+    "redMetallicAlphaOneMinusRoughness": true
+  },
+  {
+    "material": "antique_gold",
+    "redMetallicAlphaOneMinusRoughness": true
+  }
+]

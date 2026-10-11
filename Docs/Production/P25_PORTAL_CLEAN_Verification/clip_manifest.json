@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p25_portal_clean.mp4",
+    "sha256": "cfa0041ae6b7b34563a2af1e01e32ee8c7c06f6d9605c7714e03ae873696f40c",
+    "bytes": 4775060,
+    "actualCaptureSeconds": 6.3069456,
+    "muxSeconds": 6.32,
+    "frames": 132,
+    "averageCaptureFps": 20.929306889851723,
+    "audioSeconds": 6.293333333333333,
+    "audioStart": 0.035230199999999996,
+    "audioRate": 48000,
+    "peak": 0.529052734375,
+    "rms": 0.030557565098116177,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

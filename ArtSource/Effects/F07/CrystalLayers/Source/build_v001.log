@@ -1,0 +1,143 @@
+Blender 2.93.4 (hash b7205031cec4 built 2021-08-31 23:48:04)
+Read blend: D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\A05_ClickCrystal_v004.blend
+Fra:1 Mem:59.75M (Peak 60.41M) | Time:00:00.28 | Syncing CrystalStage
+Fra:1 Mem:59.76M (Peak 60.41M) | Time:00:00.28 | Syncing RingOuter
+Fra:1 Mem:60.63M (Peak 60.66M) | Time:00:00.29 | Syncing RingMiddle
+Fra:1 Mem:61.12M (Peak 61.14M) | Time:00:00.29 | Syncing RingInner
+Fra:1 Mem:61.61M (Peak 61.63M) | Time:00:00.29 | Syncing RingFloor
+Fra:1 Mem:62.35M (Peak 62.39M) | Time:00:00.29 | Syncing CrystalBody
+Fra:1 Mem:62.35M (Peak 62.39M) | Time:00:00.29 | Syncing Shard_00
+Fra:1 Mem:62.36M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_01
+Fra:1 Mem:62.36M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_02
+Fra:1 Mem:62.37M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_03
+Fra:1 Mem:62.37M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_04
+Fra:1 Mem:62.38M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_05
+Fra:1 Mem:62.38M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_06
+Fra:1 Mem:62.38M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_07
+Fra:1 Mem:62.39M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_08
+Fra:1 Mem:62.39M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_09
+Fra:1 Mem:62.39M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_10
+Fra:1 Mem:62.40M (Peak 62.56M) | Time:00:00.29 | Syncing Shard_11
+Fra:1 Mem:62.40M (Peak 62.56M) | Time:00:00.29 | Syncing FloatingGold_00
+Fra:1 Mem:62.41M (Peak 62.56M) | Time:00:00.29 | Syncing FloatingIce_A_00
+Fra:1 Mem:62.41M (Peak 62.62M) | Time:00:00.29 | Syncing FloatingGold_01
+Fra:1 Mem:62.42M (Peak 62.62M) | Time:00:00.29 | Syncing FloatingIce_B_01
+Fra:1 Mem:62.42M (Peak 62.62M) | Time:00:00.29 | Syncing FloatingGold_02
+Fra:1 Mem:62.43M (Peak 62.62M) | Time:00:00.29 | Syncing FloatingIce_A_02
+Fra:1 Mem:62.43M (Peak 62.62M) | Time:00:00.29 | Syncing FloatingGold_03
+Fra:1 Mem:62.44M (Peak 62.62M) | Time:00:00.29 | Syncing FloatingIce_B_03
+Fra:1 Mem:62.44M (Peak 62.62M) | Time:00:00.29 | Syncing F07_ReviewCamera
+Fra:1 Mem:62.44M (Peak 62.62M) | Time:00:00.29 | Syncing F07_GoldKey
+Fra:1 Mem:62.44M (Peak 62.62M) | Time:00:00.29 | Syncing F07_BlueRim
+Fra:1 Mem:62.44M (Peak 62.62M) | Time:00:00.29 | Syncing F07_FrontSoft
+Fra:1 Mem:61.76M (Peak 62.62M) | Time:00:00.29 | Rendering 1 / 64 samples
+Fra:1 Mem:60.20M (Peak 62.62M) | Time:00:00.40 | Rendering 26 / 64 samples
+Fra:1 Mem:60.20M (Peak 62.62M) | Time:00:00.44 | Rendering 51 / 64 samples
+Fra:1 Mem:60.20M (Peak 62.62M) | Time:00:00.46 | Rendering 64 / 64 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Effects\F07\CrystalLayers\Review\F07_stage_blender_v001.png'
+ Time: 00:00.81 (Saving: 00:00.34)
+
+Info: Total files 0 | Changed 0 | Failed 0
+Info: Saved "F07_CrystalStage_v001.blend"
+Info: Saved "F07_CrystalStage_v001.blend"
+
+FBX export starting... 'D:\\vibe\\这次一定出\\ArtSource\\Effects\\F07\\CrystalLayers\\F07_CrystalStage_v001.fbx'
+FBX export prepare: Wrapping Objects...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Data (lamps, cameras, empties)...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Meshes...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping ShapeKeys...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Armatures...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping World...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Materials...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Textures...
+	Done (0.000000 sec)
+
+FBX export prepare: Wrapping Animations...
+	Done (0.000000 sec)
+
+FBX export prepare: Generating templates...
+	Done (0.000000 sec)
+
+FBX export prepare: Generating Connections...
+	Done (0.000000 sec)
+
+FBX export fetch empties (2)...
+	Done (0.000000 sec)
+
+FBX export fetch lamps (0)...
+	Done (0.000000 sec)
+
+FBX export fetch cameras (0)...
+	Done (0.000000 sec)
+
+FBX export fetch meshes (24)...
+	Done (0.171875 sec)
+
+FBX export fetch objects (26)...
+	Done (0.000000 sec)
+
+FBX export fetch remaining...
+	Done (0.000000 sec)
+
+FBX export fetch animations...
+	Done (0.000000 sec)
+
+export finished in 0.1875 sec.
+FBX Import: start importing D:\vibe\这次一定出\ArtSource\Effects\F07\CrystalLayers\F07_CrystalStage_v001.fbx
+FBX version: 7400
+	FBX import: Prepare...
+		Done (0.000000 sec)
+
+	FBX import: Templates...
+		Done (0.000000 sec)
+
+	FBX import: Nodes...
+		Done (0.000000 sec)
+
+	FBX import: Connections...
+		Done (0.000000 sec)
+
+	FBX import: Meshes...
+		Done (0.125000 sec)
+
+	FBX import: Materials & Textures...
+		Done (0.000000 sec)
+
+	FBX import: Cameras & Lamps...
+		Done (0.000000 sec)
+
+	FBX import: Objects & Armatures...
+		Done (0.000000 sec)
+
+	FBX import: ShapeKeys...
+		Done (0.000000 sec)
+
+	FBX import: Assign materials...
+		Done (0.000000 sec)
+
+	FBX import: Assign textures...
+		Done (0.000000 sec)
+
+	FBX import: Cycles z-offset workaround...
+		Done (0.000000 sec)
+
+	Done (0.156250 sec)
+
+Import finished.
+F07 FBX exported and actually reimported, checked names/hierarchy/UV/material slots/scale/world bounds
+
+Blender quit

@@ -1,0 +1,570 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-82374" at "2026-10-08T03:31:27.453437Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 38828, path: "E:/Unity/2022.3.53f1c1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.16.1+e780b2e
+  Session Id:              97b48574ab4245f9a02bbdeca6366556
+  Correlation Id:          3cc0db6db7beae7e8a34d2a99fdc2dcd
+  External correlation Id: 6295787869127947094
+  Machine Id:              QAxQY/T7jvoyTEpplJz9xfEirRo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-82374" (connect: 0.00s, validation: 0.01s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-82374-notifications" at "2026-10-08T03:31:27.5491305Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/china_unity/release~1' branch; Version is '2022.3.53f1c1 (f16e16b78e06) revision 15822358'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15613 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.53f1c1\Editor\Unity.exe
+-batchmode
+-projectPath
+D:\vibe\这次一定出\这次一定出
+-executeMethod
+P02FastSetup.RunFromCommandLine
+-logFile
+D:\vibe\这次一定出\Docs\Production\P02_FAST_Verification\Unity_P02_final_play.log
+Successfully changed project path to: D:\vibe\这次一定出\这次一定出
+D:/vibe/这次一定出/这次一定出
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18044]  Target information:
+
+Player connection [18044]  * "[IP] 192.168.135.1 [Port] 55504 [Flags] 2 [Guid] 2018694838 [EditorId] 2018694838 [Version] 1048832 [Id] WindowsEditor(7,Peter) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18044]  * "[IP] 192.168.218.1 [Port] 55504 [Flags] 2 [Guid] 2018694838 [EditorId] 2018694838 [Version] 1048832 [Id] WindowsEditor(7,Peter) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18044]  * "[IP] 192.168.1.12 [Port] 55504 [Flags] 2 [Guid] 2018694838 [EditorId] 2018694838 [Version] 1048832 [Id] WindowsEditor(7,Peter) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18044] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-16396" after 0.4 seconds.
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 49 packages:
+  Packages from [https://packages.unity.cn]:
+    com.unity.collab-proxy@2.12.4 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.collab-proxy@2.12.4)
+    com.unity.ide.rider@3.0.34 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.ide.rider@3.0.34)
+    com.unity.ide.visualstudio@2.0.22 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.vscode@1.2.5 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.test-framework@1.1.33 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.test-framework@1.1.33)
+    com.unity.textmeshpro@3.0.7 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.textmeshpro@3.0.7)
+    com.unity.timeline@1.7.6 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.timeline@1.7.6)
+    com.unity.visualscripting@1.9.4 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.visualscripting@1.9.4)
+    com.unity.ext.nunit@1.0.6 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.mathematics@1.2.6 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.mathematics@1.2.6)
+    com.unity.burst@1.8.18 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.burst@1.8.18)
+    com.unity.searcher@4.9.2 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.searcher@4.9.2)
+  Built-in packages:
+    com.unity.render-pipelines.universal@14.0.11 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.render-pipelines.universal@14.0.11)
+    com.unity.ugui@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+    com.unity.render-pipelines.core@14.0.11 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.render-pipelines.core@14.0.11)
+    com.unity.shadergraph@14.0.11 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.shadergraph@14.0.11)
+    com.unity.render-pipelines.universal-config@14.0.10 (location: D:\vibe\这次一定出\这次一定出\Library\PackageCache\com.unity.render-pipelines.universal-config@14.0.10)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.08 seconds
+Refreshing native plugins compatible for Editor in 25.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.53f1c1 (f16e16b78e06)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.53f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vibe/这次一定出/这次一定出/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5994 MB
+    Driver:   32.0.15.9621
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.53f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.53f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.53f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.53f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.53f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009857 seconds.
+- Loaded All Assemblies, in  0.336 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 565ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\vibe\���һ����\���һ����\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 33.0006ms
+Starting: E:\Unity\2022.3.53f1c1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/vibe/这次一定出/这次一定出
+DisplayProgressbar: Compiling Scripts
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "E:\Unity\2022.3.53f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "E:\Unity\2022.3.53f1c1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "E:\Unity\2022.3.53f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "E:\Unity\2022.3.53f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@1.8.18\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 42.7405ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 118 defines and 261 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@1.8.18\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 149.0557ms
+ExitCode: 0 Duration: 0s716ms
+[436/546    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[542/546    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[543/546    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 118 defines and 261 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[544/546    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[545/546    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.68 seconds), 5 items updated, 546 evaluated
+AssetDatabase: script compilation time: 1.190430s
+Begin MonoManager ReloadAssembly
+Total cache size 268396460
+Total cache size after purge 268396460
+- Loaded All Assemblies, in  0.782 seconds
+Refreshing native plugins compatible for Editor in 8.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Start importing Assets/_Game/Editor/P02FastSetup.cs using Guid(71b835750d3ec984fa99d239e04809da) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40d79694a3d5a7077da6940250fb34ea') in 0.012333 seconds
+Refreshing native plugins compatible for Editor in 7.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.737 seconds
+Domain Reload Profiling: 3382ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (2265ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (87ms)
+Refreshing native plugins compatible for Editor in 8.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=cccffb48bc443f14eac0f552eb305802): Total: 6.584 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=1671 ms
+		Asset DB Callback time: managed=45 ms, native=12 ms
+		Scripting: domain reloads=1, domain reload time=3611 ms, compile time=1191 ms, other=49 ms
+		Project Asset Count: scripts=6171, non-scripts=1649
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 1.386ms
+	ApplyChangesToAssetFolders: 0.067ms
+	Scan: 59.456ms
+	OnSourceAssetsModified: 2.216ms
+	GetAllGuidsForCategorization: 2.261ms
+	CategorizeAssets: 138.551ms
+	ImportOutOfDateAssets: 2831.555ms (1573.264ms without children)
+		ImportManagerImport: 15.451ms (2.677ms without children)
+			ImportInProcess: 12.752ms
+			UpdateCategorizedAssets: 0.022ms
+		CompileScripts: 1190.558ms
+		ReloadNativeAssets: 0.018ms
+		UnloadImportedAssets: 48.319ms
+		ReloadImportedAssets: 0.248ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.281ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.413ms
+	PostProcessAllAssets: 45.495ms
+	Hotreload: 9.029ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 1.377ms
+	PersistCurrentRevisions: 0.422ms
+	UnloadStreamsEnd: 0.115ms
+	GenerateScriptTypeHashes: 2.003ms
+	Untracked: 3491.613ms
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 12.790ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-这次一定出
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ProgressiveSceneManager::Cancel()
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (0.8 MB). Loaded Objects now: 5800.
+Memory consumption went from 151.6 MB to 150.8 MB.
+Total: 5.566300 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.170700 ms MarkObjects: 4.659700 ms  DeleteObjects: 0.357800 ms)
+
+Opening scene 'Assets/_Game/Scenes/Main.unity additively'
+Loaded scene 'Assets/_Game/Scenes/Main.unity'
+	Deserialize:            21.692 ms
+	Integration:            0.998 ms
+	Integration of assets:  0.204 ms
+	Thread Wait Time:       0.240 ms
+	Total Operation Time:   23.133 ms
+Start importing Assets/_Game/Scenes/Main.unity using Guid(0e147c5ae96ca46448859b322aa1541d) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d506836de23eff873c852f225783545') in 0.004895 seconds
+Refreshing native plugins compatible for Editor in 8.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=876e967b85d87274694bc33c6e2c7e98): Total: 0.046 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[P02-FAST] Main 原有入口已绑定最新 U02 主题和六卡；不重建场景或写 UI 资产。
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+P02FastSetup:Write (string,string) (at Assets/_Game/Editor/P02FastSetup.cs:272)
+P02FastSetup:Integrate () (at Assets/_Game/Editor/P02FastSetup.cs:53)
+P02FastSetup:RunFromCommandLine () (at Assets/_Game/Editor/P02FastSetup.cs:60)
+
+(Filename: Assets/_Game/Editor/P02FastSetup.cs Line: 272)
+
+Opening scene 'Assets/_Game/Scenes/Main.unity additively'
+Loaded scene 'Assets/_Game/Scenes/Main.unity'
+	Deserialize:            0.818 ms
+	Integration:            0.291 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   1.124 ms
+Start importing Assets/_Game/Scenes/Main.unity using Guid(0e147c5ae96ca46448859b322aa1541d) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d506836de23eff873c852f225783545') in 0.001219 seconds
+Refreshing native plugins compatible for Editor in 7.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=99d1ace6ec0a95a4ea064a5d12071f0d): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[P02-FAST] Main 原有入口已绑定最新 U02 主题和六卡；不重建场景或写 UI 资产。
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+P02FastSetup:Write (string,string) (at Assets/_Game/Editor/P02FastSetup.cs:272)
+P02FastSetup:Integrate () (at Assets/_Game/Editor/P02FastSetup.cs:53)
+P02FastSetup:RunFromCommandLine () (at Assets/_Game/Editor/P02FastSetup.cs:62)
+
+(Filename: Assets/_Game/Editor/P02FastSetup.cs Line: 272)
+
+Opening scene 'Assets/_Game/Scenes/Main.unity'
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/_Game/Scenes/Main.unity'
+	Deserialize:            0.871 ms
+	Integration:            240.045 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   240.929 ms
+Unloading 44 unused Assets / (20.5 KB). Loaded Objects now: 5836.
+Memory consumption went from 150.5 MB to 150.5 MB.
+Total: 5.469000 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.156000 ms MarkObjects: 4.515500 ms  DeleteObjects: 0.419700 ms)
+
+[P02-FAST] 从 Main 启动真实内存复验。
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+P02FastSetup:Write (string,string) (at Assets/_Game/Editor/P02FastSetup.cs:272)
+P02FastSetup:Verify () (at Assets/_Game/Editor/P02FastSetup.cs:81)
+P02FastSetup:RunFromCommandLine () (at Assets/_Game/Editor/P02FastSetup.cs:64)
+
+(Filename: Assets/_Game/Editor/P02FastSetup.cs Line: 272)
+
+Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+[Project] Loading completed in 10.650 seconds
+	Project init time: 				8.956 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.420 seconds
+		Asset Database init time: 		0.254 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			0.598 seconds
+		Unity extensions init time: 	0.006 seconds
+		Asset Database refresh time: 	0.000 seconds
+	Scene opening time: 			0.884 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791430298086,"processId":16396,"projectLoad":10.6500271,"projectInit":8.9560523,"templateInit":0.0,"packageManagerInit":0.4201352,"assetDatabaseInit":0.2536201,"globalIlluminationInit":0.004177,"assembliesLoad":0.5977108,"unityExtensionsInit":0.0061151,"assetDatabaseRefresh":0.0,"sceneOpening":0.8844476}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791430298086,"processId":16396,"editorVersion":"2022.3.53f1c1 (f16e16b78e06)","branch":"2022.3/china_unity/release~1","buildType":"Release","platform":"Windows"}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 7.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (407ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (279ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (71ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Asset Pipeline Refresh (id=f6535e1324925e341879e6b6458d1427): Total: 1.658 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=298 ms
+		Asset DB Callback time: managed=11 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=1346 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=6171, non-scripts=1649
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 1.356ms
+	ApplyChangesToAssetFolders: 0.067ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	GetAllGuidsForCategorization: 2.251ms
+	CategorizeAssets: 134.336ms
+	ImportOutOfDateAssets: 766.754ms (761.612ms without children)
+		CompileScripts: 0.019ms
+		CollectScriptTypesHashes: 0.325ms
+		ReloadNativeAssets: 0.316ms
+		UnloadImportedAssets: 1.019ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.699ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.764ms
+	PostProcessAllAssets: 11.928ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.368ms
+	UnloadStreamsBegin: 0.125ms
+	PersistCurrentRevisions: 0.216ms
+	UnloadStreamsEnd: 0.075ms
+	GenerateScriptTypeHashes: 2.341ms
+	Untracked: 740.027ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.686 ms
+	Integration:            506.974 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       11.581 ms
+	Total Operation Time:   519.242 ms
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-这次一定出
+<RI> Initialized touch support.
+[P02-FAST] Main 最短闭环、三窗口和高级演出检查正在运行。
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+P02FastSetup:Write (string,string) (at Assets/_Game/Editor/P02FastSetup.cs:272)
+P02FastSetup:OnPlayChanged (UnityEditor.PlayModeStateChange) (at Assets/_Game/Editor/P02FastSetup.cs:124)
+UnityEditor.EditorApplication:Internal_PlayModeStateChanged (UnityEditor.PlayModeStateChange)
+
+(Filename: Assets/_Game/Editor/P02FastSetup.cs Line: 272)
+
+Created GICache directory at C:/Users/82374/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.167s, timestamps: [13.173 - 13.340]
+[P02-FAST] PASS: Main真实内存闭环; SSR透明人物/自动完成; UR双星芒/完整卡图/加速; 忙碌重入/重复跳过/协程与光效清理; 预览不扣费不入库
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+P02FastSetup:Write (string,string) (at Assets/_Game/Editor/P02FastSetup.cs:272)
+P02FastSetup:Complete (string) (at Assets/_Game/Editor/P02FastSetup.cs:258)
+P02FastSetup/<CheckPresentation>d__20:MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:223)
+P02FastSetup/<Drive>d__21:MoveNext () (at Assets/_Game/Editor/P02FastSetup.cs:231)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: Assets/_Game/Editor/P02FastSetup.cs Line: 272)
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.595 ms
+	Integration:            239.477 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.031 ms
+	Total Operation Time:   240.104 ms
+Unloading 72 unused Assets / (139.5 KB). Loaded Objects now: 6442.
+Memory consumption went from 212.2 MB to 212.0 MB.
+Total: 6.619000 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.169400 ms MarkObjects: 5.815300 ms  DeleteObjects: 0.217500 ms)
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+[00:00:00] Builtin Sky manager started.
+Curl error 42: Callback aborted
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[Licensing::IpcConnector] LicenseClient-82374-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-82374 channel disconnected successfully.

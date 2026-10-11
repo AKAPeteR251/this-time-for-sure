@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p08_dust_nebula.mp4",
+    "sha256": "d44556ea353c2e67248f033e849698810cd944157d78de9c4823f5e82b909a50",
+    "bytes": 4576817,
+    "actualCaptureSeconds": 19.741531,
+    "muxSeconds": 19.76,
+    "frames": 444,
+    "averageCaptureFps": 22.490656879651333,
+    "audioSeconds": 19.754666666666665,
+    "audioStart": 0.0181785,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.017718457612077538,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

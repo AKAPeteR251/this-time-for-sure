@@ -1,0 +1,26 @@
+{
+  "task": "A07-PILOT",
+  "stage": "candidate",
+  "index": 2,
+  "prompt_id": "73674843-fa3d-4943-889b-784ae54467ad",
+  "submission": {
+    "prompt_id": "73674843-fa3d-4943-889b-784ae54467ad",
+    "number": 5,
+    "node_errors": {}
+  },
+  "started_unix": 1791696432.2210033,
+  "api": "D:\\vibe\\这次一定出\\ArtSource\\Workflows\\A07_R003_candidate_02_api.json",
+  "status": "generated_before_flat_style_revision; retained_original",
+  "positive": "masterpiece, best quality, solo, exactly one adult 27-year-old female shield knight, ONE full body figure only, isolated character on a completely uniform solid neutral mid-gray background. No second image of the character anywhere. Clean anime linework and precise cel shading. Short dark brown bob hair, clearly gray-green eyes, a small embarrassed warm smile. Silver-gray protective chest armor, shoulder plates and armored gloves, short dark green cape. Fitted waist and armored short skirt; a clearly visible narrow triangular bare-skin cutout on one side of the waist between chest armor and skirt. Small exposed upper shoulder areas. Opaque charcoal matte pantyhose continuously covering both legs with NO bare thigh gaps. Small separate metal knee guards, SHORT ANKLE BOOTS ending below the calves, not tall boots. A broad sturdy silver rectangular shield held firmly by her left armored hand, and one SMALL amber lantern ATTACHED TO THE SHIELD RIM. A sheathed short sword at her opposite hip; other hand resting on its hilt. Stable natural three-quarter standing stance with one foot forward, shoulders gently turned, clear unobscured face. Full complete head, full cape, both complete boots and entire shield visible. Character occupies 80 percent of vertical 2:3 canvas height; generous EMPTY mid-gray margin above her head and below boots and at both sides. Flat uniform mid-gray background, no floor, no cast shadow, no particles, no aura. One coherent full-body character sprite illustration, no character sheet or background portrait, no text or UI.",
+  "negative": "low quality, blurry, muddy colors, photorealistic, 3D render, chibi, extra character, extra limbs, malformed hands, extra fingers, broken wrist, distorted shield, broken lantern, cropped head, cropped feet, cropped weapon, face hidden, dense effects, background scenery, ground shadow, text, logo, watermark, signature, card frame, drawn checkerboard, incomplete clothing construction, bare thighs, thigh-high stockings, fishnet, transparent legwear, bikini armor, nude, child, teen, underage, long hair, witch hat, magic staff",
+  "elapsed_seconds": 187.84,
+  "sha256": "db0831b8bbb0d5c1321c10f6ed30291aad4c4e45f871218e95806f351f76e60f",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "mode": "RGB",
+  "output": "ArtSource\\Characters\\R003\\source\\R003_candidate_02_v001.png",
+  "model_hashes_reference": "ArtSource/StyleTests/A08_LORA/runtime/model_checks.json",
+  "transparency": "RGB concept only; not yet extracted or rebuilt master"
+}

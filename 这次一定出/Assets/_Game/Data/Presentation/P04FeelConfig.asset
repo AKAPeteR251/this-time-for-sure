@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29666852a911f574a82e046ad72d5eec, type: 3}
+  m_Name: P04FeelConfig
+  m_EditorClassIdentifier: 
+  contractPaper: {fileID: 21300000, guid: f747b97d874a45d44b9d496a28e4bd6d, type: 3}
+  contractBorder: {fileID: 21300000, guid: e61fdfbbfa00d4b448cb01f24ed98b54, type: 3}
+  starSeal: {fileID: 21300000, guid: f050aa8c05701d84fb145f6848b4e60d, type: 3}
+  giantRing: {fileID: 21300000, guid: b7a39b4d0461f0645a7ab2f4243cf9ba, type: 3}
+  outerRing: {fileID: 21300000, guid: ef1a648a4d334c9418580f343af21de8, type: 3}
+  innerRing: {fileID: 21300000, guid: cccce40430cfd4c47a6dd4d3de6e4349, type: 3}
+  shockwave: {fileID: 21300000, guid: 27452742a385d8e41b710d95483d7059, type: 3}
+  lightPillar: {fileID: 21300000, guid: d51cae97402f9774cb5f528aaa1d2247, type: 3}
+  referenceSeconds: 6.8
+  sealImpact: 0.72
+  ringsAppear: 1.35
+  contraction: 4.25
+  gateBurst: 5.85
+  voiceSecondLine: 1.75
+  voiceLastLine: 5
+  effectStrength: 0.85
+  shakePixels: 12
+  giantRingScale: 1.65
+  ringRotation: 110
+  narration: {fileID: 8300000, guid: e7d3d8e77ec47c24c98a3fb5c6c8f427, type: 3}
+  ceremonyBed: {fileID: 8300000, guid: dd72d098f851f4340b007ca9d4badcbd, type: 3}
+  sealSound: {fileID: 8300000, guid: ab5e7b3e06d944247add1bc94ce9ef6c, type: 3}
+  gateSound: {fileID: 8300000, guid: 08afa9121dbebbf4492b38c46aa1446b, type: 3}
+  rReveal: {fileID: 8300000, guid: 7046ac73aa5fbcc4aaefc9380de89e72, type: 3}
+  srReveal: {fileID: 8300000, guid: cda02d1e41e20b545a49a9d2fc8cfe4d, type: 3}
+  ssrCharge: {fileID: 8300000, guid: 2a479caa6ad43e4469df41dbe9dd7993, type: 3}
+  ssrReveal: {fileID: 8300000, guid: 7c2c65f76bd5eb44f8745b11d9b80e31, type: 3}
+  urCharge: {fileID: 8300000, guid: 5424f81b1cbfd7e45b18d37415ffd9ee, type: 3}
+  urReveal: {fileID: 8300000, guid: 94baec1b58173fe45bf1f2e89b74b105, type: 3}
+  confirm: {fileID: 8300000, guid: 6b52afc4da2e5344ea2c18f8eaebec91, type: 3}
+  skip: {fileID: 8300000, guid: c6fdd930566b722469aa3d1fc667adc5, type: 3}
+  masterVolume: 0.8
+  voiceVolume: 0.95
+  bedVolume: 0.32
+  effectVolume: 0.65
+  stopFadeSeconds: 0.075

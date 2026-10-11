@@ -1,0 +1,92 @@
+[
+  {
+    "id": "BG01",
+    "file": "reveal_starfield_base_v003.png",
+    "prompt": "Static deep almost-black navy starfield. Sparse very faint tiny stars, no bright stars/nebula/meteor/character/UI. 3840x2160. Low contrast side text regions.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-62b3649f-534d-43f3-a796-5fb4ca0149c4.png"
+  },
+  {
+    "id": "BG02",
+    "file": "reveal_nebula_far_v003.png",
+    "prompt": "A production transparent background VFX texture: a VERY faint thin far-distance bluish-purple nebula cloud veil, atmospheric wisps across a 2:1 horizontal canvas. No stars, no points of light, no characters, no text. Real transparent background, gentle alpha feathering at top/bottom, no hard borders. Horizontally seamless tiling: cloud shapes and colors match perfectly across left and right edges, no distinctive repeating feature. Low saturation and brightness; clear quiet negative space. Target 2048x1024.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-484e3770-5a3a-49fd-81ca-022c6c4adb0f.png"
+  },
+  {
+    "id": "BG03",
+    "file": "reveal_nebula_near_v003.png",
+    "prompt": "Production transparent 2:1 game VFX texture of sparse very subtle near-distance bluish-cyan gaseous nebula wisps. Different cloud forms than purple far nebula: broader thin horizontal veils, modest curving layered wisps, translucent and low brightness. EMPTY center, no large bright central cloud. No stars, dots, meteor, character, text. True transparency and feathered top/bottom alpha. Horizontally seamless repeat with matching left/right edge, no distinctive repeated symbols. Target 2048x1024.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-be703a42-679e-422c-b8fe-3182cb143484.png"
+  },
+  {
+    "id": "CH01",
+    "file": "SSR001_snowflake_backdrop_v003.png",
+    "prompt": "Use attached approved scene ONLY as shape/style reference. Generate ONE isolated huge six-armed snowflake backdrop, no character, no background, no letters or UI. Clean angular anime graphic: six evenly spaced branching arms, broad tapered icy-blue/cyan polygonal facets, a few simple large cel-shaded planes, crisp sharp tips. Match the reference's enormous broad blue six-arm outline behind the mage. Remove small engraved internal lines, noise, tiny crystals and splinters. Low contrast blue medium-dark fills, no white glowing center; a calm backdrop behind a readable character. Centered square 2048x2048 with generous transparent padding at every edge. Genuine transparent PNG.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-69a2700e-3f4d-43e1-aaea-a995bbd4b29a.png"
+  },
+  {
+    "id": "FX01",
+    "file": "star_soft_v003.png",
+    "prompt": "ONE isolated round luminous star sprite on real transparency, centered 256x256 square. Pure grayscale/white neutral tintable asset. Tiny clean white circular core, gentle radial glow fading smoothly all the way to zero alpha well before all canvas edges. No rays, no background, no other stars, no text. Only one small circular star; most of canvas empty transparent padding. Game VFX texture.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-54b15cf1-8f9e-4e76-bdaf-3965753f6f04.png"
+  },
+  {
+    "id": "FX02",
+    "file": "star_cross_v003.png",
+    "prompt": "ONE simple restrained four-point anime star sparkle on real transparent background, centered square256x256. White/grayscale tintable sprite: four smooth thin tapering points with vertical rays slightly longer than horizontal, small white center, very subtle feathered glow. No extra stars, no other icons, no text, no dark panel. Plenty of clear alpha padding, every outer edge fully transparent. Clear at 16px thumbnail, not an ornate magical emblem.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-17b2d97d-bb9e-49eb-beb5-f8a79ce9a819.png"
+  },
+  {
+    "id": "FX03",
+    "file": "meteor_trail_v003.png",
+    "prompt": "ONE horizontally oriented shooting star game VFX sprite on genuine transparency, target1024x256 (4:1). Bright small head at RIGHT, long slim tail tapering and fading toward LEFT. White/pale icy blue, a clean single elegant streak, subtle soft halo contained inside canvas with clear alpha padding. No sky, no stars, no multiple meteors, no text. Head is right-facing, all four canvas boundaries fully transparent.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-df438634-dc3a-4035-aa3e-5ef0a8ca8a31.png"
+  },
+  {
+    "id": "FX04",
+    "file": "reveal_ice_shard_v003.png",
+    "prompt": "ONE simple isolated narrow ice shard game sprite, portrait256x512 on genuine transparent background. Sharp long blue/cyan tapered crystal splinter pointing UP, about four clean flat anime cel-shaded polygon planes, large readable facets, low detail, white-blue tiny sharp edge highlights. No particles, no beams, no snowflake, no explosion, no pedestal, no text. Clear transparent padding at every edge, outline entire shard visible.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-7762591b-8bd6-41a8-b5db-9d8e4b80fbb4.png"
+  },
+  {
+    "id": "UI01",
+    "file": "rarity_R_v003.png",
+    "prompt": "Use approved reference image ONLY for typography: create an isolated transparent rarity word \"R\" (R), exactly these letters and nothing else. Target1024x512, transparent padding. Same refined italic serif style as reference SSR: classical elegant high-contrast serif capitals, slight right slant, professional clean typesetting, NO ornate badge, no embossing, no jewels, no texture, no stars, no line, no background, no frame, no shadow. Flat 2D icy azure blue to pale blue smooth restrained vertical gradient inside crisp glyphs. Baseline y=70% canvas height, cap top y=24%, centered, preserve natural letter width: R narrower than SR, SSR wider, UR medium. All tiers same font family, same cap height, same weight, same italic angle, same canvas/baseline. Only text \"R\".",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-65f91906-a71a-4f58-84e0-25663556e1fa.png"
+  },
+  {
+    "id": "UI02",
+    "file": "rarity_SR_v003.png",
+    "prompt": "Use approved reference image ONLY for typography: create an isolated transparent rarity word \"SR\" (S then R), exactly these letters and nothing else. Target1024x512, transparent padding. Same refined italic serif style as reference SSR: classical elegant high-contrast serif capitals, slight right slant, professional clean typesetting, NO ornate badge, no embossing, no jewels, no texture, no stars, no line, no background, no frame, no shadow. Flat 2D royal violet to pale lilac smooth restrained vertical gradient inside crisp glyphs. Baseline y=70% canvas height, cap top y=24%, centered, preserve natural letter width: R narrower than SR, SSR wider, UR medium. All tiers same font family, same cap height, same weight, same italic angle, same canvas/baseline. Only text \"SR\".",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-a78f63ec-6121-4a7c-a1c6-8ee464fcbd47.png"
+  },
+  {
+    "id": "UI03",
+    "file": "rarity_SSR_v003.png",
+    "prompt": "Use approved reference image ONLY for typography: create an isolated transparent rarity word \"SSR\" (S then S then R), exactly these letters and nothing else. Target1024x512, transparent padding. Same refined italic serif style as reference SSR: classical elegant high-contrast serif capitals, slight right slant, professional clean typesetting, NO ornate badge, no embossing, no jewels, no texture, no stars, no line, no background, no frame, no shadow. Flat 2D warm luminous gold to pale champagne smooth restrained vertical gradient inside crisp glyphs. Baseline y=70% canvas height, cap top y=24%, centered, preserve natural letter width: R narrower than SR, SSR wider, UR medium. All tiers same font family, same cap height, same weight, same italic angle, same canvas/baseline. Only text \"SSR\".",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-9787dc09-607d-4474-949c-637d951238ef.png"
+  },
+  {
+    "id": "UI04",
+    "file": "rarity_UR_v003.png",
+    "prompt": "Use approved reference image ONLY for typography: create an isolated transparent rarity word \"UR\" (U then R), exactly these letters and nothing else. Target1024x512, transparent padding. Same refined italic serif style as reference SSR: classical elegant high-contrast serif capitals, slight right slant, professional clean typesetting, NO ornate badge, no embossing, no jewels, no texture, no stars, no line, no background, no frame, no shadow. Flat 2D soft iridescent cyan, lavender, pink and pale gold smooth restrained vertical gradient inside crisp glyphs. Baseline y=70% canvas height, cap top y=24%, centered, preserve natural letter width: R narrower than SR, SSR wider, UR medium. All tiers same font family, same cap height, same weight, same italic angle, same canvas/baseline. Only text \"UR\".",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-1dbb8480-bfbc-4ea1-8b9e-8fd8067211e1.png"
+  },
+  {
+    "id": "UI05",
+    "file": "rarity_accent_v003.png",
+    "prompt": "ONE isolated horizontal typography accent line: neutral WHITE thin horizontal rule with a single tiny simple four-point star in the exact center. Long thin wings left and right, taper at ends. Target1024x128, real transparent background, plenty clear alpha padding. Flat clean 2D anime game typography decoration, no letters, no extra stars, no frame, no gems, no filigree, no background, no color or shadow. White alpha silhouette for program tinting.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-8c566998-dca3-46c4-abba-3956eaa22621.png"
+  },
+  {
+    "id": "UI06",
+    "file": "new_text_v003.png",
+    "prompt": "ONE isolated word exactly \"NEW\" in refined clean upright serif uppercase, matching the small NEW typography of approved reference. White monochrome glyphs, crisp edge, no gradient, no shadow, no stars, NO frame or border, no panel, no other text. Target512x192 with genuine transparent background and clear margins. Readable at80px width. Professional restrained contemporary anime gacha UI wordmark. Only N E W.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-b8ef3e43-6111-4107-9810-bf4b0887e028.png"
+  },
+  {
+    "id": "UI07",
+    "file": "new_border_mask_v003.png",
+    "prompt": "ONE compact small OPEN CORNER FRAME for a NEW label, match approved reference's restrained NEW tag. Target768x256, true transparent background. Thin but clearly visible neutral WHITE lines ONLY, open breaks at side corners, small angular right-angle corner caps, no filled interior, no words, no stars, no gradient, no jewels, no metal, no ornate filigree, no colored or dark panel. Width about3 times height, centered with transparent padding all around. White tintable alpha mask, about8px nominal stroke at768px canvas, readable when scaled to100px width.",
+    "path": "C:\\Users\\82374\\.codex\\generated_images\\01a116ef-f44a-7cc2-b117-ac2024c3d170\\exec-35f14195-3a3e-4490-9aea-6c565dbebfaa.png"
+  }
+]

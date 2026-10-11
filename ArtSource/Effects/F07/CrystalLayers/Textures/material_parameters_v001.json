@@ -1,0 +1,132 @@
+{
+  "color_space": "JSON RGB values are scene-linear; not sRGB screenshot colors",
+  "texture_files": [],
+  "materials": [
+    {
+      "material": "F07_AntiqueBrass",
+      "source_material": "AntiqueBrass",
+      "base_color_linear_rgba": [
+        0.6200000047683716,
+        0.3199999928474426,
+        0.07500000298023224,
+        1.0
+      ],
+      "metallic": 0.800000011920929,
+      "roughness": 0.2800000011920929,
+      "urp_smoothness_start": 0.7199999988079071,
+      "emission_linear_rgb": [
+        0.6200000047683716,
+        0.3199999928474426,
+        0.07500000298023224
+      ],
+      "emission_strength_reference": 0.07999999821186066,
+      "textures": [],
+      "shader_mapping": "URP Lit opaque; emission RGB * strength as starting value, tune bloom separately"
+    },
+    {
+      "material": "F07_GoldLuminous",
+      "source_material": "GoldLuminous",
+      "base_color_linear_rgba": [
+        1.0,
+        0.5899999737739563,
+        0.17000000178813934,
+        1.0
+      ],
+      "metallic": 0.30000001192092896,
+      "roughness": 0.2800000011920929,
+      "urp_smoothness_start": 0.7199999988079071,
+      "emission_linear_rgb": [
+        1.0,
+        0.5899999737739563,
+        0.17000000178813934
+      ],
+      "emission_strength_reference": 4.0,
+      "textures": [],
+      "shader_mapping": "URP Lit opaque; emission RGB * strength as starting value, tune bloom separately"
+    },
+    {
+      "material": "F07_IvoryCore",
+      "source_material": "IvoryCore",
+      "base_color_linear_rgba": [
+        1.0,
+        0.8399999737739563,
+        0.47999998927116394,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.2800000011920929,
+      "urp_smoothness_start": 0.7199999988079071,
+      "emission_linear_rgb": [
+        1.0,
+        0.8399999737739563,
+        0.47999998927116394
+      ],
+      "emission_strength_reference": 1.100000023841858,
+      "textures": [],
+      "shader_mapping": "URP Lit opaque; emission RGB * strength as starting value, tune bloom separately"
+    },
+    {
+      "material": "F07_FracturedBlueCrystal",
+      "source_material": "FracturedBlueCrystal",
+      "base_color_linear_rgba": [
+        0.10000000149011612,
+        0.38999998569488525,
+        0.6600000262260437,
+        1.0
+      ],
+      "metallic": 0.44999998807907104,
+      "roughness": 0.2199999988079071,
+      "urp_smoothness_start": 0.7800000011920929,
+      "emission_linear_rgb": [
+        0.10000000149011612,
+        0.38999998569488525,
+        0.6600000262260437
+      ],
+      "emission_strength_reference": 0.23999999463558197,
+      "textures": [],
+      "shader_mapping": "URP Lit opaque; emission RGB * strength as starting value, tune bloom separately"
+    },
+    {
+      "material": "F07_CrystalInnerFaces",
+      "source_material": "CrystalInnerFaces",
+      "base_color_linear_rgba": [
+        0.23000000417232513,
+        0.6299999952316284,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.2199999988079071,
+      "urp_smoothness_start": 0.7800000011920929,
+      "emission_linear_rgb": [
+        0.23000000417232513,
+        0.6299999952316284,
+        0.800000011920929
+      ],
+      "emission_strength_reference": 0.6000000238418579,
+      "textures": [],
+      "shader_mapping": "URP Lit opaque; emission RGB * strength as starting value, tune bloom separately"
+    },
+    {
+      "material": "F07_CrystalBlue",
+      "source_material": "CrystalBlue",
+      "base_color_linear_rgba": [
+        0.11999999731779099,
+        0.5799999833106995,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.3499999940395355,
+      "roughness": 0.2800000011920929,
+      "urp_smoothness_start": 0.7199999988079071,
+      "emission_linear_rgb": [
+        0.11999999731779099,
+        0.5799999833106995,
+        1.0
+      ],
+      "emission_strength_reference": 0.550000011920929,
+      "textures": [],
+      "shader_mapping": "URP Lit opaque; emission RGB * strength as starting value, tune bloom separately"
+    }
+  ]
+}

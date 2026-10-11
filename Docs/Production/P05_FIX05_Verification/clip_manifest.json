@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_reveal_layout.mp4",
+    "sha256": "30ccbf74af1711177935144378889d75b9502cd1f383ef55fb3b75c8a5fedbeb",
+    "bytes": 2272119,
+    "actualCaptureSeconds": 7.479748799999999,
+    "muxSeconds": 7.48,
+    "frames": 173,
+    "averageCaptureFps": 23.129118988594914,
+    "audioSeconds": 7.509333333333333,
+    "audioStart": 0.007096,
+    "audioRate": 48000,
+    "peak": 0.26666259765625,
+    "rms": 0.028770084272818585,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

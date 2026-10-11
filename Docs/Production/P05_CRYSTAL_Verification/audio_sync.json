@@ -1,0 +1,44 @@
+{
+  "method": "Actual Unity timeline cue records; not hardware speaker latency",
+  "finalLineToBurst": [
+    {
+      "finalVoiceAt": 14.758735656738281,
+      "breakAt": 16.357158660888672,
+      "secondsToBreak": 1.5984230041503906
+    },
+    {
+      "finalVoiceAt": 25.452198028564453,
+      "breakAt": 27.05352783203125,
+      "secondsToBreak": 1.6013298034667969
+    },
+    {
+      "finalVoiceAt": 32.395164489746094,
+      "breakAt": 34.0222053527832,
+      "secondsToBreak": 1.6270408630371094
+    },
+    {
+      "finalVoiceAt": 39.813018798828125,
+      "breakAt": 41.413246154785156,
+      "secondsToBreak": 1.6002273559570312
+    },
+    {
+      "finalVoiceAt": 43.38725662231445,
+      "breakAt": 44.98862075805664,
+      "secondsToBreak": 1.6013641357421875
+    },
+    {
+      "finalVoiceAt": 49.153175354003906,
+      "breakAt": 50.7537841796875,
+      "secondsToBreak": 1.6006088256835938
+    },
+    {
+      "finalVoiceAt": 54.91400146484375,
+      "breakAt": 56.51461410522461,
+      "secondsToBreak": 1.6006126403808594
+    }
+  ],
+  "checks": 715,
+  "currency": 19,
+  "pulls": 11,
+  "commits": 2
+}

@@ -1,0 +1,7 @@
+{
+  "atUtc": "2026-10-07T15:20:25.1546543Z",
+  "editorExit": 0,
+  "compiler": "Unity bundled DotNetSdkRoslyn/csc.dll",
+  "runtimeExit": 0,
+  "scope": "Standalone Roslyn compilation, not Editor import or Play Mode"
+}

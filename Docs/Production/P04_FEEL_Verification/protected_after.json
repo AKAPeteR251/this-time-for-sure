@@ -1,0 +1,34 @@
+[
+  {
+    "path": "这次一定出/Assets/_Game/Scripts/Core/PrototypeGacha.cs",
+    "unchanged": true
+  },
+  {
+    "path": "这次一定出/Assets/_Game/Scripts/UI/PrototypeUIAdapter.cs",
+    "unchanged": true
+  },
+  {
+    "path": "这次一定出/Assets/_Game/Scripts/UI/PrototypeUITheme.cs",
+    "unchanged": true
+  },
+  {
+    "path": "这次一定出/Assets/_Game/UI/Prefabs/UIPrototype.prefab",
+    "unchanged": true
+  },
+  {
+    "path": "这次一定出/Assets/_Game/Scenes/UIPrototype.unity",
+    "unchanged": true
+  },
+  {
+    "path": "这次一定出/Assets/_Game/UI/Styles/U02ArtTheme.asset",
+    "unchanged": true
+  },
+  {
+    "path": "这次一定出/ProjectSettings/EditorBuildSettings.asset",
+    "unchanged": true
+  },
+  {
+    "path": "这次一定出/Assets/_Game/Scenes/Main.unity.meta",
+    "unchanged": true
+  }
+]

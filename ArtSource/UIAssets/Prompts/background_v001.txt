@@ -1,0 +1,4 @@
+Tool: image_gen.imagegen (builtin); model version not exposed.
+Reference: ArtSource/UIReferences/01_Summon_v001.png
+Transparent background: false
+Create a production game background asset derived from this approved fantasy gacha UI reference. Remove the woman COMPLETELY and remove every UI element, text, button, resource, border, logo and navigation. Reconstruct the full environment behind her: deep navy blue ancient frozen gothic castle courtyard, distant moonlit tower on upper right, broad stone stairs and floor below, ice crystals kept near outer edges, pale icy atmospheric light, restrained clean anime cel-painted background matching the reference. Empty center and left with quiet dark negative space for separately overlaid character and UI. Landscape 16:9 edge-to-edge background, no transparency, no character, no letters, no interface.

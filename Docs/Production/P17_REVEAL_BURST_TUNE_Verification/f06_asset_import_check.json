@@ -1,0 +1,46 @@
+[
+  {
+    "file": "reveal_burst_shard_A_v001.png",
+    "size": [
+      512,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "616291837a063612f728b9747066f80d681fdb8ee18b2e495bcd0d2d5d2e0fd6",
+    "matchesSource": true,
+    "metaExists": true
+  },
+  {
+    "file": "reveal_burst_shard_B_v001.png",
+    "size": [
+      512,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "7c8d6a4ff0be33ec12d6a36bade29aa32c009d625d0f4714f81540a6014ee156",
+    "matchesSource": true,
+    "metaExists": true
+  },
+  {
+    "file": "reveal_burst_shard_C_v001.png",
+    "size": [
+      512,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "378e1025dc25c9308c1e74e4a638e68eb5f701fa6f5af0019cf923ef27cca4cd",
+    "matchesSource": true,
+    "metaExists": true
+  },
+  {
+    "file": "reveal_burst_streak_v001.png",
+    "size": [
+      256,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "6885e257b4bddcce55581c0d1f6bf0bacdd84661680fdd07b8d5f4e4a366b8ca",
+    "matchesSource": true,
+    "metaExists": true
+  }
+]

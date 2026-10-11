@@ -1,0 +1,26 @@
+{
+  "task": "A07-PILOT",
+  "stage": "candidate",
+  "index": 1,
+  "prompt_id": "ff0b57c8-0bc3-4ef9-9bb5-ad345cbeaa2b",
+  "submission": {
+    "prompt_id": "ff0b57c8-0bc3-4ef9-9bb5-ad345cbeaa2b",
+    "number": 4,
+    "node_errors": {}
+  },
+  "started_unix": 1791696041.6605835,
+  "api": "D:\\vibe\\这次一定出\\ArtSource\\Workflows\\A07_R003_candidate_01_api.json",
+  "status": "candidate_generated_pending_design_review",
+  "positive": "One original adult 27-year-old female anime fantasy RPG shield guardian, full-body portrait, clean fine anime linework, precise cel shading with restrained soft gradients, luminous expressive eyes, clean skin colors, carefully constructed costume, crisp readable silhouette, beautifully rendered silver armor, cloth and matte stockings. Deep brown short bob haircut, gray-green eyes, a slightly stubborn embarrassed small smile with protective warm eye contact. Silver-gray protective breastplate covering her chest, thick shoulder armor and forearm guards, dark green short cape, fitted armored short skirt, narrow clearly shaped cutout at one side of the waist, a little exposed skin at upper shoulders. Opaque charcoal-gray matte pantyhose fully covering both legs continuously from the skirt to the boots, metal kneepads and short silver metal armored boots, no bare thigh gap. One broad sturdy shield held in her left arm in front of one side of the body, a small warm amber lantern attached to the shield rim, a short sword sheathed at her right hip with her right hand resting naturally near the hilt. Three-quarter body angle, one foot slightly forward, stable balanced standing stance, shoulders subtly turned toward viewer, clear face and both complete hands. Her shield and armor have a substantial protective silhouette, her face remains unobscured. Portrait 2:3, complete character and complete shield inside frame, complete head, boots, cape and sword, character fills only 80 to 85 percent of canvas height, 5-8 percent outer margin on all four sides, face in upper portion. Plain uniform mid-gray background for later extraction. No scenery, furniture, floor, ground shadow, floating particles, lighting effects outside the lantern, lettering, logo, watermark, card border or UI. Keep eyes and costume readable at small size.",
+  "negative": "low quality, blurry, muddy colors, photorealistic, 3D render, chibi, extra character, extra limbs, malformed hands, extra fingers, broken wrist, distorted shield, broken lantern, cropped head, cropped feet, cropped weapon, face hidden, dense effects, background scenery, ground shadow, text, logo, watermark, signature, card frame, drawn checkerboard, incomplete clothing construction, bare thighs, thigh-high stockings, fishnet, transparent legwear, bikini armor, nude, child, teen, underage, long hair, witch hat, magic staff",
+  "elapsed_seconds": 218.29,
+  "sha256": "54d1258933399676d992aeefd65e942d3b973c3be00c2a66c2d582684b07a472",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "mode": "RGB",
+  "output": "D:\\vibe\\这次一定出\\ArtSource\\Characters\\R003\\source\\R003_candidate_01_v001.png",
+  "model_hashes_reference": "ArtSource/StyleTests/A08_LORA/runtime/model_checks.json",
+  "transparency": "RGB concept only; not yet extracted or rebuilt master"
+}

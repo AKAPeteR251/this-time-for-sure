@@ -1,0 +1,780 @@
+[
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "SR001",
+    "name": "赛蕾娜",
+    "element": "光",
+    "age": 20,
+    "role": "治疗辅助",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/SR001/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "51474cd4ef9915b2c555b420cf4b1bc03d5eb409749eaeb83f624909b5b56ba0",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      0,
+      12,
+      1024,
+      1521
+    ],
+    "native_zero_alpha_fraction": 0.4372793833414714,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      51,
+      87,
+      973,
+      1446
+    ],
+    "zero_alpha_fraction": 0.5461463928222656,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      381,
+      207,
+      625,
+      451
+    ],
+    "face_center_uv_bottom_origin": [
+      0.4912109375,
+      0.7858072916666666
+    ],
+    "references": [
+      {
+        "path": "ArtSource/StyleTests/RPG_Professions/02_light_priest_v001.png",
+        "sha256": "edbfa8c8b210c23034fa8547be0c2a92f90300aaaa44a06b9c93f2d710b703d2"
+      },
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "d08efe1e1f385ab3b08d412677a64e4388b9754c30e619a3b0e91bcd22965ccf",
+    "review": "初版候选，脸、道具和边缘需视觉评审",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      1,
+      7
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "UR001",
+    "name": "芙蕾娅",
+    "element": "火",
+    "age": 25,
+    "role": "战士",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/UR001/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "e88689209929daf63bb9a13e6c144df8dda504727e11477417429d23837e66ea",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      17,
+      9,
+      1024,
+      1504
+    ],
+    "native_zero_alpha_fraction": 0.5149574279785156,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      66,
+      85,
+      973,
+      1430
+    ],
+    "zero_alpha_fraction": 0.6096814473470052,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      332,
+      306,
+      588,
+      562
+    ],
+    "face_center_uv_bottom_origin": [
+      0.44921875,
+      0.7174479166666667
+    ],
+    "references": [
+      {
+        "path": "ArtSource/StyleTests/RPG_Professions/04_fire_warrior_v001.png",
+        "sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135"
+      },
+      {
+        "path": "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png",
+        "sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "52e808e12edc96c6c00a2ffff2074b3bc8dd1657eb0d43b622cd2952aa2327ce",
+    "review": "Framing repair completes top ponytail and right cape tips; verify alpha then add uniform transparent export margin.",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "SSR002",
+    "name": "星澜",
+    "element": "暗",
+    "age": 29,
+    "role": "肉盾",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/SSR002/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "8fb82aecf08594c23108d18916a17c72ebc38b6f6275072ec127aa879beece0d",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      15,
+      11,
+      1024,
+      1525
+    ],
+    "native_zero_alpha_fraction": 0.3964964548746745,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      64,
+      87,
+      973,
+      1450
+    ],
+    "zero_alpha_fraction": 0.5125923156738281,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      424,
+      159,
+      697,
+      432
+    ],
+    "face_center_uv_bottom_origin": [
+      0.54736328125,
+      0.8076171875
+    ],
+    "references": [
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      },
+      {
+        "path": "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png",
+        "sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "2fea89dc21741a893cf24632670c85af1e16718f6830bf5a174801dbb2635e2b",
+    "review": "New design; crescent shield, purple cloak and adult face distinct; shield appears viewer-right rather than requested left; not a gameplay limitation.",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      0,
+      37
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "SR002",
+    "name": "艾露薇",
+    "element": "风",
+    "age": 22,
+    "role": "射手",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/SR002/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "17cbb0848c5baf04dbaf51b47de13e8540b3606114d6aeb8f257452d67099e81",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      0,
+      0,
+      1021,
+      1536
+    ],
+    "native_zero_alpha_fraction": 0.5658512115478516,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      51,
+      77,
+      970,
+      1459
+    ],
+    "zero_alpha_fraction": 0.6500848134358724,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      424,
+      179,
+      694,
+      449
+    ],
+    "face_center_uv_bottom_origin": [
+      0.5458984375,
+      0.7955729166666666
+    ],
+    "references": [
+      {
+        "path": "ArtSource/StyleTests/RPG_Professions/03_wind_elf_archer_v002.png",
+        "sha256": "3e60d87fd7df83d3a38ed08c9f84744685603da8783f5e340579773dc9fa4f28"
+      },
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "8d5d84d7a5243360b985624a6112528979b8ed5055688a0603d17fba7cde24da",
+    "review": "Existing elf identity reference; longbow string visible, lower hand holds grip, other hand near chest; full tips and boots visible.",
+    "native_edge_alpha_max": [
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "R001",
+    "name": "露弥娅",
+    "element": "光",
+    "age": 19,
+    "role": "星术学徒",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/R001/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "3e007a8272624cd30344f99419e575b2ca0ed6191b01db5b04ffdeff8f6be915",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      9,
+      10,
+      998,
+      1523
+    ],
+    "native_zero_alpha_fraction": 0.6169172922770182,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      59,
+      86,
+      950,
+      1448
+    ],
+    "zero_alpha_fraction": 0.6922340393066406,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      485,
+      182,
+      719,
+      416
+    ],
+    "face_center_uv_bottom_origin": [
+      0.587890625,
+      0.8053385416666666
+    ],
+    "references": [
+      {
+        "path": "ArtSource/StyleTests/RPG_Professions/06_star_magical_girl_v001.png",
+        "sha256": "96b47601adcde775dc03ebb2667173e9fd3aae88420baff3cd9b0983a1201827"
+      },
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "41404a07df5d5953ff0ae13d5ae72029e16cb253434d403ee1f20a23ae05d8d2",
+    "review": "初版候选，脸、道具和边缘需视觉评审",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "R002",
+    "name": "风铃",
+    "element": "风",
+    "age": 23,
+    "role": "吟游诗人",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/R002/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "8778d18e703ce86034ea79ccd6e216dd90b3305064a88505b51eb0c2e7dfb82d",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      0,
+      24,
+      1000,
+      1524
+    ],
+    "native_zero_alpha_fraction": 0.6762275695800781,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      51,
+      98,
+      952,
+      1449
+    ],
+    "zero_alpha_fraction": 0.7389119466145834,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      421,
+      174,
+      616,
+      369
+    ],
+    "face_center_uv_bottom_origin": [
+      0.50634765625,
+      0.8232421875
+    ],
+    "references": [
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "e54d73009bcb85ba8ef57e58dcc2a0a0dc8fb628dc80e9cbb118358a3b958b6f",
+    "review": "初版候选，脸、道具和边缘需视觉评审",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "R004",
+    "name": "洛恩",
+    "element": "光",
+    "age": 21,
+    "role": "弩手",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/R004/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "2e387e74b7f30ca24ab0fe35f73ac302af5ad6c2a89d0c89fa56af766c7904c8",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      17,
+      27,
+      992,
+      1521
+    ],
+    "native_zero_alpha_fraction": 0.7082532246907552,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      66,
+      101,
+      944,
+      1446
+    ],
+    "zero_alpha_fraction": 0.7648728688557943,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      398,
+      170,
+      583,
+      355
+    ],
+    "face_center_uv_bottom_origin": [
+      0.47900390625,
+      0.8291015625
+    ],
+    "references": [
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "195132930afd20b99cea939dfe1b897bc9d27194f909723615ec4bc9d74e7ac6",
+    "review": "初版候选，脸、道具和边缘需视觉评审",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "R005",
+    "name": "浅汐",
+    "element": "风",
+    "age": 24,
+    "role": "剑士",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/R005/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "378238460151dbfddae9a3811b50054ff972dbc8ce02d15d600ce0b7209e9a71",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      39,
+      1,
+      1000,
+      1526
+    ],
+    "native_zero_alpha_fraction": 0.6481469472249349,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      86,
+      78,
+      952,
+      1450
+    ],
+    "zero_alpha_fraction": 0.7167841593424479,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      414,
+      145,
+      599,
+      331
+    ],
+    "face_center_uv_bottom_origin": [
+      0.49462890625,
+      0.8450520833333334
+    ],
+    "references": [
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "8aba2cdbf935908fc9a3b4c124fdb82ef74bd20243261e01cbc8d705ed78d160",
+    "review": "初版候选，脸、道具和边缘需视觉评审",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "SR003",
+    "name": "绫音",
+    "element": "雷",
+    "age": 19,
+    "role": "巫女",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/SR003/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "8f8fe8f0d978b2d52cfba40f66b8c5375ed2e525aa64d547ad4ffd58e45fb0af",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      0,
+      19,
+      1024,
+      1503
+    ],
+    "native_zero_alpha_fraction": 0.49423980712890625,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      51,
+      94,
+      973,
+      1429
+    ],
+    "zero_alpha_fraction": 0.5927098592122396,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      435,
+      214,
+      628,
+      406
+    ],
+    "face_center_uv_bottom_origin": [
+      0.51904296875,
+      0.7981770833333334
+    ],
+    "references": [
+      {
+        "path": "ArtSource/StyleTests/RPG_Professions/05_thunder_miko_v001.png",
+        "sha256": "30387a1fa65411f418b5d5173c62e5e7fcce5ab9552f124230bf900c9f5e4cf9"
+      },
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "34ea0adf0a636ff0ce5eb36a7ac945b04b4813cb8c10add018edd2a1d19177ca",
+    "review": "初版候选，脸、道具和边缘需视觉评审",
+    "native_edge_alpha_max": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "task": "A09-CHARACTERS",
+    "status": "待视觉验收",
+    "id": "SR004",
+    "name": "弦月",
+    "element": "暗",
+    "age": 26,
+    "role": "歌姬",
+    "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+    "model_seed_cfg": "工具未披露，未记录推测值",
+    "source": "ArtSource/Characters/SR004/Internal_A09_v001/source/original_tool_output.png",
+    "source_sha256": "5b7acdd6eab6fd2e6f6ff32fd98ad1253cf4e5974a41eea7044a5cf918bf4211",
+    "native_size": [
+      1024,
+      1536
+    ],
+    "native_alpha_range": [
+      0,
+      254
+    ],
+    "native_alpha_bbox": [
+      32,
+      0,
+      1014,
+      1520
+    ],
+    "native_zero_alpha_fraction": 0.41234779357910156,
+    "export_size": [
+      1024,
+      1536
+    ],
+    "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      79,
+      77,
+      964,
+      1445
+    ],
+    "zero_alpha_fraction": 0.5261637369791666,
+    "edge_alpha_max": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "avatar_crop_px": [
+      433,
+      161,
+      625,
+      353
+    ],
+    "face_center_uv_bottom_origin": [
+      0.5166015625,
+      0.8326822916666666
+    ],
+    "references": [
+      {
+        "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+        "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+      },
+      {
+        "path": "ArtSource/UIAssets/Originals/ice_mage_cutout_v001.png",
+        "sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0"
+      }
+    ],
+    "prompt": "source/prompt.txt",
+    "output_sha256": "3a864f15141c0947112274470695d2b6e6fd6f91e7837bd12e59fe92c7f94844",
+    "review": "初版候选，脸、道具和边缘需视觉评审",
+    "native_edge_alpha_max": [
+      1,
+      0,
+      0,
+      0
+    ]
+  }
+]

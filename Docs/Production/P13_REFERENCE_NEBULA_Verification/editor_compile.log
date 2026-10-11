@@ -1,0 +1,5 @@
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,128): warning CS0649: 从未对字段“U02ArtSetup.Asset.mode”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,86): warning CS0649: 从未对字段“U02ArtSetup.Asset.path”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(250,67): warning CS0649: 从未对字段“U02ArtSetup.Manifest.entries”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,63): warning CS0649: 从未对字段“U02ArtSetup.Asset.assetId”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,106): warning CS0649: 从未对字段“U02ArtSetup.Asset.sha256”赋值，字段将一直保持其默认值 null

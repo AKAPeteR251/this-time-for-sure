@@ -1,0 +1,76 @@
+--- before
++++ P05-FIX05
+@@ -72,8 +72,6 @@
+         private Font font;
+         private Font titleFont;
+         private Text summarySubtitle;
+-        private RectTransform sidebar;
+-        private RectTransform navigationUnderline;
+         private RectTransform body;
+         private Text resources;
+         private Text hint;
+@@ -205,21 +203,11 @@
+                 Surface(header, "BrassRule", theme.primary, 0, 0, 1, 0.014f);
+                 Title(header, "星界回响", 49, 0.045f, 0.13f, 0.30f, 0.95f, TextAnchor.MiddleLeft);
+                 SpriteSurface(header, "LogoStar", theme.summonIcon, 0.012f, 0.1f, 0.047f, 0.94f, true);
+-                Navigation(header, "召唤", 0.415f, 0.10f, 0.495f, 0.96f, ShowSummon);
+-                Label(header, "|", 26, 0.495f, 0.2f, 0.512f, 0.94f).color = theme.muted;
+-                Navigation(header, "图鉴", 0.512f, 0.10f, 0.60f, 0.96f, OpenCollection);
+-                navigationUnderline = Surface(header, "TabRule", theme.primary, 0.42f, 0.18f, 0.495f, 0.20f);
+                 resources = Label(header, "", 28, 0.822f, 0.15f, 0.925f, 0.91f);
+                 SpriteSurface(header, "Currency", theme.currencyIcon, 0.789f, 0.12f, 0.819f, 0.93f, true);
+                 refillButton = ActionButton(header, "+10", 0.93f, 0.23f, 0.985f, 0.82f,
+                     () => { game.Refill(); UpdateResources(); hint.text = "资源已补充，可以继续召唤。"; });
+-                sidebar = Surface(root, "NavigationRail", new Color(0.025f, 0.045f, 0.08f, 0.74f), 0, 0, 0.066f, 0.915f);
+-                Surface(sidebar, "BrassRule", theme.primary, 0.986f, 0, 1, 1);
+-                SpriteSurface(sidebar, "SummonSymbol", theme.summonIcon, 0.1f, 0.865f, 0.9f, 0.95f, true);
+-                Navigation(sidebar, "召唤", 0.04f, 0.79f, 0.96f, 0.87f, ShowSummon);
+-                SpriteSurface(sidebar, "CollectionSymbol", theme.collectionIcon, 0.1f, 0.69f, 0.9f, 0.78f, true);
+-                Navigation(sidebar, "图鉴", 0.04f, 0.615f, 0.96f, 0.695f, OpenCollection);
+-                body.anchorMin = new Vector2(0.066f, 0.015f);
++                body.anchorMin = new Vector2(0, 0.015f);
+                 body.anchorMax = new Vector2(1, 0.915f);
+             }
+ 
+@@ -321,7 +309,7 @@
+             cardStage = Rect(page, "CardStage", 0, 0, 1, 1);
+             fastReveal = new FastRevealView(cardStage, theme, font, titleFont, feelConfig, summonAudio);
+             RectTransform identity = cardStage.Find("RevealIdentity").GetComponent<RectTransform>();
+-            identity.anchorMin = new Vector2(0.19f, 0.04f); identity.anchorMax = new Vector2(0.77f, 0.145f);
++            identity.anchorMin = new Vector2(0.075f, 0.44f); identity.anchorMax = new Vector2(0.43f, 0.59f);
+             RectTransform unknown = cardStage.Find("RevealArtworkSlot/UnknownSilhouette").GetComponent<RectTransform>();
+             revealSilhouette = Rect(unknown, "CharacterSilhouette", 0, 0, 1, 1).gameObject.AddComponent<UICharacterSilhouette>();
+             revealSilhouette.color = new Color(0.12f, 0.18f, 0.28f); revealSilhouette.raycastTarget = false;
+@@ -499,7 +487,7 @@
+                 elapsed = 0;
+                 while (elapsed < duration && !finishCurrentPhase)
+                 { elapsed += Time.unscaledDeltaTime; fastReveal.Animate(elapsed / Mathf.Max(0.01f, duration));
+-                  if(crystal&&i==0){crystalView.Burst(elapsed);if(elapsed>=Mathf.Max(feelConfig.whiteSeconds,feelConfig.crystalRupture.Length/feelConfig.ruptureFps))crystalView.Clear();}yield return null; }
++                  if(crystal&&i==0){crystalView.Burst(elapsed);if(elapsed>=feelConfig.whiteSeconds)crystalView.Clear();}yield return null; }
+                 if(crystal)crystalView.Clear();
+                 fastReveal.Animate(1); fastReveal.Finish();
+                 SetFlowStage(SummonFlowStage.AwaitingConfirm); confirmationReadyFrame = Time.frameCount + 1;
+@@ -617,15 +605,8 @@
+         {
+             foreach (var screen in screens) screen.Value.SetActive(screen.Key == name);
+             currentScreen = name;
+-            if (navigationUnderline != null)
+-            {
+-                bool collection = name == "Collection" || (name == "Detail" && detailReturn == "Collection");
+-                navigationUnderline.anchorMin = new Vector2(collection ? 0.522f : 0.42f, 0.18f);
+-                navigationUnderline.anchorMax = new Vector2(collection ? 0.59f : 0.495f, 0.20f);
+-            }
+             bool immersive = name == "Signing" || name == "Reveal";
+             header.gameObject.SetActive(!immersive);
+-            if (sidebar != null) sidebar.gameObject.SetActive(!immersive);
+             body.anchorMin = immersive ? Vector2.zero : normalPageMin;
+             body.anchorMax = immersive ? Vector2.one : normalPageMax;
+             if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
+@@ -647,7 +628,6 @@
+             detailChrome.alpha = show ? 1 : 0;
+             detailChrome.interactable = detailChrome.blocksRaycasts = show;
+             header.gameObject.SetActive(show);
+-            if (sidebar != null) sidebar.gameObject.SetActive(show);
+             restoreUI.gameObject.SetActive(!show);
+             foreach (Text label in detailCard.GetComponentsInChildren<Text>(true)) label.enabled = show;
+             detailCard.anchorMin = show ? new Vector2(0.06f, 0.04f) : new Vector2(0.05f, 0.03f);

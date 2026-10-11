@@ -1,0 +1,65 @@
+{
+  "task": "A05-BLENDER",
+  "blender": "2.93.4",
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": [
+    1,
+    132
+  ],
+  "seconds": 5.5,
+  "whole_ceremony_with_Unity_front_seconds": 6.65,
+  "samples": 24,
+  "geometry_seed": 71008052,
+  "rings": 3,
+  "floating_crystals": 8,
+  "camera_lens_mm_keyframes": [
+    [
+      1,
+      28
+    ],
+    [
+      55,
+      25
+    ],
+    [
+      78,
+      31
+    ],
+    [
+      112,
+      34
+    ],
+    [
+      132,
+      30
+    ]
+  ],
+  "bloom_intensity": 0.055,
+  "exposure": -0.3,
+  "audio": "none; P04 separate voiceover",
+  "text_or_username_or_character_baked": false,
+  "review_frames": [
+    82,
+    99,
+    107
+  ],
+  "blend_file": "D:\\vibe\\这次一定出\\ArtSource\\Scenes\\SummonStage\\v003\\A05_SummonStage_v003.blend",
+  "status": "candidate_pending_visual_review",
+  "version": "v003",
+  "fracture_shards": 12,
+  "light_beams": 7,
+  "crystal_crack_frames": [
+    62,
+    102
+  ],
+  "rupture_frame": 105,
+  "shake_camera_peak_units": 0.1,
+  "shake_crystal_peak_units": 0.055,
+  "shake_seed": "deterministic sine",
+  "changes": "Remove fixed corridor rays; surface crack growth, leaking tapered beams, actual separated crystal shards, pressure vibration and rupture kick."
+}

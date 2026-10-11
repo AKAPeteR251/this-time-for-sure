@@ -1,0 +1,645 @@
+{
+  "system_stats": {
+    "system": {
+      "os": "win32",
+      "ram_total": 16371474432,
+      "ram_free": 194285568,
+      "comfyui_version": "0.37.0",
+      "required_frontend_version": "1.52.7",
+      "installed_templates_version": "0.11.66",
+      "required_templates_version": "0.11.66",
+      "comfy_package_versions": [
+        {
+          "name": "comfyui-frontend-package",
+          "installed": "1.52.7",
+          "required": "1.52.7"
+        },
+        {
+          "name": "comfyui-workflow-templates",
+          "installed": "0.11.66",
+          "required": "0.11.66"
+        },
+        {
+          "name": "comfyui-embedded-docs",
+          "installed": "0.5.12",
+          "required": "0.5.12"
+        },
+        {
+          "name": "comfy-kitchen",
+          "installed": "0.2.35",
+          "required": "0.2.35"
+        },
+        {
+          "name": "comfy-aimdo",
+          "installed": "0.5.5",
+          "required": "0.5.5"
+        }
+      ],
+      "python_version": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+      "pytorch_version": "2.9.1+cu130",
+      "embedded_python": false,
+      "deploy_environment": "local-git",
+      "argv": [
+        "main.py",
+        "--listen",
+        "127.0.0.1",
+        "--port",
+        "8188",
+        "--disable-auto-launch"
+      ]
+    },
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 6441926656,
+        "vram_free": 2754220032,
+        "torch_vram_total": 0,
+        "torch_vram_free": 0
+      }
+    ]
+  },
+  "nodes": {
+    "easy samLoaderPipe": {
+      "input": {
+        "required": {
+          "model_name": [
+            [
+              "sam_vit_b_01ec64.pth"
+            ]
+          ],
+          "device_mode": [
+            [
+              "AUTO",
+              "Prefer GPU",
+              "CPU"
+            ],
+            {
+              "default": "AUTO"
+            }
+          ],
+          "sam_detection_hint": [
+            [
+              "center-1",
+              "horizontal-2",
+              "vertical-2",
+              "rect-4",
+              "diamond-4",
+              "mask-area",
+              "mask-points",
+              "mask-point-bbox",
+              "none"
+            ]
+          ],
+          "sam_dilation": [
+            "INT",
+            {
+              "default": 0,
+              "min": -512,
+              "max": 512,
+              "step": 1
+            }
+          ],
+          "sam_threshold": [
+            "FLOAT",
+            {
+              "default": 0.93,
+              "min": 0.0,
+              "max": 1.0,
+              "step": 0.01
+            }
+          ],
+          "sam_bbox_expansion": [
+            "INT",
+            {
+              "default": 0,
+              "min": 0,
+              "max": 1000,
+              "step": 1
+            }
+          ],
+          "sam_mask_hint_threshold": [
+            "FLOAT",
+            {
+              "default": 0.7,
+              "min": 0.0,
+              "max": 1.0,
+              "step": 0.01
+            }
+          ],
+          "sam_mask_hint_use_negative": [
+            [
+              "False",
+              "Small",
+              "Outter"
+            ]
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "model_name",
+          "device_mode",
+          "sam_detection_hint",
+          "sam_dilation",
+          "sam_threshold",
+          "sam_bbox_expansion",
+          "sam_mask_hint_threshold",
+          "sam_mask_hint_use_negative"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "PIPE_LINE"
+      ],
+      "output_is_list": [
+        false
+      ],
+      "output_name": [
+        "sam_pipe"
+      ],
+      "name": "easy samLoaderPipe",
+      "display_name": "SAMLoader (Pipe)",
+      "description": "",
+      "python_module": "custom_nodes.comfyui-easy-use",
+      "category": "EasyUse/Fix",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "SAMLoader": {
+      "input": {
+        "required": {
+          "model_name": [
+            [
+              "sam_vit_b_01ec64.pth"
+            ],
+            {
+              "tooltip": "The detection accuracy varies depending on the SAM model. ESAM can only be used if ComfyUI-YoloWorld-EfficientSAM is installed."
+            }
+          ],
+          "device_mode": [
+            [
+              "AUTO",
+              "Prefer GPU",
+              "CPU"
+            ],
+            {
+              "tooltip": "AUTO: Only applicable when a GPU is available. It temporarily loads the SAM_MODEL into VRAM only when the detection function is used.\nPrefer GPU: Tries to keep the SAM_MODEL on the GPU whenever possible. This can be used when there is sufficient VRAM available.\nCPU: Always loads only on the CPU."
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "model_name",
+          "device_mode"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "SAM_MODEL"
+      ],
+      "output_is_list": [
+        false
+      ],
+      "output_name": [
+        "SAM_MODEL"
+      ],
+      "name": "SAMLoader",
+      "display_name": "SAMLoader (Impact)",
+      "description": "Load the SAM (Segment Anything) model. This can be used in places that utilize SAM detection functionality, such as SAMDetector or SimpleDetector.\nThe SAM detection functionality in Impact Pack must use the SAM_MODEL loaded through this node.",
+      "python_module": "custom_nodes.ComfyUI-Impact-Pack",
+      "category": "ImpactPack",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "BiRefNetRMBG": {
+      "input": {
+        "required": {
+          "image": [
+            "IMAGE",
+            {
+              "tooltip": "Input image to be processed for background removal."
+            }
+          ],
+          "model": [
+            [
+              "BiRefNet-general",
+              "BiRefNet_512x512",
+              "BiRefNet-HR",
+              "BiRefNet-portrait",
+              "BiRefNet-matting",
+              "BiRefNet-HR-matting",
+              "BiRefNet_lite",
+              "BiRefNet_lite-2K",
+              "BiRefNet_dynamic",
+              "BiRefNet_lite-matting",
+              "BiRefNet_toonout"
+            ],
+            {
+              "tooltip": "Select the BiRefNet model variant to use."
+            }
+          ]
+        },
+        "optional": {
+          "mask_blur": [
+            "INT",
+            {
+              "default": 0,
+              "min": 0,
+              "max": 64,
+              "step": 1,
+              "tooltip": "Specify the amount of blur to apply to the mask edges (0 for no blur, higher values for more blur)."
+            }
+          ],
+          "mask_offset": [
+            "INT",
+            {
+              "default": 0,
+              "min": -20,
+              "max": 20,
+              "step": 1,
+              "tooltip": "Adjust the mask boundary (positive values expand the mask, negative values shrink it)."
+            }
+          ],
+          "invert_output": [
+            "BOOLEAN",
+            {
+              "default": false,
+              "tooltip": "Enable to invert both the image and mask output (useful for certain effects)."
+            }
+          ],
+          "refine_foreground": [
+            "BOOLEAN",
+            {
+              "default": false,
+              "tooltip": "Use Fast Foreground Colour Estimation to optimize transparent background"
+            }
+          ],
+          "background": [
+            [
+              "Alpha",
+              "Color"
+            ],
+            {
+              "default": "Alpha",
+              "tooltip": "Choose background type: Alpha (transparent) or Color (custom background color)."
+            }
+          ],
+          "background_color": [
+            "COLORCODE",
+            {
+              "default": "#222222",
+              "tooltip": "Choose background color (Alpha = transparent)"
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "image",
+          "model"
+        ],
+        "optional": [
+          "mask_blur",
+          "mask_offset",
+          "invert_output",
+          "refine_foreground",
+          "background",
+          "background_color"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "IMAGE",
+        "MASK",
+        "IMAGE"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "IMAGE",
+        "MASK",
+        "MASK_IMAGE"
+      ],
+      "name": "BiRefNetRMBG",
+      "display_name": "BiRefNet (RMBG)",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-RMBG",
+      "category": "🧪AILab/🧽RMBG",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "RMBG": {
+      "input": {
+        "required": {
+          "image": [
+            "IMAGE",
+            {
+              "tooltip": "Input image to be processed for background removal."
+            }
+          ],
+          "model": [
+            [
+              "RMBG-2.0",
+              "INSPYRENET",
+              "BEN",
+              "BEN2"
+            ],
+            {
+              "tooltip": "Select the background removal model to use (RMBG-2.0, INSPYRENET, BEN)."
+            }
+          ]
+        },
+        "optional": {
+          "sensitivity": [
+            "FLOAT",
+            {
+              "default": 1.0,
+              "min": 0.0,
+              "max": 1.0,
+              "step": 0.01,
+              "tooltip": "Adjust the strength of mask detection (higher values result in more aggressive detection)."
+            }
+          ],
+          "process_res": [
+            "INT",
+            {
+              "default": 1024,
+              "min": 256,
+              "max": 2048,
+              "step": 8,
+              "tooltip": "Set the processing resolution (higher values require more VRAM and may increase processing time)."
+            }
+          ],
+          "mask_blur": [
+            "INT",
+            {
+              "default": 0,
+              "min": 0,
+              "max": 64,
+              "step": 1,
+              "tooltip": "Specify the amount of blur to apply to the mask edges (0 for no blur, higher values for more blur)."
+            }
+          ],
+          "mask_offset": [
+            "INT",
+            {
+              "default": 0,
+              "min": -64,
+              "max": 64,
+              "step": 1,
+              "tooltip": "Adjust the mask boundary (positive values expand the mask, negative values shrink it)."
+            }
+          ],
+          "invert_output": [
+            "BOOLEAN",
+            {
+              "default": false,
+              "tooltip": "Enable to invert both the image and mask output (useful for certain effects)."
+            }
+          ],
+          "refine_foreground": [
+            "BOOLEAN",
+            {
+              "default": false,
+              "tooltip": "Use Fast Foreground Colour Estimation to optimize transparent background"
+            }
+          ],
+          "background": [
+            [
+              "Alpha",
+              "Color"
+            ],
+            {
+              "default": "Alpha",
+              "tooltip": "Choose output type: Alpha (transparent) or Color (custom background color)."
+            }
+          ],
+          "background_color": [
+            "COLORCODE",
+            {
+              "default": "#222222",
+              "tooltip": "Pick background color (supports alpha, use color picker)."
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "image",
+          "model"
+        ],
+        "optional": [
+          "sensitivity",
+          "process_res",
+          "mask_blur",
+          "mask_offset",
+          "invert_output",
+          "refine_foreground",
+          "background",
+          "background_color"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "IMAGE",
+        "MASK",
+        "IMAGE"
+      ],
+      "output_is_list": [
+        false,
+        false,
+        false
+      ],
+      "output_name": [
+        "IMAGE",
+        "MASK",
+        "MASK_IMAGE"
+      ],
+      "name": "RMBG",
+      "display_name": "Remove Background (RMBG)",
+      "description": "",
+      "python_module": "custom_nodes.ComfyUI-RMBG",
+      "category": "🧪AILab/🧽RMBG",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "BiRefNet Model Switch [RvTools]": {
+      "input": {
+        "required": {
+          "Input": [
+            "INT",
+            {
+              "default": 1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        "optional": {
+          "input1": [
+            "BIREFNET_MODEL",
+            {
+              "forceInput": true
+            }
+          ],
+          "input2": [
+            "BIREFNET_MODEL",
+            {
+              "forceInput": true
+            }
+          ]
+        }
+      },
+      "input_order": {
+        "required": [
+          "Input"
+        ],
+        "optional": [
+          "input1",
+          "input2"
+        ]
+      },
+      "is_input_list": false,
+      "output": [
+        "BIREFNET_MODEL"
+      ],
+      "output_is_list": [
+        false
+      ],
+      "output_name": [
+        "birefnet_model"
+      ],
+      "name": "BiRefNet Model Switch [RvTools]",
+      "display_name": "BiRefNet Model Switch",
+      "description": "",
+      "python_module": "custom_nodes.comfyui-rvtools_v2",
+      "category": "🫦 RvTools II/ Switches",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    },
+    "LayerMask: RmBgUltra V2": {
+      "input": {
+        "required": {
+          "image": [
+            "IMAGE"
+          ],
+          "detail_method": [
+            [
+              "VITMatte",
+              "VITMatte(local)",
+              "vitmatte-base-composition-1k",
+              "PyMatting",
+              "GuidedFilter"
+            ]
+          ],
+          "detail_erode": [
+            "INT",
+            {
+              "default": 6,
+              "min": 1,
+              "max": 255,
+              "step": 1
+            }
+          ],
+          "detail_dilate": [
+            "INT",
+            {
+              "default": 6,
+              "min": 1,
+              "max": 255,
+              "step": 1
+            }
+          ],
+          "black_point": [
+            "FLOAT",
+            {
+              "default": 0.01,
+              "min": 0.01,
+              "max": 0.98,
+              "step": 0.01,
+              "display": "slider"
+            }
+          ],
+          "white_point": [
+            "FLOAT",
+            {
+              "default": 0.99,
+              "min": 0.02,
+              "max": 0.99,
+              "step": 0.01,
+              "display": "slider"
+            }
+          ],
+          "process_detail": [
+            "BOOLEAN",
+            {
+              "default": true
+            }
+          ],
+          "device": [
+            [
+              "cuda",
+              "cpu"
+            ]
+          ],
+          "max_megapixels": [
+            "FLOAT",
+            {
+              "default": 2.0,
+              "min": 1,
+              "max": 999,
+              "step": 0.1
+            }
+          ]
+        },
+        "optional": {}
+      },
+      "input_order": {
+        "required": [
+          "image",
+          "detail_method",
+          "detail_erode",
+          "detail_dilate",
+          "black_point",
+          "white_point",
+          "process_detail",
+          "device",
+          "max_megapixels"
+        ],
+        "optional": []
+      },
+      "is_input_list": false,
+      "output": [
+        "IMAGE",
+        "MASK"
+      ],
+      "output_is_list": [
+        false,
+        false
+      ],
+      "output_name": [
+        "image",
+        "mask"
+      ],
+      "name": "LayerMask: RmBgUltra V2",
+      "display_name": "LayerMask: RmBgUltra V2",
+      "description": "",
+      "python_module": "custom_nodes.comfyui_layerstyle",
+      "category": "😺dzNodes/LayerMask",
+      "output_node": false,
+      "has_intermediate_output": false,
+      "search_aliases": []
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "canvas": [
+    2048,
+    1536
+  ],
+  "signature_safe_rect_px": [
+    205,
+    922,
+    1475,
+    1275
+  ],
+  "signature_safe_rect_percent": [
+    10,
+    60,
+    72,
+    83
+  ],
+  "seal_sprite_rect_px": [
+    1520,
+    1130,
+    1880,
+    1490
+  ],
+  "seal_center_px": [
+    1700,
+    1310
+  ],
+  "seal_sprite_size": 360,
+  "all_text": [
+    {
+      "text": "Star Echo",
+      "font": "Caveat",
+      "weight": 500,
+      "size_px": 62,
+      "x": 911.0,
+      "top": 170,
+      "baseline_y": 215,
+      "bbox": [
+        911.0,
+        170,
+        1137.0,
+        218
+      ]
+    },
+    {
+      "text": "Covenant of the Stars",
+      "font": "Allura",
+      "weight": 400,
+      "size_px": 154,
+      "x": 466.0,
+      "top": 255,
+      "baseline_y": 349,
+      "bbox": [
+        466.0,
+        255,
+        1582.0,
+        402
+      ]
+    },
+    {
+      "text": "By this name, I awaken the echoes",
+      "font": "Caveat",
+      "weight": 500,
+      "size_px": 82,
+      "x": 534.0,
+      "top": 475,
+      "baseline_y": 531,
+      "bbox": [
+        534.0,
+        475,
+        1514.0,
+        548
+      ]
+    },
+    {
+      "text": "that slumber among the stars.",
+      "font": "Caveat",
+      "weight": 500,
+      "size_px": 82,
+      "x": 596.5,
+      "top": 560,
+      "baseline_y": 614,
+      "bbox": [
+        596.5,
+        560,
+        1451.5,
+        631
+      ]
+    },
+    {
+      "text": "Let this covenant be sealed,",
+      "font": "Caveat",
+      "weight": 500,
+      "size_px": 82,
+      "x": 638.5,
+      "top": 690,
+      "baseline_y": 747,
+      "bbox": [
+        638.5,
+        690,
+        1409.5,
+        754
+      ]
+    },
+    {
+      "text": "with the stars as witness.",
+      "font": "Caveat",
+      "weight": 500,
+      "size_px": 82,
+      "x": 659.0,
+      "top": 775,
+      "baseline_y": 829,
+      "bbox": [
+        659.0,
+        775,
+        1389.0,
+        830
+      ]
+    },
+    {
+      "text": "Sign your name",
+      "font": "Caveat",
+      "weight": 400,
+      "size_px": 50,
+      "x": 299.0,
+      "top": 1280,
+      "baseline_y": 1315,
+      "bbox": [
+        299.0,
+        1280,
+        561.0,
+        1326
+      ]
+    }
+  ],
+  "authoring": "imagegen paper/wax; actual fonts; native vector wear and soft contact shadow; geometric resampling and alpha normalization",
+  "paper_original_px": [
+    1448,
+    1086
+  ],
+  "wax_original_px": [
+    1254,
+    1254
+  ],
+  "rgba_export": "alpha>=240 normalized to255; alpha<3 removed; raw originals retained",
+  "model_parameters": "builtin imagegen; hidden seed/steps/model version not exposed"
+}

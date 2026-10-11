@@ -1,0 +1,21 @@
+{
+  "task": "A07-PILOT",
+  "source": "Docs/Production/16_C14_角色人设与职责.md C14-R1; 17 C15; user chose new LoRA .60 for Milo after A08",
+  "id": "R003",
+  "name": "米洛",
+  "age": 27,
+  "gender": "adult woman",
+  "rarity": "R",
+  "profession": "frontline shield guardian",
+  "element": "light",
+  "hair": "short deep brown",
+  "eyes": "gray green",
+  "personality": "stubborn words, protective actions, embarrassed when thanked",
+  "costume": "silver-gray chest/shoulder/forearm armor, dark green short cape, fitted armored skirt, charcoal opaque matte pantyhose, knee guards, short metal boots",
+  "skin_details": "slightly exposed shoulders and one narrow side-waist cutout; main chest covered",
+  "weapons": "broad shield with a small warm-light lantern; sheathed short sword",
+  "pose": "balanced slightly turned standing stance, shield forward and face unobscured",
+  "new_lora_model": {"detailer":0.60,"reina":0.60},
+  "new_lora_clip": {"detailer":0,"reina":0},
+  "status": "candidate trial; no accepted costume, master, alpha or Unity import yet"
+}

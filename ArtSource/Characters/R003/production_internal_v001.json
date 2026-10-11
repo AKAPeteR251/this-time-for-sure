@@ -1,0 +1,80 @@
+{
+  "task": "A07-PILOT",
+  "stage": "Internal image tool transparent trial from user-approved R style anchor03",
+  "status": "actual transparent asset produced; visual acceptance pending; not Unity integrated",
+  "approved_reference": "ArtSource/Characters/R003/source/R003_candidate_03_v001.png",
+  "reference_sha256": "5a80fcdc64ec0155474af22e45122dc6dfd1cc169db51305083820989c9bb707",
+  "tool": "image_gen.imagegen built-in",
+  "tool_model_version": "not exposed",
+  "seed_cfg_sampler": "not applicable / not exposed; no fabricated Anima parameters",
+  "transparent_background": true,
+  "prompt": "source/R003_internal_transparent_v001_prompt.txt",
+  "original_tool_output": "D:\\vibe\\这次一定出\\ArtSource\\Characters\\R003\\source\\InternalTransparent_v001\\R003_original_tool_output.png",
+  "original_sha256": "e62128d3f44206bcb7ba874992c99e6fb30fd70709d9a52235ae4a206a3a1a77",
+  "export": "D:\\vibe\\这次一定出\\ArtSource\\Characters\\R003\\R003_character_internal_v001.png",
+  "export_sha256": "d658ba9cdb66a7f1e15cf1eeff9ad463bcac1c289cee6370c61028e1511afea7",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "fully_transparent_pixels": 994241,
+  "alpha_nonzero_bounds": [
+    51,
+    98,
+    959,
+    1459
+  ],
+  "visible_alpha16_bounds": [
+    138,
+    105,
+    887,
+    1434
+  ],
+  "transparent_outer_padding_pixels": [
+    51,
+    98,
+    65,
+    77
+  ],
+  "export_operations": [
+    "resample ENTIRE generated canvas 1024x1536 to922x1382 preserving aspect within integer rounding",
+    "center on transparent1024x1536 at51,77",
+    "preserve native generated alpha; no SAM, background thresholding or semantic Python edit"
+  ],
+  "avatar_crop_top_left": [
+    358,
+    166,
+    588,
+    396
+  ],
+  "face_center_pixels_top_left": [
+    473.0,
+    281.0
+  ],
+  "face_uv_bottom_left": [
+    0.4619140625,
+    0.8170572916666666
+  ],
+  "thumbnail_size": [
+    256,
+    384
+  ],
+  "avatar_size": [
+    256,
+    256
+  ],
+  "style_anchor": "User explicitly chose candidate03 for modest R-rarity rendering/design; candidate04 is not the selected anchor.",
+  "source_limit": "Reference-preserving generative reconstruction, not pixel-identical segmentation; face/design need visual acceptance.",
+  "validation": [
+    "RGBA alpha contains real0 and nonzero values",
+    "All four margins contain at least5% transparent canvas",
+    "Black/white/gray actual alpha composites created",
+    "Original source and tool output kept unchanged",
+    "No Unity asset/code/scene modified"
+  ]
+}

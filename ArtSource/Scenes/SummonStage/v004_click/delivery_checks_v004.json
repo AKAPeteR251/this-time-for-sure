@@ -1,0 +1,177 @@
+{
+  "task": "A05-BLENDER",
+  "png_count": 28,
+  "all_rgba_1024": true,
+  "all_have_real_transparency": true,
+  "checks": [
+    {
+      "file": "States\\00_intact_v004.png",
+      "zero_alpha_pixels": 967597,
+      "partial_alpha_pixels": 1936,
+      "sha256": "976dbc07a104d70e6def064b16872a48bfaffd2e6e5b471f8be924ce1c6d0287"
+    },
+    {
+      "file": "States\\01_first_cracks_v004.png",
+      "zero_alpha_pixels": 966680,
+      "partial_alpha_pixels": 2450,
+      "sha256": "c7921ffdbe1c57d73e3d66018e829766c27cbb21b9146caff68a05d8345fc4b8"
+    },
+    {
+      "file": "States\\02_deep_cracks_v004.png",
+      "zero_alpha_pixels": 963345,
+      "partial_alpha_pixels": 2686,
+      "sha256": "ef13eab0dfff36e9116bcf19cdc5ab104a294addef52d1fde88ee269fce43cfd"
+    },
+    {
+      "file": "Effects\\light_leak_v004.png",
+      "zero_alpha_pixels": 1041611,
+      "partial_alpha_pixels": 3556,
+      "sha256": "e322d14e07f7390cdac0a22b4a13927dae38b1755b36aee1e0b78bc722730391"
+    },
+    {
+      "file": "Rupture\\crystal_000.png",
+      "zero_alpha_pixels": 938210,
+      "partial_alpha_pixels": 9922,
+      "sha256": "4d21b02d6f44f5caab8058c8b74b484c52004b1c5eecc5e5f3ebdcc5b56a7ae9"
+    },
+    {
+      "file": "Rupture\\crystal_001.png",
+      "zero_alpha_pixels": 921497,
+      "partial_alpha_pixels": 11887,
+      "sha256": "5e99604eebfbd79345c2d2078131a54ef7739d046b8b8475ab8f5c1aed17b2ad"
+    },
+    {
+      "file": "Rupture\\crystal_002.png",
+      "zero_alpha_pixels": 901028,
+      "partial_alpha_pixels": 13064,
+      "sha256": "a76d39321a47b1b93ac1516ab541c24129d8a12c9f9e3ed468bcca362601803e"
+    },
+    {
+      "file": "Rupture\\crystal_003.png",
+      "zero_alpha_pixels": 878189,
+      "partial_alpha_pixels": 14278,
+      "sha256": "d85d39ccab6036e07e07200b5c0f4ebdcc33f8fcf6b9cbd0fe5ee12b673ac9b6"
+    },
+    {
+      "file": "Rupture\\crystal_004.png",
+      "zero_alpha_pixels": 858718,
+      "partial_alpha_pixels": 15288,
+      "sha256": "28a4bd9e4174dfb6af83bdfe0bce819e6a7e4a61155bb61dec728cfdb2b0563e"
+    },
+    {
+      "file": "Rupture\\crystal_005.png",
+      "zero_alpha_pixels": 842030,
+      "partial_alpha_pixels": 15542,
+      "sha256": "381b22e1108abc1f44bd0d5a3ba092ecc9c692cd164830ee1f14bf415b81287c"
+    },
+    {
+      "file": "Rupture\\crystal_006.png",
+      "zero_alpha_pixels": 827482,
+      "partial_alpha_pixels": 15315,
+      "sha256": "1dfe6600fe5c620caf27833d9b64f55fcd767afbaacf3408f66fd73bb3febdc3"
+    },
+    {
+      "file": "Rupture\\crystal_007.png",
+      "zero_alpha_pixels": 816577,
+      "partial_alpha_pixels": 14883,
+      "sha256": "8840ecbfe35465a71cf30619eb15361274f0c2b9272e940fd070b1ba0486bd2f"
+    },
+    {
+      "file": "Rupture\\crystal_008.png",
+      "zero_alpha_pixels": 829465,
+      "partial_alpha_pixels": 14114,
+      "sha256": "d66c12e990f7fbd3e1001bb7e535f0d1078db88d0ba573cb32d871af716adcfe"
+    },
+    {
+      "file": "Rupture\\crystal_009.png",
+      "zero_alpha_pixels": 868834,
+      "partial_alpha_pixels": 13852,
+      "sha256": "47ab03ccd74e57ec4187ed21c3ef89b7d7e57671ee2d547c3871c95525a0beb4"
+    },
+    {
+      "file": "Rupture\\crystal_010.png",
+      "zero_alpha_pixels": 915907,
+      "partial_alpha_pixels": 13091,
+      "sha256": "da03c5c9fe11420f5cdd95ccd0ce1959e4794442b8d01881531aeab52a38f323"
+    },
+    {
+      "file": "Rupture\\crystal_011.png",
+      "zero_alpha_pixels": 963416,
+      "partial_alpha_pixels": 12755,
+      "sha256": "d30d96f75f7a71922c195f6faaf47e812f01bac15fbf5f1f34ca6d8ed0cb2094"
+    },
+    {
+      "file": "Rupture\\crystal_012.png",
+      "zero_alpha_pixels": 997896,
+      "partial_alpha_pixels": 12047,
+      "sha256": "f3848981b69554289f20fbf50b47c4d2440a6c1b2182bb95febc116590dbb74d"
+    },
+    {
+      "file": "Rupture\\crystal_013.png",
+      "zero_alpha_pixels": 1014342,
+      "partial_alpha_pixels": 9921,
+      "sha256": "b5aa5428dcd830f412b0fa73a879ece58112e8bb7aba02425159a3ce8f94628e"
+    },
+    {
+      "file": "Rupture\\crystal_014.png",
+      "zero_alpha_pixels": 1034643,
+      "partial_alpha_pixels": 5100,
+      "sha256": "3ea1c396afc795f214808c2f067aa3788e72d8cfde13b7e19657880b2eab0175"
+    },
+    {
+      "file": "Rupture\\crystal_015.png",
+      "zero_alpha_pixels": 1045692,
+      "partial_alpha_pixels": 1442,
+      "sha256": "b22a5a777b297462022e96363e5e47a76cb6425c90215fecc583fe1be4dc051e"
+    },
+    {
+      "file": "Rupture\\crystal_016.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "8dd332ce7168bf43950da906a2254209bd545a91068257d39ac922c6b0f6e970"
+    },
+    {
+      "file": "Rupture\\crystal_017.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "01fa5107080331d48a6465cec2d1fb392d14f8fc584a7203502c915fa329cf4e"
+    },
+    {
+      "file": "Rupture\\crystal_018.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "799c68edc5fe853af272ade01959ef7ddf3ec210ae20604d60305602cccc7068"
+    },
+    {
+      "file": "Rupture\\crystal_019.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "fe04b3087d2ebba10f420eb649eed4d7fd55d81b161ddc90f475bf4afca03e0f"
+    },
+    {
+      "file": "Rupture\\crystal_020.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "2eedd3690f621efe4b9623a9f0a1d762e70fad9c095a3a8ba32136c8b09d20cc"
+    },
+    {
+      "file": "Rupture\\crystal_021.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "45e3b035f596a8e09e9a7056a003788c32123feff4ed8735bb9be4b426b93346"
+    },
+    {
+      "file": "Rupture\\crystal_022.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "05a21469d23ebadcdcc5169e99cc11444d887456f3cfd464d61ac04d5f22b08e"
+    },
+    {
+      "file": "Rupture\\crystal_023.png",
+      "zero_alpha_pixels": 1048307,
+      "partial_alpha_pixels": 173,
+      "sha256": "e6ebf3df14e376aaaf18b635804c0aa2a4ed23f91f1ddc044b03da71f675a035"
+    }
+  ],
+  "unity_validation": "pending"
+}

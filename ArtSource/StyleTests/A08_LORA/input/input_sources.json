@@ -1,0 +1,12 @@
+{
+  "original": "D:\\vibe\\这次一定出\\ArtSource\\UIAssets\\Originals\\ice_mage_cutout_v001.png",
+  "original_sha256": "4e8b4e533cea980b937153b15b7518ecb69e617b3189bf2fbfb31bc9beda8bd0",
+  "test_input_sha256": "a0be389e571e367614962cb8ff5c5ff5d727d6519f877cdb6b7406bddecc2703",
+  "size": [
+    1024,
+    1536
+  ],
+  "operation": "straight alpha composite over RGB 128 gray; full original canvas; no crop or stretch",
+  "positive": "One adult 24-year-old ice sorceress, preserve the source character's exact face, icy blue eyes, long silver-white hair, huge white-and-blue pointed witch hat with snowflake decorations, white and ice-blue off-shoulder fitted slit gown, dark thigh-high stockings and black ankle boots. Preserve the source's seated floating bent-knee pose, complete snowflake staff in one hand and other palm extended, all clothing shapes and the same full-body composition. Clean fine anime linework, precise cel shading with restrained soft gradients, clean skin colors, readable eyes, carefully rendered hair strands, stocking material, fabric folds and crystal facets. Plain mid-gray background, no new scenery or additional accessories. No text, UI, card frame, logo, watermark or separate floating particles.",
+  "negative": "blurry, muddy colors, excessive microtexture, gritty skin, oversharpening, noise, photorealistic, 3D render, extra character, changed face, changed hairstyle, changed costume, extra limbs, malformed hands, extra fingers, broken wrist, distorted staff, cropped head, cropped feet, cropped weapon, face hidden, dense effects, background scenery, text, logo, watermark, card frame, checkerboard"
+}

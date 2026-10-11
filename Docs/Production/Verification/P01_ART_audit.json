@@ -1,0 +1,146 @@
+{
+  "taskId": "P01-ART",
+  "atUtc": "2026-10-08T02:04:33.6004949Z",
+  "rosterUnchanged": true,
+  "nonDisplayCodeUnchanged": true,
+  "changedCharacters": 6,
+  "roster": [
+    "R001:R",
+    "R002:R",
+    "R003:R",
+    "R004:R",
+    "R005:R",
+    "SR001:SR",
+    "SR002:SR",
+    "SR003:SR",
+    "SR004:SR",
+    "SSR001:SSR",
+    "SSR002:SSR",
+    "UR001:UR"
+  ],
+  "displayInfo": [
+    {
+      "id": "R001",
+      "name": "星魔法少女",
+      "title": "星辉契约者",
+      "rarity": "R"
+    },
+    {
+      "id": "SR001",
+      "name": "光牧师",
+      "title": "圣光祈愿者",
+      "rarity": "SR"
+    },
+    {
+      "id": "SR002",
+      "name": "风精灵弓箭手",
+      "title": "风林游侠",
+      "rarity": "SR"
+    },
+    {
+      "id": "SR003",
+      "name": "雷巫女",
+      "title": "雷霆祈愿者",
+      "rarity": "SR"
+    },
+    {
+      "id": "SSR001",
+      "name": "冰法师",
+      "title": "冰城守望者",
+      "rarity": "SSR"
+    },
+    {
+      "id": "UR001",
+      "name": "火女战士",
+      "title": "炽焰先锋",
+      "rarity": "UR"
+    }
+  ],
+  "assets": [
+    {
+      "characterId": "R001",
+      "rarity": "R",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001.png",
+      "sha256": "96b47601adcde775dc03ebb2667173e9fd3aae88420baff3cd9b0983a1201827",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "R001",
+      "rarity": "R",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/06_star_magical_girl_v001_thumb.png",
+      "sha256": "2b09de2a890241a6e2e44d94ae3ad5e31a504f42bc689280129b6a6d65795979",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SR001",
+      "rarity": "SR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001.png",
+      "sha256": "edbfa8c8b210c23034fa8547be0c2a92f90300aaaa44a06b9c93f2d710b703d2",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SR001",
+      "rarity": "SR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/02_light_priest_v001_thumb.png",
+      "sha256": "ab9abec322d8c82ba82188636c609dd5298775b3105f2a1c8976878171fe7d35",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SR002",
+      "rarity": "SR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002.png",
+      "sha256": "3e60d87fd7df83d3a38ed08c9f84744685603da8783f5e340579773dc9fa4f28",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SR002",
+      "rarity": "SR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/03_wind_elf_archer_v002_thumb.png",
+      "sha256": "afdacf657d462082eb3d3fb9f805a5c7324d32651ee59f745e837a2ab7f72233",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SR003",
+      "rarity": "SR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001.png",
+      "sha256": "30387a1fa65411f418b5d5173c62e5e7fcce5ab9552f124230bf900c9f5e4cf9",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SR003",
+      "rarity": "SR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/05_thunder_miko_v001_thumb.png",
+      "sha256": "ffbbd01d80668b179099a84dd3624101fdce208ef35b1271dc0f9969a38aefaf",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SSR001",
+      "rarity": "SSR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001.png",
+      "sha256": "82745972cd6fb419103939c71e975216f3e32ced7fe07b9ec8be74b81913bac3",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "SSR001",
+      "rarity": "SSR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/01_ice_mage_v001_thumb.png",
+      "sha256": "072ebcf73f776cbd71e34039f8f90520e2db780c173f86100882d4efb5491dd2",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "UR001",
+      "rarity": "UR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001.png",
+      "sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135",
+      "manifestMatch": true
+    },
+    {
+      "characterId": "UR001",
+      "rarity": "UR",
+      "path": "这次一定出/Assets/_Game/Art/Characters/UIMockRoles/04_fire_warrior_v001_thumb.png",
+      "sha256": "155ed3961dbacfe5083016a9b4785c6fd72e1b577e057b320512615227fe8df4",
+      "manifestMatch": true
+    }
+  ],
+  "scope": "Source and manifest audit; no Sprite import or Play Mode verification"
+}

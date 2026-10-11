@@ -1,0 +1,29 @@
+ResultCards/SSR001 color=RGBA(1.000, 0.750, 0.360, 1.000) rect=(x:-138.80, y:-161.04, width:277.60, height:322.07) depth=21 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+SSR001/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=22 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+UR001/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=36 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+SR002/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=50 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+SR001/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=62 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+R001/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=74 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+SR003/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=86 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+SR002/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=98 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+SR001/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=110 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+R001/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=122 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+ResultCards/SSR001 color=RGBA(1.000, 0.750, 0.360, 1.000) rect=(x:-138.80, y:-161.04, width:277.60, height:322.07) depth=133 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+SSR001/PortraitWindow color=RGBA(0.020, 0.045, 0.090, 1.000) rect=(x:-135.47, y:-158.14, width:270.94, height:316.27) depth=134 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+Summary/返回召唤 color=RGBA(0.870, 0.710, 0.430, 1.000) rect=(x:-151.53, y:-41.31, width:303.06, height:82.62) depth=148 tint=RGBA(1.000, 1.000, 1.000, 1.000) cull=False material=Default UI Material shader=UI/Default texture=UnityWhite
+正文=SimSun; 标题=STZhongsong
+RAW +10/ButtonInset color=RGBA(0.035, 0.070, 0.140, 1.000) mesh=4 firstColor=RGBA(9, 18, 36, 255) uv=(x:0.00, y:0.00, width:1.00, height:1.00) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW PortraitWindow/Portrait color=RGBA(1.000, 1.000, 1.000, 1.000) mesh=4 firstColor=RGBA(255, 255, 255, 255) uv=(x:0.18, y:0.50, width:0.65, height:0.50) alpha=1
+RAW 查看图鉴  ›/ButtonInset color=RGBA(0.035, 0.070, 0.140, 1.000) mesh=4 firstColor=RGBA(9, 18, 36, 255) uv=(x:0.00, y:0.00, width:1.00, height:1.00) alpha=1
+RAW 返回召唤/ButtonInset color=RGBA(0.035, 0.070, 0.140, 1.000) mesh=4 firstColor=RGBA(9, 18, 36, 255) uv=(x:0.00, y:0.00, width:1.00, height:1.00) alpha=1
+RAW 再来十连
+消耗 10/ButtonInset color=RGBA(1.000, 0.870, 0.620, 1.000) mesh=4 firstColor=RGBA(255, 222, 158, 255) uv=(x:0.00, y:0.00, width:1.00, height:1.00) alpha=1

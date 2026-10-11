@@ -1,0 +1,79 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "id": "R001",
+  "name": "露弥娅",
+  "element": "光",
+  "age": 19,
+  "role": "星术学徒",
+  "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+  "model_seed_cfg": "工具未披露，未记录推测值",
+  "source": "ArtSource/Characters/R001/Internal_A09_v001/source/original_tool_output.png",
+  "source_sha256": "3e007a8272624cd30344f99419e575b2ca0ed6191b01db5b04ffdeff8f6be915",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "native_alpha_range": [
+    0,
+    254
+  ],
+  "native_alpha_bbox": [
+    9,
+    10,
+    998,
+    1523
+  ],
+  "native_zero_alpha_fraction": 0.6169172922770182,
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    59,
+    86,
+    950,
+    1448
+  ],
+  "zero_alpha_fraction": 0.6922340393066406,
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop_px": [
+    485,
+    182,
+    719,
+    416
+  ],
+  "face_center_uv_bottom_origin": [
+    0.587890625,
+    0.8053385416666666
+  ],
+  "references": [
+    {
+      "path": "ArtSource/StyleTests/RPG_Professions/06_star_magical_girl_v001.png",
+      "sha256": "96b47601adcde775dc03ebb2667173e9fd3aae88420baff3cd9b0983a1201827"
+    },
+    {
+      "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+    }
+  ],
+  "prompt": "source/prompt.txt",
+  "output_sha256": "41404a07df5d5953ff0ae13d5ae72029e16cb253434d403ee1f20a23ae05d8d2",
+  "review": "初版候选，脸、道具和边缘需视觉评审",
+  "native_edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

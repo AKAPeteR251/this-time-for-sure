@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p22_sheet_light.mp4",
+    "sha256": "fc7a77aa03127b4a81d5fbab70162a4d98ad911ca255578f7437fb65d4ec7c2e",
+    "bytes": 11115975,
+    "actualCaptureSeconds": 17.9773487,
+    "muxSeconds": 17.977,
+    "frames": 393,
+    "averageCaptureFps": 21.860843139789573,
+    "audioSeconds": 17.984,
+    "audioStart": 0.0030647,
+    "audioRate": 48000,
+    "peak": 0.5447998046875,
+    "rms": 0.02449774908276525,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

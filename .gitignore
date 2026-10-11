@@ -1,0 +1,63 @@
+# Unity project lives one directory below this repository root.
+/这次一定出/[Ll]ibrary/
+/这次一定出/[Tt]emp/
+/这次一定出/[Ll]ogs/
+/这次一定出/[Oo]bj/
+/这次一定出/[Uu]ser[Ss]ettings/
+/这次一定出/[Bb]uild/
+/这次一定出/[Bb]uilds/
+/这次一定出/[Mm]emoryCaptures/
+/这次一定出/[Rr]ecordings/
+/这次一定出/.vs/
+/这次一定出/.idea/
+/这次一定出/.vscode/
+/这次一定出/*.csproj
+/这次一定出/*.sln
+/这次一定出/*.slnx
+/这次一定出/*.suo
+/这次一定出/*.user
+/这次一定出/*.userprefs
+/这次一定出/*.pidb
+/这次一定出/*.booproj
+/这次一定出/*.tmp
+/这次一定出/mono_crash.*
+/这次一定出/sysinfo.txt
+
+# Local tooling, private settings and machine caches.
+.agents/
+.codex/
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Expanded art deliveries are tracked; duplicate archives stay local.
+*.zip
+*.7z
+*.rar
+*.blend1
+*.blend2
+
+# Model weights belong to the local ComfyUI installation, not game source.
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Keep selected screenshots, reports, capture metadata/audio and encoded videos.
+# Numbered recorder frames stay local; encoded video and capture data are kept.
+/Docs/Production/**/*_capture/[0-9][0-9][0-9][0-9][0-9].jpg
+/Docs/Production/**/*_capture/[0-9][0-9][0-9][0-9][0-9].png
+
+# Disposable verification compiler output, not the source scripts or reports.
+/Docs/Production/**/*_Verification/*.dll
+/Docs/Production/**/*_Verification/*.pdb
+/Docs/Production/**/*_Verification/*.rsp

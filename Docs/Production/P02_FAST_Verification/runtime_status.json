@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: Main真实内存闭环; SSR透明人物/自动完成; UR双星芒/完整卡图/加速; 忙碌重入/重复跳过/协程与光效清理; 预览不扣费不入库",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-08T03:31:44.0039192Z"
+}

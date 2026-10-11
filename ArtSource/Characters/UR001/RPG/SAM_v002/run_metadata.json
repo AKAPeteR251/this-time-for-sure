@@ -1,0 +1,151 @@
+{
+  "method": "local SAM vit_b part-box refinement union; largest connected component, no repainting",
+  "parts": [
+    {
+      "name": "left_knee",
+      "box": [
+        10,
+        750,
+        303,
+        1035
+      ],
+      "points": [
+        [
+          76,
+          923
+        ],
+        [
+          126,
+          950
+        ],
+        [
+          164,
+          836
+        ]
+      ],
+      "scores": [
+        0.9514216780662537,
+        0.9334022998809814,
+        0.9302976131439209
+      ],
+      "chosen": 0
+    },
+    {
+      "name": "right_leg",
+      "box": [
+        409,
+        753,
+        708,
+        1152
+      ],
+      "points": [
+        [
+          556,
+          934
+        ],
+        [
+          600,
+          1094
+        ]
+      ],
+      "scores": [
+        0.8848373889923096,
+        0.9419582486152649,
+        0.9627131223678589
+      ],
+      "chosen": 2
+    },
+    {
+      "name": "rear_boot",
+      "box": [
+        266,
+        864,
+        398,
+        1069
+      ],
+      "points": [
+        [
+          330,
+          990
+        ],
+        [
+          332,
+          938
+        ]
+      ],
+      "scores": [
+        0.9191998839378357,
+        0.9284495115280151,
+        0.9239851236343384
+      ],
+      "chosen": 1
+    },
+    {
+      "name": "body",
+      "box": [
+        231,
+        396,
+        514,
+        771
+      ],
+      "points": [
+        [
+          299,
+          503
+        ],
+        [
+          374,
+          629
+        ],
+        [
+          333,
+          699
+        ]
+      ],
+      "scores": [
+        0.9191120862960815,
+        0.8511266112327576,
+        0.7658276557922363
+      ],
+      "chosen": 0
+    },
+    {
+      "name": "hair",
+      "box": [
+        258,
+        12,
+        768,
+        510
+      ],
+      "points": [
+        [
+          413,
+          128
+        ],
+        [
+          551,
+          142
+        ],
+        [
+          688,
+          285
+        ]
+      ],
+      "scores": [
+        0.9708834290504456,
+        0.9370642900466919,
+        0.7971551418304443
+      ],
+      "chosen": 0
+    }
+  ],
+  "weight": "E:\\ComfyUI-aki-v3\\ComfyUI-aki-v3\\ComfyUI\\models\\sams\\sam_vit_b_01ec64.pth",
+  "source": "D:\\vibe\\这次一定出\\ArtSource\\StyleTests\\RPG_Professions\\04_fire_warrior_v001.png",
+  "source_sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135",
+  "original_size": [
+    768,
+    1152
+  ],
+  "status": "pending_visual_review",
+  "elapsed_seconds": 9.442
+}

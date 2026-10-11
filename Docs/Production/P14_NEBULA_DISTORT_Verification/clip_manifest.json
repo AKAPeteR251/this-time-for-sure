@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p14_distorted_nebula.mp4",
+    "sha256": "031a228b593f93f38e67ecd88c34f39efb5fd7abd8bd2528d7335707572aef04",
+    "bytes": 7241600,
+    "actualCaptureSeconds": 32.6880516,
+    "muxSeconds": 32.72,
+    "frames": 714,
+    "averageCaptureFps": 21.842843640151376,
+    "audioSeconds": 32.704,
+    "audioStart": 0.0102947,
+    "audioRate": 48000,
+    "peak": 0.26922607421875,
+    "rms": 0.013990125616814087,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

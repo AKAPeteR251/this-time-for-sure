@@ -1,0 +1,83 @@
+{
+  "authoring": "native deterministic UI vectors + font rasterization; no AI redraw",
+  "antialias_scale": 2,
+  "palette_rgb": {
+    "R": [
+      [
+        73,
+        139,
+        179
+      ],
+      [
+        169,
+        231,
+        250
+      ],
+      [
+        220,
+        247,
+        255
+      ]
+    ],
+    "SR": [
+      [
+        96,
+        51,
+        148
+      ],
+      [
+        191,
+        135,
+        240
+      ],
+      [
+        249,
+        218,
+        255
+      ]
+    ],
+    "SSR": [
+      [
+        140,
+        83,
+        30
+      ],
+      [
+        235,
+        181,
+        72
+      ],
+      [
+        255,
+        246,
+        199
+      ]
+    ],
+    "UR": [
+      [
+        73,
+        159,
+        205
+      ],
+      [
+        191,
+        132,
+        246
+      ],
+      [
+        247,
+        175,
+        193
+      ],
+      [
+        237,
+        204,
+        132
+      ]
+    ]
+  },
+  "rarity_font": "Cinzel weight700",
+  "name_preview_font": "LXGWWenKai Regular",
+  "construction_svg": "outer/inner base tracks; full procedural corners/typography retained in Python and ORA",
+  "runtime_count": 12
+}

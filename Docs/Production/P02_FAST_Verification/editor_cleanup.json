@@ -1,0 +1,5 @@
+{
+  "atUtc": "2026-10-08T03:34:22.9765440Z",
+  "processId": 16396,
+  "reason": "Own batch Editor lingered during shutdown after saved Main and completed PASS; released project lock"
+}

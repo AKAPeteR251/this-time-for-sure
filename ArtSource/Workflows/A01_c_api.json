@@ -1,0 +1,224 @@
+{
+  "1": {
+    "inputs": {
+      "vae_name": "qwenImage_qwenImageVAE.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "加载VAE"
+    }
+  },
+  "2": {
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent图像"
+    }
+  },
+  "3": {
+    "inputs": {
+      "clip_name": "anima_baseV10_txt.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "加载CLIP"
+    }
+  },
+  "4": {
+    "inputs": {
+      "text": "masterpiece, best quality, safe, solo, 1girl, adult woman, silver hair, long hair, teal eyes, looking at viewer, standing, three quarter view, fully clothed, navy blue and ivory tailored uniform, high collar, long sleeves, brass buttons, dark blue long skirt, holding a small brass celestial astrolabe in one hand at waist level, other arm relaxed. An original adult moon harbor archivist with a composed attentive expression. Her silver gray hair flows gently and her outfit has simple coherent seams. Vertical collectible illustration, character fills 80 percent of the height, entire head inside frame, face centered in the upper third, knees visible, spacious quiet lower area. Moonlit harbor, distant low silhouettes of ships, soft cool blue key light and subtle warm rim light. No letters, no border, no symbols resembling text, no logo. Decorative fantasy anime illustration, elegant celestial motifs, rich but controlled material rendering, subtle ornamental composition, readable character silhouette. Fine gold star chart arcs in the distant harbor sky, polished decorative details, controlled jewel colors.",
+      "clip": [
+        "17",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码"
+    }
+  },
+  "5": {
+    "inputs": {
+      "text": "worst quality, low quality, blurry, text, watermark, signature, artist name, card frame, extra person, extra fingers, deformed hands, inconsistent eyes, disconnected limbs, cropped head, nsfw, explicit, revealing clothes, cluttered foreground",
+      "clip": [
+        "17",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码"
+    }
+  },
+  "6": {
+    "inputs": {
+      "lora_name": "anima\\Flatline.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0.6,
+      "model": [
+        "7",
+        0
+      ],
+      "clip": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  },
+  "7": {
+    "inputs": {
+      "unet_name": "anima_turboV11.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNet加载器"
+    }
+  },
+  "8": {
+    "inputs": {
+      "samples": [
+        "10",
+        0
+      ],
+      "vae": [
+        "1",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "9": {
+    "inputs": {
+      "enable_replay": false,
+      "block_indices": "3,4,5",
+      "denoise_start_pct": 0.5,
+      "denoise_end_pct": 1.0,
+      "enable_spectrum": false,
+      "spectrum_w": 0.2,
+      "spectrum_m": 16,
+      "spectrum_lam": 0.5,
+      "spectrum_warmup_steps": 6,
+      "spectrum_window_size": 2,
+      "spectrum_flex_window": 0.0,
+      "model": [
+        "17",
+        0
+      ]
+    },
+    "class_type": "AnimaLayerReplayPatcher",
+    "_meta": {
+      "title": "Anima Layer Replay Patcher"
+    }
+  },
+  "10": {
+    "inputs": {
+      "eta": 0.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "sgm_uniform",
+      "steps": 8,
+      "steps_to_run": -1,
+      "denoise": 1.0,
+      "cfg": 1.0,
+      "seed": 71007001,
+      "sampler_mode": "standard",
+      "bongmath": true,
+      "model": [
+        "9",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "ClownsharKSampler_Beta",
+    "_meta": {
+      "title": "ClownsharKSampler"
+    }
+  },
+  "12": {
+    "inputs": {
+      "filename_prefix": "A01_SSR001_c",
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "14": {
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "16": {
+    "inputs": {
+      "lora_name": "anima\\chen-bin_v4.0.safetensors",
+      "strength_model": 0.6,
+      "strength_clip": 0.6,
+      "model": [
+        "6",
+        0
+      ],
+      "clip": [
+        "6",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  },
+  "17": {
+    "inputs": {
+      "lora_name": "anima\\bakav3-000012.safetensors",
+      "strength_model": 0.8,
+      "strength_clip": 0.8,
+      "model": [
+        "16",
+        0
+      ],
+      "clip": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "加载LoRA"
+    }
+  }
+}

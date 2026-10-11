@@ -1,0 +1,24 @@
+{
+  "task": "A02_RPG_03_wind_elf_archer",
+  "submission": {
+    "prompt_id": "9778d405-15c1-4da4-b6da-847cfe2a05df",
+    "number": 13,
+    "node_errors": {}
+  },
+  "started_unix": 1791389299.381413,
+  "graph_path": "Workflows/A02_RPG_03_wind_elf_archer_api.json",
+  "elapsed_seconds": 55.24,
+  "output": "StyleTests\\RPG_Professions\\03_wind_elf_archer_v001.png",
+  "sha256": "2ad4ed583be8f714a37668d61505b43aaf4547301fe709a76f6d336cdb45f2f8",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "superseded_prop_structure",
+  "visual_review": {
+    "defects": [
+      "箭杆与弓弦关系不成立"
+    ],
+    "replacement": "03_wind_elf_archer_v002.png"
+  }
+}

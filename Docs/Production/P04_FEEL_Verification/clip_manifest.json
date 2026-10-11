@@ -1,0 +1,92 @@
+[
+  {
+    "file": "main_four_tiers_fixed.mp4",
+    "sha256": "13f6ec54bb7487e33b83b10921893b0b2513dde622d817ef3cb6505967881cc4",
+    "bytes": 10699569,
+    "actualCaptureSeconds": 18.2289201,
+    "muxSeconds": 18.24,
+    "frames": 421,
+    "averageCaptureFps": 23.09516952680044,
+    "audioSeconds": 18.218666666666667,
+    "audioStart": 0.01579,
+    "audioRate": 48000,
+    "peak": 0.382049560546875,
+    "rms": 0.029349630770857355,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  },
+  {
+    "file": "main_single_handwritten.mp4",
+    "sha256": "0d8d87013cada825f873f58052b3f81c28a4a06c9df41246d8577fb8afe5b80f",
+    "bytes": 6275505,
+    "actualCaptureSeconds": 8.951319999999999,
+    "muxSeconds": 8.96,
+    "frames": 206,
+    "averageCaptureFps": 23.013365626522123,
+    "audioSeconds": 8.96,
+    "audioStart": 0.006888,
+    "audioRate": 48000,
+    "peak": 0.381866455078125,
+    "rms": 0.034864510174665145,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  },
+  {
+    "file": "main_ten_auto_signed.mp4",
+    "sha256": "a91e59da2ae8f2c6a27cae96f0f0e8c56ccaa75d3dc52b399899c6d19c7ca51e",
+    "bytes": 11085431,
+    "actualCaptureSeconds": 23.3943248,
+    "muxSeconds": 23.4,
+    "frames": 542,
+    "averageCaptureFps": 23.168012098387212,
+    "audioSeconds": 23.381333333333334,
+    "audioStart": 0.011344,
+    "audioRate": 48000,
+    "peak": 0.37286376953125,
+    "rms": 0.03131909724556132,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

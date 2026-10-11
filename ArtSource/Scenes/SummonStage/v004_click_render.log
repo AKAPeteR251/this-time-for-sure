@@ -1,0 +1,1490 @@
+Blender 2.93.4 (hash b7205031cec4 built 2021-08-31 23:48:04)
+Read blend: D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v003\A05_SummonStage_v003.blend
+Fra:62 Mem:74.61M (Peak 75.26M) | Time:00:00.42 | Syncing SummonPlatform
+Fra:62 Mem:75.01M (Peak 75.33M) | Time:00:00.43 | Syncing PlatformBrass_6.3
+Fra:62 Mem:75.16M (Peak 75.33M) | Time:00:00.43 | Syncing PlatformBrass_5.9
+Fra:62 Mem:75.30M (Peak 75.33M) | Time:00:00.43 | Syncing PlatformBrass_4.7
+Fra:62 Mem:75.45M (Peak 75.45M) | Time:00:00.43 | Syncing PlatformBrass_4.5
+Fra:62 Mem:75.60M (Peak 75.60M) | Time:00:00.43 | Syncing PlatformBrass_2.0
+Fra:62 Mem:75.75M (Peak 75.75M) | Time:00:00.43 | Syncing FloorCompass_00
+Fra:62 Mem:75.75M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_01
+Fra:62 Mem:75.76M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_02
+Fra:62 Mem:75.76M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_03
+Fra:62 Mem:75.77M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_04
+Fra:62 Mem:75.77M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_05
+Fra:62 Mem:75.77M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_06
+Fra:62 Mem:75.78M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_07
+Fra:62 Mem:75.78M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_08
+Fra:62 Mem:75.79M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_09
+Fra:62 Mem:75.79M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_10
+Fra:62 Mem:75.80M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_11
+Fra:62 Mem:75.80M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_12
+Fra:62 Mem:75.80M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_13
+Fra:62 Mem:75.81M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_14
+Fra:62 Mem:75.81M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_15
+Fra:62 Mem:75.82M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_16
+Fra:62 Mem:75.82M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_17
+Fra:62 Mem:75.82M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_18
+Fra:62 Mem:75.83M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_19
+Fra:62 Mem:75.83M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_20
+Fra:62 Mem:75.84M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_21
+Fra:62 Mem:75.84M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_22
+Fra:62 Mem:75.85M (Peak 75.96M) | Time:00:00.43 | Syncing FloorCompass_23
+Fra:62 Mem:75.85M (Peak 75.96M) | Time:00:00.43 | Syncing GiantRingRig
+Fra:62 Mem:75.85M (Peak 75.96M) | Time:00:00.43 | Syncing GiantBand_0
+Fra:62 Mem:76.00M (Peak 76.00M) | Time:00:00.43 | Syncing GiantBand_1
+Fra:62 Mem:76.15M (Peak 76.15M) | Time:00:00.43 | Syncing GiantBand_2
+Fra:62 Mem:76.29M (Peak 76.29M) | Time:00:00.43 | Syncing GiantTick_00
+Fra:62 Mem:76.30M (Peak 76.30M) | Time:00:00.43 | Syncing GiantTick_01
+Fra:62 Mem:76.30M (Peak 76.30M) | Time:00:00.43 | Syncing GiantTick_02
+Fra:62 Mem:76.31M (Peak 76.31M) | Time:00:00.43 | Syncing GiantTick_03
+Fra:62 Mem:76.31M (Peak 76.31M) | Time:00:00.43 | Syncing GiantTick_04
+Fra:62 Mem:76.32M (Peak 76.32M) | Time:00:00.43 | Syncing GiantTick_05
+Fra:62 Mem:76.32M (Peak 76.32M) | Time:00:00.43 | Syncing GiantTick_06
+Fra:62 Mem:76.32M (Peak 76.32M) | Time:00:00.43 | Syncing GiantTick_07
+Fra:62 Mem:76.33M (Peak 76.33M) | Time:00:00.43 | Syncing GiantTick_08
+Fra:62 Mem:76.33M (Peak 76.33M) | Time:00:00.43 | Syncing GiantTick_09
+Fra:62 Mem:76.34M (Peak 76.34M) | Time:00:00.43 | Syncing GiantTick_10
+Fra:62 Mem:76.34M (Peak 76.34M) | Time:00:00.43 | Syncing GiantTick_11
+Fra:62 Mem:76.34M (Peak 76.34M) | Time:00:00.43 | Syncing GiantTick_12
+Fra:62 Mem:76.35M (Peak 76.35M) | Time:00:00.43 | Syncing GiantTick_13
+Fra:62 Mem:76.35M (Peak 76.35M) | Time:00:00.43 | Syncing GiantTick_14
+Fra:62 Mem:76.36M (Peak 76.36M) | Time:00:00.43 | Syncing GiantTick_15
+Fra:62 Mem:76.36M (Peak 76.36M) | Time:00:00.43 | Syncing GiantTick_16
+Fra:62 Mem:76.37M (Peak 76.37M) | Time:00:00.43 | Syncing GiantTick_17
+Fra:62 Mem:76.37M (Peak 76.37M) | Time:00:00.43 | Syncing GiantTick_18
+Fra:62 Mem:76.37M (Peak 76.37M) | Time:00:00.43 | Syncing GiantTick_19
+Fra:62 Mem:76.38M (Peak 76.38M) | Time:00:00.43 | Syncing GiantTick_20
+Fra:62 Mem:76.38M (Peak 76.38M) | Time:00:00.43 | Syncing GiantTick_21
+Fra:62 Mem:76.39M (Peak 76.39M) | Time:00:00.43 | Syncing GiantTick_22
+Fra:62 Mem:76.39M (Peak 76.39M) | Time:00:00.43 | Syncing GiantTick_23
+Fra:62 Mem:76.39M (Peak 76.39M) | Time:00:00.43 | Syncing GiantTick_24
+Fra:62 Mem:76.40M (Peak 76.40M) | Time:00:00.43 | Syncing GiantTick_25
+Fra:62 Mem:76.40M (Peak 76.40M) | Time:00:00.43 | Syncing GiantTick_26
+Fra:62 Mem:76.41M (Peak 76.41M) | Time:00:00.43 | Syncing GiantTick_27
+Fra:62 Mem:76.41M (Peak 76.41M) | Time:00:00.43 | Syncing GiantTick_28
+Fra:62 Mem:76.42M (Peak 76.42M) | Time:00:00.43 | Syncing GiantTick_29
+Fra:62 Mem:76.42M (Peak 76.42M) | Time:00:00.43 | Syncing GiantTick_30
+Fra:62 Mem:76.42M (Peak 76.42M) | Time:00:00.43 | Syncing GiantTick_31
+Fra:62 Mem:76.43M (Peak 76.43M) | Time:00:00.43 | Syncing GiantTick_32
+Fra:62 Mem:76.43M (Peak 76.43M) | Time:00:00.43 | Syncing GiantTick_33
+Fra:62 Mem:76.44M (Peak 76.44M) | Time:00:00.43 | Syncing GiantTick_34
+Fra:62 Mem:76.44M (Peak 76.44M) | Time:00:00.43 | Syncing GiantTick_35
+Fra:62 Mem:76.45M (Peak 76.45M) | Time:00:00.43 | Syncing GiantTick_36
+Fra:62 Mem:76.45M (Peak 76.45M) | Time:00:00.43 | Syncing GiantTick_37
+Fra:62 Mem:76.45M (Peak 76.45M) | Time:00:00.43 | Syncing GiantTick_38
+Fra:62 Mem:76.46M (Peak 76.46M) | Time:00:00.43 | Syncing GiantTick_39
+Fra:62 Mem:76.46M (Peak 76.46M) | Time:00:00.43 | Syncing GiantTick_40
+Fra:62 Mem:76.47M (Peak 76.47M) | Time:00:00.43 | Syncing GiantTick_41
+Fra:62 Mem:76.47M (Peak 76.47M) | Time:00:00.43 | Syncing GiantTick_42
+Fra:62 Mem:76.48M (Peak 76.48M) | Time:00:00.43 | Syncing GiantTick_43
+Fra:62 Mem:76.48M (Peak 76.48M) | Time:00:00.43 | Syncing GiantTick_44
+Fra:62 Mem:76.48M (Peak 76.48M) | Time:00:00.43 | Syncing GiantTick_45
+Fra:62 Mem:76.49M (Peak 76.49M) | Time:00:00.43 | Syncing GiantTick_46
+Fra:62 Mem:76.49M (Peak 76.49M) | Time:00:00.43 | Syncing GiantTick_47
+Fra:62 Mem:76.50M (Peak 76.50M) | Time:00:00.43 | Syncing GiantTick_48
+Fra:62 Mem:76.50M (Peak 76.50M) | Time:00:00.43 | Syncing GiantTick_49
+Fra:62 Mem:76.51M (Peak 76.51M) | Time:00:00.43 | Syncing GiantTick_50
+Fra:62 Mem:76.51M (Peak 76.51M) | Time:00:00.43 | Syncing GiantTick_51
+Fra:62 Mem:76.51M (Peak 76.51M) | Time:00:00.43 | Syncing GiantTick_52
+Fra:62 Mem:76.52M (Peak 76.52M) | Time:00:00.43 | Syncing GiantTick_53
+Fra:62 Mem:76.52M (Peak 76.52M) | Time:00:00.43 | Syncing GiantTick_54
+Fra:62 Mem:76.53M (Peak 76.53M) | Time:00:00.43 | Syncing GiantTick_55
+Fra:62 Mem:76.53M (Peak 76.53M) | Time:00:00.43 | Syncing GiantTick_56
+Fra:62 Mem:76.53M (Peak 76.53M) | Time:00:00.43 | Syncing GiantTick_57
+Fra:62 Mem:76.54M (Peak 76.54M) | Time:00:00.43 | Syncing GiantTick_58
+Fra:62 Mem:76.54M (Peak 76.54M) | Time:00:00.43 | Syncing GiantTick_59
+Fra:62 Mem:76.55M (Peak 76.55M) | Time:00:00.43 | Syncing GiantTick_60
+Fra:62 Mem:76.55M (Peak 76.55M) | Time:00:00.43 | Syncing GiantTick_61
+Fra:62 Mem:76.56M (Peak 76.56M) | Time:00:00.43 | Syncing GiantTick_62
+Fra:62 Mem:76.56M (Peak 76.56M) | Time:00:00.43 | Syncing GiantTick_63
+Fra:62 Mem:76.56M (Peak 76.56M) | Time:00:00.43 | Syncing GiantCrest_0
+Fra:62 Mem:76.57M (Peak 76.77M) | Time:00:00.43 | Syncing GiantCrest_1
+Fra:62 Mem:76.57M (Peak 76.77M) | Time:00:00.43 | Syncing GiantCrest_2
+Fra:62 Mem:76.58M (Peak 76.77M) | Time:00:00.43 | Syncing GiantCrest_3
+Fra:62 Mem:76.58M (Peak 76.77M) | Time:00:00.43 | Syncing GiantCrest_4
+Fra:62 Mem:76.59M (Peak 76.77M) | Time:00:00.43 | Syncing GiantCrest_5
+Fra:62 Mem:76.59M (Peak 76.77M) | Time:00:00.43 | Syncing GiantCrest_6
+Fra:62 Mem:76.60M (Peak 76.77M) | Time:00:00.43 | Syncing GiantCrest_7
+Fra:62 Mem:76.60M (Peak 76.77M) | Time:00:00.43 | Syncing OuterRingRig
+Fra:62 Mem:76.60M (Peak 76.77M) | Time:00:00.43 | Syncing OuterBand_0
+Fra:62 Mem:76.75M (Peak 76.77M) | Time:00:00.43 | Syncing OuterBand_1
+Fra:62 Mem:76.90M (Peak 76.90M) | Time:00:00.43 | Syncing OuterBand_2
+Fra:62 Mem:77.04M (Peak 77.04M) | Time:00:00.43 | Syncing OuterTick_00
+Fra:62 Mem:77.05M (Peak 77.05M) | Time:00:00.43 | Syncing OuterTick_01
+Fra:62 Mem:77.05M (Peak 77.05M) | Time:00:00.43 | Syncing OuterTick_02
+Fra:62 Mem:77.06M (Peak 77.06M) | Time:00:00.43 | Syncing OuterTick_03
+Fra:62 Mem:77.06M (Peak 77.06M) | Time:00:00.43 | Syncing OuterTick_04
+Fra:62 Mem:77.07M (Peak 77.07M) | Time:00:00.43 | Syncing OuterTick_05
+Fra:62 Mem:77.07M (Peak 77.07M) | Time:00:00.43 | Syncing OuterTick_06
+Fra:62 Mem:77.07M (Peak 77.07M) | Time:00:00.43 | Syncing OuterTick_07
+Fra:62 Mem:77.08M (Peak 77.08M) | Time:00:00.43 | Syncing OuterTick_08
+Fra:62 Mem:77.08M (Peak 77.08M) | Time:00:00.43 | Syncing OuterTick_09
+Fra:62 Mem:77.09M (Peak 77.09M) | Time:00:00.43 | Syncing OuterTick_10
+Fra:62 Mem:77.09M (Peak 77.09M) | Time:00:00.43 | Syncing OuterTick_11
+Fra:62 Mem:77.10M (Peak 77.10M) | Time:00:00.43 | Syncing OuterTick_12
+Fra:62 Mem:77.10M (Peak 77.10M) | Time:00:00.43 | Syncing OuterTick_13
+Fra:62 Mem:77.10M (Peak 77.10M) | Time:00:00.43 | Syncing OuterTick_14
+Fra:62 Mem:77.11M (Peak 77.11M) | Time:00:00.43 | Syncing OuterTick_15
+Fra:62 Mem:77.11M (Peak 77.11M) | Time:00:00.43 | Syncing OuterTick_16
+Fra:62 Mem:77.12M (Peak 77.12M) | Time:00:00.43 | Syncing OuterTick_17
+Fra:62 Mem:77.12M (Peak 77.12M) | Time:00:00.43 | Syncing OuterTick_18
+Fra:62 Mem:77.12M (Peak 77.12M) | Time:00:00.43 | Syncing OuterTick_19
+Fra:62 Mem:77.13M (Peak 77.13M) | Time:00:00.43 | Syncing OuterTick_20
+Fra:62 Mem:77.14M (Peak 77.14M) | Time:00:00.43 | Syncing OuterTick_21
+Fra:62 Mem:77.14M (Peak 77.14M) | Time:00:00.43 | Syncing OuterTick_22
+Fra:62 Mem:77.14M (Peak 77.14M) | Time:00:00.43 | Syncing OuterTick_23
+Fra:62 Mem:77.15M (Peak 77.15M) | Time:00:00.43 | Syncing OuterTick_24
+Fra:62 Mem:77.15M (Peak 77.15M) | Time:00:00.43 | Syncing OuterTick_25
+Fra:62 Mem:77.16M (Peak 77.16M) | Time:00:00.43 | Syncing OuterTick_26
+Fra:62 Mem:77.16M (Peak 77.16M) | Time:00:00.43 | Syncing OuterTick_27
+Fra:62 Mem:77.17M (Peak 77.17M) | Time:00:00.43 | Syncing OuterTick_28
+Fra:62 Mem:77.17M (Peak 77.17M) | Time:00:00.43 | Syncing OuterTick_29
+Fra:62 Mem:77.17M (Peak 77.17M) | Time:00:00.43 | Syncing OuterTick_30
+Fra:62 Mem:77.18M (Peak 77.18M) | Time:00:00.43 | Syncing OuterTick_31
+Fra:62 Mem:77.18M (Peak 77.18M) | Time:00:00.43 | Syncing OuterTick_32
+Fra:62 Mem:77.19M (Peak 77.19M) | Time:00:00.43 | Syncing OuterTick_33
+Fra:62 Mem:77.19M (Peak 77.19M) | Time:00:00.43 | Syncing OuterTick_34
+Fra:62 Mem:77.19M (Peak 77.19M) | Time:00:00.43 | Syncing OuterTick_35
+Fra:62 Mem:77.20M (Peak 77.20M) | Time:00:00.43 | Syncing OuterTick_36
+Fra:62 Mem:77.20M (Peak 77.20M) | Time:00:00.43 | Syncing OuterTick_37
+Fra:62 Mem:77.21M (Peak 77.21M) | Time:00:00.43 | Syncing OuterTick_38
+Fra:62 Mem:77.21M (Peak 77.21M) | Time:00:00.43 | Syncing OuterTick_39
+Fra:62 Mem:77.22M (Peak 77.22M) | Time:00:00.43 | Syncing OuterTick_40
+Fra:62 Mem:77.22M (Peak 77.22M) | Time:00:00.43 | Syncing OuterTick_41
+Fra:62 Mem:77.22M (Peak 77.22M) | Time:00:00.43 | Syncing OuterTick_42
+Fra:62 Mem:77.23M (Peak 77.23M) | Time:00:00.43 | Syncing OuterTick_43
+Fra:62 Mem:77.23M (Peak 77.23M) | Time:00:00.43 | Syncing OuterTick_44
+Fra:62 Mem:77.24M (Peak 77.24M) | Time:00:00.43 | Syncing OuterTick_45
+Fra:62 Mem:77.24M (Peak 77.24M) | Time:00:00.43 | Syncing OuterTick_46
+Fra:62 Mem:77.24M (Peak 77.24M) | Time:00:00.43 | Syncing OuterTick_47
+Fra:62 Mem:77.25M (Peak 77.25M) | Time:00:00.43 | Syncing OuterCrest_0
+Fra:62 Mem:77.25M (Peak 77.25M) | Time:00:00.43 | Syncing OuterCrest_1
+Fra:62 Mem:77.26M (Peak 77.26M) | Time:00:00.43 | Syncing OuterCrest_2
+Fra:62 Mem:77.26M (Peak 77.26M) | Time:00:00.43 | Syncing OuterCrest_3
+Fra:62 Mem:77.27M (Peak 77.27M) | Time:00:00.43 | Syncing OuterCrest_4
+Fra:62 Mem:77.27M (Peak 77.27M) | Time:00:00.43 | Syncing OuterCrest_5
+Fra:62 Mem:77.28M (Peak 77.28M) | Time:00:00.43 | Syncing OuterCrest_6
+Fra:62 Mem:77.28M (Peak 77.28M) | Time:00:00.43 | Syncing OuterCrest_7
+Fra:62 Mem:77.28M (Peak 77.28M) | Time:00:00.43 | Syncing InnerRingRig
+Fra:62 Mem:77.29M (Peak 77.29M) | Time:00:00.43 | Syncing InnerBand_0
+Fra:62 Mem:77.43M (Peak 77.43M) | Time:00:00.43 | Syncing InnerBand_1
+Fra:62 Mem:77.58M (Peak 77.58M) | Time:00:00.43 | Syncing InnerBand_2
+Fra:62 Mem:77.73M (Peak 77.73M) | Time:00:00.43 | Syncing InnerTick_00
+Fra:62 Mem:77.73M (Peak 77.73M) | Time:00:00.43 | Syncing InnerTick_01
+Fra:62 Mem:77.74M (Peak 77.74M) | Time:00:00.43 | Syncing InnerTick_02
+Fra:62 Mem:77.74M (Peak 77.74M) | Time:00:00.43 | Syncing InnerTick_03
+Fra:62 Mem:77.75M (Peak 77.75M) | Time:00:00.43 | Syncing InnerTick_04
+Fra:62 Mem:77.75M (Peak 77.75M) | Time:00:00.43 | Syncing InnerTick_05
+Fra:62 Mem:77.75M (Peak 77.75M) | Time:00:00.43 | Syncing InnerTick_06
+Fra:62 Mem:77.76M (Peak 77.76M) | Time:00:00.43 | Syncing InnerTick_07
+Fra:62 Mem:77.76M (Peak 77.76M) | Time:00:00.43 | Syncing InnerTick_08
+Fra:62 Mem:77.77M (Peak 77.77M) | Time:00:00.43 | Syncing InnerTick_09
+Fra:62 Mem:77.77M (Peak 77.77M) | Time:00:00.43 | Syncing InnerTick_10
+Fra:62 Mem:77.77M (Peak 77.77M) | Time:00:00.43 | Syncing InnerTick_11
+Fra:62 Mem:77.78M (Peak 77.78M) | Time:00:00.43 | Syncing InnerTick_12
+Fra:62 Mem:77.78M (Peak 77.78M) | Time:00:00.43 | Syncing InnerTick_13
+Fra:62 Mem:77.79M (Peak 77.79M) | Time:00:00.43 | Syncing InnerTick_14
+Fra:62 Mem:77.79M (Peak 77.79M) | Time:00:00.43 | Syncing InnerTick_15
+Fra:62 Mem:77.80M (Peak 77.80M) | Time:00:00.43 | Syncing InnerTick_16
+Fra:62 Mem:77.80M (Peak 77.80M) | Time:00:00.43 | Syncing InnerTick_17
+Fra:62 Mem:77.80M (Peak 77.80M) | Time:00:00.43 | Syncing InnerTick_18
+Fra:62 Mem:77.81M (Peak 77.81M) | Time:00:00.43 | Syncing InnerTick_19
+Fra:62 Mem:77.81M (Peak 77.81M) | Time:00:00.43 | Syncing InnerTick_20
+Fra:62 Mem:77.82M (Peak 77.82M) | Time:00:00.43 | Syncing InnerTick_21
+Fra:62 Mem:77.82M (Peak 77.82M) | Time:00:00.43 | Syncing InnerTick_22
+Fra:62 Mem:77.83M (Peak 77.83M) | Time:00:00.43 | Syncing InnerTick_23
+Fra:62 Mem:77.83M (Peak 77.83M) | Time:00:00.43 | Syncing InnerTick_24
+Fra:62 Mem:77.83M (Peak 77.83M) | Time:00:00.43 | Syncing InnerTick_25
+Fra:62 Mem:77.84M (Peak 77.84M) | Time:00:00.43 | Syncing InnerTick_26
+Fra:62 Mem:77.84M (Peak 77.84M) | Time:00:00.43 | Syncing InnerTick_27
+Fra:62 Mem:77.85M (Peak 77.85M) | Time:00:00.43 | Syncing InnerTick_28
+Fra:62 Mem:77.85M (Peak 77.85M) | Time:00:00.43 | Syncing InnerTick_29
+Fra:62 Mem:77.85M (Peak 77.85M) | Time:00:00.43 | Syncing InnerTick_30
+Fra:62 Mem:77.86M (Peak 77.86M) | Time:00:00.43 | Syncing InnerTick_31
+Fra:62 Mem:77.86M (Peak 77.86M) | Time:00:00.44 | Syncing InnerTick_32
+Fra:62 Mem:77.87M (Peak 77.87M) | Time:00:00.44 | Syncing InnerTick_33
+Fra:62 Mem:77.87M (Peak 77.87M) | Time:00:00.44 | Syncing InnerTick_34
+Fra:62 Mem:77.88M (Peak 77.88M) | Time:00:00.44 | Syncing InnerTick_35
+Fra:62 Mem:77.88M (Peak 77.88M) | Time:00:00.44 | Syncing InnerTick_36
+Fra:62 Mem:77.88M (Peak 77.88M) | Time:00:00.44 | Syncing InnerTick_37
+Fra:62 Mem:77.89M (Peak 77.89M) | Time:00:00.44 | Syncing InnerTick_38
+Fra:62 Mem:77.89M (Peak 77.89M) | Time:00:00.44 | Syncing InnerTick_39
+Fra:62 Mem:77.90M (Peak 77.90M) | Time:00:00.44 | Syncing InnerTick_40
+Fra:62 Mem:77.90M (Peak 77.90M) | Time:00:00.44 | Syncing InnerTick_41
+Fra:62 Mem:77.90M (Peak 77.90M) | Time:00:00.44 | Syncing InnerTick_42
+Fra:62 Mem:77.91M (Peak 77.91M) | Time:00:00.44 | Syncing InnerTick_43
+Fra:62 Mem:77.91M (Peak 77.91M) | Time:00:00.44 | Syncing InnerTick_44
+Fra:62 Mem:77.92M (Peak 77.92M) | Time:00:00.44 | Syncing InnerTick_45
+Fra:62 Mem:77.92M (Peak 77.92M) | Time:00:00.44 | Syncing InnerTick_46
+Fra:62 Mem:77.93M (Peak 77.93M) | Time:00:00.44 | Syncing InnerTick_47
+Fra:62 Mem:77.93M (Peak 77.93M) | Time:00:00.44 | Syncing InnerCrest_0
+Fra:62 Mem:77.93M (Peak 77.93M) | Time:00:00.44 | Syncing InnerCrest_1
+Fra:62 Mem:77.94M (Peak 77.94M) | Time:00:00.44 | Syncing InnerCrest_2
+Fra:62 Mem:77.94M (Peak 77.94M) | Time:00:00.44 | Syncing InnerCrest_3
+Fra:62 Mem:77.95M (Peak 77.95M) | Time:00:00.44 | Syncing InnerCrest_4
+Fra:62 Mem:77.95M (Peak 77.95M) | Time:00:00.44 | Syncing InnerCrest_5
+Fra:62 Mem:77.96M (Peak 77.96M) | Time:00:00.44 | Syncing InnerCrest_6
+Fra:62 Mem:77.96M (Peak 77.96M) | Time:00:00.44 | Syncing InnerCrest_7
+Fra:62 Mem:77.96M (Peak 77.96M) | Time:00:00.44 | Syncing CrystalArray
+Fra:62 Mem:77.97M (Peak 77.97M) | Time:00:00.44 | Syncing FloatingCrystal_00
+Fra:62 Mem:77.97M (Peak 77.97M) | Time:00:00.44 | Syncing FloatingCrystal_01
+Fra:62 Mem:77.98M (Peak 78.18M) | Time:00:00.44 | Syncing FloatingCrystal_02
+Fra:62 Mem:77.98M (Peak 78.18M) | Time:00:00.44 | Syncing FloatingCrystal_03
+Fra:62 Mem:77.99M (Peak 78.18M) | Time:00:00.44 | Syncing FloatingCrystal_04
+Fra:62 Mem:77.99M (Peak 78.18M) | Time:00:00.44 | Syncing FloatingCrystal_05
+Fra:62 Mem:77.99M (Peak 78.18M) | Time:00:00.44 | Syncing FloatingCrystal_06
+Fra:62 Mem:78.00M (Peak 78.18M) | Time:00:00.44 | Syncing FloatingCrystal_07
+Fra:62 Mem:78.00M (Peak 78.18M) | Time:00:00.44 | Syncing StarDust_000
+Fra:62 Mem:78.01M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_001
+Fra:62 Mem:78.02M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_002
+Fra:62 Mem:78.02M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_003
+Fra:62 Mem:78.03M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_004
+Fra:62 Mem:78.03M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_005
+Fra:62 Mem:78.04M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_006
+Fra:62 Mem:78.07M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_007
+Fra:62 Mem:78.08M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_008
+Fra:62 Mem:78.08M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_009
+Fra:62 Mem:78.09M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_010
+Fra:62 Mem:78.09M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_011
+Fra:62 Mem:78.10M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_012
+Fra:62 Mem:78.10M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_013
+Fra:62 Mem:78.11M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_014
+Fra:62 Mem:78.12M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_015
+Fra:62 Mem:78.12M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_016
+Fra:62 Mem:78.13M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_017
+Fra:62 Mem:78.13M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_018
+Fra:62 Mem:78.14M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_019
+Fra:62 Mem:78.14M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_020
+Fra:62 Mem:78.15M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_021
+Fra:62 Mem:78.15M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_022
+Fra:62 Mem:78.16M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_023
+Fra:62 Mem:78.16M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_024
+Fra:62 Mem:78.17M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_025
+Fra:62 Mem:78.18M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_026
+Fra:62 Mem:78.18M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_027
+Fra:62 Mem:78.19M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_028
+Fra:62 Mem:78.19M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_029
+Fra:62 Mem:78.20M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_030
+Fra:62 Mem:78.21M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_031
+Fra:62 Mem:78.21M (Peak 78.21M) | Time:00:00.44 | Syncing StarDust_032
+Fra:62 Mem:78.22M (Peak 78.22M) | Time:00:00.44 | Syncing StarDust_033
+Fra:62 Mem:78.22M (Peak 78.22M) | Time:00:00.44 | Syncing StarDust_034
+Fra:62 Mem:78.23M (Peak 78.23M) | Time:00:00.44 | Syncing StarDust_035
+Fra:62 Mem:78.23M (Peak 78.23M) | Time:00:00.44 | Syncing StarDust_036
+Fra:62 Mem:78.24M (Peak 78.24M) | Time:00:00.44 | Syncing StarDust_037
+Fra:62 Mem:78.24M (Peak 78.24M) | Time:00:00.44 | Syncing StarDust_038
+Fra:62 Mem:78.25M (Peak 78.25M) | Time:00:00.44 | Syncing StarDust_039
+Fra:62 Mem:78.25M (Peak 78.25M) | Time:00:00.44 | Syncing StarDust_040
+Fra:62 Mem:78.26M (Peak 78.26M) | Time:00:00.44 | Syncing StarDust_041
+Fra:62 Mem:78.26M (Peak 78.26M) | Time:00:00.44 | Syncing StarDust_042
+Fra:62 Mem:78.27M (Peak 78.27M) | Time:00:00.44 | Syncing StarDust_043
+Fra:62 Mem:78.27M (Peak 78.27M) | Time:00:00.44 | Syncing StarDust_044
+Fra:62 Mem:78.28M (Peak 78.28M) | Time:00:00.44 | Syncing StarDust_045
+Fra:62 Mem:78.28M (Peak 78.28M) | Time:00:00.44 | Syncing StarDust_046
+Fra:62 Mem:78.29M (Peak 78.29M) | Time:00:00.44 | Syncing StarDust_047
+Fra:62 Mem:78.29M (Peak 78.29M) | Time:00:00.44 | Syncing StarDust_048
+Fra:62 Mem:78.30M (Peak 78.30M) | Time:00:00.44 | Syncing StarDust_049
+Fra:62 Mem:78.30M (Peak 78.30M) | Time:00:00.44 | Syncing StarDust_050
+Fra:62 Mem:78.31M (Peak 78.31M) | Time:00:00.44 | Syncing StarDust_051
+Fra:62 Mem:78.32M (Peak 78.32M) | Time:00:00.44 | Syncing StarDust_052
+Fra:62 Mem:78.32M (Peak 78.32M) | Time:00:00.44 | Syncing StarDust_053
+Fra:62 Mem:78.33M (Peak 78.33M) | Time:00:00.44 | Syncing StarDust_054
+Fra:62 Mem:78.33M (Peak 78.33M) | Time:00:00.44 | Syncing StarDust_055
+Fra:62 Mem:78.34M (Peak 78.34M) | Time:00:00.44 | Syncing StarDust_056
+Fra:62 Mem:78.34M (Peak 78.34M) | Time:00:00.44 | Syncing StarDust_057
+Fra:62 Mem:78.35M (Peak 78.35M) | Time:00:00.44 | Syncing StarDust_058
+Fra:62 Mem:78.35M (Peak 78.35M) | Time:00:00.44 | Syncing StarDust_059
+Fra:62 Mem:78.36M (Peak 78.36M) | Time:00:00.44 | Syncing StarDust_060
+Fra:62 Mem:78.36M (Peak 78.36M) | Time:00:00.44 | Syncing StarDust_061
+Fra:62 Mem:78.37M (Peak 78.37M) | Time:00:00.44 | Syncing StarDust_062
+Fra:62 Mem:78.37M (Peak 78.37M) | Time:00:00.44 | Syncing StarDust_063
+Fra:62 Mem:78.38M (Peak 78.38M) | Time:00:00.44 | Syncing StarDust_064
+Fra:62 Mem:78.38M (Peak 78.38M) | Time:00:00.44 | Syncing StarDust_065
+Fra:62 Mem:78.39M (Peak 78.39M) | Time:00:00.44 | Syncing StarDust_066
+Fra:62 Mem:78.39M (Peak 78.39M) | Time:00:00.44 | Syncing StarDust_067
+Fra:62 Mem:78.40M (Peak 78.40M) | Time:00:00.44 | Syncing StarDust_068
+Fra:62 Mem:78.40M (Peak 78.40M) | Time:00:00.44 | Syncing StarDust_069
+Fra:62 Mem:78.41M (Peak 78.41M) | Time:00:00.44 | Syncing StarDust_070
+Fra:62 Mem:78.42M (Peak 78.42M) | Time:00:00.44 | Syncing StarDust_071
+Fra:62 Mem:78.42M (Peak 78.42M) | Time:00:00.44 | Syncing StarDust_072
+Fra:62 Mem:78.43M (Peak 78.43M) | Time:00:00.44 | Syncing StarDust_073
+Fra:62 Mem:78.43M (Peak 78.43M) | Time:00:00.44 | Syncing StarDust_074
+Fra:62 Mem:78.44M (Peak 78.44M) | Time:00:00.44 | Syncing StarDust_075
+Fra:62 Mem:78.44M (Peak 78.44M) | Time:00:00.44 | Syncing StarDust_076
+Fra:62 Mem:78.45M (Peak 78.45M) | Time:00:00.44 | Syncing StarDust_077
+Fra:62 Mem:78.45M (Peak 78.45M) | Time:00:00.44 | Syncing StarDust_078
+Fra:62 Mem:78.46M (Peak 78.46M) | Time:00:00.44 | Syncing StarDust_079
+Fra:62 Mem:78.46M (Peak 78.46M) | Time:00:00.44 | Syncing StarDust_080
+Fra:62 Mem:78.47M (Peak 78.47M) | Time:00:00.44 | Syncing StarDust_081
+Fra:62 Mem:78.47M (Peak 78.47M) | Time:00:00.44 | Syncing StarDust_082
+Fra:62 Mem:78.48M (Peak 78.48M) | Time:00:00.44 | Syncing StarDust_083
+Fra:62 Mem:78.48M (Peak 78.48M) | Time:00:00.44 | Syncing StarDust_084
+Fra:62 Mem:78.49M (Peak 78.49M) | Time:00:00.44 | Syncing StarDust_085
+Fra:62 Mem:78.49M (Peak 78.49M) | Time:00:00.44 | Syncing StarDust_086
+Fra:62 Mem:78.50M (Peak 78.50M) | Time:00:00.44 | Syncing StarDust_087
+Fra:62 Mem:78.50M (Peak 78.50M) | Time:00:00.44 | Syncing StarDust_088
+Fra:62 Mem:78.51M (Peak 78.51M) | Time:00:00.44 | Syncing StarDust_089
+Fra:62 Mem:78.51M (Peak 78.51M) | Time:00:00.44 | Syncing StarDust_090
+Fra:62 Mem:78.52M (Peak 78.52M) | Time:00:00.44 | Syncing StarDust_091
+Fra:62 Mem:78.53M (Peak 78.53M) | Time:00:00.44 | Syncing StarDust_092
+Fra:62 Mem:78.53M (Peak 78.53M) | Time:00:00.44 | Syncing StarDust_093
+Fra:62 Mem:78.54M (Peak 78.54M) | Time:00:00.44 | Syncing StarDust_094
+Fra:62 Mem:78.54M (Peak 78.54M) | Time:00:00.44 | Syncing StarDust_095
+Fra:62 Mem:78.55M (Peak 78.55M) | Time:00:00.44 | Syncing StarDust_096
+Fra:62 Mem:78.55M (Peak 78.55M) | Time:00:00.44 | Syncing StarDust_097
+Fra:62 Mem:78.56M (Peak 78.56M) | Time:00:00.44 | Syncing StarDust_098
+Fra:62 Mem:78.56M (Peak 78.56M) | Time:00:00.44 | Syncing StarDust_099
+Fra:62 Mem:78.57M (Peak 78.57M) | Time:00:00.44 | Syncing StarDust_100
+Fra:62 Mem:78.57M (Peak 78.57M) | Time:00:00.44 | Syncing StarDust_101
+Fra:62 Mem:78.58M (Peak 78.58M) | Time:00:00.44 | Syncing StarDust_102
+Fra:62 Mem:78.58M (Peak 78.58M) | Time:00:00.44 | Syncing StarDust_103
+Fra:62 Mem:78.59M (Peak 78.59M) | Time:00:00.44 | Syncing StarDust_104
+Fra:62 Mem:78.59M (Peak 78.59M) | Time:00:00.44 | Syncing StarDust_105
+Fra:62 Mem:78.60M (Peak 78.60M) | Time:00:00.44 | Syncing StarDust_106
+Fra:62 Mem:78.60M (Peak 78.60M) | Time:00:00.44 | Syncing StarDust_107
+Fra:62 Mem:78.61M (Peak 78.61M) | Time:00:00.44 | Syncing StarDust_108
+Fra:62 Mem:78.61M (Peak 78.61M) | Time:00:00.44 | Syncing StarDust_109
+Fra:62 Mem:78.62M (Peak 78.62M) | Time:00:00.44 | Syncing GoldKey
+Fra:62 Mem:78.62M (Peak 78.62M) | Time:00:00.44 | Syncing BlueRim
+Fra:62 Mem:78.62M (Peak 78.62M) | Time:00:00.44 | Syncing FrontSoft
+Fra:62 Mem:78.62M (Peak 78.62M) | Time:00:00.44 | Syncing CameraAim
+Fra:62 Mem:78.62M (Peak 78.62M) | Time:00:00.44 | Syncing PortalTraverseCamera
+Fra:62 Mem:77.64M (Peak 78.62M) | Time:00:00.44 | Rendering 1 / 24 samples
+Fra:62 Mem:75.93M (Peak 78.62M) | Time:00:00.57 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\background_giant_rings_720p_v004.png'
+ Time: 00:00.94 (Saving: 00:00.35)
+
+Fra:62 Mem:68.50M (Peak 68.68M) | Time:00:00.01 | Syncing GoldKey
+Fra:62 Mem:68.50M (Peak 68.68M) | Time:00:00.01 | Syncing BlueRim
+Fra:62 Mem:68.50M (Peak 68.68M) | Time:00:00.01 | Syncing FrontSoft
+Fra:62 Mem:68.50M (Peak 68.68M) | Time:00:00.01 | Syncing PortalTraverseCamera
+Fra:62 Mem:68.50M (Peak 68.68M) | Time:00:00.01 | Syncing FractureCrystalRig
+Fra:62 Mem:68.50M (Peak 68.68M) | Time:00:00.01 | Syncing CrystalShard_0_0
+Fra:62 Mem:68.51M (Peak 68.71M) | Time:00:00.01 | Syncing CrackVein_0_0
+Fra:62 Mem:68.51M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_0_1
+Fra:62 Mem:68.51M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_0_1
+Fra:62 Mem:68.52M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_0_2
+Fra:62 Mem:68.52M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_0_2
+Fra:62 Mem:68.52M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_0_3
+Fra:62 Mem:68.52M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_0_3
+Fra:62 Mem:68.53M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_0_4
+Fra:62 Mem:68.53M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_0_4
+Fra:62 Mem:68.53M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_0_5
+Fra:62 Mem:68.53M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_0_5
+Fra:62 Mem:68.54M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_1_0
+Fra:62 Mem:68.54M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_1_0
+Fra:62 Mem:68.54M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_1_1
+Fra:62 Mem:68.54M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_1_1
+Fra:62 Mem:68.54M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_1_2
+Fra:62 Mem:68.55M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_1_2
+Fra:62 Mem:68.55M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_1_3
+Fra:62 Mem:68.55M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_1_3
+Fra:62 Mem:68.55M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_1_4
+Fra:62 Mem:68.56M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_1_4
+Fra:62 Mem:68.56M (Peak 68.72M) | Time:00:00.01 | Syncing CrystalShard_1_5
+Fra:62 Mem:68.56M (Peak 68.72M) | Time:00:00.01 | Syncing CrackVein_1_5
+Fra:62 Mem:68.55M (Peak 68.72M) | Time:00:00.01 | Rendering 1 / 24 samples
+Fra:62 Mem:68.55M (Peak 68.72M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\States\00_intact_v004.png'
+ Time: 00:00.17 (Saving: 00:00.09)
+
+Fra:82 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing GoldKey
+Fra:82 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing BlueRim
+Fra:82 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing FrontSoft
+Fra:82 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:82 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:82 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:82 Mem:68.54M (Peak 68.74M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:82 Mem:68.55M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:82 Mem:68.55M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:82 Mem:68.55M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:82 Mem:68.56M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:82 Mem:68.56M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:82 Mem:68.56M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:82 Mem:68.57M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:82 Mem:68.57M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:82 Mem:68.58M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:82 Mem:68.58M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:82 Mem:68.59M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:82 Mem:68.59M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:82 Mem:68.59M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:82 Mem:68.60M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:82 Mem:68.60M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:82 Mem:68.61M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:82 Mem:68.61M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:82 Mem:68.61M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:82 Mem:68.62M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:82 Mem:68.62M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:82 Mem:68.63M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:82 Mem:68.63M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:82 Mem:68.62M (Peak 68.75M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:82 Mem:68.59M (Peak 68.75M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\States\01_first_cracks_v004.png'
+ Time: 00:00.17 (Saving: 00:00.09)
+
+Fra:99 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing GoldKey
+Fra:99 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing BlueRim
+Fra:99 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing FrontSoft
+Fra:99 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:99 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:99 Mem:68.53M (Peak 68.71M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:99 Mem:68.54M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:99 Mem:68.55M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:99 Mem:68.55M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:99 Mem:68.56M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:99 Mem:68.56M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:99 Mem:68.57M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:99 Mem:68.57M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:99 Mem:68.57M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:99 Mem:68.58M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:99 Mem:68.58M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:99 Mem:68.59M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:99 Mem:68.59M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:99 Mem:68.59M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:99 Mem:68.60M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:99 Mem:68.60M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:99 Mem:68.61M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:99 Mem:68.61M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:99 Mem:68.62M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:99 Mem:68.62M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:99 Mem:68.63M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:99 Mem:68.63M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:99 Mem:68.63M (Peak 68.75M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:99 Mem:68.64M (Peak 68.75M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:99 Mem:68.63M (Peak 68.75M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:99 Mem:68.59M (Peak 68.75M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\States\02_deep_cracks_v004.png'
+ Time: 00:00.17 (Saving: 00:00.09)
+
+Fra:99 Mem:68.12M (Peak 68.30M) | Time:00:00.00 | Syncing GoldKey
+Fra:99 Mem:68.12M (Peak 68.30M) | Time:00:00.00 | Syncing BlueRim
+Fra:99 Mem:68.12M (Peak 68.30M) | Time:00:00.00 | Syncing FrontSoft
+Fra:99 Mem:68.12M (Peak 68.30M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:99 Mem:68.12M (Peak 68.30M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:99 Mem:68.13M (Peak 68.33M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:99 Mem:68.13M (Peak 68.33M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:99 Mem:68.14M (Peak 68.33M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:99 Mem:68.15M (Peak 68.33M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:99 Mem:68.15M (Peak 68.33M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:99 Mem:68.16M (Peak 68.33M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:99 Mem:68.16M (Peak 68.33M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:99 Mem:68.18M (Peak 68.33M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:99 Mem:68.14M (Peak 68.33M) | Time:00:00.06 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Effects\light_leak_v004.png'
+ Time: 00:00.17 (Saving: 00:00.09)
+
+Info: Total files 0 | Changed 0 | Failed 0
+Info: Saved "A05_ClickCrystal_v004.blend"
+Fra:103 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing GoldKey
+Fra:103 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing BlueRim
+Fra:103 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing FrontSoft
+Fra:103 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:103 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:103 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:103 Mem:68.88M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:103 Mem:68.89M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_0_1
+Fra:103 Mem:68.89M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_0_1
+Fra:103 Mem:68.90M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_0_2
+Fra:103 Mem:68.90M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_0_2
+Fra:103 Mem:68.91M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_0_3
+Fra:103 Mem:68.91M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_0_3
+Fra:103 Mem:68.92M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_0_4
+Fra:103 Mem:68.92M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_0_4
+Fra:103 Mem:68.92M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_0_5
+Fra:103 Mem:68.93M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_0_5
+Fra:103 Mem:68.93M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_1_0
+Fra:103 Mem:68.94M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_1_0
+Fra:103 Mem:68.94M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_1_1
+Fra:103 Mem:68.95M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_1_1
+Fra:103 Mem:68.95M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_1_2
+Fra:103 Mem:68.95M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_1_2
+Fra:103 Mem:68.96M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_1_3
+Fra:103 Mem:68.96M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_1_3
+Fra:103 Mem:68.97M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_1_4
+Fra:103 Mem:68.97M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_1_4
+Fra:103 Mem:68.98M (Peak 69.09M) | Time:00:00.01 | Syncing CrystalShard_1_5
+Fra:103 Mem:68.98M (Peak 69.09M) | Time:00:00.01 | Syncing CrackVein_1_5
+Fra:103 Mem:68.99M (Peak 69.09M) | Time:00:00.01 | Syncing CrackLightBeam_00
+Fra:103 Mem:68.99M (Peak 69.20M) | Time:00:00.01 | Syncing CrackLightBeam_01
+Fra:103 Mem:69.00M (Peak 69.20M) | Time:00:00.01 | Syncing CrackLightBeam_02
+Fra:103 Mem:69.01M (Peak 69.20M) | Time:00:00.01 | Syncing CrackLightBeam_03
+Fra:103 Mem:69.01M (Peak 69.20M) | Time:00:00.01 | Syncing CrackLightBeam_04
+Fra:103 Mem:69.02M (Peak 69.20M) | Time:00:00.01 | Syncing CrackLightBeam_05
+Fra:103 Mem:69.02M (Peak 69.20M) | Time:00:00.01 | Syncing CrackLightBeam_06
+Fra:103 Mem:69.03M (Peak 69.20M) | Time:00:00.01 | Syncing ReleasedInnerLight
+Fra:103 Mem:69.03M (Peak 69.20M) | Time:00:00.01 | Rendering 1 / 24 samples
+Fra:103 Mem:68.95M (Peak 69.20M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_000.png'
+ Time: 00:00.19 (Saving: 00:00.10)
+
+Fra:104 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing GoldKey
+Fra:104 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing BlueRim
+Fra:104 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing FrontSoft
+Fra:104 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:104 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:104 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:104 Mem:68.88M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:104 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:104 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:104 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:104 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:104 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:104 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:104 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:104 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:104 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:104 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:104 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:104 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:104 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:104 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:104 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:104 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:104 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:104 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:104 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:104 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:104 Mem:68.98M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:104 Mem:68.98M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:104 Mem:68.99M (Peak 69.09M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:104 Mem:68.99M (Peak 69.20M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:104 Mem:69.00M (Peak 69.20M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:104 Mem:69.01M (Peak 69.20M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:104 Mem:69.01M (Peak 69.20M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:104 Mem:69.02M (Peak 69.20M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:104 Mem:69.02M (Peak 69.20M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:104 Mem:69.03M (Peak 69.20M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:104 Mem:69.03M (Peak 69.20M) | Time:00:00.01 | Rendering 1 / 24 samples
+Fra:104 Mem:68.95M (Peak 69.20M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_001.png'
+ Time: 00:00.18 (Saving: 00:00.09)
+
+Fra:105 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing GoldKey
+Fra:105 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing BlueRim
+Fra:105 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FrontSoft
+Fra:105 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:105 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:105 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:105 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:105 Mem:68.88M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:105 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:105 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:105 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:105 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:105 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:105 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:105 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:105 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:105 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:105 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:105 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:105 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:105 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:105 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:105 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:105 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:105 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:105 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:105 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:105 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:105 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:105 Mem:68.98M (Peak 69.09M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:105 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:105 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:105 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:105 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:105 Mem:69.01M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:105 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:105 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:105 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:105 Mem:68.95M (Peak 69.19M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_002.png'
+ Time: 00:00.18 (Saving: 00:00.10)
+
+Fra:106 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing GoldKey
+Fra:106 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing BlueRim
+Fra:106 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FrontSoft
+Fra:106 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:106 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:106 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:106 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:106 Mem:68.88M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:106 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:106 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:106 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:106 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:106 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:106 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:106 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:106 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:106 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:106 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:106 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:106 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:106 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:106 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:106 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:106 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:106 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:106 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:106 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:106 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:106 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:106 Mem:68.98M (Peak 69.09M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:106 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:106 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:106 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:106 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:106 Mem:69.01M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:106 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:106 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:106 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:106 Mem:68.95M (Peak 69.19M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_003.png'
+ Time: 00:00.18 (Saving: 00:00.09)
+
+Fra:107 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing GoldKey
+Fra:107 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing BlueRim
+Fra:107 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FrontSoft
+Fra:107 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:107 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:107 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:107 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:107 Mem:68.88M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:107 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:107 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:107 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:107 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:107 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:107 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:107 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:107 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:107 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:107 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:107 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:107 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:107 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:107 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:107 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:107 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:107 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:107 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:107 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:107 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:107 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:107 Mem:68.98M (Peak 69.09M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:107 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:107 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:107 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:107 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:107 Mem:69.01M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:107 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:107 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:107 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:107 Mem:68.95M (Peak 69.19M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_004.png'
+ Time: 00:00.18 (Saving: 00:00.09)
+
+Fra:108 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing GoldKey
+Fra:108 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing BlueRim
+Fra:108 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FrontSoft
+Fra:108 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:108 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:108 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:108 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:108 Mem:68.88M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:108 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:108 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:108 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:108 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:108 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:108 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:108 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:108 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:108 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:108 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:108 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:108 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:108 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:108 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:108 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:108 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:108 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:108 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:108 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:108 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:108 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:108 Mem:68.98M (Peak 69.09M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:108 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:108 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:108 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:108 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:108 Mem:69.01M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:108 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:108 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:108 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:108 Mem:68.95M (Peak 69.19M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_005.png'
+ Time: 00:00.19 (Saving: 00:00.10)
+
+Fra:109 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing GoldKey
+Fra:109 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing BlueRim
+Fra:109 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FrontSoft
+Fra:109 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:109 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:109 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:109 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:109 Mem:68.88M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:109 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:109 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:109 Mem:68.89M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:109 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:109 Mem:68.90M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:109 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:109 Mem:68.91M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:109 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:109 Mem:68.92M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:109 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:109 Mem:68.93M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:109 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:109 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:109 Mem:68.94M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:109 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:109 Mem:68.95M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:109 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:109 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:109 Mem:68.96M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:109 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:109 Mem:68.97M (Peak 69.09M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:109 Mem:68.98M (Peak 69.09M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:109 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:109 Mem:68.99M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:109 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:109 Mem:69.00M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:109 Mem:69.01M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:109 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:109 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:109 Mem:69.02M (Peak 69.19M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:109 Mem:68.95M (Peak 69.19M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_006.png'
+ Time: 00:00.19 (Saving: 00:00.09)
+
+Fra:110 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing GoldKey
+Fra:110 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing BlueRim
+Fra:110 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing FrontSoft
+Fra:110 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:110 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:110 Mem:68.87M (Peak 69.04M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:110 Mem:68.87M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:110 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:110 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:110 Mem:68.89M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:110 Mem:68.89M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:110 Mem:68.89M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:110 Mem:68.90M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:110 Mem:68.90M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:110 Mem:68.91M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:110 Mem:68.91M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:110 Mem:68.91M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:110 Mem:68.92M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:110 Mem:68.92M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:110 Mem:68.93M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:110 Mem:68.93M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:110 Mem:68.93M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:110 Mem:68.94M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:110 Mem:68.94M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:110 Mem:68.95M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:110 Mem:68.95M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:110 Mem:68.95M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:110 Mem:68.96M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:110 Mem:68.96M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:110 Mem:68.97M (Peak 69.08M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:110 Mem:68.97M (Peak 69.18M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:110 Mem:68.98M (Peak 69.18M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:110 Mem:68.99M (Peak 69.18M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:110 Mem:68.99M (Peak 69.18M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:110 Mem:69.00M (Peak 69.18M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:110 Mem:69.00M (Peak 69.18M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:110 Mem:69.01M (Peak 69.18M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:110 Mem:69.01M (Peak 69.18M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:110 Mem:68.94M (Peak 69.18M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_007.png'
+ Time: 00:00.19 (Saving: 00:00.10)
+
+Fra:111 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing GoldKey
+Fra:111 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing BlueRim
+Fra:111 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing FrontSoft
+Fra:111 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:111 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:111 Mem:68.86M (Peak 69.04M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:111 Mem:68.87M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:111 Mem:68.87M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:111 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:111 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:111 Mem:68.88M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:111 Mem:68.89M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:111 Mem:68.89M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:111 Mem:68.90M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:111 Mem:68.90M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:111 Mem:68.90M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:111 Mem:68.91M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:111 Mem:68.91M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:111 Mem:68.91M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:111 Mem:68.92M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:111 Mem:68.92M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:111 Mem:68.93M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:111 Mem:68.93M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:111 Mem:68.93M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:111 Mem:68.94M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:111 Mem:68.94M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:111 Mem:68.94M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:111 Mem:68.95M (Peak 69.08M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:111 Mem:68.95M (Peak 69.08M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:111 Mem:68.96M (Peak 69.08M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:111 Mem:68.96M (Peak 69.17M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:111 Mem:68.97M (Peak 69.17M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:111 Mem:68.98M (Peak 69.17M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:111 Mem:68.98M (Peak 69.17M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:111 Mem:68.99M (Peak 69.17M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:111 Mem:68.99M (Peak 69.17M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:111 Mem:69.00M (Peak 69.17M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:111 Mem:69.00M (Peak 69.17M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:111 Mem:68.94M (Peak 69.17M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_008.png'
+ Time: 00:00.19 (Saving: 00:00.09)
+
+Fra:112 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing GoldKey
+Fra:112 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing BlueRim
+Fra:112 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing FrontSoft
+Fra:112 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:112 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:112 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:112 Mem:68.86M (Peak 69.06M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:112 Mem:68.86M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:112 Mem:68.87M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:112 Mem:68.87M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:112 Mem:68.87M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:112 Mem:68.88M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:112 Mem:68.88M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:112 Mem:68.88M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:112 Mem:68.89M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:112 Mem:68.89M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:112 Mem:68.89M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:112 Mem:68.89M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:112 Mem:68.90M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:112 Mem:68.90M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:112 Mem:68.90M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:112 Mem:68.91M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:112 Mem:68.91M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:112 Mem:68.91M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:112 Mem:68.92M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:112 Mem:68.92M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:112 Mem:68.92M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:112 Mem:68.93M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:112 Mem:68.93M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:112 Mem:68.93M (Peak 69.07M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:112 Mem:68.94M (Peak 69.14M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:112 Mem:68.95M (Peak 69.14M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:112 Mem:68.95M (Peak 69.14M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:112 Mem:68.96M (Peak 69.14M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:112 Mem:68.96M (Peak 69.14M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:112 Mem:68.97M (Peak 69.14M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:112 Mem:68.98M (Peak 69.14M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:112 Mem:68.98M (Peak 69.14M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:112 Mem:68.93M (Peak 69.14M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_009.png'
+ Time: 00:00.20 (Saving: 00:00.10)
+
+Fra:113 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing GoldKey
+Fra:113 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing BlueRim
+Fra:113 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing FrontSoft
+Fra:113 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:113 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:113 Mem:68.85M (Peak 69.03M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:113 Mem:68.85M (Peak 69.06M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:113 Mem:68.86M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:113 Mem:68.86M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:113 Mem:68.86M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:113 Mem:68.87M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:113 Mem:68.87M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:113 Mem:68.87M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:113 Mem:68.88M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:113 Mem:68.88M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:113 Mem:68.88M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:113 Mem:68.88M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:113 Mem:68.89M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:113 Mem:68.89M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:113 Mem:68.89M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:113 Mem:68.90M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:113 Mem:68.90M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:113 Mem:68.90M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:113 Mem:68.90M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:113 Mem:68.91M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:113 Mem:68.91M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:113 Mem:68.91M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:113 Mem:68.91M (Peak 69.07M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:113 Mem:68.92M (Peak 69.07M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:113 Mem:68.92M (Peak 69.07M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:113 Mem:68.93M (Peak 69.13M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:113 Mem:68.93M (Peak 69.13M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:113 Mem:68.94M (Peak 69.13M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:113 Mem:68.95M (Peak 69.13M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:113 Mem:68.95M (Peak 69.13M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:113 Mem:68.96M (Peak 69.13M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:113 Mem:68.96M (Peak 69.13M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:113 Mem:68.97M (Peak 69.13M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:113 Mem:68.92M (Peak 69.13M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_010.png'
+ Time: 00:00.18 (Saving: 00:00.09)
+
+Fra:114 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:114 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:114 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:114 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:114 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:114 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:114 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:114 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:114 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:114 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:114 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:114 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:114 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:114 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:114 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:114 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:114 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:114 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:114 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:114 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:114 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:114 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:114 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:114 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:114 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:114 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:114 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:114 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:114 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:114 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:114 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:114 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:114 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:114 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:114 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:114 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:114 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:114 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:114 Mem:68.91M (Peak 69.11M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_011.png'
+ Time: 00:00.19 (Saving: 00:00.10)
+
+Fra:115 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:115 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:115 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:115 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:115 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:115 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:115 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:115 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:115 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:115 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:115 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:115 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:115 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:115 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:115 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:115 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:115 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:115 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:115 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:115 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:115 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:115 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:115 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:115 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:115 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:115 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:115 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:115 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:115 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:115 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:115 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:115 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:115 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:115 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:115 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:115 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:115 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:115 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:115 Mem:68.91M (Peak 69.11M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_012.png'
+ Time: 00:00.18 (Saving: 00:00.09)
+
+Fra:116 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:116 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:116 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:116 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:116 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:116 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:116 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:116 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:116 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:116 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:116 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:116 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:116 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:116 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:116 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:116 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:116 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:116 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:116 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:116 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:116 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:116 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:116 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:116 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:116 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:116 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:116 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:116 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:116 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:116 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:116 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:116 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:116 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:116 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:116 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:116 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:116 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:116 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:116 Mem:68.91M (Peak 69.11M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_013.png'
+ Time: 00:00.18 (Saving: 00:00.09)
+
+Fra:117 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:117 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:117 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:117 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:117 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:117 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:117 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:117 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:117 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:117 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:117 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:117 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:117 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:117 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:117 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:117 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:117 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:117 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:117 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:117 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:117 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:117 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:117 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:117 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:117 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:117 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:117 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:117 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:117 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:117 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:117 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:117 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:117 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:117 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:117 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:117 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:117 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:117 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:117 Mem:68.91M (Peak 69.11M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_014.png'
+ Time: 00:00.17 (Saving: 00:00.08)
+
+Fra:118 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:118 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:118 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:118 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:118 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:118 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:118 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:118 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:118 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:118 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:118 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:118 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:118 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:118 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:118 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:118 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:118 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:118 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:118 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:118 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:118 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:118 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:118 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:118 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:118 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:118 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:118 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:118 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:118 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:118 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:118 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:118 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:118 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:118 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:118 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:118 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:118 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:118 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:118 Mem:68.91M (Peak 69.11M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_015.png'
+ Time: 00:00.16 (Saving: 00:00.07)
+
+Fra:119 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:119 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:119 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:119 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:119 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:119 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:119 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:119 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:119 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:119 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:119 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:119 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:119 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:119 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:119 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:119 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:119 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:119 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:119 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:119 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:119 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:119 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:119 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:119 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:119 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:119 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:119 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:119 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:119 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:119 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:119 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:119 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:119 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:119 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:119 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:119 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:119 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:119 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:119 Mem:68.91M (Peak 69.11M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_016.png'
+ Time: 00:00.15 (Saving: 00:00.07)
+
+Fra:120 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:120 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:120 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:120 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:120 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:120 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:120 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:120 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:120 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:120 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:120 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:120 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:120 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:120 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:120 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:120 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:120 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:120 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:120 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:120 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:120 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:120 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:120 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:120 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:120 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:120 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:120 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:120 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:120 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:120 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:120 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:120 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:120 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:120 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:120 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:120 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:120 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:120 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:120 Mem:68.91M (Peak 69.11M) | Time:00:00.07 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_017.png'
+ Time: 00:00.16 (Saving: 00:00.07)
+
+Fra:121 Mem:68.83M (Peak 69.01M) | Time:00:00.01 | Syncing GoldKey
+Fra:121 Mem:68.83M (Peak 69.01M) | Time:00:00.01 | Syncing BlueRim
+Fra:121 Mem:68.84M (Peak 69.01M) | Time:00:00.01 | Syncing FrontSoft
+Fra:121 Mem:68.84M (Peak 69.01M) | Time:00:00.01 | Syncing PortalTraverseCamera
+Fra:121 Mem:68.84M (Peak 69.01M) | Time:00:00.01 | Syncing FractureCrystalRig
+Fra:121 Mem:68.84M (Peak 69.01M) | Time:00:00.01 | Syncing CrystalShard_0_0
+Fra:121 Mem:68.84M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_0_0
+Fra:121 Mem:68.85M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_0_1
+Fra:121 Mem:68.85M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_0_1
+Fra:121 Mem:68.85M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_0_2
+Fra:121 Mem:68.85M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_0_2
+Fra:121 Mem:68.86M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_0_3
+Fra:121 Mem:68.86M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_0_3
+Fra:121 Mem:68.86M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_0_4
+Fra:121 Mem:68.86M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_0_4
+Fra:121 Mem:68.87M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_0_5
+Fra:121 Mem:68.87M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_0_5
+Fra:121 Mem:68.87M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_1_0
+Fra:121 Mem:68.87M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_1_0
+Fra:121 Mem:68.88M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_1_1
+Fra:121 Mem:68.88M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_1_1
+Fra:121 Mem:68.88M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_1_2
+Fra:121 Mem:68.88M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_1_2
+Fra:121 Mem:68.89M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_1_3
+Fra:121 Mem:68.89M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_1_3
+Fra:121 Mem:68.89M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_1_4
+Fra:121 Mem:68.89M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_1_4
+Fra:121 Mem:68.89M (Peak 69.05M) | Time:00:00.01 | Syncing CrystalShard_1_5
+Fra:121 Mem:68.90M (Peak 69.05M) | Time:00:00.01 | Syncing CrackVein_1_5
+Fra:121 Mem:68.90M (Peak 69.05M) | Time:00:00.01 | Syncing CrackLightBeam_00
+Fra:121 Mem:68.91M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_01
+Fra:121 Mem:68.91M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_02
+Fra:121 Mem:68.92M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_03
+Fra:121 Mem:68.93M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_04
+Fra:121 Mem:68.93M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_05
+Fra:121 Mem:68.94M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_06
+Fra:121 Mem:68.94M (Peak 69.11M) | Time:00:00.01 | Syncing ReleasedInnerLight
+Fra:121 Mem:68.95M (Peak 69.11M) | Time:00:00.01 | Rendering 1 / 24 samples
+Fra:121 Mem:68.91M (Peak 69.11M) | Time:00:00.10 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_018.png'
+ Time: 00:00.19 (Saving: 00:00.07)
+
+Fra:122 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:122 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:122 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:122 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:122 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:122 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:122 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:122 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:122 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:122 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:122 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:122 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:122 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:122 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:122 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:122 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:122 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:122 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:122 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:122 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:122 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:122 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:122 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:122 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:122 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:122 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:122 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:122 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:122 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:122 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:122 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:122 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:122 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:122 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:122 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:122 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:122 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:122 Mem:68.95M (Peak 69.11M) | Time:00:00.01 | Rendering 1 / 24 samples
+Fra:122 Mem:68.91M (Peak 69.11M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_019.png'
+ Time: 00:00.17 (Saving: 00:00.07)
+
+Fra:123 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:123 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:123 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:123 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:123 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:123 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:123 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:123 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:123 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:123 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:123 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:123 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:123 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:123 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:123 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:123 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:123 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:123 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:123 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:123 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:123 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:123 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:123 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:123 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:123 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:123 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:123 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:123 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:123 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:123 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:123 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:123 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:123 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:123 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:123 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:123 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:123 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:123 Mem:68.95M (Peak 69.11M) | Time:00:00.01 | Rendering 1 / 24 samples
+Fra:123 Mem:68.91M (Peak 69.11M) | Time:00:00.09 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_020.png'
+ Time: 00:00.18 (Saving: 00:00.08)
+
+Fra:124 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:124 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:124 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:124 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:124 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:124 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:124 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:124 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:124 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:124 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:124 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:124 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:124 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:124 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:124 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:124 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:124 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:124 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:124 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:124 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:124 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:124 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:124 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:124 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:124 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:124 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:124 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:124 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:124 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:124 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:124 Mem:68.91M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_01
+Fra:124 Mem:68.91M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_02
+Fra:124 Mem:68.92M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_03
+Fra:124 Mem:68.93M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_04
+Fra:124 Mem:68.93M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_05
+Fra:124 Mem:68.94M (Peak 69.11M) | Time:00:00.01 | Syncing CrackLightBeam_06
+Fra:124 Mem:68.94M (Peak 69.11M) | Time:00:00.01 | Syncing ReleasedInnerLight
+Fra:124 Mem:68.95M (Peak 69.11M) | Time:00:00.01 | Rendering 1 / 24 samples
+Fra:124 Mem:68.91M (Peak 69.11M) | Time:00:00.08 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_021.png'
+ Time: 00:00.18 (Saving: 00:00.08)
+
+Fra:125 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:125 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:125 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:125 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:125 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:125 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:125 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:125 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:125 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:125 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:125 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:125 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:125 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:125 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:125 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:125 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:125 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:125 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:125 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:125 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:125 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:125 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:125 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:125 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:125 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:125 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:125 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:125 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:125 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:125 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:125 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:125 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:125 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:125 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:125 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:125 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:125 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:125 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:125 Mem:68.91M (Peak 69.11M) | Time:00:00.09 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_022.png'
+ Time: 00:00.18 (Saving: 00:00.08)
+
+Fra:126 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing GoldKey
+Fra:126 Mem:68.83M (Peak 69.01M) | Time:00:00.00 | Syncing BlueRim
+Fra:126 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FrontSoft
+Fra:126 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing PortalTraverseCamera
+Fra:126 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing FractureCrystalRig
+Fra:126 Mem:68.84M (Peak 69.01M) | Time:00:00.00 | Syncing CrystalShard_0_0
+Fra:126 Mem:68.84M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_0
+Fra:126 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_1
+Fra:126 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_1
+Fra:126 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_2
+Fra:126 Mem:68.85M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_2
+Fra:126 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_3
+Fra:126 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_3
+Fra:126 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_4
+Fra:126 Mem:68.86M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_4
+Fra:126 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_0_5
+Fra:126 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_0_5
+Fra:126 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_0
+Fra:126 Mem:68.87M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_0
+Fra:126 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_1
+Fra:126 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_1
+Fra:126 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_2
+Fra:126 Mem:68.88M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_2
+Fra:126 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_3
+Fra:126 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_3
+Fra:126 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_4
+Fra:126 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_4
+Fra:126 Mem:68.89M (Peak 69.05M) | Time:00:00.00 | Syncing CrystalShard_1_5
+Fra:126 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackVein_1_5
+Fra:126 Mem:68.90M (Peak 69.05M) | Time:00:00.00 | Syncing CrackLightBeam_00
+Fra:126 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_01
+Fra:126 Mem:68.91M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_02
+Fra:126 Mem:68.92M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_03
+Fra:126 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_04
+Fra:126 Mem:68.93M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_05
+Fra:126 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing CrackLightBeam_06
+Fra:126 Mem:68.94M (Peak 69.11M) | Time:00:00.00 | Syncing ReleasedInnerLight
+Fra:126 Mem:68.95M (Peak 69.11M) | Time:00:00.00 | Rendering 1 / 24 samples
+Fra:126 Mem:68.91M (Peak 69.11M) | Time:00:00.09 | Rendering 24 / 24 samples
+Saved: 'D:\vibe\这次一定出\ArtSource\Scenes\SummonStage\v004_click\Rupture\crystal_023.png'
+ Time: 00:00.17 (Saving: 00:00.07)
+
+Info: Saved "A05_ClickCrystal_v004.blend"
+Click assets completed: 3 alpha states, separate leak, 24 rupture frames, backdrop and master
+
+Blender quit

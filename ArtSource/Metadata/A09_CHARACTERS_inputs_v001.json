@@ -1,0 +1,21 @@
+[
+  {
+    "id": "SR001",
+    "name": "赛蕾娜",
+    "element": "光",
+    "age": 20,
+    "role": "治疗辅助",
+    "generated": "C:/Users/82374/.codex/generated_images/01a116ef-6165-7283-b302-173d4da9bdb6/exec-3026d15f-a421-47ef-9abd-9723b8948944.png",
+    "references": [
+      "ArtSource/StyleTests/RPG_Professions/02_light_priest_v001.png",
+      "ArtSource/Characters/R003/R003_character_light_v002.png"
+    ],
+    "prompt": "Production asset: one complete adult female anime fantasy RPG character, portrait 2:3 preferably1024x1536, GENUINELY TRANSPARENT BACKGROUND. Clean fine contour lines, controlled cel-shaded flat color areas and hard shadow edges, restrained material highlights, expressive face, no oily painterly or photorealistic/3D finish. Complete all fingers, hair, shoes and full weapon within frame, 5-8% transparent margin. No background, floor, cast shadow, particles, aura, separate floating magical effects, text, UI, names, card border or watermark. Clothing/props normal local highlights allowed; preserve true transparent openings. No duplicate character. Character SR001 Selena/赛蕾娜, adult20 light-element healing priestess. Image1 is her EXISTING IDENTITY reference: preserve gentle distinctive face, pale blond long hair, gold-green eyes, white lily hair ornament and SUN-RING STAFF. Image2 is accepted cel-rendering and light palette reference ONLY, don't copy guardian armor or face. Design SR quality: graceful ivory-and-warm-white off-shoulder fitted long robe with narrow subdued pale-gold trim and sunlight brooch, one side slit revealing white semi-sheer thigh-high stockings and elegant white low boots. Small understated back sun-emblem-shaped opening if visible in the three-quarter turn, coherent covered clothing. Light palette warm ivory #F0DFA8, pale gold #C6A15D, warm white #FFF4D0. Her main distinction is caring soft smile and a softly turning standing pose with one hand extended open in a reassuring healing gesture, the other securely holding a complete tall slender staff with a simple sun-ring crystal head. Hair and long sleeve/robe panels flow gently, legs and feet complete. Original adult proportions; natural hands, no overly twisted back. More elegant than R guardian, not overloaded with lace or jewels; no floating halo behind head, no light explosion. Keep full robe hem and entire staff inside transparent canvas.",
+    "face_rect": [
+      366,
+      144,
+      638,
+      416
+    ]
+  }
+]

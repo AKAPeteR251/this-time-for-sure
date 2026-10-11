@@ -1,0 +1,25 @@
+{
+  "seed": 8081010,
+  "authoring": "deterministic periodic height/noise PBR maps and analytical periodic VFX; not AI imagery, no baked lights",
+  "basecolor": "sRGB",
+  "normal": "tangent-space OpenGL +Y; linear/Normal Map import",
+  "metallic_roughness_mask": "linear single-channel grayscale; separate files, not packed",
+  "smoothness": "1 - roughness",
+  "flame": {
+    "grid": [
+      4,
+      4
+    ],
+    "frames": 16,
+    "cell_px": [
+      512,
+      512
+    ],
+    "order": "row-major, top-left to bottom-right",
+    "reference_fps": 12,
+    "loop_period_seconds": 1.3333333333333333,
+    "periodic_phase": "i*2pi/16; virtual frame16 equals frame0",
+    "alpha": "straight RGBA; each cell has transparent margin"
+  },
+  "mist": "RGBA neutral; linear alpha; tint/light/motion in Unity"
+}

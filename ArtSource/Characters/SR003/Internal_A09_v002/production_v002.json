@@ -1,0 +1,51 @@
+{
+  "task": "A09-CHARACTERS",
+  "id": "SR003",
+  "version": "v002",
+  "status": "待视觉验收",
+  "route": "内置image_gen，两次局部编辑，transparent_background=true",
+  "source_reference": "ArtSource/Characters/SR003/Internal_A09_v001/source/original_tool_output.png",
+  "reference_sha256": "8f8fe8f0d978b2d52cfba40f66b8c5375ed2e525aa64d547ad4ffd58e45fb0af",
+  "source_alpha_range": [
+    0,
+    254
+  ],
+  "source_alpha_bbox": [
+    0,
+    21,
+    1023,
+    1496
+  ],
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "完整画布缩放922x1382、透明画布1024x1536放置(51,77)，未抠图",
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop": [
+    435,
+    214,
+    628,
+    406
+  ],
+  "prompt": "source/prompt.txt",
+  "model_seed_cfg": "未披露",
+  "sha256": {
+    "A09_SR003_交接_v002.md": "b41bdd53808c6b590d3590820e9afe080c06be974fef2c21cff016d3eb13b482",
+    "export_v002.py": "0ee82ace95f782816714a0bda83f68c8a3e82d5f12b9926cfd3fe40d2e8b45fc",
+    "SR003_avatar_v002.png": "add53673a48ee8e31b10c4d2ad13c42b31c9c7d205dfcb9c21437b4951b6d8a4",
+    "SR003_character_v002.png": "449582b68d7d4d3b06b8bad3a73dc06566ea3bbece92c08735e7629a14ea5c7d",
+    "SR003_thumb_v002.png": "f1f6a368c9689cc4b0924601fc28f338c554c448caef93c9ded4da787b5f8a0e",
+    "QA/alpha_black_white_gray_v002.jpg": "5537dc903c82166acc8798db93a4665fb6e012d852135225879d864e30f4b375",
+    "QA/full_gray_v002.jpg": "4048195f73cea1105b2ea5942a0b768b5de039308013e8301a8d0ae6b5ba7eeb",
+    "QA/legs_feet_v002.jpg": "9a30a9681f70c9ae1774ace3329f8ab65dc075564666961d6f4502eb67b6f99c",
+    "source/intermediate_no_shoes.png": "bb58ae161948b523efdca496baadc0156d71085e06d23c21f07be1658befa46a",
+    "source/original_tool_output.png": "520bed123a42bc5c9300afbffba74d332c1560ddfa61b4b76b9d77e8b1c3f152",
+    "source/prompt.txt": "c01b8202fb006d6bc6bec07df92f1869f0e7c2f36a09c3f6bff9d03efbeb4686"
+  }
+}

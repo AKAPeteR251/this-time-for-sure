@@ -1,0 +1,12 @@
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,128): warning CS0649: 从未对字段“U02ArtSetup.Asset.mode”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,63): warning CS0649: 从未对字段“U02ArtSetup.Asset.assetId”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\Editor\P19CrystalMotionSetup.cs(104,178): warning CS0649: 从未对字段“P19CrystalMotionSetup.MaterialEntry.emission_strength_reference”赋值，字段将一直保持其默认值 0
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(250,67): warning CS0649: 从未对字段“U02ArtSetup.Manifest.entries”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\Editor\P19CrystalMotionSetup.cs(103,76): warning CS0649: 从未对字段“P19CrystalMotionSetup.MaterialList.materials”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\Editor\P19CrystalMotionSetup.cs(104,157): warning CS0649: 从未对字段“P19CrystalMotionSetup.MaterialEntry.urp_smoothness_start”赋值，字段将一直保持其默认值 0
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,106): warning CS0649: 从未对字段“U02ArtSetup.Asset.sha256”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\Editor\P19CrystalMotionSetup.cs(104,68): warning CS0649: 从未对字段“P19CrystalMotionSetup.MaterialEntry.material”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\Editor\P19CrystalMotionSetup.cs(104,92): warning CS0649: 从未对字段“P19CrystalMotionSetup.MaterialEntry.base_color_linear_rgba”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\UI\Editor\U02ArtSetup.cs(251,86): warning CS0649: 从未对字段“U02ArtSetup.Asset.path”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\Editor\P19CrystalMotionSetup.cs(104,115): warning CS0649: 从未对字段“P19CrystalMotionSetup.MaterialEntry.emission_linear_rgb”赋值，字段将一直保持其默认值 null
+这次一定出\Assets\_Game\Editor\P19CrystalMotionSetup.cs(104,148): warning CS0649: 从未对字段“P19CrystalMotionSetup.MaterialEntry.metallic”赋值，字段将一直保持其默认值 0

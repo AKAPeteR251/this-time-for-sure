@@ -1,0 +1,15 @@
+{
+  "task": "F09-CONTRACT",
+  "tool": "built-in image_gen.imagegen",
+  "hidden_parameters": "model version, seed, steps and CFG not exposed; not invented",
+  "prompts": {
+    "paper": "Production isolated game UI material asset: one single blank realistic antique parchment sheet viewed exactly straight-on, no perspective, landscape 4:3 full sheet. Warm cream beige pale tan animal parchment skin and fine fibers, softly worn irregular edges, a few tiny edge splits, sparse subtle peripheral stains and gentle folds, physical but center flat. Very subtle faded brown geometric corner ornaments only, no ornate gold frame. Huge calm blank interior for readable contract ink and a blank signature, particularly x10%-72%, y60%-83% must be very pale clean. Sheet fills approximately x4%-96%, y4%-96%, entire edge visible with transparent margins. Soft upper-left reference light, medium tone, no cast shadow outside paper. Truly transparent background outside sheet, fully opaque paper interior. No text, letters, signature, wax, symbols in center, desk, room, hands, watermarks, burnt holes, blood, UI. Deliver clean high quality photoreal material texture, not illustration.",
+    "wax": "Production isolated game UI seal asset: exactly one realistic dark burgundy red sealing-wax seal seen straight-on from above, no perspective. Circular but naturally irregular hand-poured wax rim and small wax pools, substantial thickness, subtly raised edge, restrained upper-left soft light, middle-tone deep wine red, tiny natural microcracks, physical wax not cartoon icon. The center bears an ORIGINAL clean embossed geometrical star gate emblem: a simple five-point star inside a pointed arch gate with two concentric round grooves, large readable forms at thumbnail size. No letters, family crest, logos, ribbons, paper, hands, other objects. Central seal occupies 80% square canvas with 10% transparent safe margin all sides. Genuine transparent background. No separate cast/drop shadow or broad environment shadow baked into seal; only wax self shading. Rich believable wax material without metallic gold or exaggerated glossy bloom.",
+    "paper_base": "Edit this isolated parchment asset non-destructively for a layered production master. Preserve exactly the 4:3 straight-on warm aged parchment material, full naturally worn irregular edges and transparent exterior. REMOVE ALL four geometric corner ornaments, remove all distinct long crease/fold ridges, cracks across the interior, and localized dark stain patches from the interior. Keep faint fine natural fiber/skin grain and very subtle warm tonal variation, natural worn edge discoloration only. Interior should remain flat, fully opaque, calm pale beige without obvious stains, creases or drawings. It is an unadorned base parchment layer; folds, stains and ornament will be separately authored editable layers. No text, signature, symbols, shadow outside paper, wax, perspective or background. Preserve true alpha."
+  },
+  "sources": {
+    "paper": "Source/Raw/paper_generated_v001.png",
+    "paper_base": "Source/Raw/paper_base_generated_v001.png",
+    "wax": "Source/Raw/wax_generated_v001.png"
+  }
+}

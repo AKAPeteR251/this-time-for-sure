@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71da0d79cf3ff7a4584f458de488d0b8, type: 3}
+  m_Name: U02ArtTheme
+  m_EditorClassIdentifier: 
+  background: {r: 0.02, g: 0.045, b: 0.09, a: 1}
+  panel: {r: 0.03, g: 0.055, b: 0.105, a: 1}
+  button: {r: 0.2, g: 0.24, b: 0.29, a: 1}
+  primary: {r: 0.87, g: 0.71, b: 0.43, a: 1}
+  text: {r: 1, g: 0.95, b: 0.83, a: 1}
+  muted: {r: 0.71, g: 0.78, b: 0.85, a: 1}
+  rare: {r: 0.39, g: 0.64, b: 0.79, a: 1}
+  superRare: {r: 0.64, g: 0.49, b: 0.83, a: 1}
+  ssr: {r: 0.86, g: 0.71, b: 0.4, a: 1}
+  ur: {r: 0.95, g: 0.8, b: 0.52, a: 1}
+  summonBackground: {fileID: 21300000, guid: 55849929cf3ad2d43919d00cedb49ef5, type: 3}
+  summonCharacter: {fileID: 21300000, guid: 830cf79691de1c5498ebea986f0937cc, type: 3}
+  buttonNormal: {fileID: 21300000, guid: 5dc5eaa03f7b6d445bed035ad1b9b2ec, type: 3}
+  buttonPrimary: {fileID: 21300000, guid: a690cea5d33f07e4091012fc83c740f2, type: 3}
+  informationPanel: {fileID: 21300000, guid: 8f3fc58c6d761bd418a8f47efc9e9668, type: 3}
+  tooltipPanel: {fileID: 21300000, guid: b5d832ebbeafccd44a63518f1dbd3d0d, type: 3}
+  frameR: {fileID: 21300000, guid: fa7575853a63a4e41b0144f3808dc5b7, type: 3}
+  frameSR: {fileID: 21300000, guid: 8c50b56d20fe3a04cbfb07a0fefb9037, type: 3}
+  frameSSR: {fileID: 21300000, guid: 077737b3f76ee4940a61b923a17ac4c9, type: 3}
+  frameUR: {fileID: 21300000, guid: 76574e0f22ca92441af76469eb7ee172, type: 3}
+  cardFrameR: {fileID: 21300000, guid: 66fea87768de04a43840d0a1be14a88a, type: 3}
+  cardFrameSR: {fileID: 21300000, guid: fd394553d7905a548aa41ac3f13b2850, type: 3}
+  cardFrameSSR: {fileID: 21300000, guid: 0ec34023fec192d448ad9854046834f7, type: 3}
+  cardFrameUR: {fileID: 21300000, guid: b0228c8110a45864bbb78f9b74c39636, type: 3}
+  cardBadgeR: {fileID: 21300000, guid: 84ba270be9bc37b4280ac367f91aa1e7, type: 3}
+  cardBadgeSR: {fileID: 21300000, guid: f23f29f4b45545e4aaf3bc14d726689a, type: 3}
+  cardBadgeSSR: {fileID: 21300000, guid: 5786626994c78df408c937292c5f489e, type: 3}
+  cardBadgeUR: {fileID: 21300000, guid: ed204efd76ab3214ca41727db7ff8f15, type: 3}
+  cardNewMask: {fileID: 21300000, guid: 0e3a8a18126771446be0dd687010a6aa, type: 3}
+  cardNewFill: {fileID: 21300000, guid: ac596b9ac6e762f48a14ba592a36e33c, type: 3}
+  cardNameShade: {fileID: 21300000, guid: 6846b6c0876ad6045b68da2ba4bc6d76, type: 3}
+  cardNameOrnament: {fileID: 21300000, guid: e5497b01b2515ad42931132c74109c37, type: 3}
+  cardNewSpeed: 0.36
+  cardNewBlink: 0.35
+  cardUrSpeed: 0.12
+  currencyIcon: {fileID: 21300000, guid: 3a45a6159f5e00f4884d385e6afa72a4, type: 3}
+  summonIcon: {fileID: 21300000, guid: a6ce5e5939777094d910eb1383c4adbc, type: 3}
+  collectionIcon: {fileID: 21300000, guid: bb556832aead71d46880c6802772e298, type: 3}
+  elementIce: {fileID: 21300000, guid: a0125a4547047da4ea4baa624406fdf5, type: 3}
+  elementLight: {fileID: 21300000, guid: 19c9478dd0666a64db65405dcd22fc25, type: 3}
+  elementWind: {fileID: 21300000, guid: 8920e54af4fe8544eb48665ef84a90cb, type: 3}
+  elementFire: {fileID: 21300000, guid: 9a9f476f178ac1a4f8fe0e90c411d45f, type: 3}
+  elementThunder: {fileID: 21300000, guid: 4d24de1a20fd96b4ab3075e6aa3e0ff7, type: 3}
+  sparkleBlue: {fileID: 21300000, guid: 4a0e872ad20be364b8dcfdc548bf0c35, type: 3}
+  sparkleGold: {fileID: 21300000, guid: 162682d8d22267240bd1d6a469468b66, type: 3}
+  summaryPortraitCrop:
+    serializedVersion: 2
+    x: 0.175
+    y: 0.5
+    width: 0.65
+    height: 0.5
+  windowR:
+    serializedVersion: 2
+    x: 0.12
+    y: 0.14
+    width: 0.76
+    height: 0.74
+  windowSR:
+    serializedVersion: 2
+    x: 0.12
+    y: 0.14
+    width: 0.76
+    height: 0.74
+  windowSSR:
+    serializedVersion: 2
+    x: 0.15
+    y: 0.18
+    width: 0.7
+    height: 0.65
+  windowUR:
+    serializedVersion: 2
+    x: 0.15
+    y: 0.18
+    width: 0.7
+    height: 0.65

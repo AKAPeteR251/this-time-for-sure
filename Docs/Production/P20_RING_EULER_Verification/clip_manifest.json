@@ -1,0 +1,32 @@
+[
+  {
+    "file": "main_p20_ring_euler.mp4",
+    "sha256": "91e13a9392cb9be5232a34d665f637ecc4cb6b2a8ffeb14a31a0e3f54c6b53d0",
+    "bytes": 15973171,
+    "actualCaptureSeconds": 22.1660234,
+    "muxSeconds": 22.166,
+    "frames": 483,
+    "averageCaptureFps": 21.7901060232572,
+    "audioSeconds": 22.144,
+    "audioStart": 0.0125133,
+    "audioRate": 48000,
+    "peak": 0.529052734375,
+    "rms": 0.016592966364130875,
+    "clippedSamples": 0,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "type": "audio",
+        "codec": "aac",
+        "width": null,
+        "height": null
+      }
+    ],
+    "source": "Actual Unity Main Play frames + same session OnAudioFilterRead listener mix; no reconstructed audio track"
+  }
+]

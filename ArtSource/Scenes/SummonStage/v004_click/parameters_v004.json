@@ -1,0 +1,38 @@
+{
+  "task": "A05-BLENDER",
+  "version": "v004_click",
+  "status": "assets_generated_pending_visual_review_and_Unity",
+  "source_master": "v003/A05_SummonStage_v003.blend",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "alpha": "RGBA transparent film",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "states": [
+    "00_intact",
+    "01_first_cracks",
+    "02_deep_cracks"
+  ],
+  "clicks": [
+    "First click: intact -> first cracks",
+    "Second click: first cracks -> deep cracks + optional independent light leak",
+    "Third click: play rupture sequence once -> Unity portal/reveal"
+  ],
+  "rupture_frames": 24,
+  "rupture_fps_reference": 24,
+  "rupture_reference_seconds": 1,
+  "idle_and_wait": "Unity indefinitely; no forced timeout",
+  "vibration": "Unity transform offset; static states contain no vibration",
+  "username_signature_UI_character": "not baked",
+  "background": [
+    1280,
+    720
+  ],
+  "integration": "not performed",
+  "geometry": "12 actual tetrahedral crystal fragments",
+  "scale_changes_between_static_states": false
+}

@@ -1,0 +1,35 @@
+{
+  "task": "A02_RPG_04_fire_warrior",
+  "submission": {
+    "prompt_id": "cd17d784-ee47-4c91-bbdf-c429975a40bd",
+    "number": 14,
+    "node_errors": {}
+  },
+  "started_unix": 1791389354.6248193,
+  "graph_path": "Workflows/A02_RPG_04_fire_warrior_api.json",
+  "elapsed_seconds": 45.27,
+  "output": "StyleTests\\RPG_Professions\\04_fire_warrior_v001.png",
+  "sha256": "7da55e6e8acf714a0d4b427e9354f1c3b5730a0d63482eec22eeefb60a0f9135",
+  "dimensions": [
+    768,
+    1152
+  ],
+  "status": "concept_pending_user_selection",
+  "profession": "火女战士",
+  "element": "火",
+  "declared_character_age": 25,
+  "visual_review": {
+    "strengths": [
+      "红马尾、轻甲、宽刃剑与熔岩形成明确火战士特征",
+      "屈膝前冲和持剑姿态较有动作感"
+    ],
+    "defects": [
+      "剑刃末端被画幅裁切",
+      "双手交叠握剑需高分辨率复核"
+    ]
+  },
+  "layers": "complete_image_only",
+  "unity_validation": "not_integrated",
+  "model_hashes": "Metadata/A01_B_model_hashes.json",
+  "style_chain": "User PNG workflow; same model/LoRA/sampler settings; profession prompt and seed changed; tiled decode"
+}

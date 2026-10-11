@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: 手写松笔/用户名手写补签/取消不扣费/一次Draw; 真实十连原序逐张等待及最后确认; 当前张快速完成/同帧输入不连翻; 仪式动画停留三处跳过与Esc; 指定四档重复NEW及收藏不变",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-08T09:04:28.3239303Z"
+}

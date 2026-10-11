@@ -1,0 +1,7 @@
+{
+    "stage": "passed",
+    "result": "PASS: Main法阵中心穿越/真实3D相机连续推进/终点复位/转场不蓄能/完成可连击/三窗口/跳过与点击补完清场；带声片段，视觉待验收。",
+    "scene": "Assets/_Game/Scenes/Main.unity",
+    "unityVersion": "2022.3.53f1c1",
+    "atUtc": "2026-10-11T01:49:13.4549890Z"
+}

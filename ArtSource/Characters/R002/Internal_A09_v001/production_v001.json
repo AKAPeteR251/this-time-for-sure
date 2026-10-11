@@ -1,0 +1,75 @@
+{
+  "task": "A09-CHARACTERS",
+  "status": "待视觉验收",
+  "id": "R002",
+  "name": "风铃",
+  "element": "风",
+  "age": 23,
+  "role": "吟游诗人",
+  "generation": "内置 image_gen，transparent_background=true；未使用本地 Anima/LoRA",
+  "model_seed_cfg": "工具未披露，未记录推测值",
+  "source": "ArtSource/Characters/R002/Internal_A09_v001/source/original_tool_output.png",
+  "source_sha256": "8778d18e703ce86034ea79ccd6e216dd90b3305064a88505b51eb0c2e7dfb82d",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "native_alpha_range": [
+    0,
+    254
+  ],
+  "native_alpha_bbox": [
+    0,
+    24,
+    1000,
+    1524
+  ],
+  "native_zero_alpha_fraction": 0.6762275695800781,
+  "export_size": [
+    1024,
+    1536
+  ],
+  "export_operation": "原生完整画布缩放为 922x1382，放置于 1024x1536 的 (51,77)，未重新抠图、未裁切人物",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    51,
+    98,
+    952,
+    1449
+  ],
+  "zero_alpha_fraction": 0.7389119466145834,
+  "edge_alpha_max": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "avatar_crop_px": [
+    421,
+    174,
+    616,
+    369
+  ],
+  "face_center_uv_bottom_origin": [
+    0.50634765625,
+    0.8232421875
+  ],
+  "references": [
+    {
+      "path": "ArtSource/Characters/R003/R003_character_light_v002.png",
+      "sha256": "0c167882a19fe5c21e799ac6686e8bb9f905d8ee831bf12f7e5a289583f9e5e6"
+    }
+  ],
+  "prompt": "source/prompt.txt",
+  "output_sha256": "e54d73009bcb85ba8ef57e58dcc2a0a0dc8fb628dc80e9cbb118358a3b958b6f",
+  "review": "初版候选，脸、道具和边缘需视觉评审",
+  "native_edge_alpha_max": [
+    0,
+    0,
+    1,
+    0
+  ]
+}
